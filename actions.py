@@ -5,19 +5,6 @@ from rasa_sdk.executor import CollectingDispatcher
 #Nuevos
 from fechaHora import *
 
-# class ActionHelloWorld(Action):
-#
-#     def name(self) -> Text:
-#         return "action_hello_world"
-#
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-#
-#         dispatcher.utter_message(text="Hello World!")
-#
-#         return []
-
 class saludar(Action):
 
     def name(self) -> Text:
@@ -33,12 +20,31 @@ class saludar(Action):
         texto = ""
 
         if(hora >= 5) and (hora <= 11):
-            dispatcher.utter_template('utter_saludos_dias', tracker)
+            dispatcher.utter_message(template='utter_saludos_dias')
         elif (hora >= 12) and (hora <= 17):
-            dispatcher.utter_template('utter_saludos_tardes', tracker)
+            dispatcher.utter_message(template='utter_saludos_tardes')
         elif ((hora >= 18) and (hora <= 23)) or ((hora >= 0) and (hora <= 4)):
-            dispatcher.utter_template('utter_saludos_noches', tracker)
+            dispatcher.utter_message(template='utter_saludos_noches')
         else:
-            dispatcher.utter_template('utter_saludos_normal', tracker)
+            dispatcher.utter_message(template='utter_saludos_normal')
+
+        return []
+
+class menu_1(Action):
+
+    def name(self) -> Text:
+        return "actions_menu_1"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        #Función del menu
+        message = tracker.latest_message.get('text')
+        if(message == "4"):
+            return [UserUttered("/" + quieroAyudar, {
+                "intent": {"name": quieroAyudar, "confidence": 1.0},
+                "entities": {}
+            })]
 
         return []

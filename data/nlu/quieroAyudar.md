@@ -1,11 +1,11 @@
 ## intent:quieroAyudar
-- Me gustaria ayudar
-- Quiero ayudar
-- Como puedo ayudar?
-- Me encantaria ayudar
-- Como puedo ayudar en esta situacion
-- Puedo ayudar?
-- Me gustaria ser de ayuda
-- Tengo ganas de ayudar
-- Creo que puedo ayudar
-- Podria ayudar en algo?
+- Me gustaria [ayudar]{"entity": "menu", "value": "4"}
+- Quiero [ayudar]{"entity": "menu", "value": "4"}
+- Como puedo [ayudar]{"entity": "menu", "value": "4"}?
+- Me encantaria [ayudar]{"entity": "menu", "value": "4"}
+- Como puedo [ayudar]{"entity": "menu", "value": "4"} en esta situacion
+- Puedo [ayudar]{"entity": "menu", "value": "4"}?
+- Me gustaria ser de [ayuda]{"entity": "menu", "value": "4"}
+- Tengo ganas de [ayudar]{"entity": "menu", "value": "4"}
+- Creo que puedo [ayudar]{"entity": "menu", "value": "4"}
+- Podria [ayudar]{"entity": "menu", "value": "4"} en algo?
