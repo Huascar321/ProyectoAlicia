@@ -5,3 +5,5 @@ events.db
 __pycache__/*
 tests/conversations_tests.md
 __init__.py
+tests/conversation_tests.md
+dada/stories.md
