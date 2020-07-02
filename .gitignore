@@ -1,0 +1,7 @@
+venv
+models
+rasa.db
+events.db
+__pycache__/*
+tests/conversations_tests.md
+__init__.py
