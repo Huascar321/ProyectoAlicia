@@ -1,56 +1,103 @@
-## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
+## intent:saludos
+- Hola
+- Holi
+- Ola
+- Buenos dias
+- Buenas tardes
+- Buenas
+- Alicia
+- Hola Alicia
+- Oye
+- Oye Alicia
+- Buenas noches
+- Alo
+- Saludos
+- Hey
+- Heyy
+- Muy buenas
+- Que tal
+- Holaa
+- Olaa
 
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
+## intent:despedidas
+- Adios
+- Chau
+- Hasta luego
+- Hasta la proxima
+- Nos vemos mañana
+- Vaya con dios
+- Bye
+- Me retiro
+- Me voy
+- Me tengo que ir
+- Chaoo
+- Nos vemos
+- Bye bye
+- Que te vaya bien
+- Hasta pronto
 
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
+## intent:afirmar
+- Si
+- Creo que si
+- Se
+- Claro
+- Correcto
+- Por supuesto
+- Perfecto
+- Ya
+- Dale
+- Seguro
+- Ok
+- Okay
+- Obvio
+- Simon
+- Sipi
+- Yo diria que si
+- La verdad que si
+- Me parece que si
+- Exacto
+- Exactamente
+- Precisamente
+- De acuerdo
+- Afirmativo
+- Bueno
+- Esta bien
+- Chi
 
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
+## intent:negar
+- No
+- Nunca
+- No se
+- No estoy seguro
+- Creo que no
+- Negativo
+- No creo
+- Nose
+- Ya no
+- Nop
+- Nope
+- Obvio que no
+- Segun yo no
+- Quizas no
+- Nega
+- Por supuesto que no
+- La verdad no
+- Para ser honesto no
+- No gracias
+- No
+- Do
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+## intent:Agradecer
+- Gracias
+- Muchas gracias
+- Me siento mas tranquila ahora
+- Te lo agradezco
+- Gracias
+- Buen trabajo
+- Bien hecho
+- Se le agradece
+- Muchisimas gracias
+- Entiendo, gracias
+- Si gracias
+- Thanks
+- Muchas thanks
