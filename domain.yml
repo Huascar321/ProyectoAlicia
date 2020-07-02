@@ -1,31 +1,29 @@
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - saludos
+  - despedidas
+  - afirmar
+  - negar
+  - quieroAyudar
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_saludos_dias:
+  - text: "Hey! Buenos dias 🌤️ \nMi nombre es Alicia y estoy aqui para ayudarte, ¿Que necesitas? \n\n[*1*] Asistencia medica \n[*2*] Casos en el pais \n[*3*] Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
+
+  utter_saludos_tardes:
+  - text: "Hola! Buenas tardes 🌄 \nMi nombre es Alicia y estoy aqui para ayudarte, ¿Que necesitas? \n\n[*1*] Asistencia medica \n[*2*] Casos en el pais \n[*3*] Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
+
+  utter_saludos_noches:
+  - text: "Hey! Buenas noches 🦉🌙 \nMi nombre es Alicia y estoy aqui para ayudarte, ¿Que necesitas? \n\n[*1*] Asistencia medica \n[*2*] Casos en el pais \n[*3*] Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
+
+  utter_saludos_normal:
+  - text: "Hola! 👋🏼 \nMi nombre es Alicia y estoy aqui para ayudarte, ¿Que necesitas? \n\n[*1*] Asistencia medica \n[*2*] Casos en el pais \n[*3*] Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_quieroAyudar:
+  - text: "Es increíble que quieras ayudar! 💓 \n¿En que te gustaría aportar?"
 
 session_config:
   session_expiration_time: 60
