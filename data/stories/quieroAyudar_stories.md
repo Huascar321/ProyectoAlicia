@@ -1,5 +1,5 @@
 ## Quiero ayudar CAMINO
-* saludar
-  - utter_greet
+* saludos
+  - actions_saludar
 * quieroAyudar
   - utter_quieroAyudar

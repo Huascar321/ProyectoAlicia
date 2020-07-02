@@ -5,6 +5,9 @@ intents:
   - negar
   - quieroAyudar
 
+actions:
+  - actions_saludar
+
 responses:
   utter_saludos_dias:
   - text: "Hey! Buenos dias 🌤️ \nMi nombre es Alicia y estoy aqui para ayudarte, ¿Que necesitas? \n\n[*1*] Asistencia medica \n[*2*] Casos en el pais \n[*3*] Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"

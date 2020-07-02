@@ -1,0 +1,11 @@
+## intent:quieroAyudar
+- Me gustaria ayudar
+- Quiero ayudar
+- Como puedo ayudar?
+- Me encantaria ayudar
+- Como puedo ayudar en esta situacion
+- Puedo ayudar?
+- Me gustaria ser de ayuda
+- Tengo ganas de ayudar
+- Creo que puedo ayudar
+- Podria ayudar en algo?
