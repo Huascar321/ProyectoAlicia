@@ -100,3 +100,6 @@
 - Si gracias
 - Thanks
 - Muchas thanks
+
+## intent:fuera_de_lugar
+- Pizza
