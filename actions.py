@@ -85,6 +85,6 @@ class mostrarCasos(Action):
             cantFallecidos = ddf[ddf['Province/State']==nombreDepartamento]['Deaths'].item()
             cantRecuperados = ddf[ddf['Province/State']==nombreDepartamento]['Recovered'].item()
 
-            dispatcher.utter_message(text="En "+nombreDepartamento+" hay: \n*"+ str(casosConfirmados) +"* confirmados* ☑️ \n*"+ str(cantFallecidos)+"* decesos 📉 \n*"+str(cantRecuperados)+"* recuperados 💊")
+            dispatcher.utter_message(text="En "+nombreDepartamento+" hay: *"+ str(casosConfirmados) +"* confirmados* ☑️, *"+ str(cantFallecidos)+"* decesos 📉 y *"+str(cantRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los casos de otro departamento o tienes otra pregunta?")
 
         return[SlotSet("departamento", None)]
