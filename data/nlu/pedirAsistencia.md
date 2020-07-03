@@ -1,0 +1,72 @@
+## intent:pedirAsistencia
+- Quisiera pedir asistencia medica
+- Asistencia medica
+- Necesito asistencia medica
+- Quiero asistencia medica
+- Alguien necesita asistencia medica
+- Me gustaria asistencia medica
+- Preciso asistencia medica
+- Dame asistencia medica
+- Ayudame con la asistencia medica
+- Me voy por la asistencia medica
+- Asistencia
+- Necesito un medico
+- Necesito un doctor
+- Asistencia por favor
+- Requiero asistencia medica
+- Quiero un medico ayuda
+- Asisteme medicamente
+- Como me brindas asistencia medica?
+- Medica
+- Medico
+- Asistencia medica por favor
+
+## intent:pedirDoctor_medibook
+- cita medica
+- Quiero agendar una cita
+- Prefiero una cita medica
+- Mejor una cita medica
+- Mejor una cita con medibook
+- Como es la cita medica?
+- Como seria la cita medica?
+- Prefiero una cita con un doctor
+- Como es la cita con medibook?
+- Necesito un doctor de medibook
+- Cita con doctor
+- Agendar cita
+- Agendar cita online
+- Cita medica online
+- Quiero cita medica
+- Cita medibook
+- Cita con un doctor online
+
+## intent:pedirDoctor_whatsapp
+- WhatsApp
+- Una consulta por WhatsApp
+- Prefiero WhatsApp
+- WhatsApp nomas
+- Wasap
+- Wpp
+- Wasap esta bien
+- WhatsApp esta bien
+- Wpp esta bien
+- Una consulta por wasap
+- Una consulta por wpp
+- WA
+- Una consulta por WA
+- Mejor hablar por WhatsApp
+- Solo puedo hablar por WhatsApp
+- Prefiero mensaje de WhatsApp nomas
+- Prefiero solo mensajes
+- Como es la opcion de WhatsApp
+- Un doctor por wasap
+- Quiero un doctor por WhatsApp
+- Consulta por WA
+
+## intent:pedirAmbulancia
+- Requiero una ambulancia
+- Requiero la atencion de una ambulancia
+- Necesito una ambulancia
+- Quiero pedir una ambulancia
+- Pedir ambulancia
+- Necesito la atencion de una ambulancia
