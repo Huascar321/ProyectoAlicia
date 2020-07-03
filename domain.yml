@@ -3,12 +3,13 @@ session_config:
   carry_over_slots_to_new_session: true
 intents:
 - saludos
-- despedidas
+- despedidas: {triggers: utter_despedirse}
+- Agradecer: {triggers: utter_agradecer}
+- insultos: {triggers: utter_insultos}
 - afirmar
 - negar
 - quieroAyudar
 - mostrarCasos
-- Agradecer
 - mostrarCasos_solicitar
 - fuera_de_lugar
 - pedirAsistencia
@@ -17,6 +18,7 @@ intents:
 - pedirAmbulancia
 - quieroAyudar_soyDoctor
 - quieroAyudar_soyVoluntario
+- tengoPreguntas
 entities:
 - departamento
 slots:
@@ -24,13 +26,13 @@ slots:
     type: unfeaturized
 responses:
   utter_saludos_dias:
-  - text: "Hey! Buenos dias \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir asistencia medica \n• Mostrarte los casos en el pais \n• Ayudar como doctor \n• "
+  - text: "Hey! Buenos dias \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir *asistencia* medica \n• Mostrarte los *casos* en el pais \n• Quiero *ayudar* \n• Tengo *preguntas* acerca del COVID-19"
   utter_saludos_tardes:
-  - text: "Hola! Buenas tardes \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir asistencia medica \n• Mostrarte los casos en el pais \n• Ayudar como doctor \n• "
+  - text: "Hola! Buenas tardes \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir *asistencia* medica \n• Mostrarte los *casos* en el pais \n• Quiero *ayudar* \n• Tengo *preguntas* acerca del COVID-19"
   utter_saludos_noches:
-  - text: "Hey! Buenas noches \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir asistencia medica \n• Mostrarte los casos en el pais \n• Ayudar como doctor \n• "
+  - text: "Hey! Buenas noches \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir *asistencia* medica \n• Mostrarte los *casos* en el pais \n• Quiero *ayudar* \n• Tengo *preguntas* acerca del COVID-19"
   utter_saludos_normal:
-  - text: "Hola! \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir una cita medica online \n• Mostrarte los casos en el pais \n• Ayudar como doctor \n• Preguntame tus dudas"
+  - text: "Hola! \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir *asistencia* medica \n• Mostrarte los *casos* en el pais \n• Quiero *ayudar* \n• Tengo *preguntas* acerca del COVID-19"
   utter_casos:
   - text: "¿De que departamento deseas saber? 🤔"
   - text: "Dime el departamento del cual te interesaria saber 👐🏼"
@@ -49,7 +51,7 @@ responses:
   utter_quieroAyudar_soyVoluntario:
   - text: "Perfecto, comunicate con el siguiente numero *000000* \nElla te dara las instrucciones para inscribirte como voluntario \n¿Necesitas algo mas?"
   utter_pedirAsistencia:
-  - text: "Claro 😊 ¿que necesitas? \n• Agendarte una cita con un médico *online* (Medibook) \n• Hablar con un voluntario via *whatsapp* \n• Enviar una *ambulancia* \n_Las consultas sobre el COVID-19 son gratuitas_"
+  - text: "Claro 😊 ¿que necesitas? \n• Agendarte una cita con un médico *online* (Medibook) \n• Pedir una consulta via *whatsapp* \n• Enviar una *ambulancia* \n_Las consultas sobre el COVID-19 son gratuitas_"
   utter_pedirDoctor_medibook:
   - text: "Registrate en Medibook y sigue las instrucciones mediante este enlace: https://bit.ly/RegistroDePacientes \n¿Necesitas algo mas?"
   utter_afirmarPregunta:
@@ -60,6 +62,10 @@ responses:
   - text: "Lo que necesita esta justo aquí: \nhttps://www.youtube.com/watch?v=MQLYPz4d5U0 \nIngrese al siguiente enlace: \nhttps://bit.ly/RegistroDeDoctores \n¿Necesitas algo mas?"
   utter_despedirse:
   - text: "Chau! No olvides recomendarme a tus familiares 👩🏽"
+  utter_agradecer:
+  - text: "De nada! Me alegra haberte sido de ayuda 😊"
+  utter_insultos:
+  - text: "Hey, no seas grosero ☹️"
 actions:
 - actions_saludar
 - actions_mostrar_casos

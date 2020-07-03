@@ -87,7 +87,7 @@
 - No gracias
 - Do
 
-## intent:Agradecer
+## intent:agradecer
 - Gracias
 - Muchas gracias
 - Me siento mas tranquila ahora
@@ -100,6 +100,46 @@
 - Si gracias
 - Thanks
 - Muchas thanks
+
+## intent:tengoPreguntas
+- Tengo una pregunta
+- Preguntas
+- Pregunta
+- Duda
+- Tengo una duda
+- Resolver mis preguntas
+- Quiero preguntar
+- Quiero saber
+- Menu de preguntas
+- Tengo preguntas
+- Quiero hacer una pregunta
+- Quiero que me respondan una duda
+- Hacer una pregunta
+- Resuelvanme una duda
+- Respondanme una pregunta
+- Quiero que me respondan una pregunta
+- Quiero una respuesta
+- Pregunto
+- Porfavor resuelvanme una duda
+- Una duda
+- ??
+
+## intent:insultos
+- Mierda
+- Carajo
+- Puta
+- Maldita
+- Maricon
+- Maricona
+- Estupida
+- Imbecil
+- Pendeja
+- Pendejo
+- Perra
+- Polfa
+- Pene
+- Chupamela
+- Chupala
 
 ## intent:fuera_de_lugar
 - Pizza

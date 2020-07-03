@@ -1,3 +1,3 @@
-## Despedirse CAMINO
-* despedidas
-  - utter_despedirse
+## Tengo preguntas CAMINO
+* tengoPreguntas
+  - utter_afirmarPregunta
