@@ -2,8 +2,17 @@
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.events import UserUttered
+from rasa_sdk.events import FollowupAction, UserUtteranceReverted, AllSlotsReset
+from rasa_sdk.events import ActionExecuted
 #Nuevos
 from fechaHora import *
+#Librerias para usar csv
+from urllib.request import urlopen
+import json
+import csv
+import pandas as pd
+from rasa_sdk.events import SlotSet
 
 class saludar(Action):
 
@@ -27,25 +36,6 @@ class saludar(Action):
             dispatcher.utter_message(template='utter_saludos_noches')
         else:
             dispatcher.utter_message(template='utter_saludos_normal')
-
-        return []
-
-class menu_1(Action):
-
-    def name(self) -> Text:
-        return "actions_menu_1"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        #Función del menu
-        message = tracker.latest_message.get('text')
-        if(message == "4"):
-            return [UserUttered("/" + quieroAyudar, {
-                "intent": {"name": quieroAyudar, "confidence": 1.0},
-                "entities": {}
-            })]
 
         return []
 

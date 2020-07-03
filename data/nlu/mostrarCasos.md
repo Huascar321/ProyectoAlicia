@@ -1,0 +1,14 @@
+## intent:mostrarCasos
+- Casos en [Santa Cruz](departamento)
+- Casos en [Beni](departamento)
+- Casos en [Pando](departamento)
+- Casos en [Cochabamba](departamento)
+- Casos en [Chuquisaca](departamento)
+- Casos en [Tarija](departamento)
+- Casos en [La Paz](departamento)
+- Casos en [Oruro](departamento)
+- Casos en [Potosi](departamento)
+- Cuanto casos hay en bolivia?
+- Cuantos casos hay?
+- 2
+- [santa cruz](departamento)

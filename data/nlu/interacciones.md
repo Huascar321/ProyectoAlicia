@@ -18,6 +18,7 @@
 - Que tal
 - Holaa
 - Olaa
+- hola
 
 ## intent:despedidas
 - Adios
@@ -84,7 +85,6 @@
 - La verdad no
 - Para ser honesto no
 - No gracias
-- No
 - Do
 
 ## intent:Agradecer
@@ -92,7 +92,6 @@
 - Muchas gracias
 - Me siento mas tranquila ahora
 - Te lo agradezco
-- Gracias
 - Buen trabajo
 - Bien hecho
 - Se le agradece

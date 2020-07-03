@@ -1,34 +1,40 @@
-intents:
-  - saludos
-  - despedidas
-  - afirmar
-  - negar
-  - quieroAyudar
-
-actions:
-  - actions_saludar
-  - actions_menu_1
-
-responses:
-  utter_saludos_dias:
-  - text: "Hey! Buenos dias 🌤️ \nMi nombre es Alicia y estoy aqui para ayudarte, ¿Que necesitas? \n\n[*1*] Asistencia medica \n[*2*] Casos en el pais \n[*3*] Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
-
-  utter_saludos_tardes:
-  - text: "Hola! Buenas tardes 🌄 \nMi nombre es Alicia y estoy aqui para ayudarte, ¿Que necesitas? \n\n[*1*] Asistencia medica \n[*2*] Casos en el pais \n[*3*] Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
-
-  utter_saludos_noches:
-  - text: "Hey! Buenas noches 🦉🌙 \nMi nombre es Alicia y estoy aqui para ayudarte, ¿Que necesitas? \n\n[*1*] Asistencia medica \n[*2*] Casos en el pais \n[*3*] Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
-
-  utter_saludos_normal:
-  - text: "Hola! 👋🏼 \nMi nombre es Alicia y estoy aqui para ayudarte, ¿Que necesitas? \n\n[*1*] Asistencia medica \n[*2*] Casos en el pais \n[*3*] Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_quieroAyudar:
-  - text: "Es increíble que quieras ayudar! 💓 \n¿En que te gustaría aportar?"
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- saludos
+- despedidas
+- afirmar
+- negar
+- quieroAyudar
+- mostrarCasos
+- Agradecer
+entities:
+- departamento
+slots:
+  departamento:
+    type: unfeaturized
+responses:
+  utter_saludos_dias:
+  - text: "Hey! Buenos dias \U0001F324️ \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir una cita medica \n• Mostrarte los casos en el pais \n• Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
+  utter_saludos_tardes:
+  - text: "Hola! Buenas tardes \nMi nombre es Alicia y estoy aqui para ayudarte, ¿Que necesitas? \n[*1*] Asistencia medica \n[*2*] Casos en el pais \n[*3*] Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
+  utter_saludos_noches:
+  - text: "Hey! Buenas noches \U0001F989\U0001F319 \nMi nombre es Alicia y estoy aqui\
+      \ para ayudarte, ¿Que necesitas? \n[*1*] Asistencia medica \n[*2*] Casos en\
+      \ el pais \n[*3*] Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
+  utter_saludos_normal:
+  - text: "Hola! \U0001F44B\U0001F3FC \nMi nombre es Alicia y estoy aqui para ayudarte,\
+      \ ¿Que necesitas? \n[*1*] Asistencia medica \n[*2*] Casos en el pais \n[*3*]\
+      \ Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
+  utter_casos:
+  - text: ¿De que departamento deseas saber? 🤔
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_quieroAyudar:
+  - text: "Es increíble que quieras ayudar! \U0001F493 \n¿En que te gustaría aportar?"
+actions:
+- actions_saludar
+- actions_menu_1
+- actions_mostrar_casos
