@@ -9,6 +9,14 @@ intents:
 - quieroAyudar
 - mostrarCasos
 - Agradecer
+- mostrarCasos_solicitar
+- fuera_de_lugar
+- pedirAsistencia
+- pedirDoctor_medibook
+- pedirDoctor_whatsapp
+- pedirAmbulancia
+- quieroAyudar_soyDoctor
+- quieroAyudar_soyVoluntario
 entities:
 - departamento
 slots:
@@ -16,25 +24,42 @@ slots:
     type: unfeaturized
 responses:
   utter_saludos_dias:
-  - text: "Hey! Buenos dias \U0001F324️ \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir una cita medica \n• Mostrarte los casos en el pais \n• Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
+  - text: "Hey! Buenos dias \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir asistencia medica \n• Mostrarte los casos en el pais \n• Ayudar como doctor \n• "
   utter_saludos_tardes:
-  - text: "Hola! Buenas tardes \nMi nombre es Alicia y estoy aqui para ayudarte, ¿Que necesitas? \n[*1*] Asistencia medica \n[*2*] Casos en el pais \n[*3*] Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
+  - text: "Hola! Buenas tardes \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir asistencia medica \n• Mostrarte los casos en el pais \n• Ayudar como doctor \n• "
   utter_saludos_noches:
-  - text: "Hey! Buenas noches \U0001F989\U0001F319 \nMi nombre es Alicia y estoy aqui\
-      \ para ayudarte, ¿Que necesitas? \n[*1*] Asistencia medica \n[*2*] Casos en\
-      \ el pais \n[*3*] Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
+  - text: "Hey! Buenas noches \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir asistencia medica \n• Mostrarte los casos en el pais \n• Ayudar como doctor \n• "
   utter_saludos_normal:
-  - text: "Hola! \U0001F44B\U0001F3FC \nMi nombre es Alicia y estoy aqui para ayudarte,\
-      \ ¿Que necesitas? \n[*1*] Asistencia medica \n[*2*] Casos en el pais \n[*3*]\
-      \ Necesito ayuda \n[*4*] Quiero ayudar \n[*5*] Tengo preguntas"
+  - text: "Hola! \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir una cita medica online \n• Mostrarte los casos en el pais \n• Ayudar como doctor \n• Preguntame tus dudas"
   utter_casos:
-  - text: ¿De que departamento deseas saber? 🤔
+  - text: "¿De que departamento deseas saber? 🤔"
+  - text: "Dime el departamento del cual te interesaria saber 👐🏼"
+  - text: "¿De que departamento quieres saber? 👀"
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
   utter_quieroAyudar:
-  - text: "Es increíble que quieras ayudar! \U0001F493 \n¿En que te gustaría aportar?"
+  - text: "Es increíble que quieras aportar! 😁 \n¿Eres *doctor* o *voluntario*?"
+  - text: "Gracias por interesarte en aportar! 😁 \n¿Eres *doctor* o *voluntario*?"
+  - text: "Nos encanta que quieras aportar! 😁 \n¿Eres *doctor* o *voluntario*?"
+  utter_negarPregunta:
+  - text: "Muy bien, cualquier otra duda hazmela saber 🤗"
+  - text: "Perfecto! Si tienes otra duda no dudes en comentarmela 🤗"
+  - text: "De acuerdo, si necesitas algo mas dímelo! 🤗"
+  utter_quieroAyudar_soyVoluntario:
+  - text: "Perfecto, comunicate con el siguiente numero *000000* \nElla te dara las instrucciones para inscribirte como voluntario \n¿Necesitas algo mas?"
+  utter_pedirAsistencia:
+  - text: "Claro 😊 ¿que necesitas? \n• Agendarte una cita con un médico *online* (Medibook) \n• Hablar con un voluntario via *whatsapp* \n• Enviar una *ambulancia* \n_Las consultas sobre el COVID-19 son gratuitas_"
+  utter_pedirDoctor_medibook:
+  - text: "Registrate en Medibook y sigue las instrucciones mediante este enlace: https://bit.ly/RegistroDePacientes \n¿Necesitas algo mas?"
+  utter_afirmarPregunta:
+  - text: "¿Cual es tu pregunta? 😁"
+  utter_pregunta:
+  - text: "Ok no hay problema 🙌🏻 \n¿Tienes alguna otra pregunta?"
+  utter_quieroAyudar_soyDoctor:
+  - text: "Lo que necesita esta justo aquí: \nhttps://www.youtube.com/watch?v=MQLYPz4d5U0 \nIngrese al siguiente enlace: \nhttps://bit.ly/RegistroDeDoctores \n¿Necesitas algo mas?"
+  utter_despedirse:
+  - text: "Chau! No olvides recomendarme a tus familiares 👩🏽"
 actions:
 - actions_saludar
-- actions_menu_1
 - actions_mostrar_casos
