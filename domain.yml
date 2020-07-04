@@ -3,9 +3,12 @@ session_config:
   carry_over_slots_to_new_session: true
 intents:
 - saludos
-- despedidas: {triggers: utter_despedirse}
-- Agradecer: {triggers: utter_agradecer}
-- insultos: {triggers: utter_insultos}
+- despedidas:
+    triggers: utter_despedirse
+- Agradecer:
+    triggers: utter_agradecer
+- insultos:
+    triggers: utter_insultos
 - afirmar
 - negar
 - quieroAyudar
@@ -19,6 +22,8 @@ intents:
 - quieroAyudar_soyDoctor
 - quieroAyudar_soyVoluntario
 - tengoPreguntas
+- agradecer
+- quieroAyudar_soyNinguno
 entities:
 - departamento
 slots:
@@ -26,24 +31,142 @@ slots:
     type: unfeaturized
 responses:
   utter_saludos_dias:
-  - text: "Hey! Buenos dias \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir *asistencia* medica \n• Mostrarte los *casos* en el pais \n• Quiero *ayudar* \n• Tengo *preguntas* acerca del COVID-19"
+  - text: "Hey! Buenos dias ☀️ \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
+    channel: "facebook"
+    quick_replies:
+      - payload: "/pedirAsistencia"
+        title: "👩🏽‍⚕️ Asistencia"
+      - payload: "/mostrarCasos_solicitar"
+        title: "📊 Casos"
+      - payload: "/quieroAyudar"
+        title: "🙋🏽 Voluntariado"
+      - payload: "/tengoPreguntas"
+        title: "❓ Preguntas"
+  - text: "Canal normal"
   utter_saludos_tardes:
-  - text: "Hola! Buenas tardes \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir *asistencia* medica \n• Mostrarte los *casos* en el pais \n• Quiero *ayudar* \n• Tengo *preguntas* acerca del COVID-19"
+  - text: "Hey! Buenas tardes 🌅 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
+    channel: "facebook"
+    quick_replies:
+      - payload: "/pedirAsistencia"
+        title: "👩🏽‍⚕️ Asistencia"
+      - payload: "/mostrarCasos_solicitar"
+        title: "📊 Casos"
+      - payload: "/quieroAyudar"
+        title: "🙋🏽 Voluntariado"
+      - payload: "/tengoPreguntas"
+        title: "❓ Preguntas"
+  - text: "Canal normal"
   utter_saludos_noches:
-  - text: "Hey! Buenas noches \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir *asistencia* medica \n• Mostrarte los *casos* en el pais \n• Quiero *ayudar* \n• Tengo *preguntas* acerca del COVID-19"
+  - text: "Hey! Buenas noches 🌙 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
+    channel: "facebook"
+    quick_replies:
+      - payload: "/pedirAsistencia"
+        title: "👩🏽‍⚕️ Asistencia"
+      - payload: "/mostrarCasos_solicitar"
+        title: "📊 Casos"
+      - payload: "/quieroAyudar"
+        title: "🙋🏽 Voluntariado"
+      - payload: "/tengoPreguntas"
+        title: "❓ Preguntas"
+  - text: "Canal normal"
   utter_saludos_normal:
-  - text: "Hola! \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en: \n• Pedir *asistencia* medica \n• Mostrarte los *casos* en el pais \n• Quiero *ayudar* \n• Tengo *preguntas* acerca del COVID-19"
+  - text: "Hey! Hola \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
+    channel: "facebook"
+    quick_replies:
+      - payload: "/pedirAsistencia"
+        title: "👩🏽‍⚕️ Asistencia"
+      - payload: "/mostrarCasos_solicitar"
+        title: "📊 Casos"
+      - payload: "/quieroAyudar"
+        title: "🙋🏽 Voluntariado"
+      - payload: "/tengoPreguntas"
+        title: "❓ Preguntas"
+  - text: "Canal normal"
   utter_casos:
+  - text: "¿De que departamento quieres saber? 👐🏼"
+    channel: "facebook"
+    quick_replies:
+      - payload: '/mostrarCasos{"departamento": "santa cruz"}'
+        title: 'Santa Cruz'
+      - payload: '/mostrarCasos{"departamento": "la paz"}'
+        title: 'La Paz'
+      - payload: '/mostrarCasos{"departamento": "cochabamba"}'
+        title: 'Cochabamba'
+      - payload: '/mostrarCasos{"departamento": "chuquisaca"}'
+        title: 'Chuquisaca'
+      - payload: '/mostrarCasos{"departamento": "tarija"}'
+        title: 'Tarija'
+      - payload: '/mostrarCasos{"departamento": "oruro"}'
+        title: 'Oruro'
+      - payload: '/mostrarCasos{"departamento": "potosi"}'
+        title: 'Potosi'
+  - text: "Dime el departamento del cual te interesaria saber 👐🏼"
+    channel: "facebook"
+    quick_replies:
+      - payload: '/mostrarCasos{"departamento": "santa cruz"}'
+        title: 'Santa Cruz'
+      - payload: '/mostrarCasos{"departamento": "la paz"}'
+        title: 'La Paz'
+      - payload: '/mostrarCasos{"departamento": "cochabamba"}'
+        title: 'Cochabamba'
+      - payload: '/mostrarCasos{"departamento": "chuquisaca"}'
+        title: 'Chuquisaca'
+      - payload: '/mostrarCasos{"departamento": "tarija"}'
+        title: 'Tarija'
+      - payload: '/mostrarCasos{"departamento": "oruro"}'
+        title: 'Oruro'
+      - payload: '/mostrarCasos{"departamento": "potosi"}'
+        title: 'Potosi'
+  - text: "¿De que departamento deseas saber? 🤔"
+    channel: "facebook"
+    quick_replies:
+      - payload: '/mostrarCasos{"departamento": "santa cruz"}'
+        title: 'Santa Cruz'
+      - payload: '/mostrarCasos{"departamento": "la paz"}'
+        title: 'La Paz'
+      - payload: '/mostrarCasos{"departamento": "cochabamba"}'
+        title: 'Cochabamba'
+      - payload: '/mostrarCasos{"departamento": "chuquisaca"}'
+        title: 'Chuquisaca'
+      - payload: '/mostrarCasos{"departamento": "tarija"}'
+        title: 'Tarija'
+      - payload: '/mostrarCasos{"departamento": "oruro"}'
+        title: 'Oruro'
+      - payload: '/mostrarCasos{"departamento": "potosi"}'
+        title: 'Potosi'
   - text: "¿De que departamento deseas saber? 🤔"
   - text: "Dime el departamento del cual te interesaria saber 👐🏼"
-  - text: "¿De que departamento quieres saber? 👀"
+  - text: "¿De que departamento quieres saber? 👐"
+  utter_preguntarOtrosCasos:
+  - text: "¿Quieres saber los casos de otro departamento o tienes otra pregunta?"
+    channel: "facebook"
+    quick_replies:
+      - payload: '/mostrarCasos_solicitar'
+        title: 'Otro departamento'
+      - payload: '/activarMenu'
+        title: 'Tengo otra pregunta'
+      - payload: '/negar'
+        title: 'Eso es todo'
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
+  utter_quieroAyudar_soyNinguno:
+    - text: "Por el momento solo buscamos doctores y voluntarios \n\nSi conoces a alguien quien pueda ayudar, compártele este número 🤗 \n\nEntonces"
+      channel: "facebook"
+    - text: "Por el momento solo buscamos doctores y voluntarios \nSi conoces a alguien quien pueda ayudar, compártele este número 🤗 \nEntonces"
   utter_quieroAyudar:
-  - text: "Es increíble que quieras aportar! 😁 \n¿Eres *doctor* o *voluntario*?"
-  - text: "Gracias por interesarte en aportar! 😁 \n¿Eres *doctor* o *voluntario*?"
-  - text: "Nos encanta que quieras aportar! 😁 \n¿Eres *doctor* o *voluntario*?"
+  - text: "Es increíble que quieras aportar! \n¿Eres doctor o voluntario?"
+    channel: "facebook"
+    quick_replies:
+      - payload: '/quieroAyudar_soyDoctor'
+        title: 'Soy doctor'
+      - payload: '/quieroAyudar_soyVoluntario'
+        title: 'Soy voluntario'
+      - payload: '/quieroAyudar_soyNinguno'
+        title: 'Ninguno'
+  - text: "Es increíble que quieras aportar! \n¿Eres *doctor* o *voluntario*?"
+  - text: "Gracias por interesarte en aportar! \n¿Eres *doctor* o *voluntario*?"
+  - text: "Nos encanta que quieras aportar! \n¿Eres *doctor* o *voluntario*?"
   utter_negarPregunta:
   - text: "Muy bien, cualquier otra duda hazmela saber 🤗"
   - text: "Perfecto! Si tienes otra duda no dudes en comentarmela 🤗"
@@ -51,13 +174,26 @@ responses:
   utter_quieroAyudar_soyVoluntario:
   - text: "Perfecto, comunicate con el siguiente numero *000000* \nElla te dara las instrucciones para inscribirte como voluntario \n¿Necesitas algo mas?"
   utter_pedirAsistencia:
-  - text: "Claro 😊 ¿que necesitas? \n• Agendarte una cita con un médico *online* (Medibook) \n• Pedir una consulta via *whatsapp* \n• Enviar una *ambulancia* \n_Las consultas sobre el COVID-19 son gratuitas_"
+  - text: "Claro ¿que necesitas? \n• Agendarte una cita con un médico *online* (Medibook) \n• Pedir una consulta via *whatsapp* \n• Enviar una *ambulancia* \n_Las consultas sobre el COVID-19 son gratuitas_"
   utter_pedirDoctor_medibook:
   - text: "Registrate en Medibook y sigue las instrucciones mediante este enlace: https://bit.ly/RegistroDePacientes \n¿Necesitas algo mas?"
-  utter_afirmarPregunta:
+  utter_tengoPreguntas:
   - text: "¿Cual es tu pregunta? 😁"
+  utter_desplegarMenu:
+  - text: "¿En que mas te puedo ayudar?"
+    channel: "facebook"
+    quick_replies:
+      - payload: "/pedirAsistencia"
+        title: "👩🏽‍⚕️ Asistencia"
+      - payload: "/mostrarCasos_solicitar"
+        title: "📊 Casos"
+      - payload: "/quieroAyudar"
+        title: "🙋🏽 Voluntariado"
+      - payload: "/tengoPreguntas"
+        title: "❓ Preguntas"
+  - text: "¿En que mas te puedo ayudar? \n• Pedir *asistencia* medica \n• Mostrarte los *casos* en el pais \n• Quiero *ayudar* \n• Tengo *preguntas* acerca del COVID-19"
   utter_pregunta:
-  - text: "Ok no hay problema 🙌🏻 \n¿Tienes alguna otra pregunta?"
+  - text: "Ok no hay problema \n¿Tienes alguna otra pregunta?"
   utter_quieroAyudar_soyDoctor:
   - text: "Lo que necesita esta justo aquí: \nhttps://www.youtube.com/watch?v=MQLYPz4d5U0 \nIngrese al siguiente enlace: \nhttps://bit.ly/RegistroDeDoctores \n¿Necesitas algo mas?"
   utter_despedirse:
@@ -66,6 +202,17 @@ responses:
   - text: "De nada! Me alegra haberte sido de ayuda 😊"
   utter_insultos:
   - text: "Hey, no seas grosero ☹️"
+  utter_pedirDoctor_whatsapp:
+  - text: "VOLUNTARIADO EN PROCESO"
+  utter_departamento_incorrecto:
+  - text: "Lo siento no entendí el departamento, intenta escribirlo bien 🙌"
+  utter_ask_rephrase:
+  - text: "Lo siento, no entendí 😐 \n¿Podrías reformular lo que dijiste? 🙌"
+  - text: "Creo que no pude entenderte 😥 \n¿Puedes ser mas específico? 🙌🏼"
+  - text: "Creo que no te he entendido bien 😓 \n¿Podrías ser mas claro? 🙏🏽"
+  - text: "No te entendí correctamente 😕 \n¿Que intentaste decir?"
+  - text: "Ups, no entendí muy bien lo que dijiste 😨 \n¿Que quisiste decir?"
+  - text: "Disculpa, no entendí lo que me dijiste 😥 \n¿Que quisiste decir?"
 actions:
 - actions_saludar
 - actions_mostrar_casos

@@ -16,4 +16,13 @@
 * quieroAyudar_soyVoluntario
   - utter_quieroAyudar_soyVoluntario
 * afirmar
-  - utter_afirmarPregunta
+  - utter_desplegarMenu
+
+## Quiero ayudar, soy voluntario, afirmar pregunta final CAMINO
+* saludos
+  - actions_saludar
+* quieroAyudar
+  - utter_quieroAyudar
+* quieroAyudar_soyNinguno
+  - utter_quieroAyudar_soyNinguno
+  - utter_desplegarMenu

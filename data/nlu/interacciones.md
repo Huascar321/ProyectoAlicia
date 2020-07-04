@@ -124,6 +124,11 @@
 - Una duda
 - ??
 
+## intent:activarMenu
+- Quiero volver al menu
+- Menu
+- Quiero abrir el menu de nuevo
+
 ## intent:insultos
 - Mierda
 - Carajo

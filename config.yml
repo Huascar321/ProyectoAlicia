@@ -34,6 +34,6 @@ policies:
   - name: TwoStageFallbackPolicy
     nlu_threshold: 0.7
     core_threshold: 0.7
-    fallback_core_action_name: "action_default_fallback"
-    fallback_nlu_action_name: "action_default_fallback"
+    fallback_core_action_name: "action_default_ask_rephrase"
+    fallback_nlu_action_name: "action_default_ask_rephrase"
     deny_suggestion_intent_name: "fuera_de_lugar"

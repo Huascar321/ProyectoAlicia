@@ -67,7 +67,7 @@ class mostrarCasos(Action):
             elif (v_dp == "oruro"):
                 nombreDepartamento = "Oruro"
             elif (v_dp == "potosi"):
-                nombreDepartamento = "Potosi"
+                nombreDepartamento = "Potosí"
             elif (v_dp == "tarija"):
                 nombreDepartamento = "Tarija"
             elif (v_dp == "chuquisaca"):
@@ -77,7 +77,7 @@ class mostrarCasos(Action):
             elif (v_dp == "pando"):
                 nombreDepartamento = "Pando"
             else:
-                dispatcher.utter_message(text="Lo siento no entendí el departamento, intenta escribirlo bien 🙌")
+                dispatcher.utter_message(template='utter_departamento_incorrecto')
                 return[SlotSet("departamento", None)]
 
 
@@ -85,6 +85,11 @@ class mostrarCasos(Action):
             cantFallecidos = ddf[ddf['Province/State']==nombreDepartamento]['Deaths'].item()
             cantRecuperados = ddf[ddf['Province/State']==nombreDepartamento]['Recovered'].item()
 
-            dispatcher.utter_message(text="En "+nombreDepartamento+" hay: *"+ str(casosConfirmados) +"* confirmados* ☑️, *"+ str(cantFallecidos)+"* decesos 📉 y *"+str(cantRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los casos de otro departamento o tienes otra pregunta?")
+            if tracker.get_latest_input_channel() == 'facebook':
+                dispatcher.utter_message(text="En "+nombreDepartamento+" hay: \n*"+ str(casosConfirmados) +"* confirmados* ☑️ \n*"+ str(cantFallecidos)+"* decesos 📉 \n*"+str(cantRecuperados)+"* recuperados 💊")
+                dispatcher.utter_message(template='utter_preguntarOtrosCasos')
+
+            else:
+                dispatcher.utter_message(text="En "+nombreDepartamento+" hay: *"+ str(casosConfirmados) +"* confirmados* ☑️, *"+ str(cantFallecidos)+"* decesos 📉 y *"+str(cantRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?")
 
         return[SlotSet("departamento", None)]

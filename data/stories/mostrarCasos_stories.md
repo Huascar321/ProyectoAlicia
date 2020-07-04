@@ -6,7 +6,7 @@
 * mostrarCasos
   - actions_mostrar_casos
 * negar
-  - utter_negarPregunta
+  - utter_desplegarMenu
 
 ## Mostrar casos afirmando pregunta final CAMINO
 * saludos

@@ -46,3 +46,8 @@
 - Supongo que voluntario
 - Creo que volluntario
 - En que consiste ser voluntario?
+
+## intent:quieroAyudar_soyNinguno
+- No soy ninguno
+- No soy ninguno de ellos
+- Yo trabajo de otra cosa

@@ -1,3 +1,7 @@
 ## Tengo preguntas CAMINO
 * tengoPreguntas
-  - utter_afirmarPregunta
+  - utter_tengoPreguntas
+
+## Activar menu CAMINO
+* activarMenu
+  - utter_desplegarMenu
