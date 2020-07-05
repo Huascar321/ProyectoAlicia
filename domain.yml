@@ -21,10 +21,8 @@ intents:
 - pedirDoctor_whatsapp
 - pedirAmbulancia
 - quieroAyudar_soyDoctor
-- quieroAyudar_soyVoluntario
 - tengoPreguntas
 - agradecer
-- quieroAyudar_soyNinguno
 - activarMenu
 entities:
 - departamento
@@ -66,9 +64,9 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
-  - text: "Buenos dias! Mi nombre es Alicia y estoy aqui para ayudarte contra el COVID-19. \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
-  - text: "Buenos dias. Las aves cantan y el cafe ya esta listo. Soy Alicia \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "Hola! Mi nombre es Alicia y espero que estes teniendo un hermoso dia. \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Buenos dias! Mi nombre es Alicia y estoy aqui para ayudarte contra el COVID-19. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
+  - text: "Buenos dias. Las aves cantan y el cafe ya esta listo. Soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Hola! Mi nombre es Alicia y espero que estes teniendo un hermoso dia. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   utter_saludos_tardes:
   - text: "Hey! Buenas tardes 🌅 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
     channel: "facebook"
@@ -81,7 +79,7 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
-  - text: "Buenas tardes!🙋🏽 Estaba tomando mi tecito y empanadas☕ pero estoy siempre lista para ayudarte. Soy Alicia el asistente que te ayuda contra el COVID-19 que necesitas?"
+  - text: "Buenas tardes!🙋🏽 Estaba tomando mi tecito y empanadas☕ \nPero estoy siempre lista para ayudarte. \n\nSoy Alicia el asistente que te ayuda contra el COVID-19 que necesitas?"
     channel: "facebook"
     quick_replies:
       - payload: "/pedirAsistencia"
@@ -92,7 +90,7 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
-  - text: "Hola!🙋🏽Espero que estes teniendo una excelente tarde. Yo soy Alicia y estoy aqui para ayudarte en todo lo relacionado con el COVID-19😷 \nQue necesitas?"
+  - text: "Hola!🙋🏽Espero que estes teniendo una excelente tarde. \n\nYo soy Alicia y estoy aqui para ayudarte en todo lo relacionado con el COVID-19😷 \nQue necesitas?"
     channel: "facebook"
     quick_replies:
       - payload: "/pedirAsistencia"
@@ -103,9 +101,9 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
-  - text: "Buenas tardes! Mi nombre es Alicia y quiero ayudarte\nQue necesitas?\n-Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
-  - text: "Hola! Espero que estes teniendo una hermosa tarde, mi nombre es Alicia \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "Hola! Estaba tomando mi tecito y empanadas pero estoy siempre lista para ayudarte. Mi nombre es Alicia\nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Buenas tardes! Mi nombre es Alicia y quiero ayudarte\nQue necesitas?\n \n-Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
+  - text: "Hola! Espero que estes teniendo una hermosa tarde, mi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Hola! Estaba tomando mi tecito y empanadas pero estoy siempre lista para ayudarte. Mi nombre es Alicia\nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   utter_saludos_noches:
   - text: "Hey! Buenas noches 🌙 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
     channel: "facebook"
@@ -129,9 +127,9 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
-  - text: "Buenas noches! Mi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
-  - text: "Hola! Veo que estas despierto a estas horas, no te culpo yo tambien!. Soy Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "Buenas noches! Soy Alicia y estoy siempre despierta y lista para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Buenas noches! Mi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
+  - text: "Hola! Veo que estas despierto a estas horas, no te culpo yo tambien!. Soy Alicia y estoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Buenas noches! Soy Alicia y estoy siempre despierta y lista para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   utter_saludos_normal:
   - text: "Hey! Hola🙋🏽 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
     channel: "facebook"
@@ -166,9 +164,9 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
-  - text: "Hola! Mi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
-  - text: "Hola hola! Me alegro mucho de verte, yo soy Alicia \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "Saludos cordiales, mi nombre es Alicia \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n-Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Hola! Mi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
+  - text: "Hola hola! Me alegro mucho de verte, yo soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Saludos cordiales, mi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n-Saber como puedo *ayudar*\n- *Compartir* tu numero"
   utter_casos:
   - text: "¿De que departamento quieres saber? 👐🏼🇧🇴"
     channel: "facebook"
@@ -242,7 +240,7 @@ responses:
   - text: "Dime el departamento del cual te interesaria saber 👐🏼"
   - text: "¿De que departamento quieres saber? 👐"
   - text: "¿Que departamento te gustaria saber?📍🇧🇴"
- utter_preguntarOtrosCasos:
+  utter_preguntarOtrosCasos:
   - text: "¿Quieres saber los casos de otro departamento o tienes otra pregunta?👀"
     channel: "facebook"
     quick_replies:
@@ -291,18 +289,16 @@ responses:
     channel: "facebook"
     quick_replies:
       - payload: '/quieroAyudar_soyDoctor'
-        title: 'Soy doctor'
-      - payload: '/quieroAyudar_soyVoluntario'
-        title: 'Soy voluntario'
+        title: 'Si'
       - payload: '/quieroAyudar_soyNinguno'
-        title: 'Ninguno'
+        title: 'No, lo siento'
   - text: "Wow, muchas gracias por querer ayudar! 😁 \n ¿Eres doctor o parte del personal de salud? 🏥"
     channel: "facebook"
     quick_replies:
       - payload: '/quieroAyudar_soyDoctor'
-        title: 'Soy doctor'
+        title: 'Si'
       - payload: '/quieroAyudar_soyVoluntario'
-        title: 'Soy voluntario'
+        title: 'No, lo siento'
       - payload: '/quieroAyudar_soyNinguno'
         title: 'Ninguno'
   - text: "Es increíble que quieras aportar! \nEn este momento estamos buscando *doctores* y *personal de salud* \n¿Eres alguno de ellos?" #Hacer esta pregunta mas amigable, invitando al usuario a responder si o no
@@ -318,16 +314,16 @@ responses:
     channel: "facebook"
     quick_replies:
       - payload: "/pedirDoctor_medibook"
-        title: "Agendar cita por Medibook"
+        title: "Agendar por Medibook"
       - payload: "/pedirDoctor_whatsapp"
-        title: "Agendar cita por Whatsapp"
+        title: "Agendar por Whatsapp"
   - text: "De acuerdo ¿Por donde deseas pedir tu cita? ✏️\nLas consultas referentes al COVID-19 son totalmente gratuitas"
     channel: "facebook"
     quick_replies:
       - payload: "/pedirDoctor_medibook"
-        title: "Agendar cita por Medibook"
+        title: "Agendar por Medibook"
       - payload: "/pedirDoctor_whatsapp"
-        title: "Agendar cita por Whatsapp"
+        title: "Agendar por Whatsapp"
   - text: "Claro ¿Donde quieres pedir tu cita? \n- Agendar consulta por *Medibook* \n- Agendar consulta por *Whatsapp* \n_Las consultas sobre el COVID-19 son gratuitas_"
   - text: "De acuerdo ¿Por donde deseas pedir tu cita? \n- Agendar consulta por *Medibook* \n- Agendar consulta por *Whatsapp* \n_Las consultas referentes al COVID-19 son totalmente gratuitas_"
   utter_pedirDoctor_medibook:
@@ -448,8 +444,8 @@ responses:
         type: web_url
         url: https://bit.ly/31OuPzd
         title: "Whatsapp"
-  - text: "Obten una lista de numeros de Whatsapp por este link: \nhttps://bit.ly/31OuPzd"
-  - text: "Puedes obtener la lista de numeros de Whatsapp por este link \nhttps://bit.ly/31OuPzd"
+  - text: "Obten una lista de numeros de Whatsapp por este link: \nhttps://bit.ly/31OuPzd \n¿Necesitas algo mas?"
+  - text: "Puedes obtener la lista de numeros de Whatsapp por este link \nhttps://bit.ly/31OuPzd \n¿Necesitas ayuda en algo mas?"
   utter_departamento_incorrecto:
   - text: "Lo siento no entendi el departamento, intenta escribirlo bien 🙌"
   - text: "Ay no te entendi, puedes escribirlo de nuevo porfis?"

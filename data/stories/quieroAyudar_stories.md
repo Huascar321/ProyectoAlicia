@@ -1,28 +1,18 @@
-## Quiero ayudar, soy doctor, negar pregunta final CAMINO
-* saludos
-  - actions_saludar
+## Quiero ayudar, soy doctor, afirmar pregunta final CAMINO
 * quieroAyudar
   - utter_quieroAyudar
-* quieroAyudar_soyDoctor
+* quieroAyudar_soyDoctor OR afirmar
   - utter_quieroAyudar_soyDoctor
-* negar
-  - utter_negarPregunta
-
-## Quiero ayudar, soy voluntario, afirmar pregunta final CAMINO
-* saludos
-  - actions_saludar
-* quieroAyudar
-  - utter_quieroAyudar
-* quieroAyudar_soyVoluntario
-  - utter_quieroAyudar_soyVoluntario
+  - actions_verificarCanal
 * afirmar
   - utter_desplegarMenu
 
-## Quiero ayudar, soy voluntario, afirmar pregunta final CAMINO
-* saludos
-  - actions_saludar
+## Quiero ayudar, soy doctor, negar pregunta final CAMINO
 * quieroAyudar
   - utter_quieroAyudar
-* quieroAyudar_soyNinguno
+* quieroAyudar_soyDoctor OR afirmar
+  - utter_quieroAyudar_soyDoctor
+  - actions_verificarCanal
+* negar OR quieroAyudar_soyNinguno
   - utter_quieroAyudar_soyNinguno
   - utter_desplegarMenu

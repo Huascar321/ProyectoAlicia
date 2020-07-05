@@ -28,25 +28,6 @@
 - Doc
 - Soy un doc
 
-## intent:quieroAyudar_soyVoluntario
-- Soy voluntario
-- voluntario
-- Me ofrezco como voluntario
-- Un voluntario
-- Soy boluntario
-- Boluntario
-- Seria un voluntario
-- Quiero ser voluntario
-- Puedo ayudar como voluntario
-- Soy voluntaria
-- Voluntaria
-- Puedo ayudar como voluntaria
-- Quiero ayudar como voluntaria
-- Pues… voluntario
-- Supongo que voluntario
-- Creo que volluntario
-- En que consiste ser voluntario?
-
 ## intent:quieroAyudar_soyNinguno
 - No soy ninguno
 - No soy ninguno de ellos
