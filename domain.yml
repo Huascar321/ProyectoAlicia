@@ -334,7 +334,7 @@ responses:
         type: web_url
         url: https://bit.ly/RegistroDePacientes
         title: "Pedir cita"
-  - text: "Registrate en Medibook y sigue las instrucciones mediante este enlace: https://bit.ly/RegistroDePacientes \n¿Necesitas algo mas?"
+  - text: "Registrate en Medibook y sigue las instrucciones mediante este enlace: \nhttps://bit.ly/RegistroDePacientes \n¿Necesitas algo mas?"
   utter_tengoPreguntas:
   - text: "¿Cual es tu pregunta? 😁"
   - text: "¿Cual es tu duda? 😊"
