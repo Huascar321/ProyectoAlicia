@@ -24,6 +24,55 @@ intents:
 - tengoPreguntas
 - agradecer
 - activarMenu
+# PREGUNTAS FRECUENTES
+- porque_sintomas_yosolo_familia
+- porque_variosdias_sintomas_nocurar
+- dioxidocloro_ayuda
+- brigadas_censo_noMedicamentos
+- tomarmedicamentos_nosaber_covid
+- sintomas_tomarencuenta_otraenfermedad
+- medicamentos_nomejora_hospital
+- medico_atendio_seguimiento
+- prueba_covid
+- cuanto_tipo_prueba
+- distintas_pruebas
+- ivermectina_sirve
+- calor_mata_virus
+- contraerdenuevo_despues_de_enfermarse
+- mosquitos_infectar
+- cuanto_falta_para_vacuna_medicamento
+- tomar_antibioticos
+# CHIT CHATS
+- chitchat
+- chitchat/eresRobot
+- chitchat/quien_jefe
+- chitchat/cual_nombre
+- chitchat/preguntar_edad
+- chitchat/no_ayudas
+- chitchat/contactar
+- chitchat/eres_genial
+- chitchat/puedes_ser_amiga
+- chitchat/residencia
+- chitchat/tengo_miedo
+# FAQ
+- faq
+- faq/porque_sintomas_yosolo_familia
+- faq/porque_variosdias_sintomas_nocurar
+- faq/dioxidocloro_ayuda
+- faq/brigadas_censo_noMedicamentos
+- faq/tomarmedicamentos_nosaber_covid
+- faq/sintomas_tomarencuenta_otraenfermedad
+- faq/medicamentos_nomejora_hospital
+- faq/medico_atendio_seguimiento
+- faq/prueba_covid
+- faq/cuanto_tipo_prueba
+- faq/distintas_pruebas
+- faq/ivermectina_sirve
+- faq/calor_mata_virus
+- faq/contraerdenuevo_despues_de_enfermarse
+- faq/mosquitos_infectar
+- faq/cuanto_falta_para_vacuna_medicamento
+- faq/tomar_antibioticos
 entities:
 - departamento
 slots:
@@ -297,10 +346,8 @@ responses:
     quick_replies:
       - payload: '/quieroAyudar_soyDoctor'
         title: 'Si'
-      - payload: '/quieroAyudar_soyVoluntario'
-        title: 'No, lo siento'
       - payload: '/quieroAyudar_soyNinguno'
-        title: 'Ninguno'
+        title: 'No, lo siento'
   - text: "Es increíble que quieras aportar! \nEn este momento estamos buscando *doctores* y *personal de salud* \n¿Eres alguno de ellos?" #Hacer esta pregunta mas amigable, invitando al usuario a responder si o no
   - text: "Wow, muchas gracias por querer ayudar! \n ¿Eres doctor o parte del personal de salud?"
   utter_negarPregunta:
@@ -462,3 +509,5 @@ actions:
 - actions_saludar
 - actions_mostrar_casos
 - actions_verificarCanal
+- respond_chitchat
+- respond_faq

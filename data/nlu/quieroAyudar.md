@@ -27,8 +27,3 @@
 - Soy Dr.
 - Doc
 - Soy un doc
-
-## intent:quieroAyudar_soyNinguno
-- No soy ninguno
-- No soy ninguno de ellos
-- Yo trabajo de otra cosa

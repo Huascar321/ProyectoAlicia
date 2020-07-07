@@ -5,3 +5,11 @@
 ## Activar menu CAMINO
 * activarMenu
   - utter_desplegarMenu
+
+## chitchat
+* chitchat
+  - respond_chitchat
+
+## faq
+* faq
+  - respond_faq

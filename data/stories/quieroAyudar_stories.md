@@ -13,6 +13,6 @@
 * quieroAyudar_soyDoctor OR afirmar
   - utter_quieroAyudar_soyDoctor
   - actions_verificarCanal
-* negar OR quieroAyudar_soyNinguno
+* negar
   - utter_quieroAyudar_soyNinguno
   - utter_desplegarMenu
