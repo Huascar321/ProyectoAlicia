@@ -500,7 +500,7 @@ responses:
   - text: "Ay no te entendi, puedes escribirlo de nuevo porfis?"
   - text: "Perdon, creo que no te entendi muy bien, puedes repetirlo?"
   - text: "Creo que no te entendi, pudieras repetirlo porfis?"
-  utter_ask_rephrase:
+  utter_default:
   - text: "Lo siento, no entendi 😐 \n¿Podrias reformular lo que dijiste? 🙌"
   - text: "Creo que no pude entenderte 😥 \n¿Puedes ser mas especifico? 🙌🏼"
   - text: "Creo que no te he entendido bien 😓 \n¿Podrias ser mas claro? 🙏🏽"
