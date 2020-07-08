@@ -27,3 +27,9 @@
 - Soy Dr.
 - Doc
 - Soy un doc
+- Soy personal de salud
+- Soy psicologo
+
+## intent:quieroAyudar_soyNinguno
+- No soy ninguno
+- No soy ninguno de ellos

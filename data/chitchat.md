@@ -37,3 +37,7 @@
 ## tengo_miedo
 * chitchat/tengo_miedo
     - Es normal sentir miedo en esta situación, si deseas hablar con algun psicologo, pideme una cita con un médico!
+
+## como_puedes_ayudar
+* chitchat/como_puedes_ayudar
+    - En la parte superior te deje un menu con el cual puedes guiarte 😊

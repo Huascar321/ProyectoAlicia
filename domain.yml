@@ -42,6 +42,7 @@ intents:
 - mosquitos_infectar
 - cuanto_falta_para_vacuna_medicamento
 - tomar_antibioticos
+- quieroAyudar_soyNinguno
 # CHIT CHATS
 - chitchat
 - chitchat/eresRobot
@@ -54,6 +55,7 @@ intents:
 - chitchat/puedes_ser_amiga
 - chitchat/residencia
 - chitchat/tengo_miedo
+- chitchat/como_puedes_ayudar
 # FAQ
 - faq
 - faq/porque_sintomas_yosolo_familia

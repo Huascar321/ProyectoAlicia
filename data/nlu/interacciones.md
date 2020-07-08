@@ -148,6 +148,7 @@
 - Pene
 - Chupamela
 - Chupala
+- Pinche
 
 ## intent:fuera_de_lugar
 - Pizza
@@ -265,3 +266,9 @@
 - Mi temor es
 - Me preocupa mucho esto
 - Me da miedo enfermarme
+
+## intent:chitchat/como_puedes_ayudar
+- Como puedes ayudarme?
+- Que puedes hacer?
+- Necesito ayuda
+- Que puedes hacer?
