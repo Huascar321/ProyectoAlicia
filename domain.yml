@@ -178,9 +178,9 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
-  - text: "Buenas noches! Mi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
-  - text: "Hola! Veo que estas despierto a estas horas, no te culpo yo tambien!. Soy Alicia y estoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "Buenas noches! Soy Alicia y estoy siempre despierta y lista para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Buenas noches! Mi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
+  - text: "Hola! Veo que estas despierto a estas horas, no te culpo yo tambien!. Soy Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Buenas noches! Soy Alicia y estoy siempre despierta y lista para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   utter_saludos_normal:
   - text: "Hey! Hola🙋🏽 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
     channel: "facebook"
@@ -493,8 +493,8 @@ responses:
         type: web_url
         url: https://bit.ly/31OuPzd
         title: "Whatsapp"
-  - text: "Obten una lista de numeros de Whatsapp por este link: \nhttps://bit.ly/31OuPzd \n¿Necesitas algo mas?"
-  - text: "Puedes obtener la lista de numeros de Whatsapp por este link \nhttps://bit.ly/31OuPzd \n¿Necesitas ayuda en algo mas?"
+  - text: "Obten una lista de numeros de Whatsapp por este link: \nhttps://huascar321.github.io/ \n¿Necesitas algo mas?"
+  - text: "Puedes obtener la lista de numeros de Whatsapp por este link \nhttps://huascar321.github.io/ \n¿Necesitas ayuda en algo mas?"
   utter_departamento_incorrecto:
   - text: "Lo siento no entendi el departamento, intenta escribirlo bien 🙌"
   - text: "Ay no te entendi, puedes escribirlo de nuevo porfis?"
