@@ -28,8 +28,8 @@ pipeline:
 policies:
   - name: MemoizationPolicy
   - name: TEDPolicy
-    max_history: 5
-    epochs: 100
+    #max_history: 5
+    epochs: 50
   - name: MappingPolicy
   #- name: "FallbackPolicy"
   #  nlu_threshold: 0.9
@@ -38,7 +38,7 @@ policies:
   #  fallback_action_name: 'action_default_fallback'
   - name: TwoStageFallbackPolicy
     nlu_threshold: 0.8
-    core_threshold: 0.8
-    fallback_core_action_name: "action_default_ask_affirmation"
-    fallback_nlu_action_name: "action_default_ask_affirmation"
+    #core_threshold: 0.8
+    #fallback_core_action_name: "action_default_ask_affirmation"
+    #fallback_nlu_action_name: "action_default_ask_affirmation"
     deny_suggestion_intent_name: "out_of_scope"

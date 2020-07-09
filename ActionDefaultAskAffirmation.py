@@ -31,7 +31,7 @@ class ActionDefaultAskAffirmation(Action):
            buttons = [{'title': 'Si',
                        'payload': '/{}'.format(last_intent_name)},
                       {'title': 'No',
-                       'payload': '/saludos'}]
+                       'payload': '/out_of_scope'}]
            dispatcher.utter_button_message(message, buttons=buttons)
        else:
            dispatcher.utter_message(template='utter_default')
