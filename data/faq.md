@@ -64,3 +64,21 @@
 ## tomar_antibioticos
 * faq/tomar_antibioticos
     - Hasta la fecha no existe ningun medicamento que haya demostrado prevenir o curar esta enfermedad, los tratamientos solo sirven para alivianar los sintomas. \nFUENTES: \nOMS - https://bit.ly/3gCUDCJ \n¿Tienes otra pregunta?
+
+## sintomas_covid
+* faq/sintomas_covid
+    - Los sintomas mas habituales son: fiebre, tos seca y cansancio \nOtros menos comunes son: Dolor de garganta, diarrea, conjuntivitis, dolor de cabeza y perdida del olfato o del gusto \nLos sintomas mas graves son: Dificultad para respirar o sensacion de falta de aire, dolor o presion en el pecho y incapacidad para hablar o moverse \n¿Tienes otra pregunta?
+
+## donde_donar_plasma
+* faq/donar_plastma
+    - De momento no podemos decirte donde puedes donar, sin embargo, puedes preguntar a tus amigos o familiares, de seguro alguno lo necesita! \n¿Alguna otra pregunta?
+
+## que_es_plasma
+* faq/que_es_plasma
+    - El plasma es el suero o porcion liquida que queda despues de que un individuo logra vencer la enfermedad, se extrae de pacientes curados que han desarrollado una respuesta inmune. No es la cura, pero funciona como terapia y salva vida \n¿Tienes otra pregunta?
+
+## tiempo_sobrevive_virus
+* faq/tiempo_sobrevive_virus
+    - En superficies como el plastico y acero inoxidable el virus puede sobrevivir
+      hasta 72 horas. En el carton dura 24 horas y entre uno a dos dias en la
+      ropa \n¿Alguna otra pregunta?

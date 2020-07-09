@@ -51,6 +51,13 @@
 - Haran seguimiendo de mi caso?
 - Los doctores haran seguimientos de mi caso?
 
+## intent:faq/sintomas_covid
+- cuales son los sintomas de la enfermedad?
+- cuales son los sintomas del covid?
+- sintomas
+- sintomas del coronavirus
+- sintomas de la enfermedad
+
 ## intent:faq/prueba_covid
 - Ustedes me pueden ayudar a que yo me pueda hacer una prueba de covid?
 - Donde me puedo hacer una prueba de covid?
@@ -126,3 +133,47 @@
 - Me puedo automedicar con ivermectina?
 - Me puedo automedicar con nitazoxanida?
 - Se puede tomar hidroxiclina?
+
+## intent:faq/donarPlasma
+- Donde puedo donar mi plasma?
+- Quiero donar mi plasma
+- Deseo donar mi plasma
+- Quiero dar mi plasma
+- Quiero ayudar con mi plasma
+- Quiero darle mi plasma a alguien
+
+## intent:faq/donde_donar_plasma
+- Donde puedo donar mi plasma?
+- Quiero donar mi plasma
+- Deseo donar mi plasma
+- Quiero dar mi plasma
+- Quiero ayudar con mi plasma
+- Quiero darle mi plasma a alguien
+
+## intent:faq/que_es_plasma
+- Que es el plasma?
+- Para que sirve el plasma?
+- El plasma puede curarme del coronavirus?
+- El plasma puede curarme del covid?
+- El plasma sirve contra el coronavirus?
+- El plasma sirve para curarme?
+- De que sirve el plasma?
+- Para que funciona el plasma?
+- Por que la gente busca plasma?
+- Que es el plasma hiperinmune?
+- plasma
+
+## intent:faq/tiempo_sobrevive_virus
+- Cuanto tiempo sobrevive el virus en una superficie?
+- Cuanto tiempo vive el coronavirus?
+- Tiempo de vida del coronavirus
+- Cuanto tiemo puede sobrevivir el virus afuera?
+- Cuanto tiempo vive el virus afuera?
+- Cuanto tiempo vive el virus en los productos
+- Cuanto tiempo vive el virus en un metal
+- Cuanto tiempo sobrevive el virus en el aire
+- Cuanto tiempo dura el virus en el carton
+- Cuanto tiempo dura el virus en la ropa
+- Cuanto sobrevive el virus en la ropa?
+- Cuanto sobrevive el virus?
+- Cuanto tiempo sobrevive el virus

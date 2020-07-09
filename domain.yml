@@ -75,6 +75,9 @@ intents:
 - faq/mosquitos_infectar
 - faq/cuanto_falta_para_vacuna_medicamento
 - faq/tomar_antibioticos
+- faq/donar_plasma
+- faq/que_es_plasma
+- faq/tiempo_sobrevive_virus
 entities:
 - departamento
 slots:
@@ -151,7 +154,7 @@ responses:
         title: "❓ Preguntas"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Hola!🙋🏽Espero que estes teniendo una excelente tarde. \n\nYo soy Alicia y estoy aqui para ayudarte en todo lo relacionado con el COVID-19😷 \nQue necesitas?"
+  - text: "Hola!🙋🏽Espero que estes teniendo una excelente tarde. \nYo soy Alicia y estoy aqui para ayudarte en todo lo relacionado con el COVID-19😷 \nQue necesitas?"
     channel: "facebook"
     quick_replies:
       - payload: "/pedirAsistencia"
@@ -164,7 +167,7 @@ responses:
         title: "❓ Preguntas"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenas tardes! Mi nombre es Alicia y quiero ayudarte\nQue necesitas?\n \n-Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
+  - text: "Buenas tardes! \nMi nombre es Alicia y quiero ayudarte\nQue necesitas?\n \n-Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
   - text: "Hola! Espero que estes teniendo una hermosa tarde, mi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   - text: "Hola! Estaba tomando mi tecito y empanadas pero estoy siempre lista para ayudarte. Mi nombre es Alicia\nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   utter_saludos_noches:
@@ -194,9 +197,9 @@ responses:
         title: "❓ Preguntas"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenas noches! Mi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
-  - text: "Hola! Veo que estas despierto a estas horas, no te culpo yo tambien!. Soy Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "Buenas noches! Soy Alicia y estoy siempre despierta y lista para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Buenas noches! \nMi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
+  - text: "Hola! Veo que estas despierto a estas horas, no te culpo yo tambien!. \nSoy Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Buenas noches! \nSoy Alicia y estoy siempre despierta y lista para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   utter_saludos_normal:
   - text: "Hey! Hola🙋🏽 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
     channel: "facebook"
