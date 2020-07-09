@@ -1,83 +1,76 @@
 ## intent:faq/porque_sintomas_yosolo_familia
-- Por que solo yo tengo los sintomas en mi familia y eso que estamos juntos en los primeros espacios?
-- Por que tengo sintomas y mi familia no aunque compartimos los mismos ambientes?
-- Solo yo tengo sintomas y mi familia no aunque compartimos los mismos espacios
+- Por que yo tengo sintomas y mi familia no?
+- Por que solo yo tengo sintomas pero no mi familia?
+- Por que mi familia esta sana pero yo enfermo?
+- Por que solo yo estoy enfermo pero no mi familia?
+- Tengo sintomas pero mi familia no
 
 ## intent:faq/porque_variosdias_sintomas_nocurar
-- Por que mas de 35 dias con sintomas y no me curo aunque estoy siguiendo la medicacion?
 - Por que no me curo por mas que sigo la medicacion?
-- Por que no me curo del covid por mas que segui todo el tratamiento?
-- Por que hace varios dias sigo con sintomas y no me curo aunque sigo la medicacion?
-- Llevo 40 dias con sintomas y no me curo aunque sigo la medicacion
+- Por que no puedo curarme por mas que segui el tratamiento?
+- Llevo varios con los dias y aun no me curo
+- Por que llevo tantos dias sin curarme?
+- Por que aun no me he curado?
+- Por que tardo en curarme?
+- Por que aun no me he curado?
 
 ## intent:faq/dioxidocloro_ayuda
-- El dioxido de cloro me ayuda a mejorar mis niveles de oxigeno?
 - El dioxido de cloro funciona?
 - El dioxido de cloro en verdad funciona?
 - El dioxido de cloro me cura?
 - El dioxido de cloro me cura del coronavirus?
 - El dioxido de cloro ayuda a combatir el coronavirus?
+- El dioxido de cloro ayuda a combatir la enfermedad?
 - El dioxido de cloro combate el covid?
 
-## intent:faq/brigadas_censo_noMedicamentos
-- Por que el municipio en las brigadas solo nos censa y luego no nos trae a los medicos ni los medicamentos que nos promete?
-- Por que las brigadas del municipio nos censan y no traen medicos ni medicamentos?
-- Por que las brigadas del municipio solo nos censan y no traen medicamentos ni medicos?
-- El municipio vino a mi casa pero nunca nos trajo los medicamentos
+## intent:faq/nosaber_covid
+- Como sabre si tenia covid?
+- Como se si tuve covid?
+- Como puedo saber si tuve covid?
+- Como puedo saber si estuve enfermo?
+- Como puedo saber si tuve coronavirus?
 
-## intent:faq/tomarmedicamentos_nosaber_covid
-- Si nunca me hacen la prueba y tomo los medicamentos que me trae el municipio nunca sabre en realidad si tuve covid u otra enfermedad parecida?
-- Si tomo medicamentos por precaución como sabre si tenia covid o no?
-- Si tomo los medicamentos que me trae el municipio comoo sabre si tenia covid o no?
-
-## intent:faq/sintomas_tomarencuenta_otraenfermedad
-- Que sintomas debo tomar en cuenta para saber que tengo covid y no otra enfermedad, como un resfrio comun u otra enfermedad?
-- Cuales son los sintomas a tomar en cuenta para saber que tengo covid?
-- Cuales son los sintomas mas comunes para saber si tengo covid?
-- Sintomas mas frecuentes para saber si tengo covid
-- Sintomas a tomar en cuenta para saber si tengo coronavirus
-
-## intent:faq/medicamentos_nomejora_hospital
-- Si ya me estoy tratando con medicamentos y no siento mejora cuando debo ir al hospital?
-- En que casos deberia ir al hospital?
-- Si ya me estoy tratando con remedio y no siento mejoria cuando debo ir al hospital?
+## intent:faq/nomejora_hospital
 - Cuando debo ir al hospital?
-- Deberia ir al hospital?
+- Cuando deberia ir al hospital?
+- Como se si tengo que ir al hospital?
 - Cuando tengo que ir al hospital?
+- Como se yo si tengo que ir al hospital?
+- Deberia ir al hospital?
 
 ## intent:faq/medico_atendio_seguimiento
-- El medico que me atendio por videollamada y me receto medicamentos hara un seguimiento de mi caso?
-- El doctor que me atendio hara algun seguimiento de mi caso
-- Haran seguimiendo de mi caso?
-- Los doctores haran seguimientos de mi caso?
+- El medico que me atendio hara seguimiento de mi caso?
+- Haran seguimiento de mi caso?
+- El doctor que me atendio hara algun seguimiento de mi caso?
+- Haran algun seguimiento de mi caso?
+- El doctor que me atendio va a seguir mi caso?
+- Van a seguir mi caso?
 
 ## intent:faq/sintomas_covid
-- cuales son los sintomas de la enfermedad?
-- cuales son los sintomas del covid?
-- sintomas
-- sintomas del coronavirus
-- sintomas de la enfermedad
+- Cuales son los sintomas de la enfermedad?
+- Cuales son los sintomas del covid?
+- Sintomas
+- Sintomas del coronavirus
+- Sintomas de la enfermedad
+- Es un sintoma del coronavirus?
 
 ## intent:faq/prueba_covid
-- Ustedes me pueden ayudar a que yo me pueda hacer una prueba de covid?
-- Donde me puedo hacer una prueba de covid?
-- Quiero hacerme una prueba de covid
-- Necesito hacerme una prueba de covid
-- Cuando y que tipo de prueba de covid me debo hacer?
+- Pueden ayudarme a hacerme una prueba?
+- Quiero hacerme una prueba?
+- Necesito hacerme una prueba?
 - Que tipo de prueba debo hacerme?
-- Que tipo de prueba deberia hacerme?
-- Deria hacerme la prueba rapida?
+- Deberia hacerme una prueba?
+- Puedo hacerme una prueba?
 
 ## intent:faq/distintas_pruebas
-- Por que existen distintas pruebas?
 - Cuantas pruebas existen?
-- Me puedes decir cuantas pruebas hay
+- Cuantos tipos de pruebas existen?
 - Cuantas pruebas hay?
+- Cuantos tipos de pruebas hay?
+- Cuales son las pruebas que existen
 
 ## intent:faq/ivermectina_sirve
 - La ivermectina sirve?
-- Que me dices de la ivermectina?
-- Que sabes de la ivermectina?
 - Funciona la ivermectina?
 - Como funciona la ivermectina?
 - Sabes algo de la ivermectina?
@@ -117,30 +110,22 @@
 - Ya hay vacuna?
 - Cuando sale la vacuna?
 - Cuanto tiempo tomara hacer la vacuna?
-- Que hay de la vacuna?
-- Que paso con la vacuna?
-- Hay algun medicamento para curarse del covid?
-- Existe algun remedio para curarse?
+- Falta mucho tiempo para la vacuna?
+- Falta mucho para la vacuna?
 
-## intent:faq/tomar_antibioticos
-- Se puede tomar antibioticos contra el covid?
-- Se puede tomar antiflamatorios?
-- Me puedo automedicar con ivermectina?
-- Puedo tomar ivermectina para combatir el covid?
-- Se puede tomar medicamentos para tratar el covid?
+## intent:faq/tomar_medicinas
+- Puedo tomar [medicina](medicina) contra la enfermedad?
+- Se puede tomar [antibioticos](medicina) contra el covid?
+- Se puede tomar [antiflamatorios](medicina)?
+- Me puedo automedicar?
+- Puedo tomar [ivermectina](medicina) para combatir el covid?
+- Se puede tomar [medicamentos](medicina) para tratar el covid?
 - Me automedico?
-- Es bueno que me automedique con ivermectina?
-- Me puedo automedicar con ivermectina?
-- Me puedo automedicar con nitazoxanida?
-- Se puede tomar hidroxiclina?
-
-## intent:faq/donarPlasma
-- Donde puedo donar mi plasma?
-- Quiero donar mi plasma
-- Deseo donar mi plasma
-- Quiero dar mi plasma
-- Quiero ayudar con mi plasma
-- Quiero darle mi plasma a alguien
+- Es bueno que me automedique con [ivermectina](medicina)?
+- Me puedo automedicar con [ivermectina](medicina)?
+- Me puedo automedicar con [nitazoxanida](medicina)?
+- Se puede tomar [hidroxiclina](medicina)?
+- Puedo tomar [ibuprofeno](medicina)?
 
 ## intent:faq/donde_donar_plasma
 - Donde puedo donar mi plasma?
@@ -159,7 +144,6 @@
 - El plasma sirve para curarme?
 - De que sirve el plasma?
 - Para que funciona el plasma?
-- Por que la gente busca plasma?
 - Que es el plasma hiperinmune?
 - plasma
 

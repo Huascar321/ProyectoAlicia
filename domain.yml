@@ -10,16 +10,19 @@ intents:
     triggers: utter_agradecer
 - insultos:
     triggers: utter_insultos
+- insultos2:
+    triggers: utter_insultos2
+- como_puedes_ayudar:
+    triggers: utter_desplegarMenu
 - afirmar
 - negar
 - quieroAyudar
 - mostrarCasos
 - mostrarCasos_solicitar
-- fuera_de_lugar
+- out_of_scope
 - pedirAsistencia
 - pedirDoctor_medibook
 - pedirDoctor_whatsapp
-- pedirAmbulancia
 - quieroAyudar_soyDoctor
 - tengoPreguntas
 - activarMenu
@@ -50,21 +53,17 @@ intents:
 - chitchat/cual_nombre
 - chitchat/preguntar_edad
 - chitchat/no_ayudas
-- chitchat/contactar
 - chitchat/eres_genial
 - chitchat/puedes_ser_amiga
 - chitchat/residencia
-- chitchat/tengo_miedo
-- chitchat/como_puedes_ayudar
 # FAQ
 - faq
 - faq/porque_sintomas_yosolo_familia
 - faq/porque_variosdias_sintomas_nocurar
 - faq/dioxidocloro_ayuda
-- faq/brigadas_censo_noMedicamentos
-- faq/tomarmedicamentos_nosaber_covid
+- faq/nosaber_covid
 - faq/sintomas_tomarencuenta_otraenfermedad
-- faq/medicamentos_nomejora_hospital
+- faq/nomejora_hospital
 - faq/medico_atendio_seguimiento
 - faq/prueba_covid
 - faq/cuanto_tipo_prueba
@@ -75,11 +74,13 @@ intents:
 - faq/mosquitos_infectar
 - faq/cuanto_falta_para_vacuna_medicamento
 - faq/tomar_antibioticos
-- faq/donar_plasma
+- faq/donde_donar_plasma
 - faq/que_es_plasma
 - faq/tiempo_sobrevive_virus
+- faq/sintomas_covid
 entities:
 - departamento
+- medicina
 slots:
   departamento:
     type: unfeaturized
@@ -98,7 +99,7 @@ responses:
         title: "❓ Preguntas"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenos dias!☀️ \nLas aves cantan y el cafe ya esta listo. Mi nombre es Alicia y estoy aqui para ayudarte"
+  - text: "Buenos dias!☀️ \nLas aves cantan y el cafe ya esta listo, Mi nombre es Alicia y estoy aqui para ayudarte"
     channel: "facebook"
     quick_replies:
       - payload: "/pedirAsistencia"
@@ -111,7 +112,7 @@ responses:
         title: "❓ Preguntas"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Hola! Soy Alicia, espero que estes teniendo un hermoso dia☀️ \n. Puedo ayudarte en las siguientes tareas:"
+  - text: "Hola! Soy Alicia, espero que estes teniendo un hermoso dia☀️ \nPuedo ayudarte en las siguientes tareas:"
     channel: "facebook"
     quick_replies:
       - payload: "/pedirAsistencia"
@@ -124,9 +125,9 @@ responses:
         title: "❓ Preguntas"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenos dias! Mi nombre es Alicia y estoy aqui para ayudarte contra el COVID-19. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
-  - text: "Buenos dias. Las aves cantan y el cafe ya esta listo. Soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "Hola! Mi nombre es Alicia y espero que estes teniendo un hermoso dia. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Buenos dias! \nMi nombre es Alicia y estoy aqui para ayudarte contra el COVID-19. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
+  - text: "Buenos dias! \nLas aves cantan y el cafe ya esta listo, soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Hola! \nMi nombre es Alicia y espero que estes teniendo un hermoso dia. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   utter_saludos_tardes:
   - text: "Hey! Buenas tardes 🌅 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
     channel: "facebook"
@@ -141,7 +142,7 @@ responses:
         title: "❓ Preguntas"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenas tardes!🙋🏽 Estaba tomando mi tecito y empanadas☕ \nPero estoy siempre lista para ayudarte. \n\nSoy Alicia el asistente que te ayuda contra el COVID-19 que necesitas?"
+  - text: "Buenas tardes!🙋🏽 Estaba tomando mi tecito y empanadas☕ \nPero estoy siempre lista para ayudarte \nSoy Alicia el asistente que te ayuda contra el COVID-19 que necesitas?"
     channel: "facebook"
     quick_replies:
       - payload: "/pedirAsistencia"
@@ -168,8 +169,8 @@ responses:
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
   - text: "Buenas tardes! \nMi nombre es Alicia y quiero ayudarte\nQue necesitas?\n \n-Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
-  - text: "Hola! Espero que estes teniendo una hermosa tarde, mi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "Hola! Estaba tomando mi tecito y empanadas pero estoy siempre lista para ayudarte. Mi nombre es Alicia\nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Hola! \nEspero que estes teniendo una hermosa tarde, mi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Hola! \nEstaba tomando mi tecito y empanadas pero estoy siempre lista para ayudarte, mi nombre es Alicia\nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   utter_saludos_noches:
   - text: "Hey! Buenas noches 🌙 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
     channel: "facebook"
@@ -198,8 +199,8 @@ responses:
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
   - text: "Buenas noches! \nMi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
-  - text: "Hola! Veo que estas despierto a estas horas, no te culpo yo tambien!. \nSoy Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "Buenas noches! \nSoy Alicia y estoy siempre despierta y lista para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Hola! \nOh! Veo que estas despierto a estas horas, no te culpo yo tambien! \nSoy Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Buenas noches! \nSoy Alicia, estoy siempre despierta y lista para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   utter_saludos_normal:
   - text: "Hey! Hola🙋🏽 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
     channel: "facebook"
@@ -227,7 +228,7 @@ responses:
         title: "❓ Preguntas"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Hola hola! Me alegro mucho de verte😊 Soy Alicia, tu asistente contra el COVID-19 y vengo para ayudarte. En que puedo serte util?"
+  - text: "Hola hola! Me alegro mucho de verte😊 Soy Alicia, tu asistente contra el COVID-19 y vengo para ayudarte \nEn que puedo serte util?"
     channel: "facebook"
     quick_replies:
       - payload: "/pedirAsistencia"
@@ -240,9 +241,9 @@ responses:
         title: "❓ Preguntas"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Hola! Mi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
-  - text: "Hola hola! Me alegro mucho de verte, yo soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "Saludos cordiales, mi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n-Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Hola! \nMi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
+  - text: "Hola hola!\n Me alegro mucho de verte, yo soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Saludos cordiales! \nMi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n-Saber como puedo *ayudar*\n- *Compartir* tu numero"
   utter_casos:
   - text: "¿De que departamento quieres saber? 👐🏼🇧🇴"
     channel: "facebook"
@@ -436,7 +437,7 @@ responses:
   utter_tengoPreguntas:
   - text: "¿Cual es tu pregunta? 😁"
   - text: "¿Cual es tu duda? 😊"
-  - text: "¿Que me deseas preguntarme?😊"
+  - text: "¿Que deseas preguntarme?😊"
   - text: "Todo oidos ¿cual es tu pregunta?😁"
   - text: "Cuentame ¿Cual es tu duda?😊"
   utter_desplegarMenu:
@@ -535,6 +536,8 @@ responses:
   - text: "Hieres mis sentimientos informaticos😢"
   - text: "Mi central de datos no puede procesar algo tan feo 😞"
   - text: "Hey no seas mal@, no puede llorar pero si pudiera... 😢"
+  utter_insultos2:
+  - text: "No me interesa tu anatomía"
   utter_pedirDoctor_whatsapp:
   - text: "Obten una lista de numeros de Whatsapp por este link: ⤵️"
     channel: "facebook"
@@ -550,14 +553,20 @@ responses:
         type: web_url
         url: https://bit.ly/31OuPzd
         title: "Whatsapp"
-  - text: "Obten una lista de numeros de Whatsapp por este link: \nhttps://huascar321.github.io/ \n¿Necesitas algo mas?"
-  - text: "Puedes obtener la lista de numeros de Whatsapp por este link \nhttps://huascar321.github.io/ \n¿Necesitas ayuda en algo mas?"
+  - text: "Obten una lista de numeros de Whatsapp por este link: \nhttps://bit.ly/2BRZ7qf \n¿Necesitas algo mas?"
+  - text: "Puedes obtener la lista de numeros de Whatsapp por este link \nhttps://bit.ly/2BRZ7qf \n¿Necesitas ayuda en algo mas?"
   utter_departamento_incorrecto:
   - text: "Lo siento no entendi el departamento, intenta escribirlo bien 🙌"
   - text: "Ay no te entendi, puedes escribirlo de nuevo porfis?"
   - text: "Perdon, creo que no te entendi muy bien, puedes repetirlo?"
   - text: "Creo que no te entendi, pudieras repetirlo porfis?"
   utter_default:
+  - text: "Intenta reformular tu pregunta 🙏 \nSi sigo fallando, tal vez no tenga esa pregunta en mi base de datos"
+    channel: "facebook"
+  - text: "Por favor, reformula tu pregunta 🙏 \nSi continuo fallando, tal vez no tenga esa pregunta en mi base de datos"
+    channel: "facebook"
+  - text: "Podrias ser mas especfico? 🙏 \nSi continuo fallando, tal vez no tenga esa pregunta en mi base de datos"
+    channel: "facebook"
   - text: "Lo siento, no entendi 😐 \n¿Podrias reformular lo que dijiste? 🙌"
   - text: "Creo que no pude entenderte 😥 \n¿Puedes ser mas especifico? 🙌🏼"
   - text: "Creo que no te he entendido bien 😓 \n¿Podrias ser mas claro? 🙏🏽"
@@ -565,12 +574,13 @@ responses:
   - text: "Ups, no entendi muy bien lo que dijiste 😨 \n¿Que quisiste decir?"
   - text: "Disculpa, no entendi lo que me dijiste 😥 \n¿Que quisiste decir?"
   utter_QuieroCompartir:
-  - text: "Comparte mi numero con el siguiente link: \nhttps://url2.cl/i6Pki"
+  - text: "Comparte mi numero con el siguiente link: \nhttps://wa.link/bd8pke"
     channel: "facebook"
-  - text: "Comparte mi numero con el siguiente link: \nhttps://url2.cl/i6Pki \n¿Necesitas algo mas?"
+  - text: "Comparte mi numero con el siguiente link: \nhttps://wa.link/bd8pke \n¿Necesitas algo mas?"
 actions:
 - actions_saludar
 - actions_mostrar_casos
 - actions_verificarCanal
+- action_default_ask_affirmation
 - respond_chitchat
 - respond_faq

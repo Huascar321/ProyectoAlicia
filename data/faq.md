@@ -10,23 +10,13 @@
 * faq/dioxidocloro_ayuda
     - El dioxido de cloro o "Solucion Mineral Milagrosa" no esta reconocido como medicamento e incluso su consumo pone en grave riesgo la salud \nFUENTES: \nMINSALUD - https://bit.ly/38C9afc \n¿Alguna otra pregunta?
 
-
-## brigadas_censo_noMedicamentos
-* faq/brigadas_censo_noMedicamentos
-    - La cantidad de medicos y medicamentos es limitada, solo se usan a pacientes graves que se encuentren internados en el hospital \n¿Tienes otra pregunta?
-
-## tomarmedicamentos_nosaber_covid
-* faq/tomarmedicamentos_nosaber_covid
+## nosaber_covid
+* faq/nosaber_covid
     -  El COVID-19 no se puede distinguir al 100% sin una prueba, sin embargo tiene sintomas distintivos como fiebre, tos, falta de aire o dificuldad para respirar. \nFUENTE: \nOMS - https://bit.ly/3gCUDCJ \n¿Necesitas algo mas?
 
-
-## sintomas_tomarencuenta_otraenfermedad
-* faq/sintomas_tomarencuenta_otraenfermedad
-    - Es facil confundir el COVID-19 con otra enfermedad, sin embargo los sintomas mas comunes son fiebre, tos, falta de aire o dificuldad para respirar. \nFUENTE: \nOMS - https://bit.ly/3gCUDCJ \n¿Tienes otra pregunta?
-
-## medicamentos_nomejora_hospital
-* faq/medicamentos_nomejora_hospital
-    - Si presenta fiebre o tos y respira con dificultad, sienta dolor u opresion en el pecho o se le dificulte hablar debe solictar atencion medica inmediatamente \n¿Necesitas algo mas?
+## nomejora_hospital
+* faq/nomejora_hospital
+    - Si respira con dificultad, sienta dolor u opresion en el pecho o se le dificulta el hablar, debe solictar atencion medica inmediatamente \n¿Necesitas algo mas?
 
 ## medico_atendio_seguimiento
 * faq/medico_atendio_seguimiento
@@ -34,7 +24,7 @@
 
 ## prueba_covid
 * faq/prueba_covid
-    - Existen dos tipos de pruebas \n- Las de diagnostico para mostrar una infeccion activa \n- Las de anticuerpos para verificar si ya tuvo COVID-19 \nFUENTES: \nOMS - https://bit.ly/38yCvH7 \n¿Tienes otra pregunta?
+    - Nosotros no podemos proporcionarte pruebas de deteccion, lo siento \n¿Tienes otra pregunta?
 
 ## distintas_pruebas
 * faq/distintas_pruebas
@@ -52,7 +42,6 @@
 * faq/contraerdenuevo_despues_de_enfermarse
     - Es un hecho muy poco probable, pero existen casos en que el coronavirus puede presentarse de nuevo en un paciente recuperado \nFUENTES: \nhttps://www.bbc.com/mundo/noticias-51942887 \n¿Alguna otra pregunta?
 
-
 ## mosquitos_infectar
 * faq/mosquitos_infectar
     - No, el contagio no puede ser a traves de mosquitos 🦟 \nFUENTES: \nOMS - https://bit.ly/3iDXQna \n¿Tienes otra pregunta?
@@ -61,24 +50,22 @@
 * faq/cuanto_falta_para_vacuna_medicamento
     - Si bien todas las potencias del mundo esta desarrollando distintas vacunas con distintos metodos, no se espera que ninguna se distribuya hasta inicios de 2021 \nFUENTE: \nLA TERCERA - https://bit.ly/3dZj7nW \n¿Alguna otra pregunta?
 
-## tomar_antibioticos
-* faq/tomar_antibioticos
-    - Hasta la fecha no existe ningun medicamento que haya demostrado prevenir o curar esta enfermedad, los tratamientos solo sirven para alivianar los sintomas. \nFUENTES: \nOMS - https://bit.ly/3gCUDCJ \n¿Tienes otra pregunta?
+## tomar_medicinas
+* faq/tomar_medicinas
+    - Lo siento, no puedo decirte que medicina puedes tomar \nPor favor, no te automediques, consultalo con un medico \n¿Tienes otra pregunta?
 
 ## sintomas_covid
 * faq/sintomas_covid
     - Los sintomas mas habituales son: fiebre, tos seca y cansancio \nOtros menos comunes son: Dolor de garganta, diarrea, conjuntivitis, dolor de cabeza y perdida del olfato o del gusto \nLos sintomas mas graves son: Dificultad para respirar o sensacion de falta de aire, dolor o presion en el pecho y incapacidad para hablar o moverse \n¿Tienes otra pregunta?
 
 ## donde_donar_plasma
-* faq/donar_plastma
+* faq/donde_donar_plasma
     - De momento no podemos decirte donde puedes donar, sin embargo, puedes preguntar a tus amigos o familiares, de seguro alguno lo necesita! \n¿Alguna otra pregunta?
 
 ## que_es_plasma
 * faq/que_es_plasma
-    - El plasma es el suero o porcion liquida que queda despues de que un individuo logra vencer la enfermedad, se extrae de pacientes curados que han desarrollado una respuesta inmune. No es la cura, pero funciona como terapia y salva vida \n¿Tienes otra pregunta?
+    - El plasma es el suero o porcion liquida que queda despues de que un individuo logra vencer la enfermedad, se extrae de pacientes curados que han desarrollado una respuesta inmune \nNo es la cura, pero funciona como terapia y salva vida \n¿Tienes otra pregunta?
 
 ## tiempo_sobrevive_virus
 * faq/tiempo_sobrevive_virus
-    - En superficies como el plastico y acero inoxidable el virus puede sobrevivir
-      hasta 72 horas. En el carton dura 24 horas y entre uno a dos dias en la
-      ropa \n¿Alguna otra pregunta?
+    - En superficies como el plastico y acero inoxidable el virus puede sobrevivir hasta 72 horas \nEn el carton dura 24 horas y en la ropa entre uno y dos dias \n¿Alguna otra pregunta?

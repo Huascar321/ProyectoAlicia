@@ -24,23 +24,16 @@
 - Adios
 - Chau
 - Hasta luego
-- Hasta la proxima
-- Nos vemos mañana
-- Vaya con dios
+- Nos vemos
 - Bye
-- Me retiro
-- Me voy
-- Me tengo que ir
 - Chaoo
 - Nos vemos
 - Bye bye
-- Que te vaya bien
 - Hasta pronto
 
 ## intent:afirmar
 - Si
 - Creo que si
-- Se
 - Claro
 - Correcto
 - Por supuesto
@@ -51,11 +44,6 @@
 - Ok
 - Okay
 - Obvio
-- Simon
-- Sipi
-- Yo diria que si
-- La verdad que si
-- Me parece que si
 - Exacto
 - Exactamente
 - Precisamente
@@ -63,7 +51,6 @@
 - Afirmativo
 - Bueno
 - Esta bien
-- Chi
 
 ## intent:negar
 - No
@@ -75,17 +62,10 @@
 - No creo
 - Nose
 - Ya no
-- Nop
-- Nope
 - Obvio que no
 - Segun yo no
 - Quizas no
-- Nega
-- Por supuesto que no
-- La verdad no
-- Para ser honesto no
 - No gracias
-- Do
 - En nada mas
 - Nada mas
 - Nada
@@ -113,7 +93,6 @@
 - Resolver mis preguntas
 - Quiero preguntar
 - Quiero saber
-- Menu de preguntas
 - Tengo preguntas
 - Quiero hacer una pregunta
 - Quiero que me respondan una duda
@@ -121,11 +100,8 @@
 - Resuelvanme una duda
 - Respondanme una pregunta
 - Quiero que me respondan una pregunta
-- Quiero una respuesta
 - Pregunto
-- Porfavor resuelvanme una duda
 - Una duda
-- ??
 
 ## intent:activarMenu
 - Quiero volver al menu
@@ -150,9 +126,21 @@
 - Chupala
 - Pinche
 
-## intent:fuera_de_lugar
+## intent:insultos2
+- Pene
+- Pichi
+- Verga
+- Pito
+- Polla
+
+## intent:out_of_scope
 - Pizza
 - Hamburguesa
+- Queso
+- Pan
+- Taxi
+- Leche
+- Vinagre
 
 ## intent:chitchat/eresRobot
 - Eres un robot?
@@ -205,31 +193,12 @@
 - Eres horrible
 - No me estas siendo util
 
-## intent:chitchat/contactar
-- Como contacto a tus creadores?
-- Quiero hablar con tus creadores
-- Como contacto a tus jefes?
-- Quiero hablar con tus jefes
-- Me quiero comunicar con quien te creo
-- Quiero hablar con quien te creo
-- Como contacto a quien te creo?
-- Necesito hablar con tus creadores
-- Necesito comunicarme con quien te creo
-- Necesito comunicarme con tus jefes
-- Necesito comunicarme con quienes te crearon
-- Tengo que hablar con tus jefes
-- Tengo que hablar con tus creadores
-- Tengo que hablar con quien te creo
-
 ## intent:chitchat/eres_genial
 - Eres genial
 - Eres la mejor
 - Eres asombrosa
-- Que la joda que sos
 - Eres la joda
-- Pareces un humano
 - Eres increible
-- Fuiste de mucha ayuda
 
 ## intent:chitchat/puedes_ser_amiga
 - Se mi amiga
@@ -245,30 +214,13 @@
 - Donde vives?
 - De donde eres?
 - Donde fuiste creada?
-- En que ciudad fuiste creada?
-- En que departamento fuiste creada?
-- Fuiste creada en Bolivia?
 - Eres boliviana?
 - De donde provienes?
 - Cual es tu casa?
 
-## intent:chitchat/tengo_miedo
-- Tengo miedo
-- Tengo mucho miedo
-- No se que hacer
-- Me da miedo lo que esta pasando
-- Me da terror todo esto
-- Tengo demasiado miedo
-- Estoy preocupado
-- Debo temerle al coronavirus?
-- Debo estar asustado?
-- Debo asustarme?
-- Mi temor es
-- Me preocupa mucho esto
-- Me da miedo enfermarme
-
-## intent:chitchat/como_puedes_ayudar
+## intent:como_puedes_ayudar
 - Como puedes ayudarme?
 - Que puedes hacer?
 - Necesito ayuda
 - Que puedes hacer?
+- Quiero ayuda

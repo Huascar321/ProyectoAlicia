@@ -20,25 +20,23 @@
 - Medica
 - Medico
 - Asistencia medica por favor
-
-## intent:pedirDoctor_medibook
-- cita medica
 - Quiero agendar una cita
-- Prefiero una cita medica
-- Mejor una cita medica
-- Mejor una cita con medibook
-- Como es la cita medica?
-- Como seria la cita medica?
-- Prefiero una cita con un doctor
-- Como es la cita con medibook?
-- Necesito un doctor de medibook
-- Cita con doctor
+- Cita medica online
 - Agendar cita
 - Agendar cita online
-- Cita medica online
+- Cita con doctor
 - Quiero cita medica
+
+## intent:pedirDoctor_medibook
+- Quiero agendar una cita con medibook
+- Prefiero una cita medica con medibook
+- Mejor una cita con medibook
+- Como es la cita con medibook?
+- Necesito un doctor de medibook
+- Cita medica online
 - Cita medibook
-- Cita con un doctor online
+- Cita con un doctor online en medibook
+- Medibook
 
 ## intent:pedirDoctor_whatsapp
 - WhatsApp
@@ -62,11 +60,4 @@
 - Un doctor por wasap
 - Quiero un doctor por WhatsApp
 - Consulta por WA
-
-## intent:pedirAmbulancia
-- Requiero una ambulancia
-- Requiero la atencion de una ambulancia
-- Necesito una ambulancia
-- Quiero pedir una ambulancia
-- Pedir ambulancia
-- Necesito la atencion de una ambulancia
+- La quiero por whatsapp

@@ -7,6 +7,7 @@ from rasa_sdk.events import FollowupAction, UserUtteranceReverted, AllSlotsReset
 from rasa_sdk.events import ActionExecuted
 #Nuevos
 from fechaHora import *
+from ActionDefaultAskAffirmation import *
 #Librerias para usar csv
 from urllib.request import urlopen
 import json
@@ -90,7 +91,7 @@ class mostrarCasos(Action):
                     dispatcher.utter_message(template='utter_preguntarOtrosCasos')
 
                 else:
-                    dispatcher.utter_message(text="En Bolivia hay: *"+ str(nroConfirmados) +"* confirmados* 🧪, *"+ str(nroFallecidos)+"* decesos 📉 y *"+str(nroRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?")
+                    dispatcher.utter_message(text="En Bolivia hay: *"+ str(nroConfirmados) +"* confirmados* 🧪 \n*"+ str(nroFallecidos)+"* decesos 📉 \n*"+str(nroRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?")
 
                 return[SlotSet("departamento", None)]
 
