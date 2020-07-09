@@ -8,6 +8,7 @@
 - Casos en [La Paz](departamento)
 - Casos en [Oruro](departamento)
 - Casos en [Potosi](departamento)
+- Casos en [Bolivia](departamento)
 - [santa cruz](departamento)
 - [beni](departamento)
 - [pando](departamento)
@@ -24,6 +25,8 @@
 - [sucre]{"entity": "departamento", "value": "Chuquisaca"}?
 - [sc]{"entity": "departamento", "value": "Santa Cruz"}
 - [pando]{"entity": "departamento", "value": "Pando"}
+- [volivia]{"entity": "departamento", "value": "bolivia"}
+- [bolibia]{"entity": "departamento", "value": "bolivia"}
 - [Potosí]{"entity": "departamento", "value": "Potosi"}
 - [potosí]{"entity": "departamento", "value": "Potosi"}
 - [cocha]{"entity": "departamento", "value": "Cochabamba"}

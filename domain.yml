@@ -6,7 +6,7 @@ intents:
     triggers: actions_saludar
 - despedidas:
     triggers: utter_despedirse
-- Agradecer:
+- agradecer:
     triggers: utter_agradecer
 - insultos:
     triggers: utter_insultos
@@ -22,7 +22,6 @@ intents:
 - pedirAmbulancia
 - quieroAyudar_soyDoctor
 - tengoPreguntas
-- agradecer
 - activarMenu
 # PREGUNTAS FRECUENTES
 - porque_sintomas_yosolo_familia
@@ -43,6 +42,7 @@ intents:
 - cuanto_falta_para_vacuna_medicamento
 - tomar_antibioticos
 - quieroAyudar_soyNinguno
+- QuieroCompartir
 # CHIT CHATS
 - chitchat
 - chitchat/eresRobot
@@ -93,6 +93,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "Buenos dias!☀️ \nLas aves cantan y el cafe ya esta listo. Mi nombre es Alicia y estoy aqui para ayudarte"
     channel: "facebook"
     quick_replies:
@@ -104,6 +106,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "Hola! Soy Alicia, espero que estes teniendo un hermoso dia☀️ \n. Puedo ayudarte en las siguientes tareas:"
     channel: "facebook"
     quick_replies:
@@ -115,6 +119,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "Buenos dias! Mi nombre es Alicia y estoy aqui para ayudarte contra el COVID-19. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
   - text: "Buenos dias. Las aves cantan y el cafe ya esta listo. Soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   - text: "Hola! Mi nombre es Alicia y espero que estes teniendo un hermoso dia. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
@@ -130,6 +136,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "Buenas tardes!🙋🏽 Estaba tomando mi tecito y empanadas☕ \nPero estoy siempre lista para ayudarte. \n\nSoy Alicia el asistente que te ayuda contra el COVID-19 que necesitas?"
     channel: "facebook"
     quick_replies:
@@ -141,6 +149,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "Hola!🙋🏽Espero que estes teniendo una excelente tarde. \n\nYo soy Alicia y estoy aqui para ayudarte en todo lo relacionado con el COVID-19😷 \nQue necesitas?"
     channel: "facebook"
     quick_replies:
@@ -152,6 +162,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "Buenas tardes! Mi nombre es Alicia y quiero ayudarte\nQue necesitas?\n \n-Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
   - text: "Hola! Espero que estes teniendo una hermosa tarde, mi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   - text: "Hola! Estaba tomando mi tecito y empanadas pero estoy siempre lista para ayudarte. Mi nombre es Alicia\nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
@@ -167,6 +179,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "Buenas noches!🌙 \nMi nombre es Alicia y estoy siempre despierta para ayudarte🦉\nQue necesitas?"
     channel: "facebook"
     quick_replies:
@@ -178,6 +192,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "Buenas noches! Mi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
   - text: "Hola! Veo que estas despierto a estas horas, no te culpo yo tambien!. Soy Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   - text: "Buenas noches! Soy Alicia y estoy siempre despierta y lista para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
@@ -193,6 +209,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "Saludos cordiales\n Mi nombre es Alicia y soy tu asistente para ayudarte contra el COVID-19\n Puedo realizar las siguientes tareas:"
     channel: "facebook"
     quick_replies:
@@ -204,6 +222,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "Hola hola! Me alegro mucho de verte😊 Soy Alicia, tu asistente contra el COVID-19 y vengo para ayudarte. En que puedo serte util?"
     channel: "facebook"
     quick_replies:
@@ -215,6 +235,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "Hola! Mi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero" #Rellenar aqui
   - text: "Hola hola! Me alegro mucho de verte, yo soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   - text: "Saludos cordiales, mi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n-Saber como puedo *ayudar*\n- *Compartir* tu numero"
@@ -228,6 +250,8 @@ responses:
         title: 'La Paz'
       - payload: '/mostrarCasos{"departamento": "cochabamba"}'
         title: 'Cochabamba'
+      - payload: '/mostrarCasos{"departamento": "beni"}'
+        title: 'Beni'
       - payload: '/mostrarCasos{"departamento": "chuquisaca"}'
         title: 'Chuquisaca'
       - payload: '/mostrarCasos{"departamento": "tarija"}'
@@ -236,6 +260,10 @@ responses:
         title: 'Oruro'
       - payload: '/mostrarCasos{"departamento": "potosi"}'
         title: 'Potosi'
+      - payload: '/mostrarCasos{"departamento": "pando"}'
+        title: 'Pando'
+      - payload: '/mostrarCasos{"departamento": "bolivia"}'
+        title: 'Bolivia en general'
   - text: "¿Cual departamento de Bolvia deseas saber?🤔"
     channel: "facebook"
     quick_replies:
@@ -245,6 +273,8 @@ responses:
         title: 'La Paz'
       - payload: '/mostrarCasos{"departamento": "cochabamba"}'
         title: 'Cochabamba'
+      - payload: '/mostrarCasos{"departamento": "beni"}'
+        title: 'Beni'
       - payload: '/mostrarCasos{"departamento": "chuquisaca"}'
         title: 'Chuquisaca'
       - payload: '/mostrarCasos{"departamento": "tarija"}'
@@ -253,6 +283,10 @@ responses:
         title: 'Oruro'
       - payload: '/mostrarCasos{"departamento": "potosi"}'
         title: 'Potosi'
+      - payload: '/mostrarCasos{"departamento": "pando"}'
+        title: 'Pando'
+      - payload: '/mostrarCasos{"departamento": "bolivia"}'
+        title: 'Bolivia en general'
   - text: "¿Que departamento te gustaria saber?📍🇧🇴"
     channel: "facebook"
     quick_replies:
@@ -262,6 +296,8 @@ responses:
         title: 'La Paz'
       - payload: '/mostrarCasos{"departamento": "cochabamba"}'
         title: 'Cochabamba'
+      - payload: '/mostrarCasos{"departamento": "beni"}'
+        title: 'Beni'
       - payload: '/mostrarCasos{"departamento": "chuquisaca"}'
         title: 'Chuquisaca'
       - payload: '/mostrarCasos{"departamento": "tarija"}'
@@ -270,6 +306,10 @@ responses:
         title: 'Oruro'
       - payload: '/mostrarCasos{"departamento": "potosi"}'
         title: 'Potosi'
+      - payload: '/mostrarCasos{"departamento": "pando"}'
+        title: 'Pando'
+      - payload: '/mostrarCasos{"departamento": "bolivia"}'
+        title: 'Bolivia en general'
   - text: "Dime el departamento del cual te interesaria saber 👐🏼"
     channel: "facebook"
     quick_replies:
@@ -279,6 +319,8 @@ responses:
         title: 'La Paz'
       - payload: '/mostrarCasos{"departamento": "cochabamba"}'
         title: 'Cochabamba'
+      - payload: '/mostrarCasos{"departamento": "beni"}'
+        title: 'Beni'
       - payload: '/mostrarCasos{"departamento": "chuquisaca"}'
         title: 'Chuquisaca'
       - payload: '/mostrarCasos{"departamento": "tarija"}'
@@ -287,6 +329,10 @@ responses:
         title: 'Oruro'
       - payload: '/mostrarCasos{"departamento": "potosi"}'
         title: 'Potosi'
+      - payload: '/mostrarCasos{"departamento": "pando"}'
+        title: 'Pando'
+      - payload: '/mostrarCasos{"departamento": "bolivia"}'
+        title: 'Bolivia en general'
   - text: "¿De que departamento deseas saber? 🤔"
   - text: "Dime el departamento del cual te interesaria saber 👐🏼"
   - text: "¿De que departamento quieres saber? 👐"
@@ -402,6 +448,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "Te puedo ayudar en algo mas?😁"
     channel: "facebook"
     quick_replies:
@@ -413,6 +461,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "En que mas puedo servirte?😊"
     channel: "facebook"
     quick_replies:
@@ -424,6 +474,8 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
   - text: "Hay algo en lo que pueda seguir ayudandote? ☺️"
     channel: "facebook"
     quick_replies:
@@ -435,10 +487,12 @@ responses:
         title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
-  - text: "¿En que mas te puedo ayudar? \n- Pedir *asistencia* medica \n- Mostrarte los *casos* en el pais \n- Quiero *ayudar* \n- Tengo *preguntas* acerca del COVID-19"
-  - text: "Te puedo ayudar en algo mas? \n- Pedir *asistencia* medica \n- Mostrarte los *casos* en el pais \n- Quiero *ayudar* \n- Tengo *preguntas* acerca del COVID-19"
-  - text: "En que mas puedo servirte? \n- Pedir *asistencia* medica \n- Mostrarte los *casos* en el pais \n- Quiero *ayudar* \n- Tengo *preguntas* acerca del COVID-19"
-  - text: "Hay algo en lo que pueda seguir ayudandote? \n- Pedir *asistencia* medica \n- Mostrarte los *casos* en el pais \n- Quiero *ayudar* \n- Tengo *preguntas* acerca del COVID-19"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
+  - text: "¿En que mas te puedo ayudar? \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Te puedo ayudar en algo mas? \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "En que mas puedo servirte? \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "Hay algo en lo que pueda seguir ayudandote? \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   utter_pregunta:
   - text: "Ok no hay problema \n¿Tienes alguna otra pregunta?"
   - text: "Ok no te preocupes \n¿Tienes alguna otra pregunta?"
@@ -457,11 +511,11 @@ responses:
   - text: "\nIngrese al siguiente enlace: \nhttps://bit.ly/RegistroDeDoctores \n¿En que mas puedo ayudarte?" #Sinonimo solo en el ¿Necesitas algo mas?
   utter_despedirse:
   - text: "Chau! No olvides recomendarme a tus familiares 👩🏽"
-  - text: "Bye! No olvides compartir con tus amigos, saludos!😘"
+  - text: "Bye! No olvides compartirme con tus amigos, saludos!😘"
   - text: "Hasta luego! comparte con tus amigos y familiares ☺️"
   - text: "Nos vemos, No olvides recomendarme a tus amigos y familiares, cuidate mucho ☺️"
-  - text: "Hasta pronto! cuidate mucho y no olvides compartir 😘"
-  - text: "Chau, nos vemos!! No olvides compartir para llegar a mas personas 😁"
+  - text: "Hasta pronto! cuidate mucho y no olvides compartirme 😘"
+  - text: "Chau, nos vemos!! No olvides compartirme para llegar a mas personas 😁"
   - text: "Un gusto, hasta luego. Comparte con tus amigos para ayudar a mas personas ☺️"
   utter_agradecer:
   - text: "De nada! Me alegra haberte sido de ayuda 😊"
@@ -507,6 +561,10 @@ responses:
   - text: "No te entendi correctamente 😕 \n¿Que intentaste decir?"
   - text: "Ups, no entendi muy bien lo que dijiste 😨 \n¿Que quisiste decir?"
   - text: "Disculpa, no entendi lo que me dijiste 😥 \n¿Que quisiste decir?"
+  utter_QuieroCompartir:
+  - text: "Comparte mi numero con el siguiente link: \nhttps://url2.cl/i6Pki"
+    channel: "facebook"
+  - text: "Comparte mi numero con el siguiente link: \nhttps://url2.cl/i6Pki \n¿Necesitas algo mas?"
 actions:
 - actions_saludar
 - actions_mostrar_casos

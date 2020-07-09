@@ -93,16 +93,16 @@
 ## intent:agradecer
 - Gracias
 - Muchas gracias
-- Me siento mas tranquila ahora
 - Te lo agradezco
-- Buen trabajo
-- Bien hecho
 - Se le agradece
 - Muchisimas gracias
-- Entiendo, gracias
 - Si gracias
-- Thanks
-- Muchas thanks
+
+## intent:QuieroCompartir
+- Quiero compartir su numero
+- Quiero compartir
+- Compartir
+- Compartir su contacto
 
 ## intent:tengoPreguntas
 - Tengo una pregunta
