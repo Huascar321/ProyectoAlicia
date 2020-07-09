@@ -369,9 +369,9 @@ responses:
         title: 'Tengo otra pregunta'
       - payload: '/negar'
         title: 'Eso es todo'
-  - text: "¿Quieres saber los casos de otro departamento o tienes otra pregunta? \n- Otro departamento \n- Tengo otra pregunta"
-  - text: "¿Deseas ver los datos de otro departamento o deseas consultar algo mas? \n- Otro departamento \n- Tengo otra pregunta"
-  - text: "Te puedo mostrar los datos de otros departementos o tienes una pregunta diferente? \n- Otro departamento \n- Tengo otra pregunta"
+  - text: "¿Quieres saber los casos de otro *departamento* o tienes otra *pregunta*?"
+  - text: "¿Deseas ver los datos de otro *departamento* o deseas *preguntar* algo mas?"
+  - text: "Te puedo mostrar los datos de otros *departementos* o tienes una *pregunta* diferente?"
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg #Ignorar
     text: 'Here is something to cheer you up:' #Ignorar
