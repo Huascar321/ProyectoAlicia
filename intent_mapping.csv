@@ -1,0 +1,42 @@
+saludos,Hola
+despedidas,Chau
+afirmar,Claro
+negar,No estoy seguro
+agradecer,Gracias
+QuieroCompartir,Quiero compartir su numero
+tengoPreguntas,Tengo una duda
+activarMenu,Quiero volver al menu
+chitchat/eresRobot,Eres un robot?
+chitchat/quien_jefe,Quien es tu jefe?
+chitchat/cual_nombre,Cual es tu nombre?
+chitchat/preguntar_edad,Que edad tienes?
+chitchat/no_ayudas,No me estas ayudando
+chitchat/eres_genial,Eres genial
+chitchat/puedes_ser_amiga,Podemos ser amigos?
+chitchat/residencia,Donde vives
+chitchat/como_puedes_ayudar,Como puedes ayudarme
+mostrarCasos,Casos en Santa Cruz
+mostrarCasos_solicitar,Quiero saber los casos
+pedirAsistencia,Quiero asistencia medica
+pedirDoctor_medibook,Quiero agendar con Medibook
+pedirDoctor_whatsapp,Quiero agendar por Whatsapp
+faq/porque_sintomas_yosolo_familia,Por que tengo sintomas y mi familia no, aunque compartimos los mismos ambientes
+faq/porque_variosdias_sintomas_nocurar,Por que no me curo por mas que sigo la medicacion
+faq/dioxidocloro_ayuda,El dioxido de cloro funciona
+faq/nosaber_covid,Como sabre si tenia covid
+faq/nomejora_hospital,Estoy tomando medicamentos y no mejoro
+faq/medico_atendio_seguimiento,El medico que me atendio hara seguimiento de mi caso
+faq/sintomas_covid,Cuales son los sintomas del covid
+faq/prueba_covid,Quiero hacerme una prueba de covid
+faq/distintas_pruebas,Cuantas pruebas existen
+faq/ivermectina_sirve,La ivermectina sirve
+faq/calor_mata_virus,El calor mata al virus
+faq/contraerdenuevo_despues_de_enfermarse,Puedo contraer la enfermedad otra vez si ya me cure
+faq/mosquitos_infectar,Los mosquitos pueden infectarte
+faq/cuanto_falta_para_vacuna_medicamento,Cuanto falta para la vacuna
+faq/tomar_medicinas,Se puede tomar antibioticos
+faq/donde_donar_plasma,Donde puedo donar mi plasma
+faq/que_es_plasma,Que es el plasma hiperinmune
+faq/tiempo_sobrevive_virus,Cuanto tiempo sobrevive el virus en la superficie?
+quieroAyudar,Me gustaria ayudar
+quieroAyudar_soyDoctor,Soy doctor
