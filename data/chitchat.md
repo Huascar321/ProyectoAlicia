@@ -22,9 +22,6 @@
 * chitchat/eres_genial
     - Gracias! Me encantan los cumplidos 😊
 
-## puedes_ser_amiga
-* chitchat/puedes_ser_amiga
-    - Claro! Me encanta hacer nuevos amigos 😁
 
 ## residencia
 * chitchat/residencia

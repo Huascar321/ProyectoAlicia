@@ -5,10 +5,10 @@
 - Buenos dias
 - Buenas tardes
 - Buenas
-- Alicia
-- Hola Alicia
+- [Alicia](nombre_alicia)
+- Hola [Alicia](nombre_alicia)
 - Oye
-- Oye Alicia
+- Oye [Alicia](nombre_alicia)
 - Buenas noches
 - Alo
 - Saludos
@@ -121,7 +121,6 @@
 - Pendejo
 - Perra
 - Polfa
-- Pene
 - Chupamela
 - Chupala
 - Pinche
@@ -191,7 +190,7 @@
 - Eres la joda
 - Eres increible
 
-## intent:chitchat/puedes_ser_amiga
+## intent:CHITCHAT_puedes_ser_amiga
 - Se mi amiga
 - Necesito una amiga
 - Quieres ser mi amiga?

@@ -33,7 +33,6 @@
 - Mejor una cita con medibook
 - Como es la cita con medibook?
 - Necesito un doctor de medibook
-- Cita medica online
 - Cita medibook
 - Cita con un doctor online en medibook
 - Medibook

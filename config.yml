@@ -1,6 +1,6 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
+language: "es"  # your two-letter language code
 pipeline:
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
@@ -19,14 +19,14 @@ pipeline:
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
-  - name: MemoizationPolicy
+  - name: AugmentedMemoizationPolicy
   - name: TEDPolicy
     max_history: 5
     epochs: 100
   - name: MappingPolicy
   - name: "FallbackPolicy"
-    nlu_threshold: 0.8
-    core_threshold: 0.8
+    nlu_threshold: 0.85
+    core_threshold: 0.85
     fallback_action_name: "action_default_fallback"
   #- name: TwoStageFallbackPolicy
   #  nlu_threshold: 0.8

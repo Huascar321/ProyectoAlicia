@@ -1,0 +1,567 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "saludos",
+        "text": "Oye Alicia"
+      },
+      {
+        "intent": "saludos",
+        "text": "Hey"
+      },
+      {
+        "intent": "saludos",
+        "text": "Hola Alicia"
+      },
+      {
+        "intent": "saludos",
+        "text": "Que tal"
+      },
+      {
+        "intent": "despedidas",
+        "text": "Hasta luego"
+      },
+      {
+        "intent": "despedidas",
+        "text": "Nos vemos"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Bueno"
+      },
+      {
+        "intent": "afirmar",
+        "text": "De acuerdo"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Perfecto"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Ok"
+      },
+      {
+        "intent": "negar",
+        "text": "En nada mas"
+      },
+      {
+        "intent": "negar",
+        "text": "No estoy seguro"
+      },
+      {
+        "intent": "negar",
+        "text": "Negativo"
+      },
+      {
+        "intent": "negar",
+        "text": "Nose"
+      },
+      {
+        "intent": "agradecer",
+        "text": "Te lo agradezco"
+      },
+      {
+        "intent": "agradecer",
+        "text": "Gracias"
+      },
+      {
+        "intent": "QuieroCompartir",
+        "text": "Quiero compartir su numero"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Resolver mis preguntas"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Respondanme una pregunta"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Hacer una pregunta"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Quiero hacer una pregunta"
+      },
+      {
+        "intent": "activarMenu",
+        "text": "Quiero volver al menu"
+      },
+      {
+        "intent": "insultos",
+        "text": "Carajo"
+      },
+      {
+        "intent": "insultos",
+        "text": "Pendejo"
+      },
+      {
+        "intent": "insultos",
+        "text": "Puta"
+      },
+      {
+        "intent": "insultos",
+        "text": "Perra"
+      },
+      {
+        "intent": "insultos2",
+        "text": "Pichi"
+      },
+      {
+        "intent": "chitchat/eresRobot",
+        "text": "Eres un chatbot?"
+      },
+      {
+        "intent": "chitchat/eresRobot",
+        "text": "Eres un humano?"
+      },
+      {
+        "intent": "chitchat/quien_jefe",
+        "text": "Quien te programo?"
+      },
+      {
+        "intent": "chitchat/preguntar_edad",
+        "text": "Eres mayor de edad?"
+      },
+      {
+        "intent": "chitchat/residencia",
+        "text": "Eres boliviana?"
+      },
+      {
+        "intent": "chitchat/cual_nombre",
+        "text": "Como es tu nombre?"
+      },
+      {
+        "intent": "chitchat/eres_genial",
+        "text": "Eres la joda"
+      },
+      {
+        "intent": "chitchat/eresRobot",
+        "text": "Que eres?"
+      },
+      {
+        "intent": "chitchat/eresRobot",
+        "text": "Eres un bot?"
+      },
+      {
+        "intent": "chitchat/quien_jefe",
+        "text": "Quien es tu creador?"
+      },
+      {
+        "intent": "chitchat/puedes_ser_amiga",
+        "text": "Quieres ser mi amiga?"
+      },
+      {
+        "intent": "chitchat/quien_jefe",
+        "text": "Quien es tu jefe?"
+      },
+      {
+        "intent": "como_puedes_ayudar",
+        "text": "Que puedes hacer?"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "potosi",
+            "entity": "departamento"
+          }
+        ],
+        "text": "potosi"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Cochabamba",
+            "entity": "departamento"
+          }
+        ],
+        "text": "cbba"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Potosi",
+            "entity": "departamento"
+          }
+        ],
+        "text": "potosí"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Cochabamba",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Cocha"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "oruro",
+            "entity": "departamento"
+          }
+        ],
+        "text": "oruro"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "bolivia",
+            "entity": "departamento"
+          }
+        ],
+        "text": "volivia"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Pando",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Casos en Pando"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "chuquisaca",
+            "entity": "departamento"
+          }
+        ],
+        "text": "chuquisaca"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Potosi",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Potosí"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Casos a nivel Bolivia"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Quiero ver los casos"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Me gustaria saber los casos de otro departamento"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Alguien necesita asistencia medica"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Dame asistencia medica"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Requiero asistencia medica"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Agendar cita"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Me gustaria asistencia medica"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Medico"
+      },
+      {
+        "intent": "pedirDoctor_medibook",
+        "text": "Como es la cita con medibook?"
+      },
+      {
+        "intent": "pedirDoctor_medibook",
+        "text": "Necesito un doctor de medibook"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Un doctor por wasap"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Prefiero solo mensajes"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "WhatsApp esta bien"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Una consulta por WA"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "WhatsApp"
+      },
+      {
+        "intent": "faq/cuanto_falta_para_vacuna_medicamento",
+        "text": "Ya hay vacuna?"
+      },
+      {
+        "intent": "faq/contraerdenuevo_despues_de_enfermarse",
+        "text": "Quedo inmune si ya me dio coronavirus?"
+      },
+      {
+        "intent": "faq/prueba_covid",
+        "text": "Necesito hacerme una prueba?"
+      },
+      {
+        "intent": "faq/que_es_plasma",
+        "text": "Que es el plasma hiperinmune?"
+      },
+      {
+        "intent": "faq/sintomas_covid",
+        "text": "Sintomas de la enfermedad"
+      },
+      {
+        "intent": "faq/calor_mata_virus",
+        "text": "El virus muere con altas temperaturas?"
+      },
+      {
+        "intent": "faq/medico_atendio_seguimiento",
+        "text": "El medico que me atendio hara seguimiento de mi caso?"
+      },
+      {
+        "intent": "faq/calor_mata_virus",
+        "text": "Las altas temperaturas matan el virus?"
+      },
+      {
+        "intent": "faq/nomejora_hospital",
+        "text": "Cuando tengo que ir al hospital?"
+      },
+      {
+        "intent": "faq/tomar_medicinas",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "hidroxiclina",
+            "entity": "medicina"
+          }
+        ],
+        "text": "Se puede tomar hidroxiclina?"
+      },
+      {
+        "intent": "faq/ivermectina_sirve",
+        "text": "La ivermectina ayuda?"
+      },
+      {
+        "intent": "faq/nomejora_hospital",
+        "text": "Como se yo si tengo que ir al hospital?"
+      },
+      {
+        "intent": "faq/nosaber_covid",
+        "text": "Como sabre si tenia covid?"
+      },
+      {
+        "intent": "faq/cuanto_falta_para_vacuna_medicamento",
+        "text": "Falta mucho para la vacuna?"
+      },
+      {
+        "intent": "faq/medico_atendio_seguimiento",
+        "text": "El doctor que me atendio hara algun seguimiento de mi caso?"
+      },
+      {
+        "intent": "faq/mosquitos_infectar",
+        "text": "Los mosquitos pueden transmitir el virus?"
+      },
+      {
+        "intent": "faq/donde_donar_plasma",
+        "text": "Quiero ayudar con mi plasma"
+      },
+      {
+        "intent": "faq/contraerdenuevo_despues_de_enfermarse",
+        "text": "Quedo inmune si ya me dio covid?"
+      },
+      {
+        "intent": "faq/distintas_pruebas",
+        "text": "Cuantas pruebas hay?"
+      },
+      {
+        "intent": "faq/distintas_pruebas",
+        "text": "Cuantas pruebas existen?"
+      },
+      {
+        "intent": "faq/ivermectina_sirve",
+        "text": "Como funciona la ivermectina?"
+      },
+      {
+        "intent": "faq/prueba_covid",
+        "text": "Quiero hacerme una prueba?"
+      },
+      {
+        "intent": "faq/prueba_covid",
+        "text": "Que tipo de prueba debo hacerme?"
+      },
+      {
+        "intent": "faq/tiempo_sobrevive_virus",
+        "text": "Cuanto sobrevive el virus?"
+      },
+      {
+        "intent": "faq/tomar_medicinas",
+        "entities": [
+          {
+            "start": 32,
+            "end": 43,
+            "value": "ivermectina",
+            "entity": "medicina"
+          }
+        ],
+        "text": "Es bueno que me automedique con ivermectina?"
+      },
+      {
+        "intent": "faq/dioxidocloro_ayuda",
+        "text": "El dioxido de cloro combate el covid?"
+      },
+      {
+        "intent": "quieroAyudar",
+        "text": "Podria ayudar en algo?"
+      },
+      {
+        "intent": "quieroAyudar",
+        "text": "Puedo ayudar?"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Soy un doc"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Puedo ayudar como doctor"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Puedo ayudar como doctora"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Soy psicologo"
+      },
+      {
+        "intent": "quieroAyudar_soyNinguno",
+        "text": "No soy ninguno de ellos"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "Cochabamba",
+        "synonyms": [
+          "cbba",
+          "cocha",
+          "Cocha"
+        ]
+      },
+      {
+        "value": "Chuquisaca",
+        "synonyms": [
+          "capital",
+          "sucre",
+          "chuquisaca"
+        ]
+      },
+      {
+        "value": "La Paz",
+        "synonyms": [
+          "lapaz",
+          "lapz",
+          "lp"
+        ]
+      },
+      {
+        "value": "Beni",
+        "synonyms": [
+          "Riveralta",
+          "Veni"
+        ]
+      },
+      {
+        "value": "Santa Cruz",
+        "synonyms": [
+          "sc",
+          "scz"
+        ]
+      },
+      {
+        "value": "Pando",
+        "synonyms": [
+          "pando",
+          "pamdo"
+        ]
+      },
+      {
+        "value": "bolivia",
+        "synonyms": [
+          "volivia",
+          "bolibia"
+        ]
+      },
+      {
+        "value": "Potosi",
+        "synonyms": [
+          "Potosí",
+          "potosí"
+        ]
+      },
+      {
+        "value": "Tarija",
+        "synonyms": [
+          "tarixa"
+        ]
+      },
+      {
+        "value": "la paz",
+        "synonyms": [
+          "El alto"
+        ]
+      },
+      {
+        "value": "Oruro",
+        "synonyms": [
+          "horuro"
+        ]
+      }
+    ]
+  }
+}

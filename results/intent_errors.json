@@ -1,0 +1,18 @@
+[
+  {
+    "text": "Pene",
+    "intent": "insultos2",
+    "intent_prediction": {
+      "name": "insultos",
+      "confidence": 0.6214510202407837
+    }
+  },
+  {
+    "text": "Cita medica online",
+    "intent": "pedirDoctor_medibook",
+    "intent_prediction": {
+      "name": "pedirAsistencia",
+      "confidence": 0.8862305879592896
+    }
+  }
+]

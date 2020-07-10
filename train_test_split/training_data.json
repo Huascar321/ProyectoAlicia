@@ -1,0 +1,1831 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "saludos",
+        "text": "Ola"
+      },
+      {
+        "intent": "saludos",
+        "text": "Alicia"
+      },
+      {
+        "intent": "saludos",
+        "text": "hola"
+      },
+      {
+        "intent": "saludos",
+        "text": "Buenas tardes"
+      },
+      {
+        "intent": "saludos",
+        "text": "Buenas noches"
+      },
+      {
+        "intent": "saludos",
+        "text": "Heyy"
+      },
+      {
+        "intent": "saludos",
+        "text": "Holi"
+      },
+      {
+        "intent": "saludos",
+        "text": "Hola"
+      },
+      {
+        "intent": "saludos",
+        "text": "Muy buenas"
+      },
+      {
+        "intent": "saludos",
+        "text": "Oye"
+      },
+      {
+        "intent": "saludos",
+        "text": "Buenas"
+      },
+      {
+        "intent": "saludos",
+        "text": "Holaa"
+      },
+      {
+        "intent": "saludos",
+        "text": "Saludos"
+      },
+      {
+        "intent": "saludos",
+        "text": "Buenos dias"
+      },
+      {
+        "intent": "saludos",
+        "text": "Olaa"
+      },
+      {
+        "intent": "saludos",
+        "text": "Alo"
+      },
+      {
+        "intent": "despedidas",
+        "text": "Bye bye"
+      },
+      {
+        "intent": "despedidas",
+        "text": "Chaoo"
+      },
+      {
+        "intent": "despedidas",
+        "text": "Bye"
+      },
+      {
+        "intent": "despedidas",
+        "text": "Hasta pronto"
+      },
+      {
+        "intent": "despedidas",
+        "text": "Adios"
+      },
+      {
+        "intent": "despedidas",
+        "text": "Chau"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Exacto"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Exactamente"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Seguro"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Okay"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Creo que si"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Correcto"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Ya"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Claro"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Precisamente"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Por supuesto"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Dale"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Esta bien"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Obvio"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Afirmativo"
+      },
+      {
+        "intent": "afirmar",
+        "text": "Si"
+      },
+      {
+        "intent": "negar",
+        "text": "Nunca"
+      },
+      {
+        "intent": "negar",
+        "text": "No se"
+      },
+      {
+        "intent": "negar",
+        "text": "Segun yo no"
+      },
+      {
+        "intent": "negar",
+        "text": "Nada mas"
+      },
+      {
+        "intent": "negar",
+        "text": "No"
+      },
+      {
+        "intent": "negar",
+        "text": "Ya no"
+      },
+      {
+        "intent": "negar",
+        "text": "Quizas no"
+      },
+      {
+        "intent": "negar",
+        "text": "No gracias"
+      },
+      {
+        "intent": "negar",
+        "text": "No creo"
+      },
+      {
+        "intent": "negar",
+        "text": "Obvio que no"
+      },
+      {
+        "intent": "negar",
+        "text": "Creo que no"
+      },
+      {
+        "intent": "negar",
+        "text": "Nada"
+      },
+      {
+        "intent": "agradecer",
+        "text": "Si gracias"
+      },
+      {
+        "intent": "agradecer",
+        "text": "Se le agradece"
+      },
+      {
+        "intent": "agradecer",
+        "text": "Muchas gracias"
+      },
+      {
+        "intent": "agradecer",
+        "text": "Muchisimas gracias"
+      },
+      {
+        "intent": "QuieroCompartir",
+        "text": "Compartir su contacto"
+      },
+      {
+        "intent": "QuieroCompartir",
+        "text": "Quiero compartir"
+      },
+      {
+        "intent": "QuieroCompartir",
+        "text": "Compartir"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Quiero que me respondan una pregunta"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Quiero saber"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Tengo una duda"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Pregunta"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Tengo preguntas"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Preguntas"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Quiero que me respondan una duda"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Resuelvanme una duda"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Pregunto"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Tengo una pregunta"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Duda"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Una duda"
+      },
+      {
+        "intent": "tengoPreguntas",
+        "text": "Quiero preguntar"
+      },
+      {
+        "intent": "activarMenu",
+        "text": "Menu"
+      },
+      {
+        "intent": "activarMenu",
+        "text": "Quiero abrir el menu de nuevo"
+      },
+      {
+        "intent": "insultos",
+        "text": "Polfa"
+      },
+      {
+        "intent": "insultos",
+        "text": "Pene"
+      },
+      {
+        "intent": "insultos",
+        "text": "Maricon"
+      },
+      {
+        "intent": "insultos",
+        "text": "Pendeja"
+      },
+      {
+        "intent": "insultos",
+        "text": "Chupamela"
+      },
+      {
+        "intent": "insultos",
+        "text": "Maricona"
+      },
+      {
+        "intent": "insultos",
+        "text": "Maldita"
+      },
+      {
+        "intent": "insultos",
+        "text": "Imbecil"
+      },
+      {
+        "intent": "insultos",
+        "text": "Mierda"
+      },
+      {
+        "intent": "insultos",
+        "text": "Pinche"
+      },
+      {
+        "intent": "insultos",
+        "text": "Chupala"
+      },
+      {
+        "intent": "insultos",
+        "text": "Estupida"
+      },
+      {
+        "intent": "insultos2",
+        "text": "Verga"
+      },
+      {
+        "intent": "insultos2",
+        "text": "Pene"
+      },
+      {
+        "intent": "insultos2",
+        "text": "Polla"
+      },
+      {
+        "intent": "insultos2",
+        "text": "Pito"
+      },
+      {
+        "intent": "chitchat/no_ayudas",
+        "text": "No estas ayudando"
+      },
+      {
+        "intent": "chitchat/no_ayudas",
+        "text": "Eres horrible"
+      },
+      {
+        "intent": "chitchat/eres_genial",
+        "text": "Eres asombrosa"
+      },
+      {
+        "intent": "chitchat/eresRobot",
+        "text": "Quien eres?"
+      },
+      {
+        "intent": "chitchat/eresRobot",
+        "text": "Eres de verdad?"
+      },
+      {
+        "intent": "chitchat/preguntar_edad",
+        "text": "Quiero saber tu edad"
+      },
+      {
+        "intent": "chitchat/residencia",
+        "text": "Donde vives?"
+      },
+      {
+        "intent": "chitchat/eresRobot",
+        "text": "Eres un robot?"
+      },
+      {
+        "intent": "chitchat/no_ayudas",
+        "text": "No estas siendo util"
+      },
+      {
+        "intent": "chitchat/eresRobot",
+        "text": "Eres real?"
+      },
+      {
+        "intent": "chitchat/quien_jefe",
+        "text": "Quienes son tus creadores?"
+      },
+      {
+        "intent": "chitchat/no_ayudas",
+        "text": "Eres mala"
+      },
+      {
+        "intent": "chitchat/cual_nombre",
+        "text": "Como te puedo llamar?"
+      },
+      {
+        "intent": "chitchat/cual_nombre",
+        "text": "Cual es tu nombre?"
+      },
+      {
+        "intent": "chitchat/eresRobot",
+        "text": "Como funcionas?"
+      },
+      {
+        "intent": "chitchat/puedes_ser_amiga",
+        "text": "Puedes ser mi amiga?"
+      },
+      {
+        "intent": "chitchat/no_ayudas",
+        "text": "Eres terrible"
+      },
+      {
+        "intent": "chitchat/eres_genial",
+        "text": "Eres la mejor"
+      },
+      {
+        "intent": "chitchat/puedes_ser_amiga",
+        "text": "Seamos amigos"
+      },
+      {
+        "intent": "chitchat/residencia",
+        "text": "Donde fuiste creada?"
+      },
+      {
+        "intent": "chitchat/preguntar_edad",
+        "text": "Que edad tienes?"
+      },
+      {
+        "intent": "chitchat/no_ayudas",
+        "text": "Que inutil eres"
+      },
+      {
+        "intent": "chitchat/puedes_ser_amiga",
+        "text": "Podemos ser amigos?"
+      },
+      {
+        "intent": "chitchat/eres_genial",
+        "text": "Eres increible"
+      },
+      {
+        "intent": "chitchat/no_ayudas",
+        "text": "No me estas siendo util"
+      },
+      {
+        "intent": "chitchat/eresRobot",
+        "text": "Eres alguien real?"
+      },
+      {
+        "intent": "chitchat/quien_jefe",
+        "text": "Quien te creo?"
+      },
+      {
+        "intent": "chitchat/no_ayudas",
+        "text": "No ayudas"
+      },
+      {
+        "intent": "chitchat/residencia",
+        "text": "Cual es tu casa?"
+      },
+      {
+        "intent": "chitchat/puedes_ser_amiga",
+        "text": "Se mi amiga"
+      },
+      {
+        "intent": "chitchat/puedes_ser_amiga",
+        "text": "Necesito una amiga"
+      },
+      {
+        "intent": "chitchat/no_ayudas",
+        "text": "Eres inutil"
+      },
+      {
+        "intent": "chitchat/no_ayudas",
+        "text": "No me estas ayudando"
+      },
+      {
+        "intent": "chitchat/residencia",
+        "text": "De donde eres?"
+      },
+      {
+        "intent": "chitchat/preguntar_edad",
+        "text": "Quiero saber cuantos años tienes"
+      },
+      {
+        "intent": "chitchat/preguntar_edad",
+        "text": "Cual es tu edad?"
+      },
+      {
+        "intent": "chitchat/puedes_ser_amiga",
+        "text": "Podes ser mi amiga?"
+      },
+      {
+        "intent": "chitchat/eresRobot",
+        "text": "Usas inteligencia artificial?"
+      },
+      {
+        "intent": "chitchat/puedes_ser_amiga",
+        "text": "Quiero ser tu amigo"
+      },
+      {
+        "intent": "chitchat/quien_jefe",
+        "text": "Quien es tu dueño?"
+      },
+      {
+        "intent": "chitchat/quien_jefe",
+        "text": "Quien te entreno?"
+      },
+      {
+        "intent": "chitchat/preguntar_edad",
+        "text": "Cuantos años tienes?"
+      },
+      {
+        "intent": "chitchat/eresRobot",
+        "text": "Eres humano?"
+      },
+      {
+        "intent": "chitchat/residencia",
+        "text": "De donde provienes?"
+      },
+      {
+        "intent": "chitchat/no_ayudas",
+        "text": "No has respondido mi pregunta"
+      },
+      {
+        "intent": "chitchat/cual_nombre",
+        "text": "Como te llamas?"
+      },
+      {
+        "intent": "chitchat/eres_genial",
+        "text": "Eres genial"
+      },
+      {
+        "intent": "como_puedes_ayudar",
+        "text": "Como puedes ayudarme?"
+      },
+      {
+        "intent": "como_puedes_ayudar",
+        "text": "Necesito ayuda"
+      },
+      {
+        "intent": "como_puedes_ayudar",
+        "text": "Quiero ayuda"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Pando",
+            "entity": "departamento"
+          }
+        ],
+        "text": "pando"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "La Paz",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Casos en La Paz"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "tarija",
+            "entity": "departamento"
+          }
+        ],
+        "text": "tarija"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "Bolivia",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Casos en Bolivia"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "Santa Cruz",
+            "entity": "departamento"
+          }
+        ],
+        "text": "sc"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "beni",
+            "entity": "departamento"
+          }
+        ],
+        "text": "beni"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "santa cruz",
+            "entity": "departamento"
+          }
+        ],
+        "text": "santa cruz"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Chuquisaca",
+            "entity": "departamento"
+          }
+        ],
+        "text": "sucre"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Cochabamba",
+            "entity": "departamento"
+          }
+        ],
+        "text": "cocha"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chuquisaca",
+            "entity": "departamento"
+          }
+        ],
+        "text": "capital"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Santa Cruz",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Casos en Santa Cruz"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Pando",
+            "entity": "departamento"
+          }
+        ],
+        "text": "pamdo"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Santa Cruz",
+            "entity": "departamento"
+          }
+        ],
+        "text": "scz ?"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "Beni",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Casos en Beni"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Tarija",
+            "entity": "departamento"
+          }
+        ],
+        "text": "tarixa"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Santa Cruz",
+            "entity": "departamento"
+          }
+        ],
+        "text": "scz"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "la paz",
+            "entity": "departamento"
+          }
+        ],
+        "text": "El alto"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "La Paz",
+            "entity": "departamento"
+          }
+        ],
+        "text": "lapz"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Oruro",
+            "entity": "departamento"
+          }
+        ],
+        "text": "horuro"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Beni",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Riveralta"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "la paz",
+            "entity": "departamento"
+          }
+        ],
+        "text": "la paz"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Chuquisaca",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Casos en Chuquisaca"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "cochabamba",
+            "entity": "departamento"
+          }
+        ],
+        "text": "cochabamba"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Chuquisaca",
+            "entity": "departamento"
+          }
+        ],
+        "text": "sucre?"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "La Paz",
+            "entity": "departamento"
+          }
+        ],
+        "text": "lp"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Beni",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Veni"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "Potosi",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Casos en Potosi"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "bolivia",
+            "entity": "departamento"
+          }
+        ],
+        "text": "bolibia"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "Chuquisaca",
+            "entity": "departamento"
+          }
+        ],
+        "text": "chuquisaca"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "pando",
+            "entity": "departamento"
+          }
+        ],
+        "text": "pando"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "Oruro",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Casos en Oruro"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "La Paz",
+            "entity": "departamento"
+          }
+        ],
+        "text": "lapaz"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 9,
+            "end": 15,
+            "value": "Tarija",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Casos en Tarija"
+      },
+      {
+        "intent": "mostrarCasos",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "Cochabamba",
+            "entity": "departamento"
+          }
+        ],
+        "text": "Casos en Cochabamba"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Me puedes decir los casos"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Ver casos coronavirus"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Quiero saber los casos"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Me gustaria ver los casos"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Casos de coronavirus"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Cuantos casos hay en el pais?"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Casos de enfermos por covid"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Quiero saber los casos de otro departamento"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Cuantos casos hay?"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Quisiera ver los casos en el pais"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Quiero de otro departamento"
+      },
+      {
+        "intent": "mostrarCasos_solicitar",
+        "text": "Casos"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Asistencia medica"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Quiero asistencia medica"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Quiero un medico ayuda"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Quiero agendar una cita"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Asisteme medicamente"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Quisiera pedir asistencia medica"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Preciso asistencia medica"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Como me brindas asistencia medica?"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Quiero cita medica"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Asistencia por favor"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Asistencia medica por favor"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Medica"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Cita medica online"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Necesito asistencia medica"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Necesito un medico"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Cita con doctor"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Ayudame con la asistencia medica"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Agendar cita online"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Necesito un doctor"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Me voy por la asistencia medica"
+      },
+      {
+        "intent": "pedirAsistencia",
+        "text": "Asistencia"
+      },
+      {
+        "intent": "pedirDoctor_medibook",
+        "text": "Cita medibook"
+      },
+      {
+        "intent": "pedirDoctor_medibook",
+        "text": "Prefiero una cita medica con medibook"
+      },
+      {
+        "intent": "pedirDoctor_medibook",
+        "text": "Quiero agendar una cita con medibook"
+      },
+      {
+        "intent": "pedirDoctor_medibook",
+        "text": "Mejor una cita con medibook"
+      },
+      {
+        "intent": "pedirDoctor_medibook",
+        "text": "Medibook"
+      },
+      {
+        "intent": "pedirDoctor_medibook",
+        "text": "Cita con un doctor online en medibook"
+      },
+      {
+        "intent": "pedirDoctor_medibook",
+        "text": "Cita medica online"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Mejor hablar por WhatsApp"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "WhatsApp nomas"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Prefiero WhatsApp"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Una consulta por wpp"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "La quiero por whatsapp"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Quiero un doctor por WhatsApp"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "WA"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Wpp"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Una consulta por WhatsApp"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Wpp esta bien"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Como es la opcion de WhatsApp"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Solo puedo hablar por WhatsApp"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Wasap esta bien"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Consulta por WA"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Prefiero mensaje de WhatsApp nomas"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Una consulta por wasap"
+      },
+      {
+        "intent": "pedirDoctor_whatsapp",
+        "text": "Wasap"
+      },
+      {
+        "intent": "faq/que_es_plasma",
+        "text": "El plasma puede curarme del covid?"
+      },
+      {
+        "intent": "faq/porque_variosdias_sintomas_nocurar",
+        "text": "Por que aun no me he curado?"
+      },
+      {
+        "intent": "faq/que_es_plasma",
+        "text": "El plasma puede curarme del coronavirus?"
+      },
+      {
+        "intent": "faq/que_es_plasma",
+        "text": "De que sirve el plasma?"
+      },
+      {
+        "intent": "faq/porque_variosdias_sintomas_nocurar",
+        "text": "Llevo varios con los dias y aun no me curo"
+      },
+      {
+        "intent": "faq/donde_donar_plasma",
+        "text": "Donde puedo donar mi plasma?"
+      },
+      {
+        "intent": "faq/sintomas_covid",
+        "text": "Sintomas"
+      },
+      {
+        "intent": "faq/ivermectina_sirve",
+        "text": "Funciona la ivermectina?"
+      },
+      {
+        "intent": "faq/tiempo_sobrevive_virus",
+        "text": "Cuanto tiempo vive el virus en los productos"
+      },
+      {
+        "intent": "faq/dioxidocloro_ayuda",
+        "text": "El dioxido de cloro ayuda a combatir la enfermedad?"
+      },
+      {
+        "intent": "faq/mosquitos_infectar",
+        "text": "Los mosquitos me pueden pasar el coronavirus?"
+      },
+      {
+        "intent": "faq/porque_variosdias_sintomas_nocurar",
+        "text": "Por que no puedo curarme por mas que segui el tratamiento?"
+      },
+      {
+        "intent": "faq/ivermectina_sirve",
+        "text": "La ivermectina funciona?"
+      },
+      {
+        "intent": "faq/tiempo_sobrevive_virus",
+        "text": "Cuanto tiempo vive el coronavirus?"
+      },
+      {
+        "intent": "faq/tomar_medicinas",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "medicamentos",
+            "entity": "medicina"
+          }
+        ],
+        "text": "Se puede tomar medicamentos para tratar el covid?"
+      },
+      {
+        "intent": "faq/medico_atendio_seguimiento",
+        "text": "Haran algun seguimiento de mi caso?"
+      },
+      {
+        "intent": "faq/medico_atendio_seguimiento",
+        "text": "Haran seguimiento de mi caso?"
+      },
+      {
+        "intent": "faq/prueba_covid",
+        "text": "Puedo hacerme una prueba?"
+      },
+      {
+        "intent": "faq/tiempo_sobrevive_virus",
+        "text": "Cuanto tiempo sobrevive el virus en el aire"
+      },
+      {
+        "intent": "faq/contraerdenuevo_despues_de_enfermarse",
+        "text": "Puedo contraer la enfermedad otra vez si ya me cure?"
+      },
+      {
+        "intent": "faq/tomar_medicinas",
+        "entities": [
+          {
+            "start": 12,
+            "end": 23,
+            "value": "ivermectina",
+            "entity": "medicina"
+          }
+        ],
+        "text": "Puedo tomar ivermectina para combatir el covid?"
+      },
+      {
+        "intent": "faq/distintas_pruebas",
+        "text": "Cuales son las pruebas que existen"
+      },
+      {
+        "intent": "faq/nomejora_hospital",
+        "text": "Como se si tengo que ir al hospital?"
+      },
+      {
+        "intent": "faq/mosquitos_infectar",
+        "text": "Los mosquitos pueden infectarte?"
+      },
+      {
+        "intent": "faq/cuanto_falta_para_vacuna_medicamento",
+        "text": "Habra pronto una vacuna?"
+      },
+      {
+        "intent": "faq/porque_sintomas_yosolo_familia",
+        "text": "Por que yo tengo sintomas y mi familia no?"
+      },
+      {
+        "intent": "faq/sintomas_covid",
+        "text": "Es un sintoma del coronavirus?"
+      },
+      {
+        "intent": "faq/donde_donar_plasma",
+        "text": "Deseo donar mi plasma"
+      },
+      {
+        "intent": "faq/porque_sintomas_yosolo_familia",
+        "text": "Por que solo yo estoy enfermo pero no mi familia?"
+      },
+      {
+        "intent": "faq/tomar_medicinas",
+        "entities": [
+          {
+            "start": 25,
+            "end": 36,
+            "value": "ivermectina",
+            "entity": "medicina"
+          }
+        ],
+        "text": "Me puedo automedicar con ivermectina?"
+      },
+      {
+        "intent": "faq/dioxidocloro_ayuda",
+        "text": "El dioxido de cloro me cura del coronavirus?"
+      },
+      {
+        "intent": "faq/dioxidocloro_ayuda",
+        "text": "El dioxido de cloro ayuda a combatir el coronavirus?"
+      },
+      {
+        "intent": "faq/nosaber_covid",
+        "text": "Como se si tuve covid?"
+      },
+      {
+        "intent": "faq/calor_mata_virus",
+        "text": "El sol mata el virus?"
+      },
+      {
+        "intent": "faq/contraerdenuevo_despues_de_enfermarse",
+        "text": "Puedo contraer coronavirus si ya me sane?"
+      },
+      {
+        "intent": "faq/mosquitos_infectar",
+        "text": "El sancudo me puedo enfermar de covid?"
+      },
+      {
+        "intent": "faq/cuanto_falta_para_vacuna_medicamento",
+        "text": "Falta mucho tiempo para la vacuna?"
+      },
+      {
+        "intent": "faq/que_es_plasma",
+        "text": "Que es el plasma?"
+      },
+      {
+        "intent": "faq/tomar_medicinas",
+        "text": "Me puedo automedicar?"
+      },
+      {
+        "intent": "faq/porque_variosdias_sintomas_nocurar",
+        "text": "Por que tardo en curarme?"
+      },
+      {
+        "intent": "faq/nosaber_covid",
+        "text": "Como puedo saber si estuve enfermo?"
+      },
+      {
+        "intent": "faq/tiempo_sobrevive_virus",
+        "text": "Cuanto tiemo puede sobrevivir el virus afuera?"
+      },
+      {
+        "intent": "faq/mosquitos_infectar",
+        "text": "Los sancudos pueden infectarme?"
+      },
+      {
+        "intent": "faq/ivermectina_sirve",
+        "text": "Sabes algo de la ivermectina?"
+      },
+      {
+        "intent": "faq/tomar_medicinas",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "medicina",
+            "entity": "medicina"
+          }
+        ],
+        "text": "Puedo tomar medicina contra la enfermedad?"
+      },
+      {
+        "intent": "faq/ivermectina_sirve",
+        "text": "La ivermectina sirve?"
+      },
+      {
+        "intent": "faq/donde_donar_plasma",
+        "text": "Quiero donar mi plasma"
+      },
+      {
+        "intent": "faq/sintomas_covid",
+        "text": "Cuales son los sintomas de la enfermedad?"
+      },
+      {
+        "intent": "faq/nosaber_covid",
+        "text": "Como puedo saber si tuve coronavirus?"
+      },
+      {
+        "intent": "faq/sintomas_covid",
+        "text": "Cuales son los sintomas del covid?"
+      },
+      {
+        "intent": "faq/tiempo_sobrevive_virus",
+        "text": "Cuanto tiempo sobrevive el virus en una superficie?"
+      },
+      {
+        "intent": "faq/porque_sintomas_yosolo_familia",
+        "text": "Tengo sintomas pero mi familia no"
+      },
+      {
+        "intent": "faq/sintomas_covid",
+        "text": "Sintomas del coronavirus"
+      },
+      {
+        "intent": "faq/medico_atendio_seguimiento",
+        "text": "El doctor que me atendio va a seguir mi caso?"
+      },
+      {
+        "intent": "faq/que_es_plasma",
+        "text": "plasma"
+      },
+      {
+        "intent": "faq/calor_mata_virus",
+        "text": "El calor mata al virus?"
+      },
+      {
+        "intent": "faq/tiempo_sobrevive_virus",
+        "text": "Cuanto sobrevive el virus en la ropa?"
+      },
+      {
+        "intent": "faq/mosquitos_infectar",
+        "text": "Los sancudos pueden pasar el virus?"
+      },
+      {
+        "intent": "faq/tomar_medicinas",
+        "entities": [
+          {
+            "start": 12,
+            "end": 22,
+            "value": "ibuprofeno",
+            "entity": "medicina"
+          }
+        ],
+        "text": "Puedo tomar ibuprofeno?"
+      },
+      {
+        "intent": "faq/dioxidocloro_ayuda",
+        "text": "El dioxido de cloro funciona?"
+      },
+      {
+        "intent": "faq/nosaber_covid",
+        "text": "Como puedo saber si tuve covid?"
+      },
+      {
+        "intent": "faq/que_es_plasma",
+        "text": "El plasma sirve para curarme?"
+      },
+      {
+        "intent": "faq/tiempo_sobrevive_virus",
+        "text": "Cuanto tiempo dura el virus en el carton"
+      },
+      {
+        "intent": "faq/ivermectina_sirve",
+        "text": "La ivermectina funciona contra el covid?"
+      },
+      {
+        "intent": "faq/nomejora_hospital",
+        "text": "Cuando deberia ir al hospital?"
+      },
+      {
+        "intent": "faq/porque_sintomas_yosolo_familia",
+        "text": "Por que solo yo tengo sintomas pero no mi familia?"
+      },
+      {
+        "intent": "faq/cuanto_falta_para_vacuna_medicamento",
+        "text": "Cuando sale la vacuna?"
+      },
+      {
+        "intent": "faq/porque_variosdias_sintomas_nocurar",
+        "text": "Por que no me curo por mas que sigo la medicacion?"
+      },
+      {
+        "intent": "faq/prueba_covid",
+        "text": "Deberia hacerme una prueba?"
+      },
+      {
+        "intent": "faq/tiempo_sobrevive_virus",
+        "text": "Tiempo de vida del coronavirus"
+      },
+      {
+        "intent": "faq/contraerdenuevo_despues_de_enfermarse",
+        "text": "Puedo contraer la enfermedad si ya me cure?"
+      },
+      {
+        "intent": "faq/tomar_medicinas",
+        "text": "Me automedico?"
+      },
+      {
+        "intent": "faq/contraerdenuevo_despues_de_enfermarse",
+        "text": "Puedo enfermarme de nuevo si ya me cure?"
+      },
+      {
+        "intent": "faq/calor_mata_virus",
+        "text": "El calor mata el coronavirus?"
+      },
+      {
+        "intent": "faq/tiempo_sobrevive_virus",
+        "text": "Cuanto tiempo dura el virus en la ropa"
+      },
+      {
+        "intent": "faq/donde_donar_plasma",
+        "text": "Quiero darle mi plasma a alguien"
+      },
+      {
+        "intent": "faq/que_es_plasma",
+        "text": "Para que sirve el plasma?"
+      },
+      {
+        "intent": "faq/porque_variosdias_sintomas_nocurar",
+        "text": "Por que llevo tantos dias sin curarme?"
+      },
+      {
+        "intent": "faq/tiempo_sobrevive_virus",
+        "text": "Cuanto tiempo vive el virus afuera?"
+      },
+      {
+        "intent": "faq/tomar_medicinas",
+        "entities": [
+          {
+            "start": 15,
+            "end": 30,
+            "value": "antiflamatorios",
+            "entity": "medicina"
+          }
+        ],
+        "text": "Se puede tomar antiflamatorios?"
+      },
+      {
+        "intent": "faq/contraerdenuevo_despues_de_enfermarse",
+        "text": "Si ya me dio coronavirus quedo inmune?"
+      },
+      {
+        "intent": "faq/cuanto_falta_para_vacuna_medicamento",
+        "text": "Cuanto tiempo tomara hacer la vacuna?"
+      },
+      {
+        "intent": "faq/prueba_covid",
+        "text": "Pueden ayudarme a hacerme una prueba?"
+      },
+      {
+        "intent": "faq/distintas_pruebas",
+        "text": "Cuantos tipos de pruebas existen?"
+      },
+      {
+        "intent": "faq/dioxidocloro_ayuda",
+        "text": "El dioxido de cloro me cura?"
+      },
+      {
+        "intent": "faq/que_es_plasma",
+        "text": "El plasma sirve contra el coronavirus?"
+      },
+      {
+        "intent": "faq/medico_atendio_seguimiento",
+        "text": "Van a seguir mi caso?"
+      },
+      {
+        "intent": "faq/tomar_medicinas",
+        "entities": [
+          {
+            "start": 25,
+            "end": 37,
+            "value": "nitazoxanida",
+            "entity": "medicina"
+          }
+        ],
+        "text": "Me puedo automedicar con nitazoxanida?"
+      },
+      {
+        "intent": "faq/tomar_medicinas",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "antibioticos",
+            "entity": "medicina"
+          }
+        ],
+        "text": "Se puede tomar antibioticos contra el covid?"
+      },
+      {
+        "intent": "faq/porque_sintomas_yosolo_familia",
+        "text": "Por que mi familia esta sana pero yo enfermo?"
+      },
+      {
+        "intent": "faq/calor_mata_virus",
+        "text": "El virus muere con el calor"
+      },
+      {
+        "intent": "faq/nomejora_hospital",
+        "text": "Deberia ir al hospital?"
+      },
+      {
+        "intent": "faq/distintas_pruebas",
+        "text": "Cuantos tipos de pruebas hay?"
+      },
+      {
+        "intent": "faq/donde_donar_plasma",
+        "text": "Quiero dar mi plasma"
+      },
+      {
+        "intent": "faq/cuanto_falta_para_vacuna_medicamento",
+        "text": "Cuanto falta para la vacuna?"
+      },
+      {
+        "intent": "faq/calor_mata_virus",
+        "text": "El virus muere con el sol"
+      },
+      {
+        "intent": "faq/tiempo_sobrevive_virus",
+        "text": "Cuanto tiempo sobrevive el virus"
+      },
+      {
+        "intent": "faq/que_es_plasma",
+        "text": "Para que funciona el plasma?"
+      },
+      {
+        "intent": "faq/nomejora_hospital",
+        "text": "Cuando debo ir al hospital?"
+      },
+      {
+        "intent": "faq/tiempo_sobrevive_virus",
+        "text": "Cuanto tiempo vive el virus en un metal"
+      },
+      {
+        "intent": "faq/dioxidocloro_ayuda",
+        "text": "El dioxido de cloro en verdad funciona?"
+      },
+      {
+        "intent": "quieroAyudar",
+        "text": "Tengo ganas de ayudar"
+      },
+      {
+        "intent": "quieroAyudar",
+        "text": "Me gustaria ser de ayuda"
+      },
+      {
+        "intent": "quieroAyudar",
+        "text": "Como puedo ayudar en esta situacion"
+      },
+      {
+        "intent": "quieroAyudar",
+        "text": "Me encantaria ayudar"
+      },
+      {
+        "intent": "quieroAyudar",
+        "text": "Creo que puedo ayudar"
+      },
+      {
+        "intent": "quieroAyudar",
+        "text": "Me gustaria ayudar"
+      },
+      {
+        "intent": "quieroAyudar",
+        "text": "Quiero ayudar"
+      },
+      {
+        "intent": "quieroAyudar",
+        "text": "Como puedo ayudar?"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Dr."
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Soy personal de salud"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Ofrezco mis servicios de doctor"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Un doctor"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Doctor"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Puedo hacer consultas como doctor"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Estudie medicina"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Doctora"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Soy doctora"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Doc"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Soy Dr."
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Soy medico"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Quiero ayudar como doctor"
+      },
+      {
+        "intent": "quieroAyudar_soyDoctor",
+        "text": "Soy doctor"
+      },
+      {
+        "intent": "quieroAyudar_soyNinguno",
+        "text": "No soy ninguno"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "Cochabamba",
+        "synonyms": [
+          "cbba",
+          "cocha",
+          "Cocha"
+        ]
+      },
+      {
+        "value": "Chuquisaca",
+        "synonyms": [
+          "capital",
+          "sucre",
+          "chuquisaca"
+        ]
+      },
+      {
+        "value": "La Paz",
+        "synonyms": [
+          "lapaz",
+          "lapz",
+          "lp"
+        ]
+      },
+      {
+        "value": "Beni",
+        "synonyms": [
+          "Riveralta",
+          "Veni"
+        ]
+      },
+      {
+        "value": "Santa Cruz",
+        "synonyms": [
+          "sc",
+          "scz"
+        ]
+      },
+      {
+        "value": "Pando",
+        "synonyms": [
+          "pando",
+          "pamdo"
+        ]
+      },
+      {
+        "value": "bolivia",
+        "synonyms": [
+          "volivia",
+          "bolibia"
+        ]
+      },
+      {
+        "value": "Potosi",
+        "synonyms": [
+          "Potosí",
+          "potosí"
+        ]
+      },
+      {
+        "value": "Tarija",
+        "synonyms": [
+          "tarixa"
+        ]
+      },
+      {
+        "value": "la paz",
+        "synonyms": [
+          "El alto"
+        ]
+      },
+      {
+        "value": "Oruro",
+        "synonyms": [
+          "horuro"
+        ]
+      }
+    ]
+  }
+}

@@ -5,6 +5,7 @@ import json
 import logging
 import requests
 import csv
+import pandas as pd
 from rasa_sdk.events import SlotSet
 from urllib.request import urlopen
 from fechaHora import *
@@ -16,8 +17,6 @@ from rasa_sdk.events import (
     EventType,
     FollowupAction,
 )
-
-INTENT_DESCRIPTION_MAPPING_PATH = "intent_description_mapping.csv"
 
 class saludar(Action):
 
@@ -34,15 +33,24 @@ class saludar(Action):
         texto = ""
 
         if(hora >= 5) and (hora <= 11):
-            dispatcher.utter_message(template='utter_saludos_dias')
+            if (tracker.get_slot("nombre_alicia") == "Alicia") or (tracker.get_slot("nombre_alicia") == "alicia"):
+                dispatcher.utter_message(template='utter_saludos_dias_conocer_nombre')
+            else:
+                dispatcher.utter_message(template='utter_saludos_dias')
         elif (hora >= 12) and (hora <= 17):
-            dispatcher.utter_message(template='utter_saludos_tardes')
+            if (tracker.get_slot("nombre_alicia") == "Alicia") or (tracker.get_slot("nombre_alicia") == "alicia"):
+                dispatcher.utter_message(template='utter_saludos_tardes_conocer_nombre')
+            else:
+                dispatcher.utter_message(template='utter_saludos_tardes')
         elif ((hora >= 18) and (hora <= 23)) or ((hora >= 0) and (hora <= 4)):
-            dispatcher.utter_message(template='utter_saludos_noches')
+            if (tracker.get_slot("nombre_alicia") == "Alicia") or (tracker.get_slot("nombre_alicia") == "alicia"):
+                dispatcher.utter_message(template='utter_saludos_noches_conocer_nombre')
+            else:
+                dispatcher.utter_message(template='utter_saludos_noches')
         else:
             dispatcher.utter_message(template='utter_saludos_normal')
 
-        return []
+        return[SlotSet("nombre_alicia", None)]
 
 class mostrarCasos(Action):
 

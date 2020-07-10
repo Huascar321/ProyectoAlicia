@@ -1,0 +1,166 @@
+{
+  "insultos": {
+    "precision": 0.9411764705882353,
+    "recall": 1.0,
+    "f1-score": 0.9696969696969697,
+    "support": 16,
+    "confused_with": {}
+  },
+  "como_puedes_ayudar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "afirmar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19,
+    "confused_with": {}
+  },
+  "insultos2": {
+    "precision": 1.0,
+    "recall": 0.8,
+    "f1-score": 0.888888888888889,
+    "support": 5,
+    "confused_with": {
+      "insultos": 1
+    }
+  },
+  "quieroAyudar_soyNinguno": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "chitchat": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 59,
+    "confused_with": {}
+  },
+  "saludos": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20,
+    "confused_with": {}
+  },
+  "tengoPreguntas": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "faq": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 127,
+    "confused_with": {}
+  },
+  "mostrarCasos_solicitar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 15,
+    "confused_with": {}
+  },
+  "pedirAsistencia": {
+    "precision": 0.9642857142857143,
+    "recall": 1.0,
+    "f1-score": 0.9818181818181818,
+    "support": 27,
+    "confused_with": {}
+  },
+  "pedirDoctor_whatsapp": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22,
+    "confused_with": {}
+  },
+  "activarMenu": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "QuieroCompartir": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "despedidas": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "quieroAyudar_soyDoctor": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "agradecer": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "pedirDoctor_medibook": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.9411764705882353,
+    "support": 9,
+    "confused_with": {
+      "pedirAsistencia": 1
+    }
+  },
+  "quieroAyudar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "negar": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "mostrarCasos": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 43,
+    "confused_with": {}
+  },
+  "accuracy": 0.9955555555555555,
+  "macro avg": {
+    "precision": 0.995498199279712,
+    "recall": 0.9851851851851853,
+    "f1-score": 0.989599071952013,
+    "support": 450
+  },
+  "weighted avg": {
+    "precision": 0.995765639589169,
+    "recall": 0.9955555555555555,
+    "f1-score": 0.99542061134218,
+    "support": 450
+  }
+}
