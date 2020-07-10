@@ -1,4 +1,4 @@
-## intent:faq/porque_sintomas_yosolo_familia
+## intent:porque_sintomas_yosolo_familia
 - Por que yo tengo sintomas y mi familia no?
 - Por que solo yo tengo sintomas pero no mi familia?
 - Por que mi familia esta sana pero yo enfermo?
@@ -17,7 +17,7 @@
 - Estoy enfermo pero mi familia esta sana
 - Por que yo tengo los sintomas pero mi familia esta sana?
 
-## intent:faq/porque_variosdias_sintomas_nocurar
+## intent:porque_variosdias_sintomas_nocurar
 - Por que no me curo por mas que sigo la medicacion?
 - Por que no puedo curarme por mas que segui el tratamiento?
 - Llevo varios con los dias y aun no me curo
@@ -36,7 +36,7 @@
 - Por que tardo tanto en curarme si estoy siguiendo el tratamiento
 - Por que tardo tanto en curarme
 
-## intent:faq/dioxidocloro_ayuda
+## intent:dioxidocloro_ayuda
 - El dioxido de cloro funciona?
 - El dioxido de cloro en verdad funciona?
 - El dioxido de cloro me cura?
@@ -56,7 +56,7 @@
 - Se puede tomar dioxido de cloro?
 - Puedo tomar dioxido de cloro?
 
-## intent:faq/nosaber_covid
+## intent:nosaber_covid
 - Como sabre si tenia covid?
 - Como se si tuve covid?
 - Como puedo saber si tuve covid?
@@ -79,7 +79,7 @@
 - Estuve enfermo pero no se si era covid
 - Estuve enfermo pero no se si era coronavirus
 
-## intent:faq/nomejora_hospital
+## intent:nomejora_hospital
 - Cuando debo ir al hospital?
 - Cuando deberia ir al hospital?
 - Como se si tengo que ir al hospital?
@@ -101,7 +101,7 @@
 - Cuando se que tengo que ir al hospital?
 - Cuando se que me tienen que intubar?
 
-## intent:faq/medico_atendio_seguimiento
+## intent:medico_atendio_seguimiento
 - El medico que me atendio hara seguimiento de mi caso?
 - Haran seguimiento de mi caso?
 - El doctor que me atendio hara algun seguimiento de mi caso?
@@ -119,7 +119,7 @@
 - Van a seguir mi caso despues de que me atiendan?
 - Van a seguir mi caso despues de ser atendido?
 
-## intent:faq/sintomas_covid
+## intent:sintomas_covid
 - Cuales son los sintomas de la enfermedad?
 - Cuales son los sintomas del covid?
 - Sintomas
@@ -141,7 +141,7 @@
 - Puedes decirme los sintomas del coronavirus
 - Quiero saber cuales son los sintomas
 
-## intent:faq/prueba_covid
+## intent:prueba_covid
 - Pueden ayudarme a hacerme una prueba?
 - Quiero hacerme una prueba
 - Necesito hacerme una prueba
@@ -160,7 +160,7 @@
 - Con quien me tengo que comunicar para hacerme la prueba
 - A quien le tengo que hablar para hacerme la prueba
 
-## intent:faq/distintas_pruebas
+## intent:cuanto_tipo_prueba
 - Cuantas pruebas existen?
 - Cuantos tipos de pruebas existen?
 - Cuantas pruebas hay?
@@ -181,7 +181,7 @@
 - Quiero saber cuantas pruebas hay en total
 - Quiero saber cuantas pruebas existen
 
-## intent:faq/ivermectina_sirve
+## intent:ivermectina_sirve
 - La [ivermectina](medicina) sirve?
 - Funciona la [ivermectina](medicina)?
 - Como funciona la [ivermectina](medicina)?
@@ -203,7 +203,7 @@
 - De verdad sirve la [ivermectina](medicina)
 - Que tan cierto es que la [ivermectina](medicina) mata al coronavirus
 
-## intent:faq/calor_mata_virus
+## intent:calor_mata_virus
 - El calor mata al virus?
 - Las altas temperaturas matan el virus?
 - El calor mata el coronavirus?
@@ -227,7 +227,7 @@
 - Es cierto que el coronavirus puede morir por el calor?
 - El virus puede morir por el sol?
 
-## intent:faq/contraerdenuevo_despues_de_enfermarse
+## intent:contraerdenuevo_despues_de_enfermarse
 - Puedo contraer la enfermedad otra vez si ya me cure?
 - Si ya me dio coronavirus quedo inmune?
 - Puedo enfermarme de nuevo si ya me cure?
@@ -248,7 +248,7 @@
 - Es cierto que si te enfermas una vez ya no te vuelve a dar?
 - Es cierto que si me enfermo una vez me quedo inmune?
 
-## intent:faq/mosquitos_infectar
+## intent:mosquitos_infectar
 - Los mosquitos pueden infectarte?
 - Los sancudos pueden infectarme?
 - Los mosquitos me pueden pasar el coronavirus?
@@ -268,7 +268,7 @@
 - Me puedo infectar por la picada de un mosquito?
 - La picada del mosquito puede transmitir la enfermdad?
 
-## intent:faq/cuanto_falta_para_vacuna_medicamento
+## intent:cuanto_falta_para_vacuna_medicamento
 - Cuanto falta para la vacuna?
 - Habra pronto una vacuna?
 - Ya hay vacuna?
@@ -289,7 +289,7 @@
 - Falta demasiado para la vacuna?
 - Ya falta poco la vacuna?
 
-## intent:faq/tomar_medicinas
+## intent:tomar_medicinas
 - Puedo tomar [medicina](medicina) contra la enfermedad?
 - Se puede tomar [antibioticos](medicina) contra el covid?
 - Se puede tomar [antiflamatorios](medicina)?
@@ -312,7 +312,7 @@
 - Que medicamentos deberia comprar
 - Que medicinas debo comprar
 
-## intent:faq/tiempo_sobrevive_virus
+## intent:tiempo_sobrevive_virus
 - Cuanto tiempo sobrevive el virus en una superficie?
 - Cuanto tiempo vive el coronavirus?
 - Tiempo de vida del coronavirus

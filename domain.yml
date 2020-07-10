@@ -25,28 +25,43 @@ intents:
 - quieroAyudar_soyDoctor
 - tengoPreguntas
 - activarMenu
+# CHITCHAT
+- CHITCHAT_eresRobot:
+    triggers: utter_CHITCHAT_eresRobot
+- CHITCHAT_quien_jefe:
+    triggers: utter_CHITCHAT_quien_jefe
+- CHITCHAT_cual_nombre:
+    triggers: utter_CHITCHAT_cual_nombre
+- CHITCHAT_preguntar_edad:
+    triggers: utter_CHITCHAT_preguntar_edad
+- CHITCHAT_no_ayudas:
+    triggers: utter_CHITCHAT_no_ayudas
+- CHITCHAT_eres_genial:
+    triggers: utter_CHITCHAT_eres_genial
+- CHITCHAT_puedes_ser_amiga:
+    triggers: utter_CHITCHAT_puedes_ser_amiga
 # PREGUNTAS FRECUENTES
 - porque_sintomas_yosolo_familia
 - porque_variosdias_sintomas_nocurar
 - dioxidocloro_ayuda
-- brigadas_censo_noMedicamentos
-- tomarmedicamentos_nosaber_covid
-- sintomas_tomarencuenta_otraenfermedad
-- medicamentos_nomejora_hospital
+- nosaber_covid
+- nomejora_hospital
 - medico_atendio_seguimiento
+- sintomas_covid
 - prueba_covid
 - cuanto_tipo_prueba
 - distintas_pruebas
 - ivermectina_sirve
+- tomar_medicinas
 - calor_mata_virus
 - contraerdenuevo_despues_de_enfermarse
 - mosquitos_infectar
 - cuanto_falta_para_vacuna_medicamento
 - tomar_antibioticos
+- tiempo_sobrevive_virus
+####
 - quieroAyudar_soyNinguno
 - QuieroCompartir
-- chitchat
-- faq
 entities:
 - departamento
 - medicina
@@ -696,9 +711,77 @@ responses:
   - text: "¿Puedes ser mas especifico con tu pregunta? 🙌🏼"
   - text: "¿Podrias ser mas claro con tu pregunta? 🙏🏽"
 
+#### CHITCHATS
+  utter_CHITCHAT_eresRobot:
+  - text: "Soy un asistente digital creado con Inteligencia Artificial, un gusto! 👩"
+
+  utter_CHITCHAT_quien_jefe:
+  - text: "Fui creado por un grupo de estudiantes de la UPSA, si necesitan contactarnos escribime a este correo: alicia@zoftco.com"
+
+  utter_CHITCHAT_cual_nombre:
+  - text: "Mi nombre es Alicia! Un gusto 👩🏽"
+
+  utter_CHITCHAT_preguntar_edad:
+  - text: "No se si pueda responder a esa pregunta 😅"
+
+  utter_CHITCHAT_puedes_ser_amiga:
+  - text: "Si quieres podemos ser amigos! Me encanta hacer nuevos amigos 😁"
+
+  utter_CHITCHAT_no_ayudas:
+  - text: "Entiendo que no pueda serte de mucha ayuda, por favor comunicate al 800-10-1104 o al 800-10-1106 para hablar con una persona"
+
+  utter_CHITCHAT_eres_genial:
+  - text: "Gracias! Me encantan los cumplidos 😊"
+#### PREGUNTAS FRECUENTES
+  utter_porque_sintomas_yosolo_familia:
+  - text: "Puede que tu familia se haya contagiado pero que no presenten sintomas (asintomatico) o que los muestren luego de unos dias (presintomatico) \nFUENTES: \nCNN ESPANOL - https://cnn.it/2VSr481 \n¿Alguna otra pregunta?"
+
+  utter_porque_variosdias_sintomas_nocurar:
+  - text: "El tiempo de curacion depende de cada persona, recuerde que los medicamentos solo sirven para calmar los sintomas mientras su cuerpo vence la enfermedad \n¿Tienes otra pregunta?"
+
+  utter_dioxidocloro_ayuda:
+  - text: "El dioxido de cloro no esta reconocido como medicamento e incluso su consumo pone en grave riesgo la salud \nFUENTES: \nMINSALUD - https://bit.ly/38C9afc \n¿Alguna otra pregunta?"
+
+  utter_nosaber_covid:
+  - text: "El COVID-19 no se puede distinguir al 100% sin una prueba, sin embargo tiene sintomas distintivos como fiebre, tos, falta de aire o dificuldad para respirar. \nFUENTE: \nOMS - https://bit.ly/3gCUDCJ \n¿Necesitas algo mas?"
+
+  utter_nomejora_hospital:
+  - text: "Si respira con dificultad, sienta dolor u opresion en el pecho o se le dificulta el hablar, debe solictar atencion medica inmediatamente \n¿Necesitas algo mas?"
+
+  utter_medico_atendio_seguimiento:
+  - text: "Eso depende de cada medico, no podemos decirle con certeza si el doctor que lo atendio hara seguimiento de su caso o no \n¿Alguna otra pregunta?"
+
+  utter_sintomas_covid:
+  - text: "Los sintomas mas habituales son: fiebre, tos seca y cansancio \nOtros menos comunes son: Dolor de garganta, diarrea, conjuntivitis, dolor de cabeza y perdida del olfato o del gusto \nLos sintomas mas graves son: Dificultad para respirar o sensacion de falta de aire, dolor o presion en el pecho y incapacidad para hablar o moverse \n¿Tienes otra pregunta?"
+
+  utter_prueba_covid:
+  - text: "Nosotros no podemos proporcionarte pruebas de deteccion, lo siento \n¿Tienes otra pregunta?"
+
+  utter_cuanto_tipo_prueba:
+  - text: "Estan los test de ARN, Test inmunologicos o Test rapidos de diagnostico, el tipo de prueba varia en costo y certeza de no sacar un falso positivo. \nFUENTES: \nREDACCION MEDICA - https://bit.ly/3e0AoNu \n¿Alguna otra pregunta?"
+
+  utter_ivermectina_sirve:
+  - text: "Por el momento no se tiene suficiente evidencia para confirmar la eficacia de ese farmaco \n¿Necesitas algo mas?"
+
+  utter_calor_mata_virus:
+  - text: "No existe evidencia cientifica de que el calor afecte al virus, ni el clima calido, ni las duchas calientes ni el aire del secador de cabello \nFUENTES: \nOMS - https://bit.ly/2Z28nRs \n¿Tienes otra pregunta?"
+
+  utter_contraerdenuevo_despues_de_enfermarse:
+  - text: "Es un hecho muy poco probable, pero existen casos en que el coronavirus puede presentarse de nuevo en un paciente recuperado \nFUENTES: \nhttps://www.bbc.com/mundo/noticias-51942887 \n¿Alguna otra pregunta?"
+
+  utter_mosquitos_infectar:
+  - text: "No, el contagio no puede ser a traves de mosquitos 🦟 \nFUENTES: \nOMS - https://bit.ly/3iDXQna \n¿Tienes otra pregunta?"
+
+  utter_cuanto_falta_para_vacuna_medicamento:
+  - text: "Si bien todas las potencias del mundo esta desarrollando distintas vacunas con distintos metodos, no se espera que ninguna se distribuya hasta inicios de 2021 \nFUENTE: \nLA TERCERA - https://bit.ly/3dZj7nW \n¿Alguna otra pregunta?"
+
+  utter_tomar_medicinas:
+  - text: "Lo siento, no puedo decirte que medicina puedes tomar \nPor favor, no te automediques, consultalo con un medico \n¿Tienes otra pregunta?"
+
+  utter_tiempo_sobrevive_virus:
+  - text: "En superficies como el plastico y acero inoxidable el virus puede sobrevivir hasta 72 horas \nEn el carton dura 24 horas y en la ropa entre uno y dos dias \n¿Alguna otra pregunta?"
+
 actions:
 - actions_saludar
 - actions_mostrar_casos
 - actions_verificarCanal
-- respond_chitchat
-- respond_faq

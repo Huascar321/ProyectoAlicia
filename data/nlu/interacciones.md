@@ -219,7 +219,7 @@
 - Culo
 - Pis
 
-## intent:chitchat/eresRobot
+## intent:CHITCHAT_eresRobot
 - Eres un robot?
 - Eres un bot?
 - Eres humano?
@@ -247,7 +247,7 @@
 - Quien me esta hablando?
 - Me esta hablando un chatbot?
 
-## intent:chitchat/quien_jefe
+## intent:CHITCHAT_quien_jefe
 - Quien es tu jefe?
 - Quien te creo?
 - Quienes son tus creadores?
@@ -270,7 +270,7 @@
 - Quienes fueron los que te crearon?
 - Quienes fueron los que te programaron?
 
-## intent:chitchat/cual_nombre
+## intent:CHITCHAT_cual_nombre
 - Cual es tu nombre?
 - Como te llamas?
 - Como te puedo llamar?
@@ -295,7 +295,7 @@
 - Me puedes decir con quien hablo
 - Quiero saber con quien estoy hablando
 
-## intent:chitchat/preguntar_edad
+## intent:CHITCHAT_preguntar_edad
 - Que edad tienes?
 - Cuantos años tienes?
 - Eres mayor de edad?
@@ -318,7 +318,7 @@
 - Puedes decirme cuantos años cumples?
 - Quisiera saber cuantos años tienes
 
-## intent:chitchat/no_ayudas
+## intent:CHITCHAT_no_ayudas
 - No me estas ayudando
 - No estas siendo util
 - No has respondido mi pregunta
@@ -345,7 +345,7 @@
 - Que inutil eres
 - Que mal programada estas
 
-## intent:chitchat/eres_genial
+## intent:CHITCHAT_eres_genial
 - Eres genial
 - Eres la mejor
 - Eres asombrosa
@@ -369,7 +369,7 @@
 - Eres demasiado inteligente
 - Eres demasiado asombrosa
 
-## intent:chitchat/puedes_ser_amiga
+## intent:CHITCHAT_puedes_ser_amiga
 - Se mi amiga
 - Necesito una amiga
 - Quieres ser mi amiga?
