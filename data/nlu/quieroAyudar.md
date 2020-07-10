@@ -19,6 +19,8 @@
 - Me interesa bastante ayudar
 - Me gusta ser de ayuda
 - Me encanta ayudar
+- Saber como puedo ayudar
+- Quiero saber como puedo ayudar
 
 ## intent:quieroAyudar_soyDoctor
 - Soy doctor
