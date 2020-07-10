@@ -133,15 +133,6 @@
 - Pito
 - Polla
 
-## intent:out_of_scope
-- Pizza
-- Hamburguesa
-- Queso
-- Pan
-- Taxi
-- Leche
-- Vinagre
-
 ## intent:chitchat/eresRobot
 - Eres un robot?
 - Eres un bot?

@@ -3,13 +3,6 @@
 language: en
 pipeline:
   - name: WhitespaceTokenizer
-  - name: CRFEntityExtractor
-    features: [
-              ["low", "upper"],
-              ["bias", "low", "prefix5", "prefix2", "suffix5", "suffix3",
-               "suffix2", "upper", "digit", "pattern"],
-              ["low", "upper"]
-            ]
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
@@ -28,17 +21,12 @@ pipeline:
 policies:
   - name: MemoizationPolicy
   - name: TEDPolicy
-    #max_history: 5
-    epochs: 50
+    max_history: 5
+    epochs: 100
   - name: MappingPolicy
-  #- name: "FallbackPolicy"
-  #  nlu_threshold: 0.9
-  #  ambiguity_threshold: 0.1
-  #  core_threshold: 0.9
-  #  fallback_action_name: 'action_default_fallback'
   - name: TwoStageFallbackPolicy
     nlu_threshold: 0.8
-    #core_threshold: 0.8
-    #fallback_core_action_name: "action_default_ask_affirmation"
-    #fallback_nlu_action_name: "action_default_ask_affirmation"
+    core_threshold: 0.8
+    fallback_core_action_name: "action_default_fallback"
+    fallback_nlu_action_name: "action_default_fallback"
     deny_suggestion_intent_name: "out_of_scope"

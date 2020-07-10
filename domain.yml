@@ -20,6 +20,7 @@ intents:
 - mostrarCasos
 - mostrarCasos_solicitar
 - out_of_scope
+- trigger_rephrase
 - pedirAsistencia
 - pedirDoctor_medibook
 - pedirDoctor_whatsapp
@@ -128,6 +129,7 @@ responses:
   - text: "Buenos dias! \nMi nombre es Alicia y estoy aqui para ayudarte contra el COVID-19. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
   - text: "Buenos dias! \nLas aves cantan y el cafe ya esta listo, soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
   - text: "Hola! \nMi nombre es Alicia y espero que estes teniendo un hermoso dia. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+
   utter_saludos_tardes:
   - text: "Hey! Buenas tardes 🌅 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
     channel: "facebook"
@@ -171,6 +173,7 @@ responses:
   - text: "Buenas tardes! \nMi nombre es Alicia y quiero ayudarte\nQue necesitas?\n \n-Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
   - text: "Hola! \nEspero que estes teniendo una hermosa tarde, mi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
   - text: "Hola! \nEstaba tomando mi tecito y empanadas pero estoy siempre lista para ayudarte, mi nombre es Alicia\nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+
   utter_saludos_noches:
   - text: "Hey! Buenas noches 🌙 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
     channel: "facebook"
@@ -201,6 +204,7 @@ responses:
   - text: "Buenas noches! \nMi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
   - text: "Hola! \nOh! Veo que estas despierto a estas horas, no te culpo yo tambien! \nSoy Alicia y estoy aqui para ayudarte \nQue necesitas?\n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
   - text: "Buenas noches! \nSoy Alicia, estoy siempre despierta y lista para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+
   utter_saludos_normal:
   - text: "Hey! Hola🙋🏽 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
     channel: "facebook"
@@ -244,6 +248,7 @@ responses:
   - text: "Hola! \nMi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
   - text: "Hola hola!\n Me alegro mucho de verte, yo soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
   - text: "Saludos cordiales! \nMi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n-Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+
   utter_casos:
   - text: "¿De que departamento quieres saber? 👐🏼🇧🇴"
     channel: "facebook"
@@ -341,6 +346,7 @@ responses:
   - text: "Dime el departamento del cual te interesaria saber 👐🏼"
   - text: "¿De que departamento quieres saber? 👐"
   - text: "¿Que departamento te gustaria saber?📍🇧🇴"
+
   utter_preguntarOtrosCasos:
   - text: "¿Quieres saber los casos de otro departamento o tienes otra pregunta?👀"
     channel: "facebook"
@@ -372,9 +378,11 @@ responses:
   - text: "¿Quieres saber los casos de otro *departamento* o tienes otra *pregunta*?"
   - text: "¿Deseas ver los datos de otro *departamento* o deseas *preguntar* algo mas?"
   - text: "Te puedo mostrar los datos de otros *departementos* o tienes una *pregunta* diferente?"
+
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg #Ignorar
     text: 'Here is something to cheer you up:' #Ignorar
+
   utter_quieroAyudar_soyNinguno:
   - text: "Por el momento solo buscamos doctores o personal de salud \n\nSi conoces a alguien quien pueda ayudar, compártele este número 🤗 \n\nEntonces" #AQUI SI SE PUEDE DOBLE \n PORQUE ES FACEBOOK
     channel: "facebook"
@@ -385,6 +393,7 @@ responses:
   - text: "Por el momento solo buscamos doctores o personal de salud \nSi conoces a alguien quien pueda ayudar, compartele este numero  \nEntonces" #NO HACER DOBLE \n EN ESTE CANAL
   - text: "Por ahora estamos precisando la ayuda de doctores o personal de salud \n Si conoces a alguien que tenga ganas de ayudar en esta labor, compartele este numero ☺️ \n Sera de mucha ayuda \nEntonces"
   - text: "Vaya, en estos momentos estamos en busca de doctores o personal de salud, pero nos puedes ayudar mucho compartiendo este numero ☺️ \nEntonces"
+
   utter_quieroAyudar:
   - text: "Es increíble que quieras aportar! \n🔍 En este momento estamos buscando doctores o personal de salud 🏥 \n¿Eres alguno de ellos?😌"
     channel: "facebook"
@@ -402,12 +411,14 @@ responses:
         title: 'No, lo siento'
   - text: "Es increíble que quieras aportar! \nEn este momento estamos buscando *doctores* y *personal de salud* \n¿Eres alguno de ellos?" #Hacer esta pregunta mas amigable, invitando al usuario a responder si o no
   - text: "Wow, muchas gracias por querer ayudar! \n ¿Eres doctor o parte del personal de salud?"
+
   utter_negarPregunta:
   - text: "Muy bien, cualquier otra duda hazmela saber 🤗"
   - text: "Perfecto! Si tienes otra duda no dudes en comentarmela 🤗"
   - text: "De acuerdo, si necesitas algo mas dimelo! 🤗"
   - text: "Fantastico, cualquier otra consulta no dudes en preguntar"
   - text: "Perfecto, si te puedo ayudar en algo mas cuentame"
+
   utter_pedirAsistencia:
   - text: "Claro ¿Donde quieres pedir tu cita? ✏️ \nLas consultas sobre el COVID-19 son gratuitas"
     channel: "facebook"
@@ -425,6 +436,7 @@ responses:
         title: "Agendar por Whatsapp"
   - text: "Claro ¿Donde quieres pedir tu cita? \n- Agendar consulta por *Medibook* \n- Agendar consulta por *Whatsapp* \n_Las consultas sobre el COVID-19 son gratuitas_"
   - text: "De acuerdo ¿Por donde deseas pedir tu cita? \n- Agendar consulta por *Medibook* \n- Agendar consulta por *Whatsapp* \n_Las consultas referentes al COVID-19 son totalmente gratuitas_"
+
   utter_pedirDoctor_medibook:
   - text: "Pide una cita con un Médico online desde este link 👨🏽‍⚕️"
     channel: "facebook"
@@ -434,12 +446,14 @@ responses:
         url: https://bit.ly/RegistroDePacientes
         title: "Pedir cita"
   - text: "Registrate en Medibook y sigue las instrucciones mediante este enlace: \nhttps://bit.ly/RegistroDePacientes \n¿Necesitas algo mas?"
+
   utter_tengoPreguntas:
   - text: "¿Cual es tu pregunta? 😁"
   - text: "¿Cual es tu duda? 😊"
   - text: "¿Que deseas preguntarme?😊"
   - text: "Todo oidos ¿cual es tu pregunta?😁"
   - text: "Cuentame ¿Cual es tu duda?😊"
+
   utter_desplegarMenu:
   - text: "¿En que mas te puedo ayudar?😊"
     channel: "facebook"
@@ -497,11 +511,13 @@ responses:
   - text: "Te puedo ayudar en algo mas? \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   - text: "En que mas puedo servirte? \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   - text: "Hay algo en lo que pueda seguir ayudandote? \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas*\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+
   utter_pregunta:
   - text: "Ok no hay problema \n¿Tienes alguna otra pregunta?"
   - text: "Ok no te preocupes \n¿Tienes alguna otra pregunta?"
   - text: "No hay problema y gracias \n¿Tienes alguna otra duda?"
   - text: "Esta bien no hay problema ¿Te puedo ayudar en algo mas?"
+
   utter_quieroAyudar_soyDoctor:
   - text: "Ingrese al siguiente link y regístrese 📋"
     channel: "facebook"
@@ -513,6 +529,7 @@ responses:
   - text: "\nIngrese al siguiente enlace: \nhttps://bit.ly/RegistroDeDoctores \n¿Necesitas algo mas?"
   - text: "\nIngrese al siguiente enlace: \nhttps://bit.ly/RegistroDeDoctores \n¿Te puedo ayudar en algo mas?" #Sinonimo solo en el ¿Necesitas algo mas?
   - text: "\nIngrese al siguiente enlace: \nhttps://bit.ly/RegistroDeDoctores \n¿En que mas puedo ayudarte?" #Sinonimo solo en el ¿Necesitas algo mas?
+
   utter_despedirse:
   - text: "Chau! No olvides recomendarme a tus familiares 👩🏽"
   - text: "Bye! No olvides compartirme con tus amigos, saludos!😘"
@@ -521,6 +538,7 @@ responses:
   - text: "Hasta pronto! cuidate mucho y no olvides compartirme 😘"
   - text: "Chau, nos vemos!! No olvides compartirme para llegar a mas personas 😁"
   - text: "Un gusto, hasta luego. Comparte con tus amigos para ayudar a mas personas ☺️"
+
   utter_agradecer:
   - text: "De nada! Me alegra haberte sido de ayuda 😊"
   - text: "De nada! Me alegra haberte sido de ayuda 😊"
@@ -529,6 +547,7 @@ responses:
   - text: "Ay no es nada, me encanta ayudar😘"
   - text: "Gracias a ti, espero haberte ayudado mucho😁"
   - text: "No hay de que! espero haber sido de ayuda😊"
+
   utter_insultos:
   - text: "Hey, no seas groser@ ☹️"
   - text: "Ay que malo"
@@ -536,8 +555,10 @@ responses:
   - text: "Hieres mis sentimientos informaticos😢"
   - text: "Mi central de datos no puede procesar algo tan feo 😞"
   - text: "Hey no seas mal@, no puede llorar pero si pudiera... 😢"
+
   utter_insultos2:
   - text: "No me interesa tu anatomía"
+
   utter_pedirDoctor_whatsapp:
   - text: "Obten una lista de numeros de Whatsapp por este link: ⤵️"
     channel: "facebook"
@@ -555,32 +576,42 @@ responses:
         title: "Whatsapp"
   - text: "Obten una lista de numeros de Whatsapp por este link: \nhttps://bit.ly/2BRZ7qf \n¿Necesitas algo mas?"
   - text: "Puedes obtener la lista de numeros de Whatsapp por este link \nhttps://bit.ly/2BRZ7qf \n¿Necesitas ayuda en algo mas?"
+
   utter_departamento_incorrecto:
   - text: "Lo siento no entendi el departamento, intenta escribirlo bien 🙌"
   - text: "Ay no te entendi, puedes escribirlo de nuevo porfis?"
   - text: "Perdon, creo que no te entendi muy bien, puedes repetirlo?"
   - text: "Creo que no te entendi, pudieras repetirlo porfis?"
+
   utter_default:
-  - text: "Intenta reformular tu pregunta 🙏 \nSi sigo fallando, tal vez no tenga esa pregunta en mi base de datos"
-    channel: "facebook"
-  - text: "Por favor, reformula tu pregunta 🙏 \nSi continuo fallando, tal vez no tenga esa pregunta en mi base de datos"
-    channel: "facebook"
-  - text: "Podrias ser mas especfico? 🙏 \nSi continuo fallando, tal vez no tenga esa pregunta en mi base de datos"
-    channel: "facebook"
   - text: "Lo siento, no entendi 😐 \n¿Podrias reformular lo que dijiste? 🙌"
   - text: "Creo que no pude entenderte 😥 \n¿Puedes ser mas especifico? 🙌🏼"
   - text: "Creo que no te he entendido bien 😓 \n¿Podrias ser mas claro? 🙏🏽"
   - text: "No te entendi correctamente 😕 \n¿Que intentaste decir?"
   - text: "Ups, no entendi muy bien lo que dijiste 😨 \n¿Que quisiste decir?"
   - text: "Disculpa, no entendi lo que me dijiste 😥 \n¿Que quisiste decir?"
+
   utter_QuieroCompartir:
   - text: "Comparte mi numero con el siguiente link: \nhttps://wa.link/bd8pke"
     channel: "facebook"
   - text: "Comparte mi numero con el siguiente link: \nhttps://wa.link/bd8pke \n¿Necesitas algo mas?"
+
+  utter_ask_affirmation:
+  - text: Quisiste decir?
+    buttons:
+      - payload: "/out_of_scope"
+        title: "Nada"
+
+  utter_ask_rephrase:
+  - text: "¿Podrias reformular lo que dijiste? 🙌"
+  - text: "¿Puedes ser mas especifico con tu pregunta? 🙌🏼"
+  - text: "¿Podrias ser mas claro con tu pregunta? 🙏🏽"
+
 actions:
 - actions_saludar
 - actions_mostrar_casos
 - actions_verificarCanal
+- action_default_fallback
 - action_default_ask_affirmation
 - respond_chitchat
 - respond_faq
