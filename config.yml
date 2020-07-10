@@ -1,6 +1,7 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
 language: "es"  # your two-letter language code
+
 pipeline:
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
@@ -15,6 +16,11 @@ pipeline:
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 100
+  #- name: ResponseSelector
+  - name: "ResponseSelector"
+    retrieval_intent: chitchat
+  - name: "ResponseSelector"
+    retrieval_intent: faq
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

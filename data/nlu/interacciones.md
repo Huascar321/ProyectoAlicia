@@ -19,6 +19,13 @@
 - Holaa
 - Olaa
 - hola
+- Que tal
+- holaa
+- holii
+- Olaa
+- Hola hola
+- Como estas
+- Como estas [Alicia](nombre_alicia)
 
 ## intent:despedidas
 - Adios
@@ -30,6 +37,18 @@
 - Nos vemos
 - Bye bye
 - Hasta pronto
+- Chauu
+- Que te vaya bien
+- Hasta pronto
+- Hasta la proxima
+- Adioos
+- Nos vemoos
+- Chau, chau
+- Chau chau
+- Que te vaya muy bien
+- Me voy
+- Me tengo que ir
+- Tengo que irme
 
 ## intent:afirmar
 - Si
@@ -51,6 +70,8 @@
 - Afirmativo
 - Bueno
 - Esta bien
+- Esta muy bien
+- Esta perfecto
 
 ## intent:negar
 - No
@@ -69,6 +90,9 @@
 - En nada mas
 - Nada mas
 - Nada
+- Para nada
+- Claro que no
+- Obvio que no
 
 ## intent:agradecer
 - Gracias
@@ -77,12 +101,38 @@
 - Se le agradece
 - Muchisimas gracias
 - Si gracias
+- Graciaas
+- Enserio te lo agradezco
+- Te lo agradezco bastante
+- Te doy las gracias
+- Enserio muchas gracias
+- Graciaaas
+- Enserio que te lo agradezco
+- Enserio te lo agradezco
+- De verdad que te lo agradezco
+- Muchas gracias enserio
+- Muchas gracias de verdad
+- Gracias por todo
+- Gracias muy util
+- Me fuiste muy util, gracias
 
 ## intent:QuieroCompartir
 - Quiero compartir su numero
 - Quiero compartir
 - Compartir
 - Compartir su contacto
+- Deseo compartir tu numero
+- Puedo compartir tu numero?
+- Quiero compartirte con mis amigos
+- Quiero compartirte con mis familiares
+- Necesito compartir tu numero
+- Como puedo compartir tu numero?
+- Enseñame como compartir tu contacto
+- Necesito compartir tu contacto
+- Me puedes pasar tu contacto
+- Me puedes pasar tu numero
+- Como puedo mandarle tu numero a mis amigos
+- Como puedo mandarle tu numero a mis contactos
 
 ## intent:tengoPreguntas
 - Tengo una pregunta
@@ -102,11 +152,44 @@
 - Quiero que me respondan una pregunta
 - Pregunto
 - Una duda
+- Quiero hacerte una pregunta
+- Tengo unas dudas para ti
+- Tengo una duda para vos
+- Tengo una pregunta para vos
+- Tengo una pregunta para ti
+- Quiero hacerte otra pregunta
+- Necesito hacerte otra pregunta
+- Me puedes responder una pregunta?
+- Me puedes responder una duda?
 
 ## intent:activarMenu
 - Quiero volver al menu
 - Menu
 - Quiero abrir el menu de nuevo
+- Quiero volver a abrir el menu
+- Me gustaria abrir de nuevo el menu
+- Quiero ver las opciones
+- Me gustaria ver de nuevo las opciones
+- Necesito el menu de nuevo
+- Necesito ver las opciones de nuevo
+- Me puedes mostrar el menu de nuevo?
+- Me puedes mostrar las opciones de nuevo?
+- Donde estan las opciones?
+- Donde esta el menu?
+- Opciones
+- Vuelveme a mostrar el menu por favor
+- Vuelveme a mostrar las opciones por favor
+- Me muestras los botones
+- Me puedes mostrar los botones
+- Necesito ver los botones
+- Quiero ver los botones
+- Botones
+- Quiero ver el menu
+- Quiero ver las opciones
+- Quiero ver los botones
+- Quiero ver el menu otra vez
+- Quiero ver las opciones otra vez
+- Quiero ver los botones otra vez
 
 ## intent:insultos
 - Mierda
@@ -124,13 +207,17 @@
 - Chupamela
 - Chupala
 - Pinche
-
-## intent:insultos2
 - Pene
 - Pichi
 - Verga
 - Pito
 - Polla
+- Golfa
+- Puchi
+- Caca
+- Pedo
+- Culo
+- Pis
 
 ## intent:chitchat/eresRobot
 - Eres un robot?
@@ -146,6 +233,19 @@
 - Eres humano?
 - Eres alguien real?
 - Usas inteligencia artificial?
+- Que tan real eres?
+- De verdad eres un chatbot?
+- De verdad no eres humana?
+- No eres humana?
+- Eres una persona?
+- No eres una persona?
+- Quiero saber si eres un robot
+- Quiero saber si eres una persona
+- Que tan real eres
+- Me esta hablando una persona?
+- Me esta hablando un robot?
+- Quien me esta hablando?
+- Me esta hablando un chatbot?
 
 ## intent:chitchat/quien_jefe
 - Quien es tu jefe?
@@ -155,12 +255,45 @@
 - Quien es tu dueño?
 - Quien es tu creador?
 - Quien te programo?
+- QUien fue el que te creo?
+- Quien te construyo?
+- Quien fue el que te programo?
+- Quien fue el que te creo?
+- Quien fue quien te creo?
+- Quienes te crearon?
+- Quienes te construyeron?
+- Quienes son tus dueños?
+- Quien te hizo?
+- Quienes te hicieron?
+- Quienes te estrenaron?
+- Quienes son tus jefes?
+- Quienes fueron los que te crearon?
+- Quienes fueron los que te programaron?
 
 ## intent:chitchat/cual_nombre
 - Cual es tu nombre?
 - Como te llamas?
 - Como te puedo llamar?
 - Como es tu nombre?
+- Como te puedo llamar?
+- Como puedo llamarte?
+- Como deberia llamarte?
+- Quiero saber como puedo llamarte
+- Como puedo decirte?
+- Con que nombre te puedo llamar?
+- Quiero saber como llamarte
+- Quiero saber como puedo llamarte
+- Cual es tu apodo
+- Cual es tu nombre
+- De que manera puedo llamarte?
+- De que manera puedo apodarte?
+- Como esque puedo llamarte?
+- Quiero saber como deberia llamarte
+- Me puedes decir como puedo llamarte
+- Me puedes decir como te llamas
+- Con quien hablo
+- Me puedes decir con quien hablo
+- Quiero saber con quien estoy hablando
 
 ## intent:chitchat/preguntar_edad
 - Que edad tienes?
@@ -169,6 +302,21 @@
 - Quiero saber tu edad
 - Quiero saber cuantos años tienes
 - Cual es tu edad?
+- Quiero saber tu edad
+- Quiero saber cuantos años tienes
+- Quiero saber que edad tienes
+- Puedo saber tu edad?
+- Puedo saber cuantos años tienes?
+- Me puedes decir cuantos años tienes?
+- Me puedes decir cuantos años cumples?
+- Me puedes decir que edad tienes?
+- Que edad tienes?
+- Cuando es tu cumpleaños
+- Cuando cumples años
+- Puedes decirme cuantos años tienes?
+- Puedes decirme que edad tienes?
+- Puedes decirme cuantos años cumples?
+- Quisiera saber cuantos años tienes
 
 ## intent:chitchat/no_ayudas
 - No me estas ayudando
@@ -182,6 +330,20 @@
 - Eres terrible
 - Eres horrible
 - No me estas siendo util
+- No me eres util
+- Eres demasiado inutil
+- Eres muy inutil
+- Chatbot inutil
+- Robot inutil
+- Eres un inutil
+- Eres una inutil
+- Eres inservible
+- No me sirves de nada
+- No sirves
+- Inutil
+- Eres muy mala
+- Que inutil eres
+- Que mal programada estas
 
 ## intent:chitchat/eres_genial
 - Eres genial
@@ -189,8 +351,25 @@
 - Eres asombrosa
 - Eres la joda
 - Eres increible
+- Wow eres asombrosa
+- Wow eres genial
+- Eres tan genial
+- Me encanta lo inteligente que eres
+- Eres muy inteligente
+- Eres tan inteligente
+- Eres muy asombrosa
+- Eres fascinante
+- Eres arte
+- Eres bastante inteligente
+- Eres muy asombrosa
+- Eres muy genial
+- Eres muy fascinante
+- Eres la mejor de todas
+- Eres demasiado genial
+- Eres demasiado inteligente
+- Eres demasiado asombrosa
 
-## intent:CHITCHAT_puedes_ser_amiga
+## intent:chitchat/puedes_ser_amiga
 - Se mi amiga
 - Necesito una amiga
 - Quieres ser mi amiga?
@@ -199,18 +378,14 @@
 - Puedes ser mi amiga?
 - Podes ser mi amiga?
 - Quiero ser tu amigo
-
-## intent:chitchat/residencia
-- Donde vives?
-- De donde eres?
-- Donde fuiste creada?
-- Eres boliviana?
-- De donde provienes?
-- Cual es tu casa?
-
-## intent:como_puedes_ayudar
-- Como puedes ayudarme?
-- Que puedes hacer?
-- Necesito ayuda
-- Que puedes hacer?
-- Quiero ayuda
+- Quieres que seamos amigos?
+- Necesito un amigo
+- Quiero un amigo
+- Necesito que alguien sea mi amigo
+- Solo quiero un amigo
+- Y si somos amigos?
+- Me encantaria ser tu amigo
+- Quiero ser tu amigo
+- Puedo ser tu amigo?
+- Quiero tener una amistad contigo
+- Quiero que seamos amigos

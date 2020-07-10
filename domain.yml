@@ -10,8 +10,6 @@ intents:
     triggers: utter_agradecer
 - insultos:
     triggers: utter_insultos
-- insultos2:
-    triggers: utter_insultos2
 - como_puedes_ayudar:
     triggers: utter_desplegarMenu
 - afirmar
@@ -28,8 +26,6 @@ intents:
 - tengoPreguntas
 - activarMenu
 # PREGUNTAS FRECUENTES
-- CHITCHAT_puedes_ser_amiga:
-      triggers: utter_CHITCHAT_puedes_ser_amiga
 - porque_sintomas_yosolo_familia
 - porque_variosdias_sintomas_nocurar
 - dioxidocloro_ayuda
@@ -652,9 +648,6 @@ responses:
   - text: "Mi central de datos no puede procesar algo tan feo 😞"
   - text: "Hey no seas mal@, no puede llorar pero si pudiera... 😢"
 
-  utter_insultos2:
-  - text: "No me interesa tu anatomía"
-
   utter_pedirDoctor_whatsapp:
   - text: "Obten una lista de numeros de Whatsapp por este link: ⤵️"
     channel: "facebook"
@@ -702,9 +695,6 @@ responses:
   - text: "¿Podrias reformular lo que dijiste? 🙌"
   - text: "¿Puedes ser mas especifico con tu pregunta? 🙌🏼"
   - text: "¿Podrias ser mas claro con tu pregunta? 🙏🏽"
-
-  utter_CHITCHAT_puedes_ser_amiga:
-  - text: "Claro! Me encanta hacer nuevos amigos 😁"
 
 actions:
 - actions_saludar

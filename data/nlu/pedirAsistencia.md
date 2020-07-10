@@ -1,14 +1,15 @@
 ## intent:pedirAsistencia
-- Quisiera pedir asistencia medica
+- Quisiera pedir una cita medica
 - Asistencia medica
-- Necesito asistencia medica
-- Quiero asistencia medica
+- Necesito una cita medica
+- Quiero una cita medica
 - Alguien necesita asistencia medica
-- Me gustaria asistencia medica
+- Me gustaria una cita online
+- Me gustaria pedir una cita
 - Preciso asistencia medica
-- Dame asistencia medica
-- Ayudame con la asistencia medica
-- Me voy por la asistencia medica
+- Dame una cita medica
+- Ayudame con la cita medica
+- Me voy por la cita medica
 - Asistencia
 - Necesito un medico
 - Necesito un doctor
@@ -36,6 +37,21 @@
 - Cita medibook
 - Cita con un doctor online en medibook
 - Medibook
+- Quisiera tener la cita con medibook
+- Quisiera que me agendaras con medibook
+- Con medibook
+- La quiero con medibook
+- Me puedes agendar con medibook
+- Me interesa mas medibook
+- Me interesa medibook
+- Preferiria con medibook
+- Agendame con medibook
+- Quisiera agendarme con medibook
+- La cita la quiero con medibook
+- Con medibook porfavor
+- Prefiero con medibook
+- Podrias agendarme con medibook
+- Medibook pls
 
 ## intent:pedirDoctor_whatsapp
 - WhatsApp
@@ -60,3 +76,8 @@
 - Quiero un doctor por WhatsApp
 - Consulta por WA
 - La quiero por whatsapp
+- Preferiria por whatsapp
+- Prefiero con whatsapp
+- Me puedes agendar por whatsapp?
+- La quiero por whatsapp
+- Quisiera agendarme por whatsapp

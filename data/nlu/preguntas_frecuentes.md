@@ -4,6 +4,18 @@
 - Por que mi familia esta sana pero yo enfermo?
 - Por que solo yo estoy enfermo pero no mi familia?
 - Tengo sintomas pero mi familia no
+- Tengo los sintomas pero mi familia no
+- Mi familia no se ha enfermado pero yo si
+- Estoy enfermo pero no mi familia
+- Estoy enfermo pero mi familia no
+- Por que mi familia esta sana pero yo no
+- Estoy enfermo aunque mi familia no
+- Estoy enfermo pero mi familia no lo estan
+- Estoy con sintomas pero mi familia no lo estan
+- Tengo los sintomas pero mi familia esta bien
+- Estoy enfermo pero mi familia esta bien
+- Estoy enfermo pero mi familia esta sana
+- Por que yo tengo los sintomas pero mi familia esta sana?
 
 ## intent:faq/porque_variosdias_sintomas_nocurar
 - Por que no me curo por mas que sigo la medicacion?
@@ -13,6 +25,16 @@
 - Por que aun no me he curado?
 - Por que tardo en curarme?
 - Por que aun no me he curado?
+- Llevo muchos dias con remedios y aun no me he curado
+- Llevo mucho tiempo con los medicamentos y aun no me curo
+- Llevo mucho tiempo con los remedios y aun no me curo
+- Ya han pasado muchos dias y sigo enfermo
+- Han pasado muchas semanas y sigo enfermo
+- Ya casi un mes y sigo enfermo
+- Por que sigo enfermo si estoy tomando las medicinas
+- Por que sigo enfermo si estoy tomando los remedios
+- Por que tardo tanto en curarme si estoy siguiendo el tratamiento
+- Por que tardo tanto en curarme
 
 ## intent:faq/dioxidocloro_ayuda
 - El dioxido de cloro funciona?
@@ -22,6 +44,17 @@
 - El dioxido de cloro ayuda a combatir el coronavirus?
 - El dioxido de cloro ayuda a combatir la enfermedad?
 - El dioxido de cloro combate el covid?
+- Lo que dicne del dioxido de cloro es real?
+- Es cierto que el dioxido de cloro sirve contra la enfermedad?
+- Es cierto que el dioxido de cloro sirve contra el coronavirus?
+- De verdad funciona el dioxido de cloro?
+- Puedo tomar el dioxido de cloro?
+- El dioxido de cloro hace daño?
+- El dioxido de cloro es dañino?
+- Me puedo morir por tomar dioxido de cloro?
+- El dioxido de cloro es toxico?
+- Se puede tomar dioxido de cloro?
+- Puedo tomar dioxido de cloro?
 
 ## intent:faq/nosaber_covid
 - Como sabre si tenia covid?
@@ -29,6 +62,22 @@
 - Como puedo saber si tuve covid?
 - Como puedo saber si estuve enfermo?
 - Como puedo saber si tuve coronavirus?
+- Me cure pero no se si tuve covid
+- Me cure pero no se si estuve enfermo
+- Como puedo saber si estuve enfermo
+- Me cure pero nunca supe si estuve enfermo
+- Como puedo saber si estuve enfermo
+- Como se si estuve enfermo
+- Como se si estuve infectado
+- Como se si tenia coronavirus
+- Como se si tenia el virus
+- Como se si tenia covid
+- Como se si estaba enfermo
+- Como se si estaba infectado
+- Como puedo saber si estaba infectado
+- Como puedo saber si estuve con covid
+- Estuve enfermo pero no se si era covid
+- Estuve enfermo pero no se si era coronavirus
 
 ## intent:faq/nomejora_hospital
 - Cuando debo ir al hospital?
@@ -37,6 +86,20 @@
 - Cuando tengo que ir al hospital?
 - Como se yo si tengo que ir al hospital?
 - Deberia ir al hospital?
+- Cuando es recomendable ir al hospital
+- Como se que necesito intubacion?
+- Como se si me tienen que intubar?
+- Como puedo saber si tengo que ir al hospital?
+- Como puedo saber si me tienen que intubar?
+- Como saber si tienen que intubarme?
+- Cuando tendria que ir al hospital?
+- En que ocasion es recomendable ir al hospital?
+- En que ocasion es recomendable que vaya al hospital?
+- Cuando es bueno que vaya al hospital?
+- Cuando deberia ir al hospital?
+- En que casos deberia ir al hospital?
+- Cuando se que tengo que ir al hospital?
+- Cuando se que me tienen que intubar?
 
 ## intent:faq/medico_atendio_seguimiento
 - El medico que me atendio hara seguimiento de mi caso?
@@ -45,6 +108,16 @@
 - Haran algun seguimiento de mi caso?
 - El doctor que me atendio va a seguir mi caso?
 - Van a seguir mi caso?
+- El doctor que me atendio hara algun seguimiento de mi caso?
+- Me atendio un doctor hara seguimiento de mi caso?
+- El doctor que me estuvo atendiendo hara seguimiento de mi caso?
+- El doctor que me vio hara seguimiento de mi caso?
+- El doctor que me trato hara seguimiento de mi caso?
+- El medico que me trato hara seguimiento de mi caso?
+- El medico que me estuvo atendiendo hara algun seguimiento de mi caso?
+- Haran algun seguimiento de mi caso?
+- Van a seguir mi caso despues de que me atiendan?
+- Van a seguir mi caso despues de ser atendido?
 
 ## intent:faq/sintomas_covid
 - Cuales son los sintomas de la enfermedad?
@@ -53,14 +126,39 @@
 - Sintomas del coronavirus
 - Sintomas de la enfermedad
 - Es un sintoma del coronavirus?
+- Quisiera saber los sintomas del covid
+- Quisiera saber los sintomas de la enfermedad
+- Me puedes decir cuales son los sintomas del coronavirus?
+- Me puedes decir cuales son los sintomas del covid?
+- Puedes decirme cuales son los sintomas del virus?
+- Puedes decirme cuales son los sintomas del coronavirus?
+- Me puedes decir los sintomas?
+- Quisiera saber los sintomas
+- Quiero saber los sintomas del coronavirus
+- Quiero saber los sintomas de la enfermedad
+- Quiero saber los sintomas
+- Puedes decirme los sintomas del covid
+- Puedes decirme los sintomas del coronavirus
+- Quiero saber cuales son los sintomas
 
 ## intent:faq/prueba_covid
 - Pueden ayudarme a hacerme una prueba?
-- Quiero hacerme una prueba?
-- Necesito hacerme una prueba?
+- Quiero hacerme una prueba
+- Necesito hacerme una prueba
 - Que tipo de prueba debo hacerme?
 - Deberia hacerme una prueba?
 - Puedo hacerme una prueba?
+- Quiero hacerme una prueba rapida
+- Me puedes ayudar a hacerme una prueba
+- Necesito una prueba
+- Necesito una prueba rapida
+- Necesito hacerme una prueba
+- Me puedes ayudar a hacerme una prueba?
+- Me puedes comunicar con alguien quien me haga la prueba?
+- Por favor podrias hacerme la prueba
+- Con quien tengo que hablar para hacerme la prueba
+- Con quien me tengo que comunicar para hacerme la prueba
+- A quien le tengo que hablar para hacerme la prueba
 
 ## intent:faq/distintas_pruebas
 - Cuantas pruebas existen?
@@ -68,15 +166,42 @@
 - Cuantas pruebas hay?
 - Cuantos tipos de pruebas hay?
 - Cuales son las pruebas que existen
+- Que tipos de pruebas existen?
+- Que tipos de pruebas hay?
+- Cuales son los tipos de pruebas que existen?
+- Cuantas pruebas existen en total?
+- Cuantas pruebas hay en total?
+- Me puedes decir cuantas pruebas hay
+- Me puedes decir cuantas pruebas existen?
+- Quiero saber cuantas pruebas hay
+- Quiero saber cuantas pruebas existen
+- Me puedes decir cuantas pruebas existen?
+- Dime cuantas pruebas hay
+- Dime cuantas pruebas existen
+- Quiero saber cuantas pruebas hay en total
+- Quiero saber cuantas pruebas existen
 
 ## intent:faq/ivermectina_sirve
-- La ivermectina sirve?
-- Funciona la ivermectina?
-- Como funciona la ivermectina?
-- Sabes algo de la ivermectina?
-- La ivermectina funciona?
-- La ivermectina ayuda?
-- La ivermectina funciona contra el covid?
+- La [ivermectina](medicina) sirve?
+- Funciona la [ivermectina](medicina)?
+- Como funciona la [ivermectina](medicina)?
+- Sabes algo de la [ivermectina](medicina)?
+- La [ivermectina](medicina) funciona?
+- La [ivermectina](medicina) ayuda?
+- La [ivermectina](medicina) funciona contra el covid?
+- La [ivermectina](medicina) es util?
+- Es cierto que la [ivermectina](medicina) mata al virus?
+- Es cierto que la [ivermectina](medicina) te cura del virus?
+- Es verdad que la [ivermectina](medicina) mata al coronavirus?
+- Es verdad que la [ivermectina](medicina) mata al covid?
+- La [ivermectina](medicina) es dañina?
+- La [ivermectina](medicina) me puede hacer daño?
+- Es la [ivermectina](medicina) dañina?
+- La [ivermectina](medicina) en verdad funciona?
+- La [ivermectina](medicina) en verdad sirve?
+- Sirve la [ivermectina](medicina)?
+- De verdad sirve la [ivermectina](medicina)
+- Que tan cierto es que la [ivermectina](medicina) mata al coronavirus
 
 ## intent:faq/calor_mata_virus
 - El calor mata al virus?
@@ -86,6 +211,21 @@
 - El sol mata el virus?
 - El virus muere con el sol
 - El virus muere con el calor
+- Las altas temperaturas pueden matar al virus?
+- Es cierto que el calor mata al virus?
+- Es cierto que el calor mata al coronavirus
+- Es cierto que el sol mata al virus?
+- El virus puede morir por el calor?
+- El virus puede morir por el sol?
+- Puede el virus morir por el calor?
+- Que tan cierto esque el virus muere por el calor?
+- Que tan cierto esque el coronavirus muere por el sol?
+- El virus muere por el calor?
+- El virus muere por el sol?
+- El covid puede morir por el calor?
+- Es cierto que el covid puede matar al virus?
+- Es cierto que el coronavirus puede morir por el calor?
+- El virus puede morir por el sol?
 
 ## intent:faq/contraerdenuevo_despues_de_enfermarse
 - Puedo contraer la enfermedad otra vez si ya me cure?
@@ -95,6 +235,18 @@
 - Quedo inmune si ya me dio coronavirus?
 - Puedo contraer coronavirus si ya me sane?
 - Puedo contraer la enfermedad si ya me cure?
+- Si ya me cure puedo volver a enfermarme?
+- Si ya me cure me puedo volver a enfermermar?
+- Es cierto que una vez curado no puedo volver a enfermarme?
+- Si ya me dio coronvirus puedo volver a enfermarme
+- Si ya me dio covid puedo volver a enfermar?
+- Si ya me cure del virus me quedo inmune?
+- Inmunidad
+- Si ya sane me puedo volver a enfermerar?
+- Si ya sane del covid puedo volver a enfermarme?
+- Si ya me dio covid me puedo volver a enfermar?
+- Es cierto que si te enfermas una vez ya no te vuelve a dar?
+- Es cierto que si me enfermo una vez me quedo inmune?
 
 ## intent:faq/mosquitos_infectar
 - Los mosquitos pueden infectarte?
@@ -103,6 +255,18 @@
 - Los mosquitos pueden transmitir el virus?
 - Los sancudos pueden pasar el virus?
 - El sancudo me puedo enfermar de covid?
+- La picada del mosquito puede infectarme?
+- Los moquitos pueden infectar a otros con el virus?
+- Los mosquitos pueden infectar a otros con el coronavirus?
+- Puede un mosquito transmitir la enfermedad?
+- Puede un mosquito transmitir el coronavirus?
+- Los mosquitos pueden transmitir el covid?
+- Los mosquitos pueden transmitir el virus?
+- Me puedo infectar por un mosquito?
+- Me puede dar coronavirus por un mosquito?
+- Me puede dar covid por un mosquito?
+- Me puedo infectar por la picada de un mosquito?
+- La picada del mosquito puede transmitir la enfermdad?
 
 ## intent:faq/cuanto_falta_para_vacuna_medicamento
 - Cuanto falta para la vacuna?
@@ -112,6 +276,18 @@
 - Cuanto tiempo tomara hacer la vacuna?
 - Falta mucho tiempo para la vacuna?
 - Falta mucho para la vacuna?
+- Cuanto tiempo falta para la vacuna?
+- Cuando estar lista la vacuna?
+- Cuando estara lista la vacuna contra el covid
+- Cuando estara lista la vacuna contra el virus
+- Falta mucho para que la vacuna este lista?
+- Falta mucho para la vacuna?
+- Cuanto falta para la vacuna?
+- Me puedes decir cuanto tiempo falta para la vacuna?
+- Sabes cuando estara lista la vacuna?
+- Sabes cuando estara lista la vacuna para el virus?
+- Falta demasiado para la vacuna?
+- Ya falta poco la vacuna?
 
 ## intent:faq/tomar_medicinas
 - Puedo tomar [medicina](medicina) contra la enfermedad?
@@ -126,26 +302,15 @@
 - Me puedo automedicar con [nitazoxanida](medicina)?
 - Se puede tomar [hidroxiclina](medicina)?
 - Puedo tomar [ibuprofeno](medicina)?
-
-## intent:faq/donde_donar_plasma
-- Donde puedo donar mi plasma?
-- Quiero donar mi plasma
-- Deseo donar mi plasma
-- Quiero dar mi plasma
-- Quiero ayudar con mi plasma
-- Quiero darle mi plasma a alguien
-
-## intent:faq/que_es_plasma
-- Que es el plasma?
-- Para que sirve el plasma?
-- El plasma puede curarme del coronavirus?
-- El plasma puede curarme del covid?
-- El plasma sirve contra el coronavirus?
-- El plasma sirve para curarme?
-- De que sirve el plasma?
-- Para que funciona el plasma?
-- Que es el plasma hiperinmune?
-- plasma
+- Puedo tomar zinc?
+- Que medicamentos puedo tomar?
+- Que remedios puedo tomar?
+- Que remedios debo comprar
+- Que medicamentos me recomiendas
+- Que remedios me recomiendas
+- Que remedios deberia comprar
+- Que medicamentos deberia comprar
+- Que medicinas debo comprar
 
 ## intent:faq/tiempo_sobrevive_virus
 - Cuanto tiempo sobrevive el virus en una superficie?
@@ -161,3 +326,6 @@
 - Cuanto sobrevive el virus en la ropa?
 - Cuanto sobrevive el virus?
 - Cuanto tiempo sobrevive el virus
+- Cuanto tiempo vive el virus en el aire?
+- Cuanto tiempo vive el virus en mi ropa?
+- Cuanto tiempo vive el virus en mi zapato

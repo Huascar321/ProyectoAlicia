@@ -63,3 +63,12 @@
 - Me gustaria saber los casos de otro departamento
 - Quiero de otro departamento
 - Casos
+- Me gustaria ver los infectados del pais
+- Quisiera ver los casos del pais
+- Quisiera ver cuantos infectados hay en el pais
+- Me gustaria ver los fallecidos en el pais
+- Cuantos fallecidos hay?
+- Me puedes mostrar los casos?
+- Me puedes decir cuantos casos hay?
+- Me puedes decir cuantos infectados hay?
+- Quiero saber cuantos casos hay

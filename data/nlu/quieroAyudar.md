@@ -9,6 +9,16 @@
 - Tengo ganas de ayudar
 - Creo que puedo ayudar
 - Podria ayudar en algo?
+- Como podria ayudar?
+- Quisiera ayudar
+- Quisiera ser voluntario
+- Me gustaria saber como puedo ser voluntario
+- Quiero ser voluntario
+- Quiero ser de ayuda
+- Me interesa ayudar
+- Me interesa bastante ayudar
+- Me gusta ser de ayuda
+- Me encanta ayudar
 
 ## intent:quieroAyudar_soyDoctor
 - Soy doctor
@@ -33,3 +43,16 @@
 ## intent:quieroAyudar_soyNinguno
 - No soy ninguno
 - No soy ninguno de ellos
+- No soy doctor
+- No soy medico
+- No soy personal de la salud
+- No trabajo en nada de eso
+- Yo no soy ninguno de ellos
+- Yo no soy doctor
+- Yo no soy medico
+- Yo no soy personal de salud
+- Yo no tengo esas profesiones
+- Yo no tengo ninguna profesion
+- No tengo esas profesiones
+- Yo no me dedico a eso
+- No me dedico a eso
