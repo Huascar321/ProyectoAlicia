@@ -15,6 +15,7 @@ from rasa_sdk.events import (
     UserUtteranceReverted,
     ConversationPaused,
     EventType,
+    ActionExecuted,
     FollowupAction,
 )
 
@@ -153,7 +154,29 @@ class ActionDefaultAskAffirmation(Action):
            for row in csv_reader:
                self.intent_mappings[row[0]] = row[1]
 
-   def run(self, dispatcher, tracker, domain):
+   @staticmethod
+   def start_story_events(story_intent):
+        # type: (Text) -> List[Dict]
+       return [UserUttered("/" + story_intent, {
+           "intent": {"name": story_intent, "confidence": 1.0},
+           "entities": {}
+       })]
+
+   @staticmethod
+   def validar(story_intent, tracker):
+       if tracker.get_slot("confirmacion") == True:
+           #do something
+           return self.start_story_events(story_intent)
+       elif tracker.get_slot("confirmacion") == False:
+           #do something
+           return self.start_story_events("out_of_scope")
+       else:
+           return[] #Tal vez de error
+       return[]
+
+   def run(self, dispatcher: CollectingDispatcher,
+           tracker: Tracker,
+           domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
        if tracker.get_latest_input_channel() == 'facebook':
            # get the most likely intent
            last_intent_name = tracker.latest_message['intent']['name']
@@ -171,6 +194,17 @@ class ActionDefaultAskAffirmation(Action):
                        'payload': '/out_of_scope'}]
            dispatcher.utter_button_message(message, buttons=buttons)
        else:
-           dispatcher.utter_message(template='utter_default')
+           last_intent_name = tracker.latest_message['intent']['name']
+
+           intent_prompt = self.intent_mappings[last_intent_name]
+
+           message = "Lo siento, intentaste decir '{}'? \n \n• *Si* \n• *No*".format(intent_prompt)
+
+           dispatcher.utter_message(text=message)
+
+           FollowupAction("action_listen")
+
+           #return ["hola"]
+           #return [SlotSet("confirmacion", None)] + [FollowupAction("action_listen")] #+ [self.validar(intent_prompt, tracker)]
 
        return []

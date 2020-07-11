@@ -66,6 +66,7 @@ entities:
 - departamento
 - medicina
 - nombre_alicia
+- confirmacion
 slots:
   departamento:
     type: unfeaturized
@@ -74,6 +75,8 @@ slots:
     values:
     - Alicia
     - alicia
+  confirmacion:
+    type: bool
 responses:
   utter_saludos_dias_conocer_nombre:
   - text: "Hey! \nTe acuerdas de mi nombre 😘 \nBuenos dias ☀️ \nEstoy aqui para ayudarte! ¿En que te puedo servir?"

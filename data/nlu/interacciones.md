@@ -51,48 +51,48 @@
 - Tengo que irme
 
 ## intent:afirmar
-- Si
-- Creo que si
-- Claro
-- Correcto
-- Por supuesto
-- Perfecto
-- Ya
-- Dale
-- Seguro
-- Ok
-- Okay
-- Obvio
-- Exacto
-- Exactamente
-- Precisamente
-- De acuerdo
-- Afirmativo
-- Bueno
-- Esta bien
-- Esta muy bien
-- Esta perfecto
+- [Si]{"entity": "confirmacion", "value": "True"}
+- Creo que [si]{"entity": "confirmacion", "value": "True"}
+- [Claro]{"entity": "confirmacion", "value": "True"}
+- [Correcto]{"entity": "confirmacion", "value": "True"}
+- [Por supuesto]{"entity": "confirmacion", "value": "True"}
+- [Perfecto]{"entity": "confirmacion", "value": "True"}
+- [Ya]{"entity": "confirmacion", "value": "True"}
+- [Dale]{"entity": "confirmacion", "value": "True"}
+- [Seguro]{"entity": "confirmacion", "value": "True"}
+- [Ok]{"entity": "confirmacion", "value": "True"}
+- [Okay]{"entity": "confirmacion", "value": "True"}
+- [Obvio]{"entity": "confirmacion", "value": "True"}
+- [Exacto]{"entity": "confirmacion", "value": "True"}
+- [Exactamente]{"entity": "confirmacion", "value": "True"}
+- [Precisamente]{"entity": "confirmacion", "value": "True"}
+- [De acuerdo]{"entity": "confirmacion", "value": "True"}
+- [Afirmativo]{"entity": "confirmacion", "value": "True"}
+- [Bueno]{"entity": "confirmacion", "value": "True"}
+- [Esta bien]{"entity": "confirmacion", "value": "True"}
+- [Esta muy bien]{"entity": "confirmacion", "value": "True"}
+- [Esta perfecto]{"entity": "confirmacion", "value": "True"}
 
 ## intent:negar
-- No
-- Nunca
-- No se
-- No estoy seguro
-- Creo que no
-- Negativo
-- No creo
-- Nose
-- Ya no
-- Obvio que no
-- Segun yo no
-- Quizas no
-- No gracias
-- En nada mas
-- Nada mas
-- Nada
-- Para nada
-- Claro que no
-- Obvio que no
+- [No]{"entity": "confirmacion", "value": "False"}
+- [Nunca]{"entity": "confirmacion", "value": "False"}
+- [No se]{"entity": "confirmacion", "value": "False"}
+- [No estoy seguro]{"entity": "confirmacion", "value": "False"}
+- Creo que [no]{"entity": "confirmacion", "value": "False"}
+- [Negativo]{"entity": "confirmacion", "value": "False"}
+- [No creo]{"entity": "confirmacion", "value": "False"}
+- [Nose]{"entity": "confirmacion", "value": "False"}
+- Ya [no]{"entity": "confirmacion", "value": "False"}
+- Obvio que [no]{"entity": "confirmacion", "value": "False"}
+- Segun yo [no]{"entity": "confirmacion", "value": "False"}
+- Quizas [no]{"entity": "confirmacion", "value": "False"}
+- [No]{"entity": "confirmacion", "value": "False"} gracias
+- En [nada]{"entity": "confirmacion", "value": "False"} mas
+- [Nada]{"entity": "confirmacion", "value": "False"} mas
+- [Nada]{"entity": "confirmacion", "value": "False"}
+- Para [nada]{"entity": "confirmacion", "value": "False"}
+- Claro que [no]{"entity": "confirmacion", "value": "False"}
+- Obvio que [no]{"entity": "confirmacion", "value": "False"}
 
 ## intent:agradecer
 - Gracias
