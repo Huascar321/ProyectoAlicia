@@ -3,6 +3,8 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 import json
 import logging
+#from datetime import datetime
+#import datetime
 import requests
 import csv
 import pandas as pd
@@ -17,7 +19,15 @@ from rasa_sdk.events import (
     EventType,
     ActionExecuted,
     FollowupAction,
+    UserUttered,
+    ActionReverted,
+    datetime,
+    ReminderScheduled
 )
+global fallback_variable
+fallback_variable = False
+global fallback_contador
+fallback_contador = 0
 
 class saludar(Action):
 
@@ -33,6 +43,8 @@ class saludar(Action):
         hora = horaActualInt()
         texto = ""
 
+        print(fallback_variable)
+        print(fallback_contador)
         if(hora >= 5) and (hora <= 11):
             if (tracker.get_slot("nombre_alicia") == "Alicia") or (tracker.get_slot("nombre_alicia") == "alicia"):
                 dispatcher.utter_message(template='utter_saludos_dias_conocer_nombre')
@@ -140,6 +152,78 @@ class verificarCanal(Action):
             dispatcher.utter_message(template='utter_desplegarMenu')
         return []
 
+class activadorIntent(Action):
+    """Schedules a reminder, supplied with the last message's entities."""
+
+    def name(self) -> Text:
+        return "action_activador_intent"
+
+    async def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
+        global fallback_variable
+        global fallback_contador
+        if tracker.get_latest_input_channel() == 'facebook':
+            return []
+        else:
+            #if tracker.get_slot("fallback_slot") == True:
+            if fallback_variable == True:
+
+                date = datetime.datetime.now()
+                entities = tracker.latest_message.get("entities")
+
+                reminder = ReminderScheduled(
+                    intent_fallback,
+                    trigger_date_time=date,
+                    entities=entities,
+                    name="my_reminder",
+                    kill_on_user_message=False,
+                )
+                fallback_variable = False
+                fallback_contador -=1
+
+                return [reminder]
+        return []
+
+class activadorRefrasear(Action):
+    """Schedules a reminder, supplied with the last message's entities."""
+
+    def name(self) -> Text:
+        return "action_activador_frasear"
+
+    async def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
+        global fallback_variable
+        global fallback_contador
+        if tracker.get_latest_input_channel() == 'facebook':
+            return []
+        else:
+            #if tracker.get_slot("fallback_slot") == True:
+            if fallback_variable == True:
+
+                date = datetime.datetime.now()
+                entities = tracker.latest_message.get("entities")
+
+                reminder = ReminderScheduled(
+                    "trigger_rephrase",
+                    trigger_date_time=date,
+                    entities=entities,
+                    name="my_reminder",
+                    kill_on_user_message=False,
+                )
+                fallback_variable = False
+                fallback_contador +=1
+
+                return [reminder]
+        return []
+
 class ActionDefaultAskAffirmation(Action):
    """Asks for an affirmation of the intent if NLU threshold is not met."""
 
@@ -153,26 +237,6 @@ class ActionDefaultAskAffirmation(Action):
            csv_reader = csv.reader(file)
            for row in csv_reader:
                self.intent_mappings[row[0]] = row[1]
-
-   @staticmethod
-   def start_story_events(story_intent):
-        # type: (Text) -> List[Dict]
-       return [UserUttered("/" + story_intent, {
-           "intent": {"name": story_intent, "confidence": 1.0},
-           "entities": {}
-       })]
-
-   @staticmethod
-   def validar(story_intent, tracker):
-       if tracker.get_slot("confirmacion") == True:
-           #do something
-           return self.start_story_events(story_intent)
-       elif tracker.get_slot("confirmacion") == False:
-           #do something
-           return self.start_story_events("out_of_scope")
-       else:
-           return[] #Tal vez de error
-       return[]
 
    def run(self, dispatcher: CollectingDispatcher,
            tracker: Tracker,
@@ -194,17 +258,32 @@ class ActionDefaultAskAffirmation(Action):
                        'payload': '/out_of_scope'}]
            dispatcher.utter_button_message(message, buttons=buttons)
        else:
-           last_intent_name = tracker.latest_message['intent']['name']
+           global fallback_contador
+           if fallback_contador ==2:
+               # enviar la variable
+               feedback = tracker.latest_message['text']
+               print(feedback)
 
-           intent_prompt = self.intent_mappings[last_intent_name]
+               dispatcher.utter_message(template='utter_disculpas')
+               fallback_contador=0
+               return []
+           else:
+               last_intent_name = tracker.latest_message['intent']['name']
 
-           message = "Lo siento, intentaste decir '{}'? \n \n• *Si* \n• *No*".format(intent_prompt)
+               intent_prompt = self.intent_mappings[last_intent_name]
 
-           dispatcher.utter_message(text=message)
+               message = "Lo siento, intentaste decir '{}'? \n \n• *Si* \n• *No*".format(intent_prompt)
 
-           FollowupAction("action_listen")
+               global intent_fallback
+               intent_fallback = last_intent_name
 
-           #return ["hola"]
-           #return [SlotSet("confirmacion", None)] + [FollowupAction("action_listen")] #+ [self.validar(intent_prompt, tracker)]
+               global fallback_variable
+
+               fallback_variable = True
+               fallback_contador += 1
+
+               dispatcher.utter_message(text=message)
+
+               return []
 
        return []

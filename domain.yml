@@ -714,6 +714,9 @@ responses:
   - text: "¿Puedes ser mas especifico con tu pregunta? 🙌🏼"
   - text: "¿Podrias ser mas claro con tu pregunta? 🙏🏽"
 
+  utter_disculpas:
+  - text: "Mira wacho no hay preguntas"
+
 #### CHITCHATS
   utter_CHITCHAT_eresRobot:
   - text: "Soy un asistente digital creado con Inteligencia Artificial, un gusto! 👩"
@@ -789,3 +792,5 @@ actions:
 - actions_mostrar_casos
 - actions_verificarCanal
 - action_default_ask_affirmation
+- action_activador_intent
+- action_activador_frasear

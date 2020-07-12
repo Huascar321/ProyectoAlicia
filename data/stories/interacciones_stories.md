@@ -19,3 +19,11 @@
   - actions_verificarCanal
 * negar
   - utter_negarPregunta
+
+## fallback whatsapp, afirmar
+* afirmar  
+  - action_activador_intent
+
+## fallback whatsapp, negar
+* negar
+  - action_activador_frasear
