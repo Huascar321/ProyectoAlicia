@@ -11,6 +11,7 @@ import pandas as pd
 from rasa_sdk.events import SlotSet
 from urllib.request import urlopen
 from fechaHora import *
+from mongodb import *
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import (
     SlotSet,
@@ -43,8 +44,6 @@ class saludar(Action):
         hora = horaActualInt()
         texto = ""
 
-        print(fallback_variable)
-        print(fallback_contador)
         if(hora >= 5) and (hora <= 11):
             if (tracker.get_slot("nombre_alicia") == "Alicia") or (tracker.get_slot("nombre_alicia") == "alicia"):
                 dispatcher.utter_message(template='utter_saludos_dias_conocer_nombre')
@@ -152,6 +151,21 @@ class verificarCanal(Action):
             dispatcher.utter_message(template='utter_desplegarMenu')
         return []
 
+class contadorMessenger(Action):
+
+    def name(self) -> Text:
+        return "actions_contadorMessenger"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        #Función que retorna un saludo diferente según la hora del día
+        if tracker.get_latest_input_channel() == 'facebook':
+            global fallback_contador
+            fallback_contador = 1
+        return []
+
 class activadorIntent(Action):
     """Schedules a reminder, supplied with the last message's entities."""
 
@@ -212,7 +226,7 @@ class activadorRefrasear(Action):
                 entities = tracker.latest_message.get("entities")
 
                 reminder = ReminderScheduled(
-                    "trigger_rephrase",
+                    "reformular",
                     trigger_date_time=date,
                     entities=entities,
                     name="my_reminder",
@@ -241,28 +255,47 @@ class ActionDefaultAskAffirmation(Action):
    def run(self, dispatcher: CollectingDispatcher,
            tracker: Tracker,
            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+       global fallback_contador
        if tracker.get_latest_input_channel() == 'facebook':
-           # get the most likely intent
-           last_intent_name = tracker.latest_message['intent']['name']
+           if fallback_contador == 1:
+               feedback = tracker.latest_message['text']
+               new_feedback = {
+                   'fecha' : fechaActual(),
+                   'mensaje' : feedback
+               }
 
-           # get the prompt for the intent
-           intent_prompt = self.intent_mappings[last_intent_name]
+               collection_feedback.insert_one(new_feedback)
 
-           # Create the affirmation message and add two buttons to it.
-           # Use '/<intent_name>' as payload to directly trigger '<intent_name>'
-           # when the button is clicked.
-           message = "Lo siento, intentaste decir '{}'?".format(intent_prompt)
-           buttons = [{'title': 'Si',
-                       'payload': '/{}'.format(last_intent_name)},
-                      {'title': 'No',
-                       'payload': '/out_of_scope'}]
-           dispatcher.utter_button_message(message, buttons=buttons)
+               dispatcher.utter_message(template='utter_disculpas')
+               fallback_contador=0
+               return []
+           else:
+               # get the most likely intent
+               last_intent_name = tracker.latest_message['intent']['name']
+
+               # get the prompt for the intent
+               intent_prompt = self.intent_mappings[last_intent_name]
+
+               # Create the affirmation message and add two buttons to it.
+               # Use '/<intent_name>' as payload to directly trigger '<intent_name>'
+               # when the button is clicked.
+               message = 'Lo siento, intentaste decir "{}"?'.format(intent_prompt)
+               buttons = [{'title': 'Si',
+                           'payload': '/{}'.format(last_intent_name)},
+                          {'title': 'No',
+                           'payload': '/reformular'}]
+               fallback_contador += 1
+               dispatcher.utter_button_message(message, buttons=buttons)
        else:
-           global fallback_contador
            if fallback_contador ==2:
                # enviar la variable
                feedback = tracker.latest_message['text']
-               print(feedback)
+               new_feedback = {
+                   'fecha' : fechaActual(),
+                   'mensaje' : feedback
+               }
+
+               collection_feedback.insert_one(new_feedback)
 
                dispatcher.utter_message(template='utter_disculpas')
                fallback_contador=0

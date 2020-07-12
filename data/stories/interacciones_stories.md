@@ -27,3 +27,8 @@
 ## fallback whatsapp, negar
 * negar
   - action_activador_frasear
+
+## refrasear
+* reformular
+  - utter_ask_rephrase
+  - actions_contadorMessenger

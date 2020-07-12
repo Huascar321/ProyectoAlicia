@@ -390,7 +390,7 @@
 - Quiero tener una amistad contigo
 - Quiero que seamos amigos
 
-## intent:out_of_scope
+## intent:reformular
 - pizza
 - hamburguesa
 - milanesa
