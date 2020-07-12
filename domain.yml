@@ -64,6 +64,16 @@ intents:
 - cuanto_falta_para_vacuna_medicamento
 - tomar_antibioticos
 - tiempo_sobrevive_virus
+- algunos_sintomas
+- periodo_incubacion_virus
+- dias_para_presentar_sintomas
+- duracion_enfermedad
+- numero_ambulancia
+- como_saber_si_tengo_covid
+- asintomatico
+- post_tratamiento
+- primeros_sintomas
+- tiempo_prueba_negativo
 ####
 - quieroAyudar_soyNinguno
 - QuieroCompartir
@@ -74,6 +84,7 @@ entities:
 - confirmacion
 - sintomas
 - familiares
+- fallback_slot
 slots:
   departamento:
     type: unfeaturized
@@ -88,6 +99,8 @@ slots:
     type: text
   familiares:
     type: text
+  fallback_slot:
+    type: bool
 responses:
   utter_saludos_dias_conocer_nombre:
   - text: "Hey! \nTe acuerdas de mi nombre 😘 \nBuenos dias ☀️ \nEstoy aqui para ayudarte! ¿En que te puedo servir?"
@@ -129,9 +142,9 @@ responses:
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Hey! \nTe acuerdas de mi nombre 😘 \nBuenos dias ☀️ \nEstoy aqui para ayudarte! ¿En que te puedo servir? \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
-  - text: "Buenos dias!☀️ \nVeo que sabes mi nombre 🥰 \nEstoy aqui para ayudarte! ¿Que necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
-  - text: "Hola! \nGracias por recordar mi nombre 🥺 \n Espero que estes teniendo un hermoso dia ☀️ \nPuedo ayudarte en las siguientes tareas \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Hey! \nTe acuerdas de mi nombre 😘 \nBuenos dias ☀️ \nEstoy aqui para ayudarte! ¿En que te puedo servir? \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
+  - text: "Buenos dias!☀️ \nVeo que sabes mi nombre 🥰 \nEstoy aqui para ayudarte! ¿Que necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Hola! \nGracias por recordar mi nombre 🥺 \n Espero que estes teniendo un hermoso dia ☀️ \nPuedo ayudarte en las siguientes tareas \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
 
   utter_saludos_dias:
   - text: "Hey! Buenos dias ☀️ \nMi nombre es Alicia 👩🏽 \nEstoy aqui para ayudarte, Te puedo ser útil en"
@@ -173,9 +186,9 @@ responses:
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenos dias! \nMi nombre es Alicia 👩🏽 \nEstoy aqui para ayudarte contra el COVID-19. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
-  - text: "Buenos dias! \nAndaba tomando un cafesito ☕ \nSoy Alicia 👩🏽 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
-  - text: "Hola! \nMi nombre es Alicia 👩🏽 \nEspero que estes teniendo un hermoso dia ☀️ \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Buenos dias! \nMi nombre es Alicia 👩🏽 \nEstoy aqui para ayudarte contra el COVID-19. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
+  - text: "Buenos dias! \nAndaba tomando un cafesito ☕ \nSoy Alicia 👩🏽 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Hola! \nMi nombre es Alicia 👩🏽 \nEspero que estes teniendo un hermoso dia ☀️ \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
 
   utter_saludos_tardes_conocer_nombre:
   - text: "Hey! \n Te acuerdas de mi nombre 😘 \nBuenas tardes 🌅 \nEstoy aqui para ayudarte, Te puedo ser útil en"
@@ -261,9 +274,9 @@ responses:
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenas tardes! 🌅\nMi nombre es Alicia 👩🏽 \nPuedo ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
-  - text: "Hola! \nEspero que estes teniendo una hermosa tarde 🌅 \nMi nombre es Alicia 👩🏽 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
-  - text: "Hola! \nQue hermosa tarde! 🌅 \nMi nombre es Alicia👩🏽 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Buenas tardes! 🌅\nMi nombre es Alicia 👩🏽 \nPuedo ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
+  - text: "Hola! \nEspero que estes teniendo una hermosa tarde 🌅 \nMi nombre es Alicia 👩🏽 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Hola! \nQue hermosa tarde! 🌅 \nMi nombre es Alicia👩🏽 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
 
   utter_saludos_noches_conocer_nombre:
   - text: "Hey! Buenas noches 🌙 \nTe acuerdas de mi nombre 😘 \nTe puedo ayudar en:"
@@ -292,8 +305,8 @@ responses:
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenas noches! 🌙\nTe acuerdas de mi nombre 😘 \nEstoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
-  - text: "Hey! \nVeo que sabes mi nombre 🥰  \nBuenas noches 🦉 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Buenas noches! 🌙\nTe acuerdas de mi nombre 😘 \nEstoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
+  - text: "Hey! \nVeo que sabes mi nombre 🥰  \nBuenas noches 🦉 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
 
   utter_saludos_noches:
   - text: "Hey! Buenas noches 🌙 \nMi nombre es Alicia 👩🏽 \nEstoy aqui para ayudarte, Te puedo ayudar en:"
@@ -322,9 +335,9 @@ responses:
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenas noches! \nMi nombre es Alicia 👩🏽 \nEstoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
-  - text: "Hola! \nVeo que estas despierto a estas horas, no te culpo yo tambien! 🦉 \nSoy Alicia 👩🏽\nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
-  - text: "Buenas noches! 🌙 \nSoy Alicia 👩🏽 \nEstoy siempre despierta y lista para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Buenas noches! \nMi nombre es Alicia 👩🏽 \nEstoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
+  - text: "Hola! \nVeo que estas despierto a estas horas, no te culpo yo tambien! 🦉 \nSoy Alicia 👩🏽\nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Buenas noches! 🌙 \nSoy Alicia 👩🏽 \nEstoy siempre despierta y lista para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
 
   utter_saludos_normal:
   - text: "Hey! Hola🙋🏽 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
@@ -366,9 +379,9 @@ responses:
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Hola! \nMi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
-  - text: "Hola hola!\n Me alegro mucho de verte, yo soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
-  - text: "Saludos cordiales! \nMi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n-Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Hola! \nMi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
+  - text: "Hola hola!\n Me alegro mucho de verte, yo soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Saludos cordiales! \nMi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n-Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
 
   utter_casos:
   - text: "¿De que departamento quieres saber? 👐🏼🇧🇴"
@@ -628,10 +641,10 @@ responses:
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "¿En que mas te puedo ayudar? 🙋🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "¿Te puedo ayudar en algo mas? 👩🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "¿En que mas puedo servirte? 🙋🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "¿Hay algo en lo que pueda seguir ayudandote? 👩🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "¿En que mas te puedo ayudar? 🙋🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "¿Te puedo ayudar en algo mas? 👩🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "¿En que mas puedo servirte? 🙋🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "¿Hay algo en lo que pueda seguir ayudandote? 👩🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
 
   utter_pregunta:
   - text: "Ok no hay problema \n¿Tienes alguna otra pregunta?"
@@ -751,16 +764,16 @@ responses:
   - text: "Gracias! Me encantan los cumplidos 😊"
 #### PREGUNTAS FRECUENTES
   utter_porque_sintomas_yosolo_familia:
-  - text: "Puede que tu familia se haya contagiado pero que no presenten sintomas (asintomatico) o que los muestren luego de unos dias (presintomatico) \nFUENTES: \nCNN ESPANOL - https://cnn.it/2VSr481 \n¿Alguna otra pregunta?"
+  - text: "Puede que tu familia se haya contagiado pero que no presenten sintomas (asintomatico) o que los muestren luego de unos dias (presintomatico) \n¿Alguna otra pregunta?"
 
   utter_porque_variosdias_sintomas_nocurar:
   - text: "El tiempo de curacion depende de cada persona, recuerde que los medicamentos solo sirven para calmar los sintomas mientras su cuerpo vence la enfermedad \n¿Tienes otra pregunta?"
 
   utter_dioxidocloro_ayuda:
-  - text: "El dioxido de cloro no esta reconocido como medicamento e incluso su consumo pone en grave riesgo la salud \nFUENTES: \nMINSALUD - https://bit.ly/38C9afc \n¿Alguna otra pregunta?"
+  - text: "El dioxido de cloro no esta reconocido como medicamento e incluso su consumo pone en grave riesgo la salud \n¿Alguna otra pregunta?"
 
   utter_nosaber_covid:
-  - text: "El COVID-19 no se puede distinguir al 100% sin una prueba, sin embargo tiene sintomas distintivos como fiebre, tos, falta de aire o dificuldad para respirar. \nFUENTE: \nOMS - https://bit.ly/3gCUDCJ \n¿Necesitas algo mas?"
+  - text: "El COVID-19 no se puede distinguir al 100% sin una prueba, sin embargo tiene sintomas distintivos como fiebre, tos, falta de aire o dificuldad para respirar \n¿Necesitas algo mas?"
 
   utter_nomejora_hospital:
   - text: "Si respira con dificultad, sienta dolor u opresion en el pecho o se le dificulta el hablar, debe solictar atencion medica inmediatamente \n¿Necesitas algo mas?"
@@ -775,22 +788,22 @@ responses:
   - text: "Nosotros no podemos proporcionarte pruebas de deteccion, lo siento \n¿Tienes otra pregunta?"
 
   utter_cuanto_tipo_prueba:
-  - text: "Estan los test de ARN, Test inmunologicos o Test rapidos de diagnostico, el tipo de prueba varia en costo y certeza de no sacar un falso positivo. \nFUENTES: \nREDACCION MEDICA - https://bit.ly/3e0AoNu \n¿Alguna otra pregunta?"
+  - text: "Estan los test de ARN, Test inmunologicos o Test rapidos de diagnostico, el tipo de prueba varia en costo y certeza de no sacar un falso positivo \n¿Alguna otra pregunta?"
 
   utter_ivermectina_sirve:
   - text: "Por el momento no se tiene suficiente evidencia para confirmar la eficacia de ese farmaco \n¿Necesitas algo mas?"
 
   utter_calor_mata_virus:
-  - text: "No existe evidencia cientifica de que el calor afecte al virus, ni el clima calido, ni las duchas calientes ni el aire del secador de cabello \nFUENTES: \nOMS - https://bit.ly/2Z28nRs \n¿Tienes otra pregunta?"
+  - text: "No existe evidencia cientifica de que el calor afecte al virus, ni el clima calido, ni las duchas calientes ni el aire del secador de cabello \n¿Tienes otra pregunta?"
 
   utter_contraerdenuevo_despues_de_enfermarse:
-  - text: "Es un hecho muy poco probable, pero existen casos en que el coronavirus puede presentarse de nuevo en un paciente recuperado \nFUENTES: \nhttps://www.bbc.com/mundo/noticias-51942887 \n¿Alguna otra pregunta?"
+  - text: "Es un hecho muy poco probable, pero existen casos en que el coronavirus puede presentarse de nuevo en un paciente recuperado \n¿Alguna otra pregunta?"
 
   utter_mosquitos_infectar:
-  - text: "No, el contagio no puede ser a traves de mosquitos 🦟 \nFUENTES: \nOMS - https://bit.ly/3iDXQna \n¿Tienes otra pregunta?"
+  - text: "No, el contagio no puede ser a traves de mosquitos 🦟 \n¿Tienes otra pregunta?"
 
   utter_cuanto_falta_para_vacuna_medicamento:
-  - text: "Si bien todas las potencias del mundo esta desarrollando distintas vacunas con distintos metodos, no se espera que ninguna se distribuya hasta inicios de 2021 \nFUENTE: \nLA TERCERA - https://bit.ly/3dZj7nW \n¿Alguna otra pregunta?"
+  - text: "Si bien todas las potencias del mundo esta desarrollando distintas vacunas con distintos metodos, no se espera que ninguna se distribuya hasta inicios de 2021 \n¿Alguna otra pregunta?"
 
   utter_tomar_medicinas:
   - text: "Lo siento, no puedo decirte que medicina puedes tomar \nPor favor, no te automediques, consultalo con un medico \n¿Tienes otra pregunta?"
@@ -798,6 +811,41 @@ responses:
   utter_tiempo_sobrevive_virus:
   - text: "En superficies como el plastico y acero inoxidable el virus puede sobrevivir hasta 72 horas \nEn el carton dura 24 horas y en la ropa entre uno y dos dias \n¿Alguna otra pregunta?"
 
+  utter_algunos_sintomas:
+  - text: "Si sospechas que tu o algun familiar presenta algunos de los sintomas del COVID, puedes hacer lo siguiente: \n \nEn caso de que los sintomas sean leves como por ejemplo la fiebre, tos seca, perdida del olfato/gusto o cansancio \nPodrias tratarte en casa con los medicamentos que el doctor te recetaria, si este es tu caso, dime si deseas agendar una consulta. \nEn caso de que tengas sintomas graves como pueden ser dificultades para respirar o dolor en el pecho, comunicate a los siguientes numeros 800-10-1104 y 800-10-1106 \n¿Tienes otra pregunta?"
+    channel: "facebook"
+  - text: "Si sospechas que tu o algun familiar presenta alguno de los sintomas del COVID, puedes hacer lo siguiente: \n \nEn caso de que los sintomas sean *leves* como por ejemplo la fiebre, tos seca, perdida del olfato/gusto o cansancio \nPodrias tratarte en casa con los medicamentos que el doctor te recetaria, si este es tu caso, dime si deseas *agendar* una consulta. \nEn caso de que tengas sintomas *graves* como pueden ser dificultades para respirar o dolor en el pecho, comunicate a los siguientes numeros *800-10-1104* y *800-10-1106* \n¿Tienes otra pregunta?"
+
+  utter_periodo_incubacion_virus:
+  - text: "El periodo de incubacion del virus oscilan entre 1 y 14 dias, y en general se situan en torno a cinco dias \n¿Tienes otra pregunta?"
+
+  utter_dias_para_presentar_sintomas:
+  - text: "Los primeros sintomas suelen aparecfer alrededor de cinco o seis dias, pero puede variar hasta 1 y 14 dias \n¿Tienes otra pregunta?"
+
+  utter_duracion_enfermedad:
+  - text: "El tiempo dependera, en primer lugar, de que tan graves sean los sintomas. \nAlgunas personas pasaran la enfermedad rapidamente, pero a otras la COVID-19 podria dejarles problemas duraderos, no existe un tiempo fijo \n¿Alguna otra pregunta?"
+
+  utter_numero_ambulancia:
+  - text: "Llama al 800-10-1104 o al 800-10-1106 para solicitar una ambulancia \n¿Alguna otra pregunta?"
+    channel: "facebook"
+  - text: "Llama al *800-10-1104* o al *800-10-1106* para solicitar una ambulancia \n¿Alguna otra pregunta?"
+
+  utter_como_saber_si_tengo_covid:
+  - text: "Podrias guiarte con los sintomas que estas presentando, sin embargo, esto no es del todo acertado \nLa unica manera de saber si tienes o no la enfermedad es haciendote una prueba \n¿Tienes otra pregunta?"
+
+  utter_asintomatico:
+  - text: "El caso de los asintomaticos es un tema complejo, la unica forma definitiva de saber si usted tiene COVID-19 es mediante una prueba. \nSi no puede hacerse la prueba, debe asumir que es portador si ha tenido contacto directo con un paciente COVID-19 \n¿Tienes otra pregunta?"
+
+  utter_post_tratamiento:
+  - text: "Lo siento, no puedo brindarte un tratamiento o recomendarte medicinas, cada persona es diferente y el caso debe ser revisado con un profesional, si deseas agendar una consulta gratuita para que un doctor te revise via online, solo dimelo \n¿Alguna otra pregunta?"
+    channel: "facebook"
+  - text: "Lo siento, no puedo brindarte un tratamiento o recomendarte medicinas, cada persona es diferente y el caso debe ser revisado con un profesional, si deseas *agendar* una consulta gratuita para que un doctor te revise via online, solo dimelo \n¿Alguna otra pregunta?"
+
+  utter_primeros_sintomas:
+  - text: "No hay un orden exacto de cuales serian los primeros sintomas, pero un buen indicador seria la fiebre y la tos seca \n¿Tienes otra pregunta?"
+
+  utter_tiempo_prueba_negativo:
+  - text: "En pacientes con un resultado positivo inicial, se aconseja esperar al menos 15 dias antes de realizar una prueba repetida \n¿Tienes otra pregunta?"
 actions:
 - actions_saludar
 - actions_mostrar_casos
@@ -807,3 +855,5 @@ actions:
 - action_activador_frasear
 - actions_contadorMessenger
 - actions_enfermedad
+- custom_action_fallback
+- actions_fallback_slot

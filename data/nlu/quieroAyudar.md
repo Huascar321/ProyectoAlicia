@@ -41,6 +41,23 @@
 - Soy un doc
 - Soy personal de salud
 - Soy psicologo
+- Soy fisioteraupeuta especializado en geriatrica
+- soy fisioteraupeuta
+- no pero si soy fisioteraupeuta
+- soy enfermera
+- soy ingeniera biomedica
+- estudio bioquimica
+- soy ingeniera bioquimica
+- soy dentista
+- Trabajo en la salud
+- Trabajo en un laboratorio
+- No soy doctor pero si soy enfermera
+- Soy nutricionista
+- Trabajo en nutricion
+- Trabajo en una farmacia
+- Soy farmaceutico
+- Soy odontologa
+- Soy oculista
 
 ## intent:quieroAyudar_soyNinguno
 - No soy ninguno

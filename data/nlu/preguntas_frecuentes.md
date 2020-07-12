@@ -329,3 +329,197 @@
 - Cuanto tiempo vive el virus en el aire?
 - Cuanto tiempo vive el virus en mi ropa?
 - Cuanto tiempo vive el virus en mi zapato
+
+## intent:algunos_sintomas
+- Que puedo hacer si tengo algunos sintomas
+- Que pasa si tengo algunos sintomas
+- Creo que tengo algunos sintomas
+- Pienso que tengo algunos sintomas
+- Tengo algunos sintomas
+- Al parecer tengo algunos sintomas
+- Estoy con estos sintomas
+- Creo tener algunos sintomas
+- Presento estos sintomas
+- Esta con estos sintomas
+- Tiene los sintomas
+- Tiene algunos sintomas
+- Estoy con algunos sintomas
+- Creo que tengo algunos sintomas
+- Creo que tiene algunos sintomas
+
+## intent:periodo_incubacion_virus
+- De cuanto es el periodo de incubacion
+- Cuanto tiempo toma el periodo de incubacion
+- Cuanto dura el periodo de incubacion
+- Cuanto tiempo toma el periodo de incubacion
+- Cuantos dias tiene de incubacion
+- Cuantos dias lleva la incubacion
+- Cuantos dias toma la incubacion
+- El periodo de incubacion
+- que es el periodo de incubacion
+- cual es el periodo de incubacion?
+- A que se refieren con el periodo de incubacion?
+- Que es la dichosa incubacion?
+- Que significa incubacion?
+- Periodo de incubacion
+- Incubacion
+
+## intent:dias_para_presentar_sintomas
+- Cuanto tiempo tomara para presentar sintomas
+- Cuanto tiempo tengo hasta para tener sintomas
+- En cuantos dias aparareceran los sintomas
+- En cuantos dias tendré sintomas
+- Cuanto dias faltan para que me de los sintomas
+- En cuanto aparecen los sintomas
+- En cuanto tiempo aparecen los sintomas
+- Aparecen los primeros sintomas
+- Aparecen los sintomas
+- Tendre los primeros sintomas
+- Tendra los primeros sintomas
+- En cuanto tiempo tendre los sintomas
+- Presentan los primeros sintomas
+- En cuanto tiempo aparecen los sintomas
+- Cuanto tiempo tardan en aparecer los sintomas
+- En que periodo aparecen los sintomas
+- Cuanto tiempo pasa entre el contagio y la aparicion de los sintomas
+
+## intent:duracion_enfermedad
+- Cuanto tiempo dura la enfermedad
+- Duracion de la enfermedad
+- Dura le enfermedad
+- En cuanto se recupera
+- Cuando se recuperara
+- Cuanto tiempo toma recuperarse
+- En cuanto tiempo voy a recuperarme
+- Cuanto tiempo toma la recuperacion
+- En cuanto tiempo voy a curarme
+- En cuanto uno se cura
+- Cuanto tarda la curacion?
+- Cuanto tiempo tomara la enfermedad
+- Cuantos dias durara la enfermedad
+- Durara la enfermedad
+- Cuanto tardare en curarme?
+- Cuanto dura normalmente el virus?
+- En cuanto tiempo se cura del virus
+- Que tanto dura la enfermedad
+- Que tan larga es la enfermedad
+- Cuanto dura el covid?
+
+## intent:numero_ambulancia
+- Quiero una ambulancia
+- Necesito una ambulancia
+- Preciso una ambulancia
+- Numero de ambulancias
+- Pedir ambulancia
+- Llamar ambulancia
+- Conseguir una ambulancia
+- Por favor una ambulancia
+- ambulancia
+- Ayuda una ambulancia
+- Como consigo una ambulancia
+- Ambulancia ya
+- Es importante, una ambulancia
+- Es urgente, una ambulancia
+- Una ambulancia con urgencia
+
+## intent:como_saber_si_tengo_covid
+- Como se que tengo covid
+- Como se que tengo coronavirus
+- Señales de que tengo coronavirus
+- Tendre coronavirus
+- Tendre covid
+- Tendra coronavirus
+- Tendra covid
+- Como me doy cuenta de que tengo coronavirus
+- Como me doy cuenta de que tengo covid
+- Como saber si tengo covid
+- Como saber si tengo coronavirus
+- Como puedo yo saber si tengo coronavirus
+- Como puedo yo saber si tengo covid
+- Como puedo yo saber que tengo coronavirus
+- Como puedo yo saber que tengo covid
+- Como se que tengo coronavirus
+- Como se que tengo covid
+- Como reviso que tengo covid
+- Como reviso que tengo coronavirus
+- Como reviso que no tengo covid
+- Como reviso que no tengo coronavirus
+- Como se que tengo el virus
+- Como se que no tengo el virus
+
+## intent:asintomatico
+- Como se si soy asintomatico
+- Como saber si soy asintomatico
+- Como reconocer a un asintomatico?
+- asintomatico
+- Que significa asintomatico?
+- Que implica ser asintomatico?
+- Como identificar a un asintomatico?
+- A que se refiere con asintomatico?
+- Quiero saber si soy asintomatico?
+- Podria ser asintomatico?
+- Quienes son asintomatico?
+- Soy asintomatico?
+- Quienes pueden ser asintomatico?
+- Cualquiera puede ser asintomatico?
+- Cuando se si soy asintomatico?
+- como se si alguien es asintomatico?
+- Test de asintomatico?
+- Es malo ser asintomatico?
+- Cuando se es asintomatico?
+- Como puedo ser asintomatico?
+
+## intent:post_tratamiento
+- Tratamiento
+- Medicamento
+- Medicina
+- Cual es el tratamiento?
+- Existe tratamiento?
+- En que consiste el tratamiento?
+- Tratamiento contra el covid?
+- Tratamiento contra el coronavirus?
+- Cual es el tratamiento contra el covid?
+- Que hay que hacer en caso de covid?
+- Cual es el protocolo del tratamiento?
+- Que debo hacer si me enfermo?
+- Cual es el tratamiento si me enfermo?
+- Hay medicamentos para el covid?
+- Hay medicinas para el covid?
+- Tratamiento y medicinas
+- Que tan largo es el tratamiento?
+- Que tan complejo es el tratamiento?
+
+## intent:primeros_sintomas
+- Cuales son los primeros sintomas?
+- Son peligrosos los primeros sintomas?
+- Cuales son los primeros sintomas en aparecer
+- Como se distingue por primera vez la enfermedad
+- Primeros sintomas
+- Que sintomas aparecen primeros
+- Que sintomas estan antes que los otros
+- Como se manifiesta por primera vez?
+- Que es lo pirmero que aparece?
+- Sintomas antes que otros sintomas
+- Cuales son los sinotmas que se manifiestan antes que los otros
+- Hay sintomas que aparecen antes?
+- Hay sintomas que se manifiestan primero?
+- Hay algun sintoma de deteccion temprana?
+- Hay sintomas que debo detectar primero?
+
+## intent:tiempo_prueba_negativo
+- Cuanto tiempo debo esperar para hacerme la prueba negativo?
+- Que es la prueba negativo?
+- Cuanto tiempo debo esperar entre pruebas?
+- En cuanto tiempo me curo del covid?
+- La prueba de negativo cuando debe hacerse?
+- Cuando me debo hacer la prueba del negativo?
+- Como se que ya me cure del covid?
+- Que es la prueba negativo?
+- Que periodo debo esperar para hacerme la prueba del negativo?
+- En cuanto tiempo se cura el virus?
+- Cuanto tiempo tardo en sanarme por completo?
+- Cuanto tiempo tardo en curarme?
+- Tiempo prudente para curarse
+- Tiempo prudenta para hacerse una segunda prueba
+- Tiempo para hacerse la prueba del negativo
+- Cuanto toma el virus en curarse?

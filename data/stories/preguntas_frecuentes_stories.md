@@ -189,3 +189,111 @@
   - utter_tiempo_sobrevive_virus
 * negar
   - utter_negarPregunta
+
+## algunos sintomas, afirmar
+* algunos_sintomas
+  - utter_algunos_sintomas
+* afirmar
+  - utter_tengoPreguntas
+
+## algunos sintomas, negar
+* algunos_sintomas
+  - utter_algunos_sintomas
+* negar
+  - utter_negarPregunta
+
+## periodo_incubacion_virus, afirmar
+* periodo_incubacion_virus
+  - utter_periodo_incubacion_virus
+* afirmar
+  - utter_tengoPreguntas
+
+## periodo_incubacion_virus, negar
+* periodo_incubacion_virus
+  - utter_periodo_incubacion_virus
+* negar
+  - utter_negarPregunta
+
+## dias para presentar sintomas, afirmar
+* dias_para_presentar_sintomas
+  - utter_dias_para_presentar_sintomas
+* afirmar
+  - utter_tengoPreguntas
+
+## dias para presentar sintomas, negar
+* dias_para_presentar_sintomas
+  - utter_dias_para_presentar_sintomas
+* negar
+  - utter_negarPregunta
+
+## duracion enfermedad, afirmar
+* duracion_enfermedad
+  - utter_duracion_enfermedad
+* afirmar
+  - utter_tengoPreguntas
+
+## duracion enfermedad, negar
+* duracion_enfermedad
+  - utter_duracion_enfermedad
+* negar
+  - utter_negarPregunta
+
+## como saber si tengo covid, afirmar
+* como_saber_si_tengo_covid
+  - utter_como_saber_si_tengo_covid
+* afirmar
+  - utter_tengoPreguntas
+
+## como saber si tengo covid, negar
+* como_saber_si_tengo_covid
+  - utter_como_saber_si_tengo_covid
+* negar
+  - utter_negarPregunta
+
+## asintomatico, afirmar
+* asintomatico
+  - utter_asintomatico
+* afirmar
+  - utter_tengoPreguntas
+
+## asintomatico, negar
+* asintomatico
+  - utter_asintomatico
+* negar
+  - utter_negarPregunta
+
+## post tratamiento, afirmar
+* post_tratamiento
+  - utter_post_tratamiento
+* afirmar
+  - utter_tengoPreguntas
+
+## post tratamiento, negar
+* post_tratamiento
+  - utter_post_tratamiento
+* negar
+  - utter_negarPregunta
+
+## primeros sintomas, afirmar
+* primeros_sintomas
+  - utter_primeros_sintomas
+* afirmar
+  - utter_tengoPreguntas
+
+## primeros sintomas, negar
+* primeros_sintomas
+  - utter_primeros_sintomas
+* negar
+  - utter_negarPregunta
+
+## tiempo prueba negativo, afirmar
+* tiempo_prueba_negativo
+  - utter_tiempo_prueba_negativo
+* afirmar
+  - utter_tengoPreguntas
+
+## tiempo prueba negativo, negar
+* tiempo_prueba_negativo
+  - utter_tiempo_prueba_negativo
+* negar
+  - utter_negarPregunta

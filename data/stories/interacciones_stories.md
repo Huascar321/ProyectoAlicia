@@ -21,11 +21,13 @@
   - utter_negarPregunta
 
 ## fallback whatsapp, afirmar
-* afirmar  
+* afirmar
+  - slot{"fallback_slot" : "True"}
   - action_activador_intent
 
 ## fallback whatsapp, negar
 * negar
+  - slot{"fallback_slot" : "True"}
   - action_activador_frasear
 
 ## refrasear

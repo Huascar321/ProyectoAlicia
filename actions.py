@@ -184,7 +184,7 @@ class activadorIntent(Action):
             return []
         else:
             #if tracker.get_slot("fallback_slot") == True:
-            if fallback_variable == True:
+            if tracker.get_slot("fallback_slot") == True:
 
                 date = datetime.datetime.now()
                 entities = tracker.latest_message.get("entities")
@@ -197,9 +197,8 @@ class activadorIntent(Action):
                     kill_on_user_message=False,
                 )
                 fallback_variable = False
-                fallback_contador -=1
 
-                return [reminder]
+                return [reminder] + [SlotSet("fallback_slot", False)]
         return []
 
 class activadorRefrasear(Action):
@@ -220,7 +219,7 @@ class activadorRefrasear(Action):
             return []
         else:
             #if tracker.get_slot("fallback_slot") == True:
-            if fallback_variable == True:
+            if tracker.get_slot("fallback_slot") == True:
 
                 date = datetime.datetime.now()
                 entities = tracker.latest_message.get("entities")
@@ -233,9 +232,8 @@ class activadorRefrasear(Action):
                     kill_on_user_message=False,
                 )
                 fallback_variable = False
-                fallback_contador = True
 
-                return [reminder]
+                return [reminder] + [SlotSet("fallback_slot", False)]
         return []
 
 class ActionDefaultAskAffirmation(Action):
@@ -314,9 +312,21 @@ class ActionDefaultAskAffirmation(Action):
 
                dispatcher.utter_message(text=message)
 
-               return []
+               return [FollowupAction('actions_fallback_slot')]
 
        return []
+
+class activarFallbackSlot(Action):
+
+    def name(self) -> Text:
+        return "actions_fallback_slot"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        #Función que retorna un saludo diferente según la hora del día
+        return [SlotSet("fallback_slot", True)]
 
 class estoyEnfermo(Action):
 

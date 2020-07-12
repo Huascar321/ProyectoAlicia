@@ -27,6 +27,8 @@
 - Agendar cita online
 - Cita con doctor
 - Quiero cita medica
+- Agendar consulta
+- Agendar
 
 ## intent:pedirDoctor_medibook
 - Quiero agendar una cita con medibook
