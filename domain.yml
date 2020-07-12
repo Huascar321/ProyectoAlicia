@@ -26,6 +26,10 @@ intents:
 - quieroAyudar_soyDoctor
 - tengoPreguntas
 - activarMenu
+- estoyEnfermo:
+    use_entities: false
+- familiarEnfermo:
+    use_entities: false
 # CHITCHAT
 - CHITCHAT_eresRobot:
     triggers: utter_CHITCHAT_eresRobot
@@ -68,6 +72,8 @@ entities:
 - medicina
 - nombre_alicia
 - confirmacion
+- sintomas
+- familiares
 slots:
   departamento:
     type: unfeaturized
@@ -78,6 +84,10 @@ slots:
     - alicia
   confirmacion:
     type: bool
+  sintomas:
+    type: text
+  familiares:
+    type: text
 responses:
   utter_saludos_dias_conocer_nombre:
   - text: "Hey! \nTe acuerdas de mi nombre 😘 \nBuenos dias ☀️ \nEstoy aqui para ayudarte! ¿En que te puedo servir?"
@@ -716,7 +726,7 @@ responses:
   - text: "¿Podrias ser mas claro con tu pregunta? 🙏🏽"
 
   utter_disculpas:
-  - text: "Mira wacho no hay preguntas"
+  - text: "Perdon, al parecer no tengo esa pregunta en mi base de datos, no voy a poder responderte 😕 \nTu pregunta ha sido enviada para ser revisada, sera agregada en el futuro \nDime tu siguiente pregunta!"
 
 #### CHITCHATS
   utter_CHITCHAT_eresRobot:
@@ -796,3 +806,4 @@ actions:
 - action_activador_intent
 - action_activador_frasear
 - actions_contadorMessenger
+- actions_enfermedad

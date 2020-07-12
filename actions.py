@@ -28,7 +28,7 @@ from rasa_sdk.events import (
 global fallback_variable
 fallback_variable = False
 global fallback_contador
-fallback_contador = 0
+fallback_contador = False
 
 class saludar(Action):
 
@@ -115,7 +115,7 @@ class mostrarCasos(Action):
                     dispatcher.utter_message(template='utter_preguntarOtrosCasos')
 
                 else:
-                    dispatcher.utter_message(text="En Bolivia hay: *"+ str(nroConfirmados) +"* confirmados* 🧪 \n*"+ str(nroFallecidos)+"* decesos 📉 \n*"+str(nroRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?")
+                    dispatcher.utter_message(text="En Bolivia hay: \n \n*"+ str(nroConfirmados) +"* confirmados* 🧪 \n*"+ str(nroFallecidos)+"* decesos 📉 \n*"+str(nroRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?")
 
                 return[SlotSet("departamento", None)]
 
@@ -233,7 +233,7 @@ class activadorRefrasear(Action):
                     kill_on_user_message=False,
                 )
                 fallback_variable = False
-                fallback_contador +=1
+                fallback_contador = True
 
                 return [reminder]
         return []
@@ -287,7 +287,7 @@ class ActionDefaultAskAffirmation(Action):
                fallback_contador += 1
                dispatcher.utter_button_message(message, buttons=buttons)
        else:
-           if fallback_contador ==2:
+           if fallback_contador == True:
                # enviar la variable
                feedback = tracker.latest_message['text']
                new_feedback = {
@@ -298,7 +298,7 @@ class ActionDefaultAskAffirmation(Action):
                collection_feedback.insert_one(new_feedback)
 
                dispatcher.utter_message(template='utter_disculpas')
-               fallback_contador=0
+               fallback_contador= False
                return []
            else:
                last_intent_name = tracker.latest_message['intent']['name']
@@ -310,13 +310,41 @@ class ActionDefaultAskAffirmation(Action):
                global intent_fallback
                intent_fallback = last_intent_name
 
-               global fallback_variable
-
                fallback_variable = True
-               fallback_contador += 1
 
                dispatcher.utter_message(text=message)
 
                return []
 
        return []
+
+class estoyEnfermo(Action):
+
+    def name(self) -> Text:
+        return "actions_enfermedad"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        #Función que retorna un saludo diferente según la hora del día
+        if tracker.get_latest_input_channel() == 'facebook':
+            return []
+        else:
+            if (tracker.get_slot("sintomas") != None) and (tracker.get_slot("familiares") == None):
+                sintoma = tracker.get_slot("sintomas")
+                dispatcher.utter_message(text="Efectivamente, "+ sintoma +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                return[SlotSet("sintomas", None)]
+            elif (tracker.get_slot("sintomas") == None) and (tracker.get_slot("familiares") != None):
+                familiar = tracker.get_slot("familiares")
+                dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar +" 😕 \nLastimosamente, no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                return[SlotSet("familiares", None)]
+            elif (tracker.get_slot("sintomas") != None) and (tracker.get_slot("familiares") != None):
+                sintoma = tracker.get_slot("sintomas")
+                familiar = tracker.get_slot("familiares")
+                dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar +" 😕 \nEfectivamente, "+ sintoma +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                return[SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+            else:
+                dispatcher.utter_message(text="Que mal oir eso 😕 \nSi crees que podrias estar enfermo, puedo facilitarte una consulta gratuita con un medico en linea para que revise tu caso \n¿Deseas agendar una consulta?")
+                return[SlotSet("familiares", None)]
+        return []

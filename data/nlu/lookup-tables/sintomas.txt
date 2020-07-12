@@ -1,0 +1,9 @@
+tos
+respirar
+garganta
+cansancio
+fiebre
+gusto
+olfato
+molestias
+diarrea

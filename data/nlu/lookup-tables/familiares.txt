@@ -1,0 +1,14 @@
+hermano
+hermana
+tio
+tia
+primo
+prima
+abuelo
+abuela
+bisabuelo
+bisabuela
+esposo
+esposa
+papa
+mama
