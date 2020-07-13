@@ -1,0 +1,220 @@
+## intent:saludos
+- Hola
+- Holi
+- Ola
+- Buenos dias
+- Buenas tardes
+- Buenas
+- [Alicia](nombre_alicia)
+- Hola [Alicia](nombre_alicia)
+- Oye
+- Oye [Alicia](nombre_alicia)
+- Buenas noches
+- Alo
+- Saludos
+- Hey
+- Heyy
+- Muy buenas
+- Que tal
+- Holaa
+- Olaa
+- hola
+- Que tal
+- holaa
+- holii
+- Olaa
+- Hola hola
+- Como estas
+- Como estas [Alicia](nombre_alicia)
+
+## intent:despedidas
+- Adios
+- Chau
+- Hasta luego
+- Nos vemos
+- Bye
+- Chaoo
+- Nos vemos
+- Bye bye
+- Hasta pronto
+- Chauu
+- Que te vaya bien
+- Hasta pronto
+- Hasta la proxima
+- Adioos
+- Nos vemoos
+- Chau, chau
+- Chau chau
+- Que te vaya muy bien
+- Me voy
+- Me tengo que ir
+- Tengo que irme
+
+## intent:afirmar
+- Si
+- Creo que si
+- Claro
+- Correcto
+- Por supuesto
+- Perfecto
+- Ya
+- Dale
+- Seguro
+- Ok
+- Okay
+- Obvio
+- Exacto
+- Exactamente
+- Precisamente
+- De acuerdo
+- Afirmativo
+- Bueno
+- Esta bien
+- Esta muy bien
+- Esta perfecto
+
+## intent:negar
+- No
+- Nunca
+- No se
+- No estoy seguro
+- Creo que no
+- Negativo
+- No creo
+- Nose
+- Ya no
+- Obvio que no
+- Segun yo no
+- Quizas no
+- No
+- En nada
+- Nada mas
+- Nada
+- Para nada
+- Claro que no
+- Obvio que no
+
+## intent:agradecer
+- Gracias
+- Muchas gracias
+- Te lo agradezco
+- Se le agradece
+- Muchisimas gracias
+- Si gracias
+- Graciaas
+- Enserio te lo agradezco
+- Te lo agradezco bastante
+- Te doy las gracias
+- Enserio muchas gracias
+- Graciaaas
+- Enserio que te lo agradezco
+- Enserio te lo agradezco
+- De verdad que te lo agradezco
+- Muchas gracias enserio
+- Muchas gracias de verdad
+- Gracias por todo
+- Gracias muy util
+- Me fuiste muy util, gracias
+
+## intent:QuieroCompartir
+- Quiero compartir su numero
+- Quiero compartir
+- Compartir
+- Compartir su contacto
+- Deseo compartir tu numero
+- Puedo compartir tu numero?
+- Quiero compartirte con mis amigos
+- Quiero compartirte con mis familiares
+- Necesito compartir tu numero
+- Como puedo compartir tu numero?
+- Enseñame como compartir tu contacto
+- Necesito compartir tu contacto
+- Me puedes pasar tu contacto
+- Me puedes pasar tu numero
+- Como puedo mandarle tu numero a mis amigos
+- Como puedo mandarle tu numero a mis contactos
+
+## intent:tengoPreguntas
+- Tengo una pregunta
+- Preguntas
+- Pregunta
+- Duda
+- Tengo una duda
+- Resolver mis preguntas
+- Quiero preguntar
+- Quiero saber
+- Tengo preguntas
+- Quiero hacer una pregunta
+- Quiero que me respondan una duda
+- Hacer una pregunta
+- Resuelvanme una duda
+- Respondanme una pregunta
+- Quiero que me respondan una pregunta
+- Pregunto
+- Una duda
+- Quiero hacerte una pregunta
+- Tengo unas dudas para ti
+- Tengo una duda para vos
+- Tengo una pregunta para vos
+- Tengo una pregunta para ti
+- Quiero hacerte otra pregunta
+- Necesito hacerte otra pregunta
+- Me puedes responder una pregunta?
+- Me puedes responder una duda?
+
+## intent:activarMenu
+- Quiero volver al menu
+- Menu
+- Quiero abrir el menu de nuevo
+- Quiero volver a abrir el menu
+- Me gustaria abrir de nuevo el menu
+- Quiero ver las opciones
+- Me gustaria ver de nuevo las opciones
+- Necesito el menu de nuevo
+- Necesito ver las opciones de nuevo
+- Me puedes mostrar el menu de nuevo?
+- Me puedes mostrar las opciones de nuevo?
+- Donde estan las opciones?
+- Donde esta el menu?
+- Opciones
+- Vuelveme a mostrar el menu por favor
+- Vuelveme a mostrar las opciones por favor
+- Me muestras los botones
+- Me puedes mostrar los botones
+- Necesito ver los botones
+- Quiero ver los botones
+- Botones
+- Quiero ver el menu
+- Quiero ver las opciones
+- Quiero ver los botones
+- Quiero ver el menu otra vez
+- Quiero ver las opciones otra vez
+- Quiero ver los botones otra vez
+
+## intent:insultos
+- Mierda
+- Carajo
+- Puta
+- Maldita
+- Maricon
+- Maricona
+- Estupida
+- Imbecil
+- Pendeja
+- Pendejo
+- Perra
+- Polfa
+- Chupamela
+- Chupala
+- Pinche
+- Pene
+- Pichi
+- Verga
+- Pito
+- Polla
+- Golfa
+- Puchi
+- Caca
+- Pedo
+- Culo
+- Pis
