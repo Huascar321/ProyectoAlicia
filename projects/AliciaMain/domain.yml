@@ -30,7 +30,7 @@ entities:
 - departamento
 slots:
   nombre_alicia:
-    type: text
+    type: unfeaturized
   sintomas:
     type: text
   familiares:

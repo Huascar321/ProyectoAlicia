@@ -3,6 +3,7 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from urllib.request import urlopen
 from rasa_sdk.events import (
+    #datetime,
     SlotSet,
     UserUtteranceReverted,
     ConversationPaused,
@@ -11,7 +12,6 @@ from rasa_sdk.events import (
     FollowupAction,
     UserUttered,
     ActionReverted,
-    datetime,
     ReminderScheduled
 )
 from fechaHora import *
@@ -136,11 +136,15 @@ class afirmarFallback(Action):
     def name(self) -> Text:
         return "actions_afirmar_Fallback"
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+    async def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[Dict[Text, Any]]:
 
         #Función que retorna un saludo diferente según la hora del día
+        from rasa_sdk.events import datetime
         if tracker.get_slot("fallback_slot") == True:
 
             #date = datetime.datetime.now()
@@ -154,7 +158,8 @@ class afirmarFallback(Action):
                 name="my_reminder",
                 kill_on_user_message=False,
             )
-            return [SlotSet("fallback_slot", None)] + [FollowupAction('action_listen')]
+            print("afirmar correcto")
+            return [reminder] + [SlotSet("fallback_slot", None)] + [FollowupAction('action_listen')]
         return []
 
 class negarFallback(Action):
