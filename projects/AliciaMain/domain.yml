@@ -1,20 +1,21 @@
 intents:
-- saludos
-- despedidas
+- saludos:
+    use_entities: []
+- out_of_scope
 - afirmar
 - negar
-- agradecer
-- QuieroCompartir
-- tengoPreguntas
-- activarMenu
-- insultos
-- out_of_scope
-- chitchat:
+- estoyEnfermo:
     use_entities: []
 entities:
 - nombre_alicia
+- sintomas
+- familiares
 slots:
   nombre_alicia:
+    type: text
+  sintomas:
+    type: text
+  familiares:
     type: text
 responses:
   utter_saludos_dias_conocer_nombre:
@@ -298,13 +299,47 @@ responses:
   - text: "Hola hola!\n Me alegro mucho de verte, yo soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
   - text: "Saludos cordiales! \nMi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n-Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
 
-  utter_greet:
-  - text: "negativo"
-  utter_greet_alicia:
-  - text: "positivo"
+  utter_default:
+  - text: "Fallback error"
+
+  utter_tengoPreguntas:
+  - text: "¿Cual es tu pregunta? 😁"
+  - text: "¿Cual es tu duda? 😊"
+  - text: "¿Que deseas preguntarme? 😊"
+  - text: "Todo oidos ¿cual es tu pregunta? 😁"
+  - text: "Cuentame ¿Cual es tu duda? 😊"
+
+  utter_negarPregunta:
+  - text: "Muy bien, cualquier otra duda hazmela saber 🤗"
+  - text: "Perfecto! Si tienes otra duda no dudes en comentarmela 🤗"
+  - text: "De acuerdo, si necesitas algo mas dimelo! 🤗"
+  - text: "Fantastico, cualquier otra consulta no dudes en preguntar"
+  - text: "Perfecto, si te puedo ayudar en algo mas cuentame"
+
+  utter_pedirAsistencia:
+  - text: "Claro ¿Donde quieres pedir tu cita? ✏️ \nLas consultas sobre el COVID-19 son gratuitas"
+    channel: "facebook"
+    quick_replies:
+      - payload: "/pedirDoctor_medibook"
+        title: "Agendar por Medibook"
+      - payload: "/pedirDoctor_whatsapp"
+        title: "Agendar por Whatsapp"
+  - text: "De acuerdo ¿Por donde deseas pedir tu cita? ✏️\nLas consultas referentes al COVID-19 son totalmente gratuitas"
+    channel: "facebook"
+    quick_replies:
+      - payload: "/pedirDoctor_medibook"
+        title: "Agendar por Medibook"
+      - payload: "/pedirDoctor_whatsapp"
+        title: "Agendar por Whatsapp"
+  - text: "Claro ¿Donde quieres pedir tu cita?\n \n- Agendar consulta por *Medibook* \n- Agendar consulta por *Whatsapp* \n_Las consultas sobre el COVID-19 son gratuitas_"
+  - text: "De acuerdo ¿Por donde deseas pedir tu cita?\n \n- Agendar consulta por *Medibook* \n- Agendar consulta por *Whatsapp* \n_Las consultas referentes al COVID-19 son totalmente gratuitas_"
+
+
 actions:
 - actions_saludar
 - respond_chitchat
+- action_default_ask_affirmation
+- actions_enfermedad
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

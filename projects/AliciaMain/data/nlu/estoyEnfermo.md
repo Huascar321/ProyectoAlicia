@@ -1,0 +1,86 @@
+## intent:estoyEnfermo
+- Me siento enfermo
+- Estoy enfermo
+- Tengo [tos](sintomas)
+- Tengo [tos seca]{"entity": "sintomas", "value": "tos"}
+- Estoy [tosiendo]{"entity": "sintomas", "value": "tos"}
+- Estoy [tosiendo seco]{"entity": "sintomas", "value": "tos"}
+- No paro de [toser]{"entity": "sintomas", "value": "tos"}
+- No dejo de [toso]{"entity": "sintomas", "value": "tos"}
+- Me duele al [dificultades respiratorias](sintomas)
+- No puedo [respirar]{"entity": "sintomas", "value": "dificultades respiratorias"}
+- Me cuesta [respirar]{"entity": "sintomas", "value": "dificultades respiratorias"}
+- Tengo [fiebre](sintomas)
+- Tengo alta [temperatura]{"entity": "sintomas", "value": "fiebre"}
+- Tengo mucha [temperatura]{"entity": "sintomas", "value": "fiebre"}
+- Tengo [perdida del olfato](sintomas)
+- Tengo [perdida del gusto](sintomas)
+- Perdi el sentido del [olfato]{"entity": "sintomas", "value": "perdida del olfato"}
+- Creo que perdi el sentido del [gusto]{"entity": "sintomas", "value": "perdida del gusto"}
+- No puedo [oler]{"entity": "sintomas", "value": "perdida del olfato"}
+- No [huelo]{"entity": "sintomas", "value": "perdida del olfato"} nada
+- No estoy [oliendo]{"entity": "sintomas", "value": "perdida del olfato"} nada
+- No siento el [olor]{"entity": "sintomas", "value": "perdida del olfato"}
+- No tengo [gusto]{"entity": "sintomas", "value": "perdida del gusto"}
+- No le siento el [sabor]{"entity": "sintomas", "value": "perdida del gusto"} a la comida
+- No puedo [saborear]{"entity": "sintomas", "value": "perdida del gusto"} los alimentos
+- Tengo [dolor de garganta](sintomas)
+- Me duele mucho la [garganta]{"entity": "sintomas", "value": "dolor de garganta"}
+- Me duele demasiado la [garganta]{"entity": "sintomas", "value": "dolor de garganta"}
+- Me duele la [garganta]{"entity": "sintomas", "value": "dolor de garganta"}
+- Tengo dolor de [garganta]{"entity": "sintomas", "value": "dolor de garganta"}
+- Tengo dolor en la [garganta]{"entity": "sintomas", "value": "dolor de garganta"}
+- Me duele bastante la [garganta]{"entity": "sintomas", "value": "dolor de garganta"}
+- Tengo [cansancio](sintomas)
+- Me siento [cansado]{"entity": "sintomas", "value": "cansancio"}
+- Me siento muy [cansado]{"entity": "sintomas", "value": "cansancio"}
+- Estoy [cansado]{"entity": "sintomas", "value": "cansancio"}
+- Estoy [agotado]{"entity": "sintomas", "value": "cansancio"}
+- Estoy muy [cansado]{"entity": "sintomas", "value": "cansancio"}
+- Creo que perdi el [gusto]{"entity": "sintomas", "value": "perdida del gusto"}
+- Tengo [perdida del gusto](sintomas)
+- No tengo [gusto]{"entity": "sintomas", "value": "perdida del gusto"}
+- Creo que tengo [perdida del gusto](sintomas)
+- No puedo [oler]{"entity": "sintomas", "value": "perdida del olfato"}
+- No [oler]{"entity": "sintomas", "value": "perdida del olfato"} nada
+- No estoy [oliendo]{"entity": "sintomas", "value": "perdida del olfato"}
+- Sufro de [molestias](sintomas)
+- Me duele mucho el [torax]{"entity": "sintomas", "value": "molestias"}
+- Me duele el [cuerpo]{"entity": "sintomas", "value": "molestias"}
+- Tengo mucha [migraña]{"entity": "sintomas", "value": "molestias"}
+- Me duele fuerte el [pecho]{"entity": "sintomas", "value": "molestias"}
+- Siento dolor en el [pecho]{"entity": "sintomas", "value": "molestias"}
+- Me duele la [cabeza]{"entity": "sintomas", "value": "molestias"}
+- Creo que tengo [diarrea](sintomas)
+- Tengo [disenteria]{"entity": "sintomas", "value": "diarrea"}
+- Me dio [conjuntivitis](sintomas)
+- Ayuda tengo [conjuntivitis](sintomas)
+- Si tengo [tos](sintomas) es covid?
+- Si tengo [conjuntivitis](sintomas) es coronavirus?
+- Si tengo [diarrea](sintomas) significa que estoy infectado?
+- Solo me dio [diarrea](sintomas) dos dias
+- perdi el sentido del [olfato]{"entity": "sintomas", "value": "perdida del olfato"}
+- Tengo [tos](sintomas) hace una semana
+- Tengo gripe
+- Ayuda
+- Ayudenos por favor
+- Ayuda mi [papa](familiares) tiene [tos](sintomas)
+- Mi [padre]{"entity": "familiares", "value": "papa"} no puede [respirar]{"entity": "sintomas", "value": "dificultades respiratorias"}
+- A mi [mama](familiares) le [molestias](sintomas) la cabeza
+- Mi [madre]{"entity": "familiares", "value": "mama"} perdio el sentido del [gusto]{"entity": "sintomas", "value": "perdida del gusto"}
+- Mi [hermano](familiares) esta [tos](sintomas)
+- Mi [hermana](familiares) esta enferma
+- A mi [tio](familiares) le duele mucho la [cabeza](sintomas)
+- Mi [esposo](familiares) le cuesta mucho [respirar](sintomas)
+- Ayuda mi [marido]{"entity": "familiares", "value": "esposo"} le duele mucho el [pecho]{"entity": "sintomas", "value": "molestias"}
+- Mi [abuelo](familiares) tiene [respirar](sintomas)
+- Mi [primo](familiares) no para de [tos](sintomas)
+- Que hago si mi [prima](familiares) tiene [fiebre](sintomas)?
+- Mi [esposa](familiares) perdio el sentido del [olfato](sintomas)
+- Que hago si a mi [mujer]{"entity": "familiares", "value": "esposa"} se le sube la [temperatura]{"entity": "sintomas", "value": "fiebre"}
+- Mi [hija](familiares) no puede [oler]{"entity": "sintomas", "value": "perdida del olfato"}
+- Mi [abuela](sintomas) se siente muy [cansada]{"entity": "sintomas", "value": "cansancio"}
+- Mi [hijo](familiares) esta con [molestias](sintomas) de cabeza desde ayer
+- Creo que mi [hermano](familiares) tiene coronavirus
+- Creo que mi [hermano](familiares) esta enfermo
+- Creo que mi [abuelo](familiares) tiene [fiebre](sintomas)

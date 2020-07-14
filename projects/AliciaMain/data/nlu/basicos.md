@@ -1,0 +1,79 @@
+## intent:saludos
+- Hola
+- Holi
+- Ola
+- Buenos dias
+- Buenas tardes
+- Buenas
+- [Alicia](nombre_alicia)
+- Hola [alicia](nombre_alicia)
+- Oye
+- Oye [Alicia](nombre_alicia)
+- Buenas noches
+- Alo
+- Saludos
+- Hey
+- Heyy
+- Muy buenas
+- Que tal
+- Holaa
+- Olaa
+- hola
+- Que tal
+- holaa
+- holii
+- Olaa
+- Hola hola
+- Como estas
+- Como estas [Alicia](nombre_alicia)
+
+## intent:afirmar
+- Si
+- Creo que si
+- Claro
+- Correcto
+- Por supuesto
+- Perfecto
+- Ya
+- Dale
+- Seguro
+- Ok
+- Okay
+- Obvio
+- Exacto
+- Exactamente
+- Precisamente
+- De acuerdo
+- Afirmativo
+- Bueno
+- Esta bien
+- Esta muy bien
+- Esta perfecto
+
+## intent:negar
+- No
+- Nunca
+- No se
+- No estoy seguro
+- Creo que no
+- Negativo
+- No creo
+- Nose
+- Ya no
+- Obvio que no
+- Segun yo no
+- Quizas no
+- No
+- En nada
+- Nada mas
+- Nada
+- Para nada
+- Claro que no
+- Obvio que no
+
+## intent:out_of_scope
+- pizza
+- hamburguesa
+- tocino
+- mayonesa
+- titere
