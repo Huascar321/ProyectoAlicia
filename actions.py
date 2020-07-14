@@ -8,7 +8,6 @@ from mongodb import *
 import csv
 import pandas as pd
 
-
 class saludar(Action):
 
     def name(self) -> Text:
@@ -19,7 +18,6 @@ class saludar(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         #Función que retorna un saludo diferente según la hora del día
-        print("saludos")
         hora = horaActualInt()
         texto = ""
         #En caso de que el slot exista, lo convertira en miniscula
@@ -65,22 +63,100 @@ class ActionDefaultAskAffirmation(Action):
 
    def run(self, dispatcher, tracker, domain):
        # get the most likely intent
-       last_intent_name = tracker.latest_message['intent']['name']
+       if tracker.get_latest_input_channel() == 'facebook':
+           last_intent_name = tracker.latest_message['intent']['name']
 
-       # get the prompt for the intent
-       intent_prompt = self.intent_mappings[last_intent_name]
+           # get the prompt for the intent
+           intent_prompt = self.intent_mappings[last_intent_name]
 
-       # Create the affirmation message and add two buttons to it.
-       # Use '/<intent_name>' as payload to directly trigger '<intent_name>'
-       # when the button is clicked.
-       message = "Lo siento, intentaste decir '{}'?".format(intent_prompt)
-       buttons = [{'title': 'Si',
-                   'payload': '/{}'.format(last_intent_name)},
-                  {'title': 'No',
-                   'payload': '/out_of_scope'}]
-       dispatcher.utter_message(text=message, buttons=buttons)
+           # Create the affirmation message and add two buttons to it.
+           # Use '/<intent_name>' as payload to directly trigger '<intent_name>'
+           # when the button is clicked.
+           message = "Lo siento, intentaste decir '{}'?".format(intent_prompt)
+           buttons = [{'title': 'Si',
+                       'payload': '/{}'.format(last_intent_name)},
+                      {'title': 'No',
+                       'payload': '/out_of_scope'}]
+           dispatcher.utter_message(text=message, buttons=buttons)
+       else:
+           if tracker.get_slot("fallback_slot2") == True:
+               feedback = tracker.latest_message['text']
+               new_feedback = {
+                   'fecha' : fechaActual(),
+                   'mensaje' : feedback
+               }
 
+               collection_feedback.insert_one(new_feedback)
+               message = "Lo siento, tu pregunta no se encuentra en nuestra base de datos \nSera enviada a revision y agregada en el futuro, mientras tanto. Dime tu siguiente pregunta!"
+               dispatcher.utter_message(text=message)
+               return[SlotSet("fallback_slot2", None)]
+           last_intent_name = tracker.latest_message['intent']['name']
+
+           intent_prompt = self.intent_mappings[last_intent_name]
+
+           message = "Lo siento, intentaste decir '{}'? \n \n• *Si* \n• *No*".format(intent_prompt)
+
+           global intent_fallback
+           intent_fallback = last_intent_name
+
+           dispatcher.utter_message(text=message)
+           return [FollowupAction('actions_slot_fallback')]
        return []
+
+class slotFallback(Action):
+
+    def name(self) -> Text:
+        return "actions_slot_fallback"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        #Función que retorna un saludo diferente según la hora del día
+        if tracker.get_slot("fallback_slot") == None:
+            return [SlotSet("fallback_slot", True)]
+        return []
+
+class afirmarFallback(Action):
+
+    def name(self) -> Text:
+        return "actions_afirmar_Fallback"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        #Función que retorna un saludo diferente según la hora del día
+        if tracker.get_slot("fallback_slot") == True:
+
+            date = datetime.datetime.now()
+            entities = tracker.latest_message.get("entities")
+
+            reminder = ReminderScheduled(
+                intent_fallback,
+                trigger_date_time=date,
+                entities=entities,
+                name="my_reminder",
+                kill_on_user_message=False,
+            )
+            return [SlotSet("fallback_slot", None)]
+        return []
+
+class negarFallback(Action):
+
+    def name(self) -> Text:
+        return "actions_negar_Fallback"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        #Función que retorna un saludo diferente según la hora del día
+        if tracker.get_slot("fallback_slot") == True:
+
+            dispatcher.utter_message(template='utter_reformular')
+            return [SlotSet("fallback_slot", None)] + [SlotSet("fallback_slot2", True)]
+        return []
 
 class estoyEnfermo(Action):
 
@@ -199,3 +275,29 @@ class mostrarCasos(Action):
                 dispatcher.utter_message(text="En "+listaDepartamento[nombreDepartamento]+" hay: \n*"+ str(casosConfirmados) +"* confirmados* 🧪 \n*"+ str(cantFallecidos)+"* decesos 📉 \n*"+str(cantRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?")
 
         return[SlotSet("departamento", None)]
+
+class fallback(Action):
+
+    def name(self) -> Text:
+        return "custom_action_fallback"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        #Función que retorna un saludo diferente según la hora del día
+        if tracker.get_slot("fallback_slot") == True:
+            return []
+        if tracker.get_slot("fallback_slot2") == True:
+            feedback = tracker.latest_message['text']
+            new_feedback = {
+                'fecha' : fechaActual(),
+                'mensaje' : feedback
+            }
+
+            collection_feedback.insert_one(new_feedback)
+            message = "Lo siento, tu pregunta no se encuentra en nuestra base de datos \nSera enviada a revision y agregada en el futuro, mientras tanto. Dime tu siguiente pregunta!"
+            dispatcher.utter_message(text=message)
+            return [UserUtteranceReverted()] + [SlotSet("fallback_slot2", None)]
+        dispatcher.utter_message(template='utter_default')
+        return [UserUtteranceReverted()]

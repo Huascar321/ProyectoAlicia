@@ -37,6 +37,8 @@ slots:
     type: text
   departamento:
     type: text
+  fallback_slot:
+    type: bool
 responses:
   utter_saludos_dias_conocer_nombre:
   - text: "Hey! \nTe acuerdas de mi nombre 😘 \nBuenos dias ☀️ \nEstoy aqui para ayudarte! ¿En que te puedo servir?"
@@ -599,6 +601,11 @@ responses:
   - text: "Por el momento solo buscamos doctores o personal de salud \nSi conoces a alguien quien pueda ayudar, compartele este numero  \nEntonces"
   - text: "Por ahora estamos precisando la ayuda de doctores o personal de salud \n Si conoces a alguien que tenga ganas de ayudar en esta labor, compartele este numero ☺️ \n Sera de mucha ayuda \nEntonces"
   - text: "Vaya, en estos momentos estamos en busca de doctores o personal de salud, pero nos puedes ayudar mucho compartiendo este numero ☺️ \nEntonces"
+
+  utter_reformular:
+  - text: "¿Podrias reformular lo que dijiste? 🙌"
+  - text: "¿Puedes ser mas especifico con tu pregunta? 🙌🏼"
+  - text: "¿Podrias ser mas claro con tu pregunta? 🙏🏽"
 actions:
 - actions_saludar
 - respond_chitchat
@@ -606,6 +613,9 @@ actions:
 - actions_enfermedad
 - actions_verificarCanal
 - actions_mostrar_casos
+- actions_afirmar_Fallback
+- actions_negar_Fallback
+- custom_action_fallback
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -13,10 +13,6 @@ pipeline:
   - name: DIETClassifier
     epochs: 100
   - name: EntitySynonymMapper
-  - name: ResponseSelector
-    epochs: 100
-    retrieval_intent: chitchat
-    scale_loss: false
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
@@ -30,8 +26,8 @@ policies:
     nlu_threshold: 0.7
     ambiguity_threshold: 0.1
     core_threshold: 0.7
-    fallback_core_action_name: "action_default_fallback"
-    fallback_nlu_action_name: "action_default_fallback"
+    fallback_core_action_name: "custom_action_fallback"
+    fallback_nlu_action_name: "custom_action_fallback"
     deny_suggestion_intent_name: "out_of_scope"
 
 imports:
