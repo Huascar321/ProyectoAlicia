@@ -1,0 +1,81 @@
+## intent:quieroAyudar
+- Me gustaria ayudar
+- Quiero ayudar
+- Como puedo ayudar?
+- Me encantaria ayudar
+- Como puedo ayudar en esta situacion
+- Puedo ayudar?
+- Me gustaria ser de ayuda
+- Tengo ganas de ayudar
+- Creo que puedo ayudar
+- Podria ayudar en algo?
+- Como podria ayudar?
+- Quisiera ayudar
+- Quisiera ser voluntario
+- Me gustaria saber como puedo ser voluntario
+- Quiero ser voluntario
+- Quiero ser de ayuda
+- Me interesa ayudar
+- Me interesa bastante ayudar
+- Me gusta ser de ayuda
+- Me encanta ayudar
+- Saber como puedo ayudar
+- Quiero saber como puedo ayudar
+- Voluntariado
+- Voluntario
+- Quiero ser voluntario
+- Me gustaria ser voluntario
+
+## intent:quieroAyudar_soyDoctor
+- Soy doctor
+- Doctor
+- Soy doctora
+- Doctora
+- Puedo ayudar como doctora
+- Soy medico
+- Un doctor
+- Ofrezco mis servicios de doctor
+- Estudie medicina
+- Quiero ayudar como doctor
+- Puedo hacer consultas como doctor
+- Puedo ayudar como doctor
+- Dr.
+- Soy Dr.
+- Doc
+- Soy un doc
+- Soy personal de salud
+- Soy psicologo
+- Soy fisioteraupeuta especializado en geriatrica
+- soy fisioteraupeuta
+- no pero si soy fisioteraupeuta
+- soy enfermera
+- soy ingeniera biomedica
+- estudio bioquimica
+- soy ingeniera bioquimica
+- soy dentista
+- Trabajo en la salud
+- Trabajo en un laboratorio
+- No soy doctor pero si soy enfermera
+- Soy nutricionista
+- Trabajo en nutricion
+- Trabajo en una farmacia
+- Soy farmaceutico
+- Soy odontologa
+- Soy oculista
+
+## intent:quieroAyudar_soyNinguno
+- No soy ninguno
+- No soy ninguno de ellos
+- No soy doctor
+- No soy medico
+- No soy personal de la salud
+- No trabajo en nada de eso
+- Yo no soy ninguno de ellos
+- Yo no soy doctor
+- Yo no soy medico
+- Yo no soy personal de salud
+- Yo no tengo esas profesiones
+- Yo no tengo ninguna profesion
+- No tengo esas profesiones
+- Yo no me dedico a eso
+- No me dedico a eso

@@ -71,6 +71,125 @@
 - Claro que no
 - Obvio que no
 
+## intent:despedidas
+- Adios
+- Chau
+- Hasta luego
+- Nos vemos
+- Bye
+- Chaoo
+- Nos vemos
+- Bye bye
+- Hasta pronto
+- Chauu
+- Que te vaya bien
+- Hasta pronto
+- Hasta la proxima
+- Adioos
+- Nos vemoos
+- Chau, chau
+- Chau chau
+- Que te vaya muy bien
+- Me voy
+- Me tengo que ir
+- Tengo que irme
+
+## intent:agradecer
+- Gracias
+- Muchas gracias
+- Te lo agradezco
+- Se le agradece
+- Muchisimas gracias
+- Si gracias
+- Graciaas
+- Enserio te lo agradezco
+- Te lo agradezco bastante
+- Te doy las gracias
+- Enserio muchas gracias
+- Graciaaas
+- Enserio que te lo agradezco
+- Enserio te lo agradezco
+- De verdad que te lo agradezco
+- Muchas gracias enserio
+- Muchas gracias de verdad
+- Gracias por todo
+- Gracias muy util
+- Me fuiste muy util, gracias
+
+## intent:QuieroCompartir
+- Quiero compartir su numero
+- Quiero compartir
+- Compartir
+- Compartir su contacto
+- Deseo compartir tu numero
+- Puedo compartir tu numero?
+- Quiero compartirte con mis amigos
+- Quiero compartirte con mis familiares
+- Necesito compartir tu numero
+- Como puedo compartir tu numero?
+- Enseñame como compartir tu contacto
+- Necesito compartir tu contacto
+- Me puedes pasar tu contacto
+- Me puedes pasar tu numero
+- Como puedo mandarle tu numero a mis amigos
+- Como puedo mandarle tu numero a mis contactos
+
+## intent:tengoPreguntas
+- Tengo una pregunta
+- Preguntas
+- Pregunta
+- Duda
+- Tengo una duda
+- Resolver mis preguntas
+- Quiero preguntar
+- Quiero saber
+- Tengo preguntas
+- Quiero hacer una pregunta
+- Quiero que me respondan una duda
+- Hacer una pregunta
+- Resuelvanme una duda
+- Respondanme una pregunta
+- Quiero que me respondan una pregunta
+- Pregunto
+- Una duda
+- Quiero hacerte una pregunta
+- Tengo unas dudas para ti
+- Tengo una duda para vos
+- Tengo una pregunta para vos
+- Tengo una pregunta para ti
+- Quiero hacerte otra pregunta
+- Necesito hacerte otra pregunta
+- Me puedes responder una pregunta?
+- Me puedes responder una duda?
+
+## intent:insultos
+- Mierda
+- Carajo
+- Puta
+- Maldita
+- Maricon
+- Maricona
+- Estupida
+- Imbecil
+- Pendeja
+- Pendejo
+- Perra
+- Polfa
+- Chupamela
+- Chupala
+- Pinche
+- Pene
+- Pichi
+- Verga
+- Pito
+- Polla
+- Golfa
+- Puchi
+- Caca
+- Pedo
+- Culo
+- Pis
+
 ## intent:out_of_scope
 - pizza
 - hamburguesa

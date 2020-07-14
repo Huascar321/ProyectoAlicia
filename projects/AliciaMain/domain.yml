@@ -7,18 +7,35 @@ intents:
 - pedirAsistencia
 - pedirDoctor_medibook
 - pedirDoctor_whatsapp
+- QuieroCompartir
+- mostrarCasos
+- mostrarCasos_solicitar
+- quieroAyudar
+- quieroAyudar_soyDoctor
+- quieroAyudar_soyNinguno
+- tengoPreguntas:
+    triggers: utter_tengoPreguntas
+- despedidas:
+    triggers: utter_despedirse
+- agradecer:
+    triggers: utter_agradecer
 - estoyEnfermo:
     use_entities: []
+- insultos:
+    triggers: utter_insultos
 entities:
 - nombre_alicia
 - sintomas
 - familiares
+- departamento
 slots:
   nombre_alicia:
     type: text
   sintomas:
     type: text
   familiares:
+    type: text
+  departamento:
     type: text
 responses:
   utter_saludos_dias_conocer_nombre:
@@ -302,6 +319,21 @@ responses:
   - text: "Hola hola!\n Me alegro mucho de verte, yo soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
   - text: "Saludos cordiales! \nMi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n-Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
 
+  utter_despedirse:
+  - text: "Chau! No olvides recomendarme a tus familiares 👩🏽"
+  - text: "Bye! No olvides compartirme con tus amigos, saludos!😘"
+  - text: "Hasta luego! comparte con tus amigos y familiares ☺️"
+  - text: "Nos vemos, No olvides recomendarme a tus amigos y familiares, cuidate mucho ☺️"
+  - text: "Hasta pronto! cuidate mucho y no olvides compartirme 😘"
+  - text: "Chau, nos vemos!! No olvides compartirme para llegar a mas personas 😁"
+  - text: "Un gusto, hasta luego. Comparte con tus amigos para ayudar a mas personas ☺️"
+
+  utter_insultos:
+  - text: "Hey, no seas grosero ☹️"
+  - text: "Ay que malo"
+  - text: "No hieras mis sentimientos 😞"
+  - text: "Hieres mis sentimientos 😢"
+
   utter_default:
   - text: "Fallback error"
 
@@ -422,12 +454,158 @@ responses:
   - text: "¿Te puedo ayudar en algo mas? 👩🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   - text: "¿En que mas puedo servirte? 🙋🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
   - text: "¿Hay algo en lo que pueda seguir ayudandote? 👩🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+
+  utter_agradecer:
+  - text: "De nada! Me alegra haberte sido de ayuda 😊"
+  - text: "De nada! Me alegra haberte sido de ayuda 😊"
+  - text: "No hay de que, me alegra mucho ayudar"
+  - text: "No hay de que, un gusto ayudarte😘"
+  - text: "Ay no es nada, me encanta ayudar😘"
+  - text: "Gracias a ti, espero haberte ayudado mucho😁"
+  - text: "No hay de que! espero haber sido de ayuda😊"
+
+  utter_QuieroCompartir:
+  - text: "Comparte mi numero con el siguiente link: \nhttps://wa.link/bd8pke"
+    channel: "facebook"
+  - text: "Comparte mi numero con el siguiente link: \nhttps://wa.link/bd8pke \n¿Necesitas algo mas?"
+
+  utter_casos:
+  - text: "¿De que departamento quieres saber? 👐🏼🇧🇴"
+    channel: "facebook"
+    quick_replies:
+      - payload: '/mostrarCasos{"departamento": "santa cruz"}'
+        title: 'Santa Cruz'
+      - payload: '/mostrarCasos{"departamento": "la paz"}'
+        title: 'La Paz'
+      - payload: '/mostrarCasos{"departamento": "cochabamba"}'
+        title: 'Cochabamba'
+      - payload: '/mostrarCasos{"departamento": "beni"}'
+        title: 'Beni'
+      - payload: '/mostrarCasos{"departamento": "chuquisaca"}'
+        title: 'Chuquisaca'
+      - payload: '/mostrarCasos{"departamento": "tarija"}'
+        title: 'Tarija'
+      - payload: '/mostrarCasos{"departamento": "oruro"}'
+        title: 'Oruro'
+      - payload: '/mostrarCasos{"departamento": "potosi"}'
+        title: 'Potosi'
+      - payload: '/mostrarCasos{"departamento": "pando"}'
+        title: 'Pando'
+      - payload: '/mostrarCasos{"departamento": "bolivia"}'
+        title: 'Bolivia en general'
+  - text: "¿Cual departamento de Bolvia deseas saber?🤔"
+    channel: "facebook"
+    quick_replies:
+      - payload: '/mostrarCasos{"departamento": "santa cruz"}'
+        title: 'Santa Cruz'
+      - payload: '/mostrarCasos{"departamento": "la paz"}'
+        title: 'La Paz'
+      - payload: '/mostrarCasos{"departamento": "cochabamba"}'
+        title: 'Cochabamba'
+      - payload: '/mostrarCasos{"departamento": "beni"}'
+        title: 'Beni'
+      - payload: '/mostrarCasos{"departamento": "chuquisaca"}'
+        title: 'Chuquisaca'
+      - payload: '/mostrarCasos{"departamento": "tarija"}'
+        title: 'Tarija'
+      - payload: '/mostrarCasos{"departamento": "oruro"}'
+        title: 'Oruro'
+      - payload: '/mostrarCasos{"departamento": "potosi"}'
+        title: 'Potosi'
+      - payload: '/mostrarCasos{"departamento": "pando"}'
+        title: 'Pando'
+      - payload: '/mostrarCasos{"departamento": "bolivia"}'
+        title: 'Bolivia en general'
+  - text: "¿Que departamento te gustaria saber?📍🇧🇴"
+    channel: "facebook"
+    quick_replies:
+      - payload: '/mostrarCasos{"departamento": "santa cruz"}'
+        title: 'Santa Cruz'
+      - payload: '/mostrarCasos{"departamento": "la paz"}'
+        title: 'La Paz'
+      - payload: '/mostrarCasos{"departamento": "cochabamba"}'
+        title: 'Cochabamba'
+      - payload: '/mostrarCasos{"departamento": "beni"}'
+        title: 'Beni'
+      - payload: '/mostrarCasos{"departamento": "chuquisaca"}'
+        title: 'Chuquisaca'
+      - payload: '/mostrarCasos{"departamento": "tarija"}'
+        title: 'Tarija'
+      - payload: '/mostrarCasos{"departamento": "oruro"}'
+        title: 'Oruro'
+      - payload: '/mostrarCasos{"departamento": "potosi"}'
+        title: 'Potosi'
+      - payload: '/mostrarCasos{"departamento": "pando"}'
+        title: 'Pando'
+      - payload: '/mostrarCasos{"departamento": "bolivia"}'
+        title: 'Bolivia en general'
+  - text: "Dime el departamento del cual te interesaria saber 👐🏼"
+    channel: "facebook"
+    quick_replies:
+      - payload: '/mostrarCasos{"departamento": "santa cruz"}'
+        title: 'Santa Cruz'
+      - payload: '/mostrarCasos{"departamento": "la paz"}'
+        title: 'La Paz'
+      - payload: '/mostrarCasos{"departamento": "cochabamba"}'
+        title: 'Cochabamba'
+      - payload: '/mostrarCasos{"departamento": "beni"}'
+        title: 'Beni'
+      - payload: '/mostrarCasos{"departamento": "chuquisaca"}'
+        title: 'Chuquisaca'
+      - payload: '/mostrarCasos{"departamento": "tarija"}'
+        title: 'Tarija'
+      - payload: '/mostrarCasos{"departamento": "oruro"}'
+        title: 'Oruro'
+      - payload: '/mostrarCasos{"departamento": "potosi"}'
+        title: 'Potosi'
+      - payload: '/mostrarCasos{"departamento": "pando"}'
+        title: 'Pando'
+      - payload: '/mostrarCasos{"departamento": "bolivia"}'
+        title: 'Bolivia en general'
+  - text: "¿De que departamento deseas saber? 🤔"
+  - text: "Dime el departamento del cual te interesaria saber 👐🏼"
+  - text: "¿De que departamento quieres saber? 👐"
+  - text: "¿Que departamento te gustaria saber?📍🇧🇴"
+
+  utter_quieroAyudar:
+  - text: "Es increíble que quieras aportar! \n🔍 En este momento estamos buscando doctores o personal de salud 🏥 \n¿Eres alguno de ellos?😌"
+    channel: "facebook"
+    quick_replies:
+      - payload: '/quieroAyudar_soyDoctor'
+        title: 'Si'
+      - payload: '/negar'
+        title: 'No, lo siento'
+  - text: "Es increíble que quieras aportar! \nEn este momento estamos buscando *doctores* y *personal de salud* \n¿Eres alguno de ellos?"
+
+  utter_quieroAyudar_soyDoctor:
+  - text: "Ingrese al siguiente link y regístrese 📋"
+    channel: "facebook"
+    buttons:
+      - payload: ""
+        type: web_url
+        url: https://bit.ly/RegistroDeDoctores
+        title: "Registrarse"
+  - text: "\nIngrese al siguiente enlace: \nhttps://bit.ly/RegistroDeDoctores \n¿Necesitas algo mas?"
+  - text: "\nIngrese al siguiente enlace: \nhttps://bit.ly/RegistroDeDoctores \n¿Te puedo ayudar en algo mas?"
+  - text: "\nIngrese al siguiente enlace: \nhttps://bit.ly/RegistroDeDoctores \n¿En que mas puedo ayudarte?"
+
+  utter_quieroAyudar_soyNinguno:
+  - text: "Por el momento solo buscamos doctores o personal de salud \n\nSi conoces a alguien quien pueda ayudar, compártele este número 🤗 \n\nEntonces"
+    channel: "facebook"
+  - text: "Por ahora estamos precisando la ayuda de doctores o personal de salud 👩🏽‍⚕️\n\nSi conoces a alguien que tenga ganas de ayudar en esta labor, compártele este número ☺️ \n\nSerá de mucha ayuda\n\nEntonces"
+    channel: "facebook"
+  - text: "Vaya, en estos momentos estamos en busca de doctores o personal de salud 👩🏽‍⚕️, pero nos puedes ayudar mucho compartiendo este numero ☺️ \n\nEntonces"
+    channel: "facebook"
+  - text: "Por el momento solo buscamos doctores o personal de salud \nSi conoces a alguien quien pueda ayudar, compartele este numero  \nEntonces"
+  - text: "Por ahora estamos precisando la ayuda de doctores o personal de salud \n Si conoces a alguien que tenga ganas de ayudar en esta labor, compartele este numero ☺️ \n Sera de mucha ayuda \nEntonces"
+  - text: "Vaya, en estos momentos estamos en busca de doctores o personal de salud, pero nos puedes ayudar mucho compartiendo este numero ☺️ \nEntonces"
 actions:
 - actions_saludar
 - respond_chitchat
 - action_default_ask_affirmation
 - actions_enfermedad
 - actions_verificarCanal
+- actions_mostrar_casos
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -1,0 +1,74 @@
+## intent:mostrarCasos
+- Casos en [Santa Cruz](departamento)
+- Casos en [Beni](departamento)
+- Casos en [Pando](departamento)
+- Casos en [Cochabamba](departamento)
+- Casos en [Chuquisaca](departamento)
+- Casos en [Tarija](departamento)
+- Casos en [La Paz](departamento)
+- Casos en [Oruro](departamento)
+- Casos en [Potosi](departamento)
+- Casos en [Bolivia](departamento)
+- Cuantos infectados hay en [Santa Cruz](departamento)
+- Cuantas muertes hay en [Santa Cruz](departamento)
+- Cuantos recuperados hay en [Santa Cruz](departamento)
+- [santa cruz](departamento)
+- [beni](departamento)
+- [pando](departamento)
+- [cochabamba](departamento)
+- [chuquisaca](departamento)
+- [tarija](departamento)
+- [la paz](departamento)
+- [oruro](departamento)
+- [potosi](departamento)
+- [cbba]{"entity": "departamento", "value": "Cochabamba"}
+- [capital]{"entity": "departamento", "value": "Chuquisaca"}
+- [lapaz]{"entity": "departamento", "value": "La Paz"}
+- [Riveralta]{"entity": "departamento", "value": "Beni"}
+- [sucre]{"entity": "departamento", "value": "Chuquisaca"}?
+- [sc]{"entity": "departamento", "value": "Santa Cruz"}
+- [pando]{"entity": "departamento", "value": "Pando"}
+- [volivia]{"entity": "departamento", "value": "bolivia"}
+- [bolibia]{"entity": "departamento", "value": "bolivia"}
+- [Potosí]{"entity": "departamento", "value": "Potosi"}
+- [potosí]{"entity": "departamento", "value": "Potosi"}
+- [cocha]{"entity": "departamento", "value": "Cochabamba"}
+- [tarixa]{"entity": "departamento", "value": "Tarija"}
+- [El alto]{"entity": "departamento", "value": "la paz"}
+- [scz]{"entity": "departamento", "value": "Santa Cruz"} ?
+- [Veni]{"entity": "departamento", "value": "Beni"}
+- [Cocha]{"entity": "departamento", "value": "Cochabamba"}
+- [lapz]{"entity": "departamento", "value": "La Paz"}
+- [horuro]{"entity": "departamento", "value": "Oruro"}
+- [pamdo]{"entity": "departamento", "value": "Pando"}
+- [sucre]{"entity": "departamento", "value": "Chuquisaca"}
+- [scz]{"entity": "departamento", "value": "Santa Cruz"}
+- [lp]{"entity": "departamento", "value": "La Paz"}
+- [cocha]{"entity": "departamento", "value": "Cochabamba"}
+- [chuquisaca]{"entity": "departamento", "value": "Chuquisaca"}
+
+## intent:mostrarCasos_solicitar
+- Quisiera ver los casos en el pais
+- Me gustaria ver los casos
+- Quiero saber los casos
+- Me puedes decir los casos
+- Cuantos casos hay?
+- Cuantos casos hay en el pais?
+- Casos de enfermos por covid
+- Casos de coronavirus
+- Ver casos coronavirus
+- Casos a nivel Bolivia
+- Quiero ver los casos
+- Quiero saber los casos de otro departamento
+- Me gustaria saber los casos de otro departamento
+- Quiero de otro departamento
+- Casos
+- Me gustaria ver los infectados del pais
+- Quisiera ver los casos del pais
+- Quisiera ver cuantos infectados hay en el pais
+- Me gustaria ver los fallecidos en el pais
+- Cuantos fallecidos hay?
+- Me puedes mostrar los casos?
+- Me puedes decir cuantos casos hay?
+- Me puedes decir cuantos infectados hay?
+- Quiero saber cuantos casos hay
