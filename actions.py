@@ -2,7 +2,18 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from urllib.request import urlopen
-from rasa_sdk.events import SlotSet
+from rasa_sdk.events import (
+    SlotSet,
+    UserUtteranceReverted,
+    ConversationPaused,
+    EventType,
+    ActionExecuted,
+    FollowupAction,
+    UserUttered,
+    ActionReverted,
+    datetime,
+    ReminderScheduled
+)
 from fechaHora import *
 from mongodb import *
 import csv
@@ -87,9 +98,9 @@ class ActionDefaultAskAffirmation(Action):
                }
 
                collection_feedback.insert_one(new_feedback)
-               message = "Lo siento, tu pregunta no se encuentra en nuestra base de datos \nSera enviada a revision y agregada en el futuro, mientras tanto. Dime tu siguiente pregunta!"
+               message = "Lo siento, tu pregunta no se encuentra en nuestra base de datos. \nSera enviada a revision y agregada en el futuro, mientras tanto. \nDime tu siguiente pregunta!"
                dispatcher.utter_message(text=message)
-               return[SlotSet("fallback_slot2", None)]
+               return [FollowupAction('actions_slot_fallback')]
            last_intent_name = tracker.latest_message['intent']['name']
 
            intent_prompt = self.intent_mappings[last_intent_name]
@@ -113,8 +124,11 @@ class slotFallback(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         #Función que retorna un saludo diferente según la hora del día
+        if tracker.get_slot("fallback_slot2") == True:
+            return [SlotSet("fallback_slot2", None)]
         if tracker.get_slot("fallback_slot") == None:
             return [SlotSet("fallback_slot", True)]
+
         return []
 
 class afirmarFallback(Action):
@@ -129,6 +143,7 @@ class afirmarFallback(Action):
         #Función que retorna un saludo diferente según la hora del día
         if tracker.get_slot("fallback_slot") == True:
 
+            #date = datetime.datetime.now()
             date = datetime.datetime.now()
             entities = tracker.latest_message.get("entities")
 
@@ -139,7 +154,7 @@ class afirmarFallback(Action):
                 name="my_reminder",
                 kill_on_user_message=False,
             )
-            return [SlotSet("fallback_slot", None)]
+            return [SlotSet("fallback_slot", None)] + [FollowupAction('action_listen')]
         return []
 
 class negarFallback(Action):
@@ -155,7 +170,7 @@ class negarFallback(Action):
         if tracker.get_slot("fallback_slot") == True:
 
             dispatcher.utter_message(template='utter_reformular')
-            return [SlotSet("fallback_slot", None)] + [SlotSet("fallback_slot2", True)]
+            return [FollowupAction('action_listen')] + [SlotSet("fallback_slot", None), SlotSet("fallback_slot2", True)]
         return []
 
 class estoyEnfermo(Action):
@@ -298,6 +313,6 @@ class fallback(Action):
             collection_feedback.insert_one(new_feedback)
             message = "Lo siento, tu pregunta no se encuentra en nuestra base de datos \nSera enviada a revision y agregada en el futuro, mientras tanto. Dime tu siguiente pregunta!"
             dispatcher.utter_message(text=message)
-            return [UserUtteranceReverted()] + [SlotSet("fallback_slot2", None)]
+            return [UserUtteranceReverted()] + [FollowupAction('actions_slot_fallback')]
         dispatcher.utter_message(template='utter_default')
         return [UserUtteranceReverted()]

@@ -5,6 +5,7 @@
   - utter_pedirDoctor_medibook
   - actions_verificarCanal
 * afirmar
+  - actions_afirmar_Fallback
   - utter_desplegarMenu
 
 ## Pedir asistencia, pedir un medico medibook, negar pregunta final CAMINO
@@ -14,6 +15,7 @@
   - utter_pedirDoctor_medibook
   - actions_verificarCanal
 * negar
+  - actions_negar_Fallback
   - utter_negarPregunta
 
 ## Pedir asistencia, pedir un medico whatsapp, afirmar pregunta final CAMINO
@@ -23,6 +25,7 @@
   - utter_pedirDoctor_whatsapp
   - actions_verificarCanal
 * afirmar
+  - actions_afirmar_Fallback
   - utter_desplegarMenu
 
 ## Pedir asistencia, pedir un medico whatsapp, negar pregunta final CAMINO
@@ -32,4 +35,5 @@
   - utter_pedirDoctor_whatsapp
   - actions_verificarCanal
 * negar
+  - actions_negar_Fallback
   - utter_negarPregunta

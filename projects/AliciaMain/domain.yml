@@ -38,7 +38,9 @@ slots:
   departamento:
     type: text
   fallback_slot:
-    type: bool
+    type: unfeaturized
+  fallback_slot2:
+    type: unfeaturized
 responses:
   utter_saludos_dias_conocer_nombre:
   - text: "Hey! \nTe acuerdas de mi nombre 😘 \nBuenos dias ☀️ \nEstoy aqui para ayudarte! ¿En que te puedo servir?"
@@ -351,7 +353,7 @@ responses:
   - text: "Perfecto! Si tienes otra duda no dudes en comentarmela 🤗"
   - text: "De acuerdo, si necesitas algo mas dimelo! 🤗"
   - text: "Fantastico, cualquier otra consulta no dudes en preguntar"
-  - text: "Perfecto, si te puedo ayudar en algo mas cuentame"
+  - text: "Perfecto, si te puedo ayudar en algo mas, cuentame"
 
   utter_pedirAsistencia:
   - text: "Claro ¿Donde quieres pedir tu cita? ✏️ \nLas consultas sobre el COVID-19 son gratuitas"
@@ -616,6 +618,7 @@ actions:
 - actions_afirmar_Fallback
 - actions_negar_Fallback
 - custom_action_fallback
+- actions_slot_fallback
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
