@@ -25,3 +25,7 @@
 ## fallback negar
 * negar
   - actions_negar_Fallback
+
+## fallback
+* out_of_scope
+  - utter_reformular
