@@ -4,6 +4,9 @@ intents:
 - out_of_scope
 - afirmar
 - negar
+- pedirAsistencia
+- pedirDoctor_medibook
+- pedirDoctor_whatsapp
 - estoyEnfermo:
     use_entities: []
 entities:
@@ -334,12 +337,97 @@ responses:
   - text: "Claro ¿Donde quieres pedir tu cita?\n \n- Agendar consulta por *Medibook* \n- Agendar consulta por *Whatsapp* \n_Las consultas sobre el COVID-19 son gratuitas_"
   - text: "De acuerdo ¿Por donde deseas pedir tu cita?\n \n- Agendar consulta por *Medibook* \n- Agendar consulta por *Whatsapp* \n_Las consultas referentes al COVID-19 son totalmente gratuitas_"
 
+  utter_pedirDoctor_medibook:
+  - text: "Pide una cita con un Médico online desde este link 👨🏽‍⚕️"
+    channel: "facebook"
+    buttons:
+      - payload: ""
+        type: web_url
+        url: https://bit.ly/3gHZHpb
+        title: "Pedir cita"
+  - text: "Registrate en Medibook y sigue las instrucciones mediante este enlace: \nhttps://bit.ly/3gHZHpb \n¿Necesitas algo mas?"
 
+  utter_pedirDoctor_whatsapp:
+  - text: "Obten una lista de numeros de Whatsapp por este link: ⤵️"
+    channel: "facebook"
+    buttons:
+      - payload: ""
+        type: web_url
+        url: https://bit.ly/31OuPzd
+        title: "Whatsapp"
+  - text: "Puedes obtener la lista de numeros de Whatsapp por este link: ⤵️"
+    channel: "facebook"
+    buttons:
+      - payload: ""
+        type: web_url
+        url: https://bit.ly/31OuPzd
+        title: "Whatsapp"
+  - text: "Obten una lista de numeros de Whatsapp por este link: \nhttps://bit.ly/2BRZ7qf \n¿Necesitas algo mas?"
+  - text: "Puedes obtener la lista de numeros de Whatsapp por este link \nhttps://bit.ly/2BRZ7qf \n¿Necesitas ayuda en algo mas?"
+
+  utter_desplegarMenu:
+  - text: "¿En que mas te puedo ayudar?😊"
+    channel: "facebook"
+    quick_replies:
+      - payload: "/pedirAsistencia"
+        title: "👩🏽‍⚕️ Cita médica"
+      - payload: "/mostrarCasos_solicitar"
+        title: "📊 Casos"
+      - payload: "/quieroAyudar"
+        title: "🙋🏽 Voluntariado"
+      - payload: "/tengoPreguntas"
+        title: "❓ Preguntas COVID"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
+  - text: "Te puedo ayudar en algo mas?😁"
+    channel: "facebook"
+    quick_replies:
+      - payload: "/pedirAsistencia"
+        title: "👩🏽‍⚕️ Cita médica"
+      - payload: "/mostrarCasos_solicitar"
+        title: "📊 Casos"
+      - payload: "/quieroAyudar"
+        title: "🙋🏽 Voluntariado"
+      - payload: "/tengoPreguntas"
+        title: "❓ Preguntas COVID"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
+  - text: "En que mas puedo servirte?😊"
+    channel: "facebook"
+    quick_replies:
+      - payload: "/pedirAsistencia"
+        title: "👩🏽‍⚕️ Cita médica"
+      - payload: "/mostrarCasos_solicitar"
+        title: "📊 Casos"
+      - payload: "/quieroAyudar"
+        title: "🙋🏽 Voluntariado"
+      - payload: "/tengoPreguntas"
+        title: "❓ Preguntas COVID"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
+  - text: "Hay algo en lo que pueda seguir ayudandote? ☺️"
+    channel: "facebook"
+    quick_replies:
+      - payload: "/pedirAsistencia"
+        title: "👩🏽‍⚕️ Cita médica"
+      - payload: "/mostrarCasos_solicitar"
+        title: "📊 Casos"
+      - payload: "/quieroAyudar"
+        title: "🙋🏽 Voluntariado"
+      - payload: "/tengoPreguntas"
+        title: "❓ Preguntas COVID"
+      - payload: "/QuieroCompartir"
+        title: "📣 Compartir"
+  - text: "¿En que mas te puedo ayudar? 🙋🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "¿Te puedo ayudar en algo mas? 👩🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "¿En que mas puedo servirte? 🙋🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "¿Hay algo en lo que pueda seguir ayudandote? 👩🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
 actions:
 - actions_saludar
 - respond_chitchat
 - action_default_ask_affirmation
 - actions_enfermedad
+- actions_verificarCanal
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

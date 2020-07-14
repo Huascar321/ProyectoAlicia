@@ -110,3 +110,17 @@ class estoyEnfermo(Action):
                 dispatcher.utter_message(text="Que mal oir eso 😕 \nSi crees que podrias estar enfermo, puedo facilitarte una consulta gratuita con un medico en linea para que revise tu caso \n¿Deseas agendar una consulta?")
                 return[SlotSet("familiares", None)]
         return []
+
+class verificarCanal(Action):
+
+    def name(self) -> Text:
+        return "actions_verificarCanal"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        #Función que retorna un saludo diferente según la hora del día
+        if tracker.get_latest_input_channel() == 'facebook':
+            dispatcher.utter_message(template='utter_desplegarMenu')
+        return []

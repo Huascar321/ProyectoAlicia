@@ -1,0 +1,87 @@
+## intent:pedirAsistencia
+- Quisiera pedir una cita medica
+- Asistencia medica
+- Necesito una cita medica
+- Quiero una cita medica
+- Alguien necesita asistencia medica
+- Me gustaria una cita online
+- Me gustaria pedir una cita
+- Preciso asistencia medica
+- Dame una cita medica
+- Ayudame con la cita medica
+- Me voy por la cita medica
+- Asistencia
+- Necesito un medico
+- Necesito un doctor
+- Asistencia por favor
+- Requiero asistencia medica
+- Quiero un medico ayuda
+- Asisteme medicamente
+- Como me brindas asistencia medica?
+- Medica
+- Medico
+- Asistencia medica por favor
+- Quiero agendar una cita
+- Cita medica online
+- Agendar cita
+- Agendar cita online
+- Cita con doctor
+- Quiero cita medica
+- Agendar consulta
+- Agendar
+- Consulta
+- Quiero una consulta
+
+## intent:pedirDoctor_medibook
+- Quiero agendar una cita con medibook
+- Prefiero una cita medica con medibook
+- Mejor una cita con medibook
+- Como es la cita con medibook?
+- Necesito un doctor de medibook
+- Cita medibook
+- Cita con un doctor online en medibook
+- Medibook
+- Quisiera tener la cita con medibook
+- Quisiera que me agendaras con medibook
+- Con medibook
+- La quiero con medibook
+- Me puedes agendar con medibook
+- Me interesa mas medibook
+- Me interesa medibook
+- Preferiria con medibook
+- Agendame con medibook
+- Quisiera agendarme con medibook
+- La cita la quiero con medibook
+- Con medibook porfavor
+- Prefiero con medibook
+- Podrias agendarme con medibook
+- Medibook pls
+
+## intent:pedirDoctor_whatsapp
+- WhatsApp
+- Una consulta por WhatsApp
+- Prefiero WhatsApp
+- WhatsApp nomas
+- Wasap
+- Wpp
+- Wasap esta bien
+- WhatsApp esta bien
+- Wpp esta bien
+- Una consulta por wasap
+- Una consulta por wpp
+- WA
+- Una consulta por WA
+- Mejor hablar por WhatsApp
+- Solo puedo hablar por WhatsApp
+- Prefiero mensaje de WhatsApp nomas
+- Prefiero solo mensajes
+- Como es la opcion de WhatsApp
+- Un doctor por wasap
+- Quiero un doctor por WhatsApp
+- Consulta por WA
+- La quiero por whatsapp
+- Preferiria por whatsapp
+- Prefiero con whatsapp
+- Me puedes agendar por whatsapp?
+- La quiero por whatsapp
+- Quisiera agendarme por whatsapp

@@ -39,7 +39,7 @@ responses:
   - text: "El COVID-19 no se puede distinguir al 100% sin una prueba, sin embargo tiene sintomas distintivos como fiebre, tos, falta de aire o dificuldad para respirar \n¿Necesitas algo mas?"
 
   utter_nomejora_hospital:
-  - text: "Si respira con dificultad, sienta dolor u opresion en el pecho o se le dificulta el hablar, debe solictar atencion medica inmediatamente \n¿Necesitas algo mas?"
+  - text: "Si respira con dificultad, siente dolor u opresion en el pecho o se le dificulta el hablar, debe solictar atencion medica inmediatamente \n¿Necesitas algo mas?"
 
   utter_medico_atendio_seguimiento:
   - text: "Eso depende de cada medico, no podemos decirle con certeza si el doctor que lo atendio hara seguimiento de su caso o no \n¿Alguna otra pregunta?"
