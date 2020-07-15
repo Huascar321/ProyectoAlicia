@@ -82,7 +82,7 @@ class responderFAQ(Action):
             dispatcher.utter_message(template='utter_nosaber_covid')
             return [UserUtteranceReverted()]
         elif pregunta == "nomejora_hospital":
-            dispatcher.utter_message(template='nomejora_hospital')
+            dispatcher.utter_message(template='utter_nomejora_hospital')
             return [UserUtteranceReverted()]
         elif pregunta == "medico_atendio_seguimiento":
             dispatcher.utter_message(template='utter_medico_atendio_seguimiento')
