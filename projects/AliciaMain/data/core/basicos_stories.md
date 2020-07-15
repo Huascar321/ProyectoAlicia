@@ -15,7 +15,3 @@
   - actions_verificarCanal
 * negar
   - utter_negarPregunta
-
-##fallback
-* reformular
-  - utter_reformular

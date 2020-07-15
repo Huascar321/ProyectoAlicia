@@ -3,7 +3,7 @@ intents:
     use_entities: []
 - out_of_scope
 - reformular:
-    use_entities: []
+    triggers: utter_reformular
 - afirmar:
     use_entities: []
 - negar:

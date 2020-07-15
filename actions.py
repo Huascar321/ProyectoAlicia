@@ -193,18 +193,6 @@ class ActionDefaultAskAffirmation(Action):
                       {'title': 'No',
                        'payload': '/reformular'}]
            dispatcher.utter_message(text=message, buttons=buttons)
-       else:
-           last_intent_name = tracker.latest_message['intent']['name']
-
-           intent_prompt = self.intent_mappings[last_intent_name]
-
-           message = "Lo siento, intentaste decir '{}'? \n \n• *Si* \n• *No*".format(intent_prompt)
-
-           global intent_fallback
-           intent_fallback = last_intent_name
-
-           dispatcher.utter_message(text=message)
-           return []
        return []
 
 class estoyEnfermo(Action):
