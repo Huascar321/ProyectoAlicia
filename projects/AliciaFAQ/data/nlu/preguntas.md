@@ -576,6 +576,8 @@
 - Como cuidarse
 - Recomendaciones
 - Como prevenir el covid
+- Como me puedo proteger
+- Como me protejo
 
 ## intent:como_se_transmite_covid
 - Como se transmite el virus
