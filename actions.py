@@ -193,6 +193,8 @@ class ActionDefaultAskAffirmation(Action):
                       {'title': 'No',
                        'payload': '/reformular'}]
            dispatcher.utter_message(text=message, buttons=buttons)
+       else:
+           dispatcher.utter_message(template='utter_reformular')
        return []
 
 class estoyEnfermo(Action):
