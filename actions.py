@@ -159,6 +159,15 @@ class responderFAQ(Action):
         elif pregunta == "como_se_transmite_covid":
             dispatcher.utter_message(template='utter_como_se_transmite_covid')
             return [UserUtteranceReverted()]
+        elif pregunta == "virus_en_el_aire":
+            dispatcher.utter_message(template='utter_virus_en_el_aire')
+            return [UserUtteranceReverted()]
+        elif pregunta == "alimentos_contagio":
+            dispatcher.utter_message(template='utter_alimentos_contagio')
+            return [UserUtteranceReverted()]
+        elif pregunta == "que_es_el_covid":
+            dispatcher.utter_message(template='utter_que_es_el_covid')
+            return [UserUtteranceReverted()]
 
         return []
 

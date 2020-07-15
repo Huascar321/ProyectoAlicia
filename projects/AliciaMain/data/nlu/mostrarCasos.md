@@ -1,5 +1,5 @@
 ## lookup:paises
-/home/huascar321/Documents/Alicia/projects/AliciaMain/data/nlu/paises.txt
+Users\marco\Desktop\Alicia\ProyectoAlicia\projects\AliciaMain\data\nlu\paises.txt
 
 ## intent:mostrarCasos
 - Casos en [Santa Cruz](departamento)

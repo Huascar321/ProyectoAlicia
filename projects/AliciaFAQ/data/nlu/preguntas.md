@@ -408,6 +408,8 @@
 - Que tanto dura la enfermedad
 - Que tan larga es la enfermedad
 - Cuanto dura el covid?
+- Que tiempo dura el covid?
+- Que tiempo tengo que esperar para no contagiar
 
 ## intent:numero_ambulancia
 - Quiero una ambulancia
@@ -570,6 +572,10 @@
 - Medidas de bioseguridad
 - Cuales son las medidas de bioseguridad
 - Bioseguridad
+- Como nos cuidamos
+- Como cuidarse
+- Recomendaciones
+- Como prevenir el covid
 
 ## intent:como_se_transmite_covid
 - Como se transmite el virus
@@ -598,3 +604,60 @@
 - Cómo se contagia una persona?
 - el coronavirus como se transmite?
 - como me contagio?
+
+## intent:virus_en_el_aire
+- El virus esta en el aire
+- El covid esta en el aire
+- El coronavirus esta en el aire
+- Esta en el aire el covid
+- Esta en el aire el virus
+- Esta en el aire le coronavirus
+- El covid puede estar en el aire
+- El coronavirus puede estar en el aire
+- El virus puede estar en el aire
+- En el aire esta el virus
+- En el aire esta el covid
+- En el aire esta el coronavirus
+- Sabes algo del virus en el aire
+- Sabes algo del covid en el aire
+- Sabes algo del coronavirus en el aire
+- Por el aire se transmite el virus
+- Por el aire se transmite el coronavirus
+- Por el aire se transmite el covid
+- Por el aire se transmite el virus
+
+## intent:alimentos_contagio
+- Por alimentos puede transmitirse
+- Se puede transmitir el virus por los alimentos
+- Los alimentos pueden portar el virus
+- Los alimentos pueden tener el virus
+- Es necesario lavar los alimentos
+- Hay que lavar los alimentos
+- Los alimentos pueden portar el virus
+- El virus esta en los alimentos
+- El virus queda en los alimentos
+- Los alimentos pueden transmitir el virus
+- Se puede trasmitir el virus mediante los alimentos
+- El virus se puede encontrar en los alimentos
+- Que me dices del virus en los alimentos
+- Sabes algo sobre el virus y los alimentos
+
+## intent:que_es_el_covid
+- Que es el covid
+- Que mas sabes del virus
+- Que sabes del virus
+- Que sabes del coronavirus
+- Que sabes de covid
+- Dime que es el coronavirus
+- Dime que es el covid
+- Que es el coronavirus
+- Definicion del covid
+- Definicion del coronavirus
+- Dime que es el covid
+- Dime que es el coronavirus
+- Concepto coronavirus
+- Concepto covid
+- Cuentame sobre el covid
+- Cuentame sobre el coronavirus
+- Dime algo sobre el covid
+- Dime algo sobre el coronavirus
