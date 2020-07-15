@@ -195,22 +195,13 @@
 - hamburguesa
 - tocino
 - mayonesa
-- titere
 
 ## intent:reformular
-- milanesa
-- chocapic
-- tacos
-- lechuga
-- tomate
-- manzana
-- ketchup
-- peperoni
-- saltenas
-- soda
-- gaseosa
-- singani
-- fernet
+- reformular
+- refo
+- formular
+- formu
+- fomularformular
 
 ## intent:activarMenu
 - Quiero volver al menu

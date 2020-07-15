@@ -1,6 +1,8 @@
-## Compartir Contacto, negar pregunta final
+## Saludos
 * saludos
   - actions_saludar
+
+## Compartir Contacto, negar pregunta final
 * QuieroCompartir
   - utter_QuieroCompartir
   - actions_verificarCanal
@@ -8,8 +10,6 @@
   - utter_desplegarMenu
 
 ## Compartir Contacto, negar pregunta final
-* saludos
-  - actions_saludar
 * QuieroCompartir
   - utter_QuieroCompartir
   - actions_verificarCanal

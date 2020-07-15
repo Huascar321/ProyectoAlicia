@@ -1,5 +1,5 @@
 ## lookup:paises
-projects/AliciaMain/nlu/paises.txt
+/home/huascar321/Documents/Alicia/projects/AliciaMain/data/nlu/paises.txt
 
 ## intent:mostrarCasos
 - Casos en [Santa Cruz](departamento)
@@ -12,10 +12,21 @@ projects/AliciaMain/nlu/paises.txt
 - Casos en [Oruro](departamento)
 - Casos en [Potosi](departamento)
 - Casos en [Bolivia](departamento)
-- Casos en [Corea](paises)
-- Casos en [Venezuela](paises)
-- Casos en [Estados Unidos](paises)
+- Casos en [corea](paises)
+- Casos en [venezuela](paises)
+- Casos en [estados unidos](paises)
 - Casos en [brasil](paises)
+- Casos en [japon](paises)
+- Casos en [costa rica](paises)
+- Casos en [chile](paises)
+- Casos en [mexico](paises)
+- Casos en [argentina](paises)
+- Casos en [uruguay](paises)
+- Casos en [guatemala](paises)
+- Casos en [china](paises)
+- Casos en [colombia](paises)
+- Casos en [ecuador](paises)
+- Casos en [republica dominicana](paises)
 - Cuantos infectados hay en [Santa Cruz](departamento)
 - Cuantas muertes hay en [Santa Cruz](departamento)
 - Cuantos recuperados hay en [Santa Cruz](departamento)
@@ -28,9 +39,14 @@ projects/AliciaMain/nlu/paises.txt
 - [la paz](departamento)
 - [oruro](departamento)
 - [potosi](departamento)
-- [Paraguay](paises)
-- [El Salvador](paises)
-- [España](paises)
+- [paraguay](paises)
+- [el salvador](paises)
+- [españa](paises)
+- [honduras](paises)
+- [cuba](paises)
+- [panama](paises)
+- [peru](paises)
+- [nicaragua](paises)
 - [cbba]{"entity": "departamento", "value": "Cochabamba"}
 - [capital]{"entity": "departamento", "value": "Chuquisaca"}
 - [lapaz]{"entity": "departamento", "value": "La Paz"}

@@ -329,8 +329,9 @@ class mostrarCasos(Action):
 
             else:
                 dispatcher.utter_message(text="En "+listaDepartamento[nombreDepartamento]+" hay: \n*"+ str(casosConfirmados) +"* confirmados* 🧪 \n*"+ str(cantFallecidos)+"* decesos 📉 \n*"+str(cantRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?")
+            return[SlotSet("departamento", None)]
 
-        return[SlotSet("departamento", None)]
+        return[]
 
 class fallback(Action):
 

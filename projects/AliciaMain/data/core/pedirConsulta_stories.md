@@ -1,6 +1,4 @@
 ## Pedir asistencia, pedir un medico medibook, afirmar pregunta final CAMINO
-* saludos
-  - actions_saludar
 * pedirAsistencia
   - utter_pedirAsistencia
 * pedirDoctor_medibook
@@ -10,8 +8,6 @@
   - utter_desplegarMenu
 
 ## Pedir asistencia, pedir un medico medibook, negar pregunta final CAMINO
-* saludos
-  - actions_saludar
 * pedirAsistencia
   - utter_pedirAsistencia
 * pedirDoctor_medibook
@@ -21,8 +17,6 @@
   - utter_negarPregunta
 
 ## Pedir asistencia, pedir un medico whatsapp, afirmar pregunta final CAMINO
-* saludos
-  - actions_saludar
 * pedirAsistencia
   - utter_pedirAsistencia
 * pedirDoctor_whatsapp
@@ -32,8 +26,6 @@
   - utter_desplegarMenu
 
 ## Pedir asistencia, pedir un medico whatsapp, negar pregunta final CAMINO
-* saludos
-  - actions_saludar
 * pedirAsistencia
   - utter_pedirAsistencia
 * pedirDoctor_whatsapp

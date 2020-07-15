@@ -14,9 +14,6 @@ intents:
 - QuieroCompartir
 - mostrarCasos
 - mostrarCasos_solicitar
-- quieroAyudar
-- quieroAyudar_soyDoctor
-- quieroAyudar_soyNinguno
 - activarMenu:
     triggers: utter_desplegarMenu
 - tengoPreguntas:
@@ -55,8 +52,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -68,8 +63,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -81,15 +74,13 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Hey! \nTe acuerdas de mi nombre 😘 \nBuenos dias ☀️ \nEstoy aqui para ayudarte! ¿En que te puedo servir? \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
-  - text: "Buenos dias!☀️ \nVeo que sabes mi nombre 🥰 \nEstoy aqui para ayudarte! ¿Que necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
-  - text: "Hola! \nGracias por recordar mi nombre 🥺 \n Espero que estes teniendo un hermoso dia ☀️ \nPuedo ayudarte en las siguientes tareas \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Hey! \nTe acuerdas de mi nombre 😘 \nBuenos dias ☀️ \nEstoy aqui para ayudarte! ¿En que te puedo servir? \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID \n- *Compartir* mi numero de contacto" #Rellenar aqui
+  - text: "Buenos dias!☀️ \nVeo que sabes mi nombre 🥰 \nEstoy aqui para ayudarte! ¿Que necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID \n- *Compartir* mi numero de contacto"
+  - text: "Hola! \nGracias por recordar mi nombre 🥺 \n Espero que estes teniendo un hermoso dia ☀️ \nPuedo ayudarte en las siguientes tareas \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto"
 
   utter_saludos_dias:
   - text: "Hey! Buenos dias ☀️ \nMi nombre es Alicia 👩🏽 \nEstoy aqui para ayudarte, Te puedo ser útil en"
@@ -99,8 +90,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -112,8 +101,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -125,15 +112,13 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenos dias! \nMi nombre es Alicia 👩🏽 \nEstoy aqui para ayudarte contra el COVID-19. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
-  - text: "Buenos dias! \nAndaba tomando un cafesito ☕ \nSoy Alicia 👩🏽 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
-  - text: "Hola! \nMi nombre es Alicia 👩🏽 \nEspero que estes teniendo un hermoso dia ☀️ \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Buenos dias! \nMi nombre es Alicia 👩🏽 \nEstoy aqui para ayudarte contra el COVID-19. \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto" #Rellenar aqui
+  - text: "Buenos dias! \nAndaba tomando un cafesito ☕ \nSoy Alicia 👩🏽 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto"
+  - text: "Hola! \nMi nombre es Alicia 👩🏽 \nEspero que estes teniendo un hermoso dia ☀️ \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais \n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto"
 
   utter_saludos_tardes_conocer_nombre:
   - text: "Hey! \n Te acuerdas de mi nombre 😘 \nBuenas tardes 🌅 \nEstoy aqui para ayudarte, Te puedo ser útil en"
@@ -143,8 +128,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -156,8 +139,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas"
       - payload: "/QuieroCompartir"
@@ -169,15 +150,13 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenas tardes! 🌅 \nGracias por recordar mi nombre 🥺 \nPuedo ayudarte!\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
-  - text: "Hola! \nEspero que estes teniendo una hermosa tarde 🌅 \nVeo que sabes mi nombre 🥰 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
-  - text: "Hey! \nTe acuerdas de mi nombre 😘 \nBuenas tardes! 🌅 Que necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Buenas tardes! 🌅 \nGracias por recordar mi nombre 🥺 \nPuedo ayudarte!\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- *Compartir* mi numero de contacto" #Rellenar aqui
+  - text: "Hola! \nEspero que estes teniendo una hermosa tarde 🌅 \nVeo que sabes mi nombre 🥰 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- *Compartir* mi numero de contacto"
+  - text: "Hey! \nTe acuerdas de mi nombre 😘 \nBuenas tardes! 🌅 Que necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver mis *preguntas* sobre el COVID\n- *Compartir* mi numero de contacto"
 
   utter_saludos_tardes:
   - text: "Hey! Buenas tardes 🌅 \nMi nombre es Alicia 👩🏽 \nEstoy aqui para ayudarte, Te servir en"
@@ -187,8 +166,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -200,8 +177,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -213,15 +188,13 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenas tardes! 🌅\nMi nombre es Alicia 👩🏽 \nPuedo ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
-  - text: "Hola! \nEspero que estes teniendo una hermosa tarde 🌅 \nMi nombre es Alicia 👩🏽 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
-  - text: "Hola! \nQue hermosa tarde! 🌅 \nMi nombre es Alicia👩🏽 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Buenas tardes! 🌅\nMi nombre es Alicia 👩🏽 \nPuedo ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto" #Rellenar aqui
+  - text: "Hola! \nEspero que estes teniendo una hermosa tarde 🌅 \nMi nombre es Alicia 👩🏽 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto"
+  - text: "Hola! \nQue hermosa tarde! 🌅 \nMi nombre es Alicia👩🏽 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto"
 
   utter_saludos_noches_conocer_nombre:
   - text: "Hey! Buenas noches 🌙 \nTe acuerdas de mi nombre 😘 \nTe puedo ayudar en:"
@@ -231,8 +204,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -244,14 +215,12 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenas noches! 🌙\nTe acuerdas de mi nombre 😘 \nEstoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
-  - text: "Hey! \nVeo que sabes mi nombre 🥰  \nBuenas noches 🦉 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Buenas noches! 🌙\nTe acuerdas de mi nombre 😘 \nEstoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto" #Rellenar aqui
+  - text: "Hey! \nVeo que sabes mi nombre 🥰  \nBuenas noches 🦉 \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto"
 
   utter_saludos_noches:
   - text: "Hey! Buenas noches 🌙 \nMi nombre es Alicia 👩🏽 \nEstoy aqui para ayudarte, Te puedo ayudar en:"
@@ -261,8 +230,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -274,15 +241,13 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Buenas noches! \nMi nombre es Alicia 👩🏽 \nEstoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
-  - text: "Hola! \nVeo que estas despierto a estas horas, no te culpo yo tambien! 🦉 \nSoy Alicia 👩🏽\nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
-  - text: "Buenas noches! 🌙 \nSoy Alicia 👩🏽 \nEstoy siempre despierta y lista para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Buenas noches! \nMi nombre es Alicia 👩🏽 \nEstoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto" #Rellenar aqui
+  - text: "Hola! \nVeo que estas despierto a estas horas, no te culpo yo tambien! 🦉 \nSoy Alicia 👩🏽\nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto"
+  - text: "Buenas noches! 🌙 \nSoy Alicia 👩🏽 \nEstoy siempre despierta y lista para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto"
 
   utter_saludos_normal:
   - text: "Hey! Hola🙋🏽 \nMi nombre es Alicia y estoy aqui para ayudarte, Te puedo ayudar en:"
@@ -292,8 +257,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -305,8 +268,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -318,15 +279,13 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "Hola! \nMi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto" #Rellenar aqui
-  - text: "Hola hola!\n Me alegro mucho de verte, yo soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
-  - text: "Saludos cordiales! \nMi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n-Saber como puedo *ayudar*\n- *Compartir* mi numero de contacto"
+  - text: "Hola! \nMi nombre es Alicia y estoy aqui para ayudarte \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto" #Rellenar aqui
+  - text: "Hola hola!\n Me alegro mucho de verte, yo soy Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto"
+  - text: "Saludos cordiales! \nMi nombre es Alicia \nQue necesitas?\n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* mi numero de contacto"
 
   utter_despedirse:
   - text: "Chau! No olvides recomendarme a tus familiares 👩🏽"
@@ -416,8 +375,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -429,8 +386,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -442,8 +397,6 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
@@ -455,16 +408,14 @@ responses:
         title: "👩🏽‍⚕️ Cita médica"
       - payload: "/mostrarCasos_solicitar"
         title: "📊 Casos"
-      - payload: "/quieroAyudar"
-        title: "🙋🏽 Voluntariado"
       - payload: "/tengoPreguntas"
         title: "❓ Preguntas COVID"
       - payload: "/QuieroCompartir"
         title: "📣 Compartir"
-  - text: "¿En que mas te puedo ayudar? 🙋🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "¿Te puedo ayudar en algo mas? 👩🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "¿En que mas puedo servirte? 🙋🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
-  - text: "¿Hay algo en lo que pueda seguir ayudandote? 👩🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- Saber como puedo *ayudar*\n- *Compartir* tu numero"
+  - text: "¿En que mas te puedo ayudar? 🙋🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* tu numero"
+  - text: "¿Te puedo ayudar en algo mas? 👩🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* tu numero"
+  - text: "¿En que mas puedo servirte? 🙋🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* tu numero"
+  - text: "¿Hay algo en lo que pueda seguir ayudandote? 👩🏽 \n \n- Necesito un *medico* online\n- Saber los *casos* en el pais\n- Resolver *preguntas* sobre COVID\n- *Compartir* tu numero"
 
   utter_agradecer:
   - text: "De nada! Me alegra haberte sido de ayuda 😊"
@@ -619,6 +570,39 @@ responses:
   - text: "¿Podrias reformular lo que dijiste? 🙌 \nTal vez no tenga registrada esa pregunta"
   - text: "¿Puedes ser mas especifico con tu pregunta? 🙌🏼 \nEs posible que no haya sido entrenada para esa pregunta"
   - text: "¿Podrias ser mas claro con tu pregunta? 🙏🏽 \nEs posible que no haya sido entrenada para esa pregunta"
+
+  utter_preguntarOtrosCasos:
+  - text: "¿Quieres saber los casos de otro departamento o tienes otra pregunta?👀"
+    channel: "facebook"
+    quick_replies:
+      - payload: '/mostrarCasos_solicitar'
+        title: 'Otro departamento'
+      - payload: '/activarMenu'
+        title: 'Tengo otra pregunta'
+      - payload: '/negar'
+        title: 'Eso es todo'
+  - text: "¿Deseas ver los datos de otro departamento o deseas consultar algo mas? 😌"
+    channel: "facebook"
+    quick_replies:
+      - payload: '/mostrarCasos_solicitar'
+        title: 'Otro departamento'
+      - payload: '/activarMenu'
+        title: 'Tengo otra pregunta'
+      - payload: '/negar'
+        title: 'Eso es todo'
+  - text: "Te puedo mostrar los datos de otros departementos o tienes una pregunta diferente? ☺️"
+    channel: "facebook"
+    quick_replies:
+      - payload: '/mostrarCasos_solicitar'
+        title: 'Otro departamento'
+      - payload: '/activarMenu'
+        title: 'Tengo otra pregunta'
+      - payload: '/negar'
+        title: 'Eso es todo'
+  - text: "¿Quieres saber los casos de otro *departamento* o tienes otra *pregunta*?"
+  - text: "¿Deseas ver los datos de otro *departamento* o deseas *preguntar* algo mas?"
+  - text: "Te puedo mostrar los datos de otros *departementos* o tienes una *pregunta* diferente?"
+
 actions:
 - actions_saludar
 - action_default_ask_affirmation
