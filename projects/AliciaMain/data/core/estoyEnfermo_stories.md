@@ -1,13 +1,15 @@
 ## estoy enfermo, afirmar
+* saludos
+  - actions_saludar
 * estoyEnfermo
   - actions_enfermedad
 * afirmar
-  - actions_afirmar_Fallback
   - utter_pedirAsistencia
 
 ## estoy enfermo, negar
+* saludos
+  - actions_saludar
 * estoyEnfermo
   - actions_enfermedad
 * negar
-  - actions_negar_Fallback
   - utter_negarPregunta

@@ -2,8 +2,12 @@ intents:
 - saludos:
     use_entities: []
 - out_of_scope
-- afirmar
-- negar
+- reformular:
+    use_entities: []
+- afirmar:
+    use_entities: []
+- negar:
+    use_entities: []
 - pedirAsistencia
 - pedirDoctor_medibook
 - pedirDoctor_whatsapp
@@ -13,6 +17,8 @@ intents:
 - quieroAyudar
 - quieroAyudar_soyDoctor
 - quieroAyudar_soyNinguno
+- activarMenu:
+    triggers: utter_desplegarMenu
 - tengoPreguntas:
     triggers: utter_tengoPreguntas
 - despedidas:
@@ -32,14 +38,10 @@ slots:
   nombre_alicia:
     type: unfeaturized
   sintomas:
-    type: text
-  familiares:
-    type: text
-  departamento:
-    type: text
-  fallback_slot:
     type: unfeaturized
-  fallback_slot2:
+  familiares:
+    type: unfeaturized
+  departamento:
     type: unfeaturized
 responses:
   utter_saludos_dias_conocer_nombre:
@@ -339,7 +341,9 @@ responses:
   - text: "Hieres mis sentimientos 😢"
 
   utter_default:
-  - text: "Fallback error"
+  - text: "Creo que no te he entendido del todo bien"
+  - text: "No entiendo tu pregunta, lo siento"
+  - text: "No entiendo lo que intentaste decir"
 
   utter_tengoPreguntas:
   - text: "¿Cual es tu pregunta? 😁"
@@ -605,20 +609,20 @@ responses:
   - text: "Vaya, en estos momentos estamos en busca de doctores o personal de salud, pero nos puedes ayudar mucho compartiendo este numero ☺️ \nEntonces"
 
   utter_reformular:
-  - text: "¿Podrias reformular lo que dijiste? 🙌"
-  - text: "¿Puedes ser mas especifico con tu pregunta? 🙌🏼"
-  - text: "¿Podrias ser mas claro con tu pregunta? 🙏🏽"
+  - text: "¿Podrias reformular lo que dijiste? 🙌 \nTal vez no tenga registrada esa pregunta"
+    channel: "facebook"
+  - text: "¿Podrias ser mas claro con tu pregunta? 🙏 \nEs posible que no haya sido entrenada para esa pregunta"
+    channel: "facebook"
+  - text: "¿Podrias reformular lo que dijiste? 🙌 \nTal vez no tenga registrada esa pregunta"
+  - text: "¿Puedes ser mas especifico con tu pregunta? 🙌🏼 \nEs posible que no haya sido entrenada para esa pregunta"
+  - text: "¿Podrias ser mas claro con tu pregunta? 🙏🏽 \nEs posible que no haya sido entrenada para esa pregunta"
 actions:
 - actions_saludar
-- respond_chitchat
 - action_default_ask_affirmation
 - actions_enfermedad
 - actions_verificarCanal
 - actions_mostrar_casos
-- actions_afirmar_Fallback
-- actions_negar_Fallback
 - custom_action_fallback
-- actions_slot_fallback
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

@@ -140,6 +140,10 @@
 - Puedes decirme los sintomas del covid
 - Puedes decirme los sintomas del coronavirus
 - Quiero saber cuales son los sintomas
+- Como se contagia una persona
+- Contagiar
+- Metodos de contagio
+- Como puede contagiarse una persona
 
 ## intent:prueba_covid
 - Pueden ayudarme a hacerme una prueba?
@@ -523,3 +527,74 @@
 - Tiempo prudenta para hacerse una segunda prueba
 - Tiempo para hacerse la prueba del negativo
 - Cuanto toma el virus en curarse?
+
+## intent:lactancia
+- Se puede contagiar el covid por leche materna?
+- La leche materna transmite el covid?
+- la lactancia es peligrosa para mi bebe?
+- La leche materna contagia el covid?
+- Un bebe se puede contagiar por leche materna?
+- Mi bebe se puede contagiar por lactancia?
+- Es peligroso dar lactancia a un bebe en la pandemia?
+- La leche materna tiene el virus?
+- el virus se transmite por la leche materna?
+- la leche materna es un método de contagio?
+- Se ha encontrado el virus en la leche materna?
+- que pasa si estoy enferma y estoy dando lactancia?
+- La leche materna es peligrosa si yo estoy enferma?
+
+## intent:prevencion
+- Como puedo prevenir el covid
+- Como puedo prevenir el coronavirus
+- Cuales son la medidas de prevención
+- Que medidas de prevencion puedo tomar
+- Que medidas de precaucion puedo tomar
+- Que cuidados debo tener
+- Que cuidados debo tener para no enfermarme
+- Cuales son las medidas de seguridad que debo tener
+- Cuales son las medidas de seguridad que debo tomar
+- Prevención
+- Metodos de prevencion
+- Metodos de precaucion
+- Medidas de prevencion
+- Medidas de precaucion
+- Cuidados que debo tomar
+- Cuidados que debo tener
+- Cuales son las medidas de precaucion
+- Cuales son las medidas de prevencion
+- Meddas de prevención
+- Medidas de bioseguridad
+- como evito contagiarme
+- Que debo hacer para evitar enfermarme
+- Prevencion del covid
+- Medidas de bioseguridad
+- Cuales son las medidas de bioseguridad
+- Bioseguridad
+
+## intent:como_se_transmite_covid
+- Como se transmite el virus
+- Cual es el medio de transmision del virus
+- Como se transmite el coronavirus
+- Como se transmite el covid
+- Transmision del coronavirus
+- Transmision del covid
+- Metodos de trasmision del coronavirus
+- Metodos de trasmision del covid
+- Como se contagia el coronavirus
+- Como se contagia el covid
+- Como funciona el contagio?
+- Como se contagian las personas de coronavirus?
+- Como se propaga el coronavirus?
+- Propagacion del Virus
+- Como me contagio de covid
+- Como me contagio de coronavirus
+- Metodo de contagio?
+- Forma de contagio
+- Tipo de contagio del virus
+- Como es que el virus es tan contagioso?
+- Que formas hay de contagiarse?
+- Como puedo contagiar a la gente?
+- Como se contagia la gente
+- Cómo se contagia una persona?
+- el coronavirus como se transmite?
+- como me contagio?

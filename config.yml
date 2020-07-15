@@ -23,9 +23,8 @@ policies:
     epochs: 100
   - name: MappingPolicy
   - name: TwoStageFallbackPolicy
-    nlu_threshold: 0.7
-    ambiguity_threshold: 0.1
-    core_threshold: 0.7
+    nlu_threshold: 0.8
+    core_threshold: 0.8
     fallback_core_action_name: "custom_action_fallback"
     fallback_nlu_action_name: "custom_action_fallback"
     deny_suggestion_intent_name: "out_of_scope"

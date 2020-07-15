@@ -196,3 +196,49 @@
 - tocino
 - mayonesa
 - titere
+
+## intent:reformular
+- milanesa
+- chocapic
+- tacos
+- lechuga
+- tomate
+- manzana
+- ketchup
+- peperoni
+- saltenas
+- soda
+- gaseosa
+- singani
+- fernet
+
+## intent:activarMenu
+- Quiero volver al menu
+- Menu
+- Quiero abrir el menu de nuevo
+- Quiero volver a abrir el menu
+- Me gustaria abrir de nuevo el menu
+- Quiero ver las opciones
+- Me gustaria ver de nuevo las opciones
+- Necesito el menu de nuevo
+- Necesito ver las opciones de nuevo
+- Me puedes mostrar el menu de nuevo?
+- Me puedes mostrar las opciones de nuevo?
+- Donde estan las opciones?
+- Donde esta el menu?
+- Opciones
+- Vuelveme a mostrar el menu por favor
+- Vuelveme a mostrar las opciones por favor
+- Me muestras los botones
+- Me puedes mostrar los botones
+- Necesito ver los botones
+- Quiero ver los botones
+- Botones
+- Quiero ver el menu
+- Quiero ver las opciones
+- Quiero ver los botones
+- Quiero ver el menu otra vez
+- Quiero ver las opciones otra vez
+- Quiero ver los botones otra vez
+- Que sabes hacer
+- Que puedes hacer?

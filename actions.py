@@ -58,6 +58,110 @@ class saludar(Action):
 
         return[SlotSet("nombre_alicia", None)]
 
+class responderFAQ(Action):
+
+    def name(self) -> Text:
+        return "actions_faq"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        #Función para responder preguntas frecuentes
+        pregunta = tracker.latest_message['intent'].get('name')
+        if pregunta == "porque_sintomas_yosolo_familia":
+            dispatcher.utter_message(template='utter_porque_sintomas_yosolo_familia')
+            return [UserUtteranceReverted()]
+        elif pregunta == "porque_variosdias_sintomas_nocurar":
+            dispatcher.utter_message(template='utter_porque_variosdias_sintomas_nocurar')
+            return [UserUtteranceReverted()]
+        elif pregunta == "dioxidocloro_ayuda":
+            dispatcher.utter_message(template='utter_dioxidocloro_ayuda')
+            return [UserUtteranceReverted()]
+        elif pregunta == "nosaber_covid":
+            dispatcher.utter_message(template='utter_nosaber_covid')
+            return [UserUtteranceReverted()]
+        elif pregunta == "nomejora_hospital":
+            dispatcher.utter_message(template='nomejora_hospital')
+            return [UserUtteranceReverted()]
+        elif pregunta == "medico_atendio_seguimiento":
+            dispatcher.utter_message(template='utter_medico_atendio_seguimiento')
+            return [UserUtteranceReverted()]
+        elif pregunta == "sintomas_covid":
+            dispatcher.utter_message(template='utter_sintomas_covid')
+            return [UserUtteranceReverted()]
+        elif pregunta == "numero_ambulancia":
+            dispatcher.utter_message(template='utter_numero_ambulancia')
+            return [UserUtteranceReverted()]
+        elif pregunta == "prueba_covid":
+            dispatcher.utter_message(template='utter_prueba_covid')
+            return [UserUtteranceReverted()]
+        elif pregunta == "cuanto_tipo_prueba":
+            dispatcher.utter_message(template='utter_cuanto_tipo_prueba')
+            return [UserUtteranceReverted()]
+        elif pregunta == "ivermectina_sirve":
+            dispatcher.utter_message(template='utter_ivermectina_sirve')
+            return [UserUtteranceReverted()]
+        elif pregunta == "calor_mata_virus":
+            dispatcher.utter_message(template='utter_calor_mata_virus')
+            return [UserUtteranceReverted()]
+        elif pregunta == "contraerdenuevo_despues_de_enfermarse":
+            dispatcher.utter_message(template='utter_contraerdenuevo_despues_de_enfermarse')
+            return [UserUtteranceReverted()]
+        elif pregunta == "mosquitos_infectar":
+            dispatcher.utter_message(template='utter_mosquitos_infectar')
+            return [UserUtteranceReverted()]
+        elif pregunta == "cuanto_falta_para_vacuna_medicamento":
+            dispatcher.utter_message(template='utter_cuanto_falta_para_vacuna_medicamento')
+            return [UserUtteranceReverted()]
+        elif pregunta == "cuanto_falta_para_vacuna_medicamento":
+            dispatcher.utter_message(template='utter_cuanto_falta_para_vacuna_medicamento')
+            return [UserUtteranceReverted()]
+        elif pregunta == "tomar_medicinas":
+            dispatcher.utter_message(template='utter_tomar_medicinas')
+            return [UserUtteranceReverted()]
+        elif pregunta == "tiempo_sobrevive_virus":
+            dispatcher.utter_message(template='utter_tiempo_sobrevive_virus')
+            return [UserUtteranceReverted()]
+        elif pregunta == "algunos_sintomas":
+            dispatcher.utter_message(template='utter_algunos_sintomas')
+            return [UserUtteranceReverted()]
+        elif pregunta == "periodo_incubacion_virus":
+            dispatcher.utter_message(template='utter_periodo_incubacion_virus')
+            return [UserUtteranceReverted()]
+        elif pregunta == "dias_para_presentar_sintomas":
+            dispatcher.utter_message(template='utter_dias_para_presentar_sintomas')
+            return [UserUtteranceReverted()]
+        elif pregunta == "duracion_enfermedad":
+            dispatcher.utter_message(template='utter_duracion_enfermedad')
+            return [UserUtteranceReverted()]
+        elif pregunta == "como_saber_si_tengo_covid":
+            dispatcher.utter_message(template='utter_como_saber_si_tengo_covid')
+            return [UserUtteranceReverted()]
+        elif pregunta == "asintomatico":
+            dispatcher.utter_message(template='utter_asintomatico')
+            return [UserUtteranceReverted()]
+        elif pregunta == "post_tratamiento":
+            dispatcher.utter_message(template='utter_post_tratamiento')
+            return [UserUtteranceReverted()]
+        elif pregunta == "primeros_sintomas":
+            dispatcher.utter_message(template='utter_primeros_sintomas')
+            return [UserUtteranceReverted()]
+        elif pregunta == "tiempo_prueba_negativo":
+            dispatcher.utter_message(template='utter_tiempo_prueba_negativo')
+            return [UserUtteranceReverted()]
+        elif pregunta == "lactancia":
+            dispatcher.utter_message(template='utter_lactancia')
+            return [UserUtteranceReverted()]
+        elif pregunta == "prevencion":
+            dispatcher.utter_message(template='utter_prevencion')
+            return [UserUtteranceReverted()]
+        elif pregunta == "como_se_transmite_covid":
+            dispatcher.utter_message(template='utter_como_se_transmite_covid')
+            return [UserUtteranceReverted()]
+
+        return []
+
 class ActionDefaultAskAffirmation(Action):
    """Asks for an affirmation of the intent if NLU threshold is not met."""
 
@@ -87,20 +191,9 @@ class ActionDefaultAskAffirmation(Action):
            buttons = [{'title': 'Si',
                        'payload': '/{}'.format(last_intent_name)},
                       {'title': 'No',
-                       'payload': '/out_of_scope'}]
+                       'payload': '/reformular'}]
            dispatcher.utter_message(text=message, buttons=buttons)
        else:
-           if tracker.get_slot("fallback_slot2") == True:
-               feedback = tracker.latest_message['text']
-               new_feedback = {
-                   'fecha' : fechaActual(),
-                   'mensaje' : feedback
-               }
-
-               collection_feedback.insert_one(new_feedback)
-               message = "Lo siento, tu pregunta no se encuentra en nuestra base de datos. \nSera enviada a revision y agregada en el futuro, mientras tanto. \nDime tu siguiente pregunta!"
-               dispatcher.utter_message(text=message)
-               return [FollowupAction('actions_slot_fallback')]
            last_intent_name = tracker.latest_message['intent']['name']
 
            intent_prompt = self.intent_mappings[last_intent_name]
@@ -111,72 +204,8 @@ class ActionDefaultAskAffirmation(Action):
            intent_fallback = last_intent_name
 
            dispatcher.utter_message(text=message)
-           return [FollowupAction('actions_slot_fallback')]
+           return []
        return []
-
-class slotFallback(Action):
-
-    def name(self) -> Text:
-        return "actions_slot_fallback"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        #Función que retorna un saludo diferente según la hora del día
-        if tracker.get_slot("fallback_slot2") == True:
-            return [SlotSet("fallback_slot2", None)]
-        if tracker.get_slot("fallback_slot") == None:
-            return [SlotSet("fallback_slot", True)]
-
-        return []
-
-class afirmarFallback(Action):
-
-    def name(self) -> Text:
-        return "actions_afirmar_Fallback"
-
-    async def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
-    ) -> List[Dict[Text, Any]]:
-
-        #Función que retorna un saludo diferente según la hora del día
-        from rasa_sdk.events import datetime
-        if tracker.get_slot("fallback_slot") == True:
-
-            #date = datetime.datetime.now()
-            date = datetime.datetime.now()
-            entities = tracker.latest_message.get("entities")
-
-            reminder = ReminderScheduled(
-                intent_fallback,
-                trigger_date_time=date,
-                entities=entities,
-                name="my_reminder",
-                kill_on_user_message=False,
-            )
-            print("afirmar correcto")
-            return [reminder] + [SlotSet("fallback_slot", None)] + [FollowupAction('action_listen')]
-        return []
-
-class negarFallback(Action):
-
-    def name(self) -> Text:
-        return "actions_negar_Fallback"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        #Función que retorna un saludo diferente según la hora del día
-        if tracker.get_slot("fallback_slot") == True:
-
-            dispatcher.utter_message(template='utter_reformular')
-            return [FollowupAction('action_listen')] + [SlotSet("fallback_slot", None), SlotSet("fallback_slot2", True)]
-        return []
 
 class estoyEnfermo(Action):
 
@@ -189,7 +218,22 @@ class estoyEnfermo(Action):
 
         #Función que retorna un saludo diferente según la hora del día
         if tracker.get_latest_input_channel() == 'facebook':
-            return []
+            if (tracker.get_slot("sintomas") != None) and (tracker.get_slot("familiares") == None):
+                sintoma = tracker.get_slot("sintomas")
+                dispatcher.utter_message(text="Efectivamente, "+ sintoma +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                return[SlotSet("sintomas", None)]
+            elif (tracker.get_slot("sintomas") == None) and (tracker.get_slot("familiares") != None):
+                familiar = tracker.get_slot("familiares")
+                dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar +" 😕 \nLastimosamente, no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                return[SlotSet("familiares", None)]
+            elif (tracker.get_slot("sintomas") != None) and (tracker.get_slot("familiares") != None):
+                sintoma = tracker.get_slot("sintomas")
+                familiar = tracker.get_slot("familiares")
+                dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar +" 😕 \nEfectivamente, "+ sintoma +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                return[SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+            else:
+                dispatcher.utter_message(text="Que mal oir eso 😕 \nSi crees que podrias estar enfermo, puedo facilitarte una consulta gratuita con un medico en linea para que revise tu caso \n¿Deseas agendar una consulta?")
+                return[SlotSet("familiares", None)]
         else:
             if (tracker.get_slot("sintomas") != None) and (tracker.get_slot("familiares") == None):
                 sintoma = tracker.get_slot("sintomas")
@@ -306,18 +350,5 @@ class fallback(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         #Función que retorna un saludo diferente según la hora del día
-        if tracker.get_slot("fallback_slot") == True:
-            return []
-        if tracker.get_slot("fallback_slot2") == True:
-            feedback = tracker.latest_message['text']
-            new_feedback = {
-                'fecha' : fechaActual(),
-                'mensaje' : feedback
-            }
-
-            collection_feedback.insert_one(new_feedback)
-            message = "Lo siento, tu pregunta no se encuentra en nuestra base de datos \nSera enviada a revision y agregada en el futuro, mientras tanto. Dime tu siguiente pregunta!"
-            dispatcher.utter_message(text=message)
-            return [UserUtteranceReverted()] + [FollowupAction('actions_slot_fallback')]
         dispatcher.utter_message(template='utter_default')
         return [UserUtteranceReverted()]
