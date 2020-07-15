@@ -266,7 +266,11 @@ class mostrarCasos(Action):
 
         #Función que retorna los casos de COVID-19 según el departamento
 
-        if tracker.get_slot("departamento") != None:
+        if tracker.get_slot("paises") != None:
+            dispatcher.utter_message(text="Lo siento, solo puedo mostrar casos en departamentos 😕")
+            return [UserUtteranceReverted()] + [SlotSet("paises", None)]
+
+        elif tracker.get_slot("departamento") != None:
             url = 'https://raw.githubusercontent.com/mauforonda/covid19-bolivia/master/total.csv'
             webpage = urlopen(url)
             v_dp = tracker.get_slot("departamento").lower()

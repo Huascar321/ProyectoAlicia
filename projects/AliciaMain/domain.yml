@@ -34,6 +34,7 @@ entities:
 - sintomas
 - familiares
 - departamento
+- paises
 slots:
   nombre_alicia:
     type: unfeaturized
@@ -42,6 +43,8 @@ slots:
   familiares:
     type: unfeaturized
   departamento:
+    type: unfeaturized
+  paises:
     type: unfeaturized
 responses:
   utter_saludos_dias_conocer_nombre:

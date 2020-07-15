@@ -1,3 +1,6 @@
+## lookup:paises
+projects/AliciaMain/nlu/paises.txt
+
 ## intent:mostrarCasos
 - Casos en [Santa Cruz](departamento)
 - Casos en [Beni](departamento)
@@ -9,6 +12,10 @@
 - Casos en [Oruro](departamento)
 - Casos en [Potosi](departamento)
 - Casos en [Bolivia](departamento)
+- Casos en [Corea](paises)
+- Casos en [Venezuela](paises)
+- Casos en [Estados Unidos](paises)
+- Casos en [brasil](paises)
 - Cuantos infectados hay en [Santa Cruz](departamento)
 - Cuantas muertes hay en [Santa Cruz](departamento)
 - Cuantos recuperados hay en [Santa Cruz](departamento)
@@ -21,6 +28,9 @@
 - [la paz](departamento)
 - [oruro](departamento)
 - [potosi](departamento)
+- [Paraguay](paises)
+- [El Salvador](paises)
+- [España](paises)
 - [cbba]{"entity": "departamento", "value": "Cochabamba"}
 - [capital]{"entity": "departamento", "value": "Chuquisaca"}
 - [lapaz]{"entity": "departamento", "value": "La Paz"}
