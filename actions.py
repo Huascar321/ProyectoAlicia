@@ -69,104 +69,17 @@ class responderFAQ(Action):
 
         #Función para responder preguntas frecuentes
         pregunta = tracker.latest_message['intent'].get('name')
-        if pregunta == "porque_sintomas_yosolo_familia":
-            dispatcher.utter_message(template='utter_porque_sintomas_yosolo_familia')
-            return [UserUtteranceReverted()]
-        elif pregunta == "porque_variosdias_sintomas_nocurar":
-            dispatcher.utter_message(template='utter_porque_variosdias_sintomas_nocurar')
-            return [UserUtteranceReverted()]
-        elif pregunta == "dioxidocloro_ayuda":
-            dispatcher.utter_message(template='utter_dioxidocloro_ayuda')
-            return [UserUtteranceReverted()]
-        elif pregunta == "nosaber_covid":
-            dispatcher.utter_message(template='utter_nosaber_covid')
-            return [UserUtteranceReverted()]
-        elif pregunta == "nomejora_hospital":
-            dispatcher.utter_message(template='utter_nomejora_hospital')
-            return [UserUtteranceReverted()]
-        elif pregunta == "medico_atendio_seguimiento":
-            dispatcher.utter_message(template='utter_medico_atendio_seguimiento')
-            return [UserUtteranceReverted()]
-        elif pregunta == "sintomas_covid":
-            dispatcher.utter_message(template='utter_sintomas_covid')
-            return [UserUtteranceReverted()]
-        elif pregunta == "numero_ambulancia":
-            dispatcher.utter_message(template='utter_numero_ambulancia')
-            return [UserUtteranceReverted()]
-        elif pregunta == "prueba_covid":
-            dispatcher.utter_message(template='utter_prueba_covid')
-            return [UserUtteranceReverted()]
-        elif pregunta == "cuanto_tipo_prueba":
-            dispatcher.utter_message(template='utter_cuanto_tipo_prueba')
-            return [UserUtteranceReverted()]
-        elif pregunta == "ivermectina_sirve":
-            dispatcher.utter_message(template='utter_ivermectina_sirve')
-            return [UserUtteranceReverted()]
-        elif pregunta == "calor_mata_virus":
-            dispatcher.utter_message(template='utter_calor_mata_virus')
-            return [UserUtteranceReverted()]
-        elif pregunta == "contraerdenuevo_despues_de_enfermarse":
-            dispatcher.utter_message(template='utter_contraerdenuevo_despues_de_enfermarse')
-            return [UserUtteranceReverted()]
-        elif pregunta == "mosquitos_infectar":
-            dispatcher.utter_message(template='utter_mosquitos_infectar')
-            return [UserUtteranceReverted()]
-        elif pregunta == "cuanto_falta_para_vacuna_medicamento":
-            dispatcher.utter_message(template='utter_cuanto_falta_para_vacuna_medicamento')
-            return [UserUtteranceReverted()]
-        elif pregunta == "cuanto_falta_para_vacuna_medicamento":
-            dispatcher.utter_message(template='utter_cuanto_falta_para_vacuna_medicamento')
-            return [UserUtteranceReverted()]
-        elif pregunta == "tomar_medicinas":
-            dispatcher.utter_message(template='utter_tomar_medicinas')
-            return [UserUtteranceReverted()]
-        elif pregunta == "tiempo_sobrevive_virus":
-            dispatcher.utter_message(template='utter_tiempo_sobrevive_virus')
-            return [UserUtteranceReverted()]
-        elif pregunta == "algunos_sintomas":
-            dispatcher.utter_message(template='utter_algunos_sintomas')
-            return [UserUtteranceReverted()]
-        elif pregunta == "periodo_incubacion_virus":
-            dispatcher.utter_message(template='utter_periodo_incubacion_virus')
-            return [UserUtteranceReverted()]
-        elif pregunta == "dias_para_presentar_sintomas":
-            dispatcher.utter_message(template='utter_dias_para_presentar_sintomas')
-            return [UserUtteranceReverted()]
-        elif pregunta == "duracion_enfermedad":
-            dispatcher.utter_message(template='utter_duracion_enfermedad')
-            return [UserUtteranceReverted()]
-        elif pregunta == "como_saber_si_tengo_covid":
-            dispatcher.utter_message(template='utter_como_saber_si_tengo_covid')
-            return [UserUtteranceReverted()]
-        elif pregunta == "asintomatico":
-            dispatcher.utter_message(template='utter_asintomatico')
-            return [UserUtteranceReverted()]
-        elif pregunta == "post_tratamiento":
-            dispatcher.utter_message(template='utter_post_tratamiento')
-            return [UserUtteranceReverted()]
-        elif pregunta == "primeros_sintomas":
-            dispatcher.utter_message(template='utter_primeros_sintomas')
-            return [UserUtteranceReverted()]
-        elif pregunta == "tiempo_prueba_negativo":
-            dispatcher.utter_message(template='utter_tiempo_prueba_negativo')
-            return [UserUtteranceReverted()]
-        elif pregunta == "lactancia":
-            dispatcher.utter_message(template='utter_lactancia')
-            return [UserUtteranceReverted()]
-        elif pregunta == "prevencion":
-            dispatcher.utter_message(template='utter_prevencion')
-            return [UserUtteranceReverted()]
-        elif pregunta == "como_se_transmite_covid":
-            dispatcher.utter_message(template='utter_como_se_transmite_covid')
-            return [UserUtteranceReverted()]
-        elif pregunta == "virus_en_el_aire":
-            dispatcher.utter_message(template='utter_virus_en_el_aire')
-            return [UserUtteranceReverted()]
-        elif pregunta == "alimentos_contagio":
-            dispatcher.utter_message(template='utter_alimentos_contagio')
-            return [UserUtteranceReverted()]
-        elif pregunta == "que_es_el_covid":
-            dispatcher.utter_message(template='utter_que_es_el_covid')
+        lista_preguntas = ['porque_sintomas_yosolo_familia', 'porque_variosdias_sintomas_nocurar', 'dioxidocloro_ayuda',
+        'nosaber_covid', 'nomejora_hospital', 'medico_atendio_seguimiento', 'sintomas_covid', 'numero_ambulancia',
+        'prueba_covid', 'cuanto_tipo_prueba', 'ivermectina_sirve', 'calor_mata_virus', 'contraerdenuevo_despues_de_enfermarse',
+        'mosquitos_infectar', 'cuanto_falta_para_vacuna_medicamento', 'cuanto_falta_para_vacuna_medicamento', 'tomar_medicinas',
+        'tiempo_sobrevive_virus', 'algunos_sintomas', 'periodo_incubacion_virus', 'dias_para_presentar_sintomas', 'duracion_enfermedad',
+        'como_saber_si_tengo_covid', 'asintomatico', 'post_tratamiento', 'primeros_sintomas', 'tiempo_prueba_negativo', 'lactancia',
+        'prevencion', 'como_se_transmite_covid', 'virus_en_el_aire', 'alimentos_contagio', 'que_es_el_covid'
+        ]
+
+        if pregunta in lista_preguntas:
+            dispatcher.utter_message(template=f'utter_{pregunta}')
             return [UserUtteranceReverted()]
 
         return []
