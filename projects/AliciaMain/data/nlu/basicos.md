@@ -115,6 +115,7 @@
 - Gracias por todo
 - Gracias muy util
 - Me fuiste muy util, gracias
+- Gracias por ayudarme
 
 ## intent:QuieroCompartir
 - Quiero compartir su numero

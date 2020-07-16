@@ -131,11 +131,11 @@
 - la [perdida de cabello](no_sintomas) es un sintoma?
 - Mi [cabello]{"entity": "no_sintomas", "value": "perdida de cabello"} se cae
 - Debo proecuparme por la [perdida de cabello](no_sintomas)?
-- Tengo [insombio](no_sintomas)
-- El [insombio](no_sintomas) significa que estoy infectado?
+- Tengo [insomnio](no_sintomas)
+- El [insomnio](no_sintomas) significa que estoy infectado?
 - No puedo [dormir]{"entity": "no_sintomas", "value": "insomnio"}
 - Me cuesta mucho poder [dormir]{"entity": "no_sintomas", "value": "insomnio"}
-- Debo preocuparme por el [insombio](no_sintomas)
+- Debo preocuparme por el [insomnio](no_sintomas)
 - Tengo [dolor detras de los ojos](no_sintomas)
 - El [dolor detras de los ojos](no_sintomas) se relaciona con el covid?
 - Me duelen los [ojos]{"entity": "no_sintomas", "value": "dolor detras de los ojos"}

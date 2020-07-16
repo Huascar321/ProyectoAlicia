@@ -33,6 +33,7 @@ entities:
 - familiares
 - departamento
 - paises
+- no_sintomas
 slots:
   nombre_alicia:
     type: unfeaturized
@@ -45,6 +46,8 @@ slots:
   departamento:
     type: unfeaturized
   paises:
+    type: unfeaturized
+  no_sintomas:
     type: unfeaturized
 responses:
   utter_saludos_dias_conocer_nombre:
