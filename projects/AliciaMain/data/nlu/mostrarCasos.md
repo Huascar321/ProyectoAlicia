@@ -1,6 +1,3 @@
-## lookup:paises
-Users\marco\Desktop\Alicia\ProyectoAlicia\projects\AliciaMain\data\nlu\paises.txt
-
 ## intent:mostrarCasos
 - Casos en [Santa Cruz](departamento)
 - Casos en [Beni](departamento)
