@@ -208,32 +208,35 @@ class mostrarCasos(Action):
             v_dp = tracker.get_slot("departamento").lower()
             df = pd.read_csv(webpage)
             ddf = pd.DataFrame(df)
-            listaDepartamento = ['La Paz', 'Santa Cruz', 'Cochabamba', 'Oruro', 'Potosí', 'Tarija', 'Chuquisaca', 'Beni', 'Pando']
-            nombreDepartamento = -1
+            dict_departamento = {
+                'la paz': 'La Paz',
+                'santa cruz': 'Santa Cruz',
+                'cochabamba': 'Cochabamba',
+                'oruro': 'Oruro',
+                'potosi': 'Potosí',
+                'tarija': 'Tarija',
+                'chuquisaca': 'Chuquisaca',
+                'beni': 'Beni',
+                'pando': 'Pando'
+            }
 
-            if (v_dp == "la paz"):
-                nombreDepartamento = 0
-            elif (v_dp == "santa cruz"):
-                nombreDepartamento = 1
-            elif (v_dp == "cochabamba"):
-                nombreDepartamento = 2
-            elif (v_dp == "oruro"):
-                nombreDepartamento = 3
-            elif (v_dp == "potosi"):
-                nombreDepartamento = 4
-            elif (v_dp == "tarija"):
-                nombreDepartamento = 5
-            elif (v_dp == "chuquisaca"):
-                nombreDepartamento = 6
-            elif (v_dp == "beni"):
-                nombreDepartamento = 7
-            elif (v_dp == "pando"):
-                nombreDepartamento = 8
-            elif (v_dp == "bolivia"):
+            if v_dp in dict_departamento:
+                casosConfirmados = ddf[ddf['Province/State']==dict_departamento[v_dp]]['Confirmed'].item()
+                cantFallecidos = ddf[ddf['Province/State']==dict_departamento[v_dp]]['Deaths'].item()
+                cantRecuperados = ddf[ddf['Province/State']==dict_departamento[v_dp]]['Recovered'].item()
+
+                if tracker.get_latest_input_channel() == 'facebook':
+                    dispatcher.utter_message(text="En "+dict_departamento[v_dp]+" hay: \n"+ str(casosConfirmados) +" confirmados 🧪 \n"+ str(cantFallecidos)+" decesos 📉 \n"+str(cantRecuperados)+" recuperados 💊")
+                    dispatcher.utter_message(template='utter_preguntarOtrosCasos')
+
+                else:
+                    dispatcher.utter_message(text="En "+dict_departamento[v_dp]+" hay: \n*"+ str(casosConfirmados) +"* confirmados* 🧪 \n*"+ str(cantFallecidos)+"* decesos 📉 \n*"+str(cantRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?")
+
+            elif v_dp == 'bolivia':
                 nroConfirmados = 0
                 nroFallecidos = 0
                 nroRecuperados = 0
-                for dpto in listaDepartamento:
+                for dpto in dict_departamento.values():
                     nroConfirmados += ddf[ddf['Province/State']==dpto]['Confirmed'].item()
                     nroFallecidos += ddf[ddf['Province/State']==dpto]['Deaths'].item()
                     nroRecuperados += ddf[ddf['Province/State']==dpto]['Recovered'].item()
@@ -244,26 +247,10 @@ class mostrarCasos(Action):
                 else:
                     dispatcher.utter_message(text="En Bolivia hay: \n \n*"+ str(nroConfirmados) +"* confirmados* 🧪 \n*"+ str(nroFallecidos)+"* decesos 📉 \n*"+str(nroRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?")
 
-                return[SlotSet("departamento", None)]
-
             else:
                 dispatcher.utter_message(template='utter_departamento_incorrecto')
-                return[SlotSet("departamento", None)]
 
-
-            casosConfirmados = ddf[ddf['Province/State']==listaDepartamento[nombreDepartamento]]['Confirmed'].item()
-            cantFallecidos = ddf[ddf['Province/State']==listaDepartamento[nombreDepartamento]]['Deaths'].item()
-            cantRecuperados = ddf[ddf['Province/State']==listaDepartamento[nombreDepartamento]]['Recovered'].item()
-
-            if tracker.get_latest_input_channel() == 'facebook':
-                dispatcher.utter_message(text="En "+listaDepartamento[nombreDepartamento]+" hay: \n"+ str(casosConfirmados) +" confirmados 🧪 \n"+ str(cantFallecidos)+" decesos 📉 \n"+str(cantRecuperados)+" recuperados 💊")
-                dispatcher.utter_message(template='utter_preguntarOtrosCasos')
-
-            else:
-                dispatcher.utter_message(text="En "+listaDepartamento[nombreDepartamento]+" hay: \n*"+ str(casosConfirmados) +"* confirmados* 🧪 \n*"+ str(cantFallecidos)+"* decesos 📉 \n*"+str(cantRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?")
-            return[SlotSet("departamento", None)]
-
-        return[]
+        return[SlotSet("departamento", None)]
 
 class fallback(Action):
 
