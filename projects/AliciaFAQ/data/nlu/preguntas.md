@@ -675,4 +675,19 @@
 - Las consultas son para menores de edad?
 - Los menores de edad pueden recibir la consulta?
 - Si soy menor de edad puedo tener una consulta?
--
+- Estas consultas son para menores de edad?
+- Estas consultas son solo para menores de edad?
+- Son tambien para menores de edad las consultas
+- Hay tambien para menores de edad las consultas
+- Las consultas son para menores?
+- Las consultas son para menores tambien?
+- Los menores pueden ser atendidos?
+- Los niños pueden ser atendidos?
+- Estas consultas son para niños?
+- Estas consultas son para niños tambien?
+- Estan disponibles las consultas para lo menores de edad?
+- Estan disponibles las consultas para los niños?
+- Las consultas son para los niños tambien?
+- Las consultas son para menores de edad tambien?
+- Los niños tambien tienen acceso?
+- Los menores tambien tienen acceso?
