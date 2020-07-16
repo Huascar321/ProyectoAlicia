@@ -169,7 +169,7 @@ responses:
   - text: "COVID‑19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto más recientemente. Tanto este nuevo virus como la enfermedad que provoca eran desconocidos antes de que estallara el brote en Wuhan (China) en diciembre de 2019. Actualmente la COVID‑19 es una pandemia que afecta a muchos países de todo el mundo. \nDime tu siguiente pregunta!"
 
   utter_consultas_menores_de_edad:
-  - text: "Por supuesto, las consultas solidarios estan para ayudar a todos sin importar la edad. Escribe 'Agendar consulta' para mostrarte las opciones. \nDime tu siguiente pregunta!"
+  - text: "Por supuesto, las consultas solidarias estan para ayudar a todos sin importar la edad. Escribe 'Agendar consulta' para mostrarte las opciones. \nDime tu siguiente pregunta!"
 
 actions:
 - actions_faq
