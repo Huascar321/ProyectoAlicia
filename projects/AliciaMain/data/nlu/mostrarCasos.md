@@ -36,6 +36,7 @@
 - [la paz](departamento)
 - [oruro](departamento)
 - [potosi](departamento)
+- [bolivia](departamento)
 - [paraguay](paises)
 - [el salvador](paises)
 - [españa](paises)
