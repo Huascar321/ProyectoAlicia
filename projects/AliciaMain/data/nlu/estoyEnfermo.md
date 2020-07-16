@@ -127,7 +127,7 @@
 - Mi [humor]{"entity": "no_sintomas", "value": "cambios de animo"} esta muy inestable
 - Mi [animo]{"entity": "no_sintomas", "value": "cambios de animo"} cambia mucho
 - Tengo constantes [cambios de animo](no_sintomas)
-- Se me cae el [cabello]{{"entity": "no_sintomas", "value": "perdida de cabello"}
+- Se me cae el [cabello]{"entity": "no_sintomas", "value": "perdida de cabello"}
 - la [perdida de cabello](no_sintomas) es un sintoma?
 - Mi [cabello]{"entity": "no_sintomas", "value": "perdida de cabello"} se cae
 - Debo proecuparme por la [perdida de cabello](no_sintomas)?
