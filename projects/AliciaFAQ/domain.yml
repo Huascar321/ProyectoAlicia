@@ -158,13 +158,13 @@ responses:
   - text: "Una persona puede contraer la COVID-19 por contacto con otra que esté infectada por el virus. La enfermedad puede propagarse de persona a persona a través de las gotículas procedentes de la nariz o la boca que salen despedidas cuando una persona infectada tose o exhala. \nDime tu siguiente pregunta!"
 
   utter_virus_en_el_aire:
-  - text: "El virus se transmite a travez de gotículas de saliva de personas que esten cerca de nosotros. Esas goticulas puedan permanecer en superficies por horas hasta dias; ahora si se habla del virus en el aire libre, la respuesta es no. Debido a que esas goticulas de considerable tamaño caen de 1 a 2 metros maximo, luego las gotas mas pequeñas puede que se puedan mover por el aire, pero las particulas son tan pocas que no representan un peligro de contagio."
+  - text: "El virus se transmite a travez de gotículas de saliva de personas que esten cerca de nosotros. Esas goticulas puedan permanecer en superficies por horas hasta dias; ahora si se habla del virus en el aire libre, la respuesta es no. Debido a que esas goticulas de considerable tamaño caen de 1 a 2 metros maximo, luego las gotas mas pequeñas puede que se puedan mover por el aire, pero las particulas son tan pocas que no representan un peligro de contagio. \nDime tu siguiente pregunta!"
 
   utter_alimentos_contagio:
-  - text: "Aunque actualmente no existen pruebas de que el contagio con el virus de la COVID-19 ocurra a través de los alimentos o de sus empaques, es posible que la infección se produzca al tocar un alimento o un objeto contaminado por el virus y luego tocarse la cara. Se recomienda lavar los alimentos y usar un desinfectante apto para los alimentos."
+  - text: "Aunque actualmente no existen pruebas de que el contagio con el virus de la COVID-19 ocurra a través de los alimentos o de sus empaques, es posible que la infección se produzca al tocar un alimento o un objeto contaminado por el virus y luego tocarse la cara. Se recomienda lavar los alimentos y usar un desinfectante apto para los alimentos. \nDime tu siguiente pregunta!"
 
   utter_que_es_el_covid:
-  - text: "COVID‑19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto más recientemente. Tanto este nuevo virus como la enfermedad que provoca eran desconocidos antes de que estallara el brote en Wuhan (China) en diciembre de 2019. Actualmente la COVID‑19 es una pandemia que afecta a muchos países de todo el mundo."
+  - text: "COVID‑19 es la enfermedad infecciosa causada por el coronavirus que se ha descubierto más recientemente. Tanto este nuevo virus como la enfermedad que provoca eran desconocidos antes de que estallara el brote en Wuhan (China) en diciembre de 2019. Actualmente la COVID‑19 es una pandemia que afecta a muchos países de todo el mundo. \nDime tu siguiente pregunta!"
 
 actions:
 - actions_faq
