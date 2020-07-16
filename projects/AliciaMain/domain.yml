@@ -29,6 +29,7 @@ intents:
 entities:
 - nombre_alicia
 - sintomas
+- no_sintomas
 - familiares
 - departamento
 - paises
@@ -36,6 +37,8 @@ slots:
   nombre_alicia:
     type: unfeaturized
   sintomas:
+    type: unfeaturized
+  no_sintomas:
     type: unfeaturized
   familiares:
     type: unfeaturized

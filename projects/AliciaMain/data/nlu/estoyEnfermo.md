@@ -84,3 +84,72 @@
 - Creo que mi [hermano](familiares) tiene coronavirus
 - Creo que mi [hermano](familiares) esta enfermo
 - Creo que mi [abuelo](familiares) tiene [fiebre](sintomas)
+- La [perdida de peso](no_sintomas) es un sintoma?
+- Creo que perdi [peso]{"entity": "no_sintomas", "value": "perdida de peso"}
+- Estoy perdiendo [peso]{"entity": "no_sintomas", "value": "perdida de peso"}
+- Me preocupa que estoy [adelgazando]{"entity": "no_sintomas", "value": "perdida de peso"}
+- El [aumento de peso](no_sintomas) es un sintoma?
+- Creo que [subi de peso]{"entity": "no_sintomas", "value": "aumento de peso"}
+- Estoy [subiendo de peso]{"entity": "no_sintomas", "value": "aumento de peso"}
+- Me preocupa que estoy [engordando]{"entity": "no_sintomas", "value": "aumento de peso"}
+- Los [colicos](no_sintomas) son un sintoma del covid?
+- si tengo [colicos](no_sintomas) estoy enfermo?
+- Deberia preocuparme por los [colicos](no_sintomas)?
+- Tengo [colicos](no_sintomas)
+- Sufro de [colicos](no_sintomas)
+- Tengo [estreñimiento](no_sintomas)
+- El [estreñimiento](no_sintomas) es un sintoma del covid?
+- Estoy [estreñido]{"entity": "no_sintomas", "value": "estreñimiento"}
+- Me preocupa que estoy [estreñido]{"entity": "no_sintomas", "value": "estreñimiento"}
+- Estoy [estreñido]{"entity": "no_sintomas", "value": "estreñimiento"} hace tres dias
+- Tengo [dolor de estomago](no_sintomas)
+- Me duele el [estomago]{"entity": "no_sintomas", "value": "dolor de estomago"}
+- Me duele mucho el [estomago]{"entity": "no_sintomas", "value": "dolor de estomago"} desde ayer
+- Debo preocuparme del covid si me duele es [estomago]{"entity": "no_sintomas", "value": "dolor de estomago"}
+- Tengo [escalosfrios](no_sintomas)
+- Los [escalosfrios](no_sintomas) son sintomas de covid?
+- Mi [abuelo](familiares) tiene [escalosfrios](no_sintomas)
+- Los [escalosfrios](no_sintomas) son sintomas de covid?
+- Sufro de [escalosfrios](no_sintomas)
+- A veces padezco [escalosfrios](no_sintomas)
+- Tengo [comezon](no_sintomas)
+- Me [pica]{"entity": "no_sintomas", "value": "comezon"} todo el cuerpo
+- No puedo dejar de [rascarme]{"entity": "no_sintomas", "value": "comezon"} todo el cuerpo
+- Mi hijo tiene mucha [comezon](no_sintomas)
+- Tengo [migraña](no_sintomas) frecuentemente
+- Me esta dando [migraña](no_sintomas)
+- El otro dia me dio una [migraña](no_sintomas)
+- Me esta [sangrando]{"entity": "no_sintomas", "value": "sangrar"} la nariz
+- A veces me [sangra]{"entity": "no_sintomas", "value": "sangrar"} la nariz
+- Es malo si me [sangra]{"entity": "no_sintomas", "value": "sangrar"} la nariz?
+- Mi nariz [sangra]{"entity": "no_sintomas", "value": "sangrar"} a veces
+- Son normales son [cambios de animo](no_sintomas)?
+- Mi [humor]{"entity": "no_sintomas", "value": "cambios de animo"} esta muy inestable
+- Mi [animo]{"entity": "no_sintomas", "value": "cambios de animo"} cambia mucho
+- Tengo constantes [cambios de animo](no_sintomas)
+- Se me cae el [cabello]{{"entity": "no_sintomas", "value": "perdida de cabello"}
+- la [perdida de cabello](no_sintomas) es un sintoma?
+- Mi [cabello]{"entity": "no_sintomas", "value": "perdida de cabello"} se cae
+- Debo proecuparme por la [perdida de cabello](no_sintomas)?
+- Tengo [insombio](no_sintomas)
+- El [insombio](no_sintomas) significa que estoy infectado?
+- No puedo [dormir]{"entity": "no_sintomas", "value": "insomnio"}
+- Me cuesta mucho poder [dormir]{"entity": "no_sintomas", "value": "insomnio"}
+- Debo preocuparme por el [insombio](no_sintomas)
+- Tengo [dolor detras de los ojos](no_sintomas)
+- El [dolor detras de los ojos](no_sintomas) se relaciona con el covid?
+- Me duelen los [ojos]{"entity": "no_sintomas", "value": "dolor detras de los ojos"}
+- Mis [ojos]{"entity": "no_sintomas", "value": "dolor detras de los ojos"} me arden
+- Se me inflamaron las [amigdalas](no_sintomas)
+- Las [amigdalas](no_sintomas) se me inflamaron
+- Las [amigdalas](no_sintomas) inflamadas implican que estoy infectada?
+- Tengo [manchas](no_sintomas)
+- Me salieron [manchas](no_sintomas) en el cuerpo
+- Las [manchas](no_sintomas) son un sintoma?
+- Me salieron [erupciones]{"entity": "no_sintomas", "value": "manchas"}
+- Las [ronchas]{"entity": "no_sintomas", "value": "manchas"} son un sintoma del covid?
+- Tengo [mareo](no_sintomas)
+- Tengo [mareos]{"entity": "no_sintomas", "value": "mareo"}
+- El [mareo](no_sintomas) es un sintoma del covid?
+- Tengo [vomito](no_sintomas)
+- El [vomito](no_sintomas) es un sintoma del covid
