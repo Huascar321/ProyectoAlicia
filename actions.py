@@ -151,6 +151,10 @@ class estoyEnfermo(Action):
                 sintoma = tracker.get_slot("sintomas")
                 dispatcher.utter_message(text="Efectivamente, "+ sintoma +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
                 return[SlotSet("sintomas", None)]
+            elif (tracker.get_slot("sintomas_aparte") != None):
+                sintoma_aparte = tracker.get_slot("sintomas_aparte")
+                dispatcher.utter_message(Text=sintoma_aparte+" no esta directamente relacionada con el COVID-19, pero si tienes sospechas de que podrias estar enfermo te puedo comunicar con un medico para que revise tu caso \n¿Deseas agendar una consulta?")
+                return[SlotSet("sintomas_aparte", None)]
             elif (tracker.get_slot("sintomas") == None) and (tracker.get_slot("familiares") != None):
                 familiar = tracker.get_slot("familiares")
                 dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar +" 😕 \nLastimosamente, no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
