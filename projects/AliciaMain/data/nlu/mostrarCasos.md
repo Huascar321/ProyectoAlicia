@@ -21,6 +21,8 @@
 - Casos en [uruguay](paises)
 - Casos en [guatemala](paises)
 - Casos en [china](paises)
+- Quiero ver los casos en [Beni](departamento)
+- Puedo ver los casos en [Bolivia](departamento)
 - Casos en [colombia](paises)
 - Casos en [ecuador](paises)
 - Casos en [republica dominicana](paises)
@@ -80,7 +82,6 @@
 - Casos de enfermos por covid
 - Casos de coronavirus
 - Ver casos coronavirus
-- Casos a nivel Bolivia
 - Quiero ver los casos
 - Quiero saber los casos de otro departamento
 - Me gustaria saber los casos de otro departamento
