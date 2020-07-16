@@ -163,6 +163,8 @@
 - Con quien tengo que hablar para hacerme la prueba
 - Con quien me tengo que comunicar para hacerme la prueba
 - A quien le tengo que hablar para hacerme la prueba
+- Donde puedo hacerme las pruebas?
+- Donde puedo hacer la prueba?
 
 ## intent:cuanto_tipo_prueba
 - Cuantas pruebas existen?
@@ -251,6 +253,8 @@
 - Si ya me dio covid me puedo volver a enfermar?
 - Es cierto que si te enfermas una vez ya no te vuelve a dar?
 - Es cierto que si me enfermo una vez me quedo inmune?
+- La persona que ya dio positivo, puede volver a infectarse?
+- Se puede volver a infectar?
 
 ## intent:mosquitos_infectar
 - Los mosquitos pueden infectarte?
@@ -578,6 +582,9 @@
 - Como prevenir el covid
 - Como me puedo proteger
 - Como me protejo
+- Proteccion
+- Proteccion contra la enfermedad
+- Metodos de proteccion
 
 ## intent:como_se_transmite_covid
 - Como se transmite el virus
@@ -663,3 +670,9 @@
 - Cuentame sobre el coronavirus
 - Dime algo sobre el covid
 - Dime algo sobre el coronavirus
+
+## intent:consultas_menores_de_edad
+- Las consultas son para menores de edad?
+- Los menores de edad pueden recibir la consulta?
+- Si soy menor de edad puedo tener una consulta?
+-
