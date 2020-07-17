@@ -118,6 +118,24 @@
 - Me fuiste muy util, gracias
 - Gracias por ayudarme
 
+## intent:agradecer+despedidas
+- Muchas gracias, adios
+- Chau muchas gracias
+- Fuiste muy util, chau
+- Adios, gracias por tu ayuda
+- Muchas gracias, hasta luego
+- Gracias por ayudarme, chau
+- Te agradezco por tu ayuda, hasta luego
+- Muchisimas gracias chau
+- Chau muchisimas gracias
+- Chau gracias por la ayuda
+- Chau gracias por ayudarme
+- Gracias por ayudarme adios
+- Adios gracias por la ayuda
+- Fuiste muy util, chau
+- Adios gracias por la ayuda
+- Te lo agradezco, hasta luego
+
 ## intent:QuieroCompartir
 - Quiero compartir su numero
 - Quiero compartir

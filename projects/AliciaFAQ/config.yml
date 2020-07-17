@@ -3,6 +3,8 @@
 language: es
 pipeline:
   - name: WhitespaceTokenizer
+    intent_tokenization_flag: True
+    intent_split_symbol: "+"
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer

@@ -32,6 +32,26 @@
 - Consulta
 - Quiero una consulta
 
+## intent:saludos+pedirAsistencia
+- Buenos dias necesito un medico
+- Buenas tardes quiero una consulta
+- Buenas noches quiero pedir una cita con un medico
+- Hola quisiera pedir una consulta
+- Hola me gustaria pedir una consulta
+- Saludos quisiera una consulta
+- Hola quisiera pedir una cita medica
+- Buenos dias quisiera un doctor
+- Buenos dias quisiera agendar una cita por favor
+- Hola quiero una cita medica
+- Hola quiero un doctor
+- Buenas tardes necesito un doctor
+- Que tal me gustaria agendar una consulta
+- Buenos dias quiero una cita medica
+- Buenas tardes necesito un doctor online
+- Buenas noches quiero un doctor online
+- Hola me podria dar un doctor online
+- Que tal me gustaria pedir un medico online
+
 ## intent:pedirDoctor_medibook
 - Quiero agendar una cita con [medibook](medibook)
 - Prefiero una cita medica con [medibook](medibook)

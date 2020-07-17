@@ -708,3 +708,16 @@
 - Las citas medicas cuestan [plata](gratuito_consulta)?
 - Cuanto [cuestan](gratuito_consulta) las consultas?
 - [Cuestan](gratuito_consulta) mucho las consultas?
+
+## intent:vulnerables
+- Quienes son los mas [vulnerables](vulnerables)?
+- Los niños son [propensos](vulnerables) al contagio?
+- Quienes son las personas mas [vulnerables](vulnerables)?
+- Los ancianos son mas propensos?
+- Quienes son los mas [propensos](vulnerables) a infectarse?
+- Quienes son los que estan mas en [riesgo](vulnerables)?
+- Quienes tienen mas [riesgo](vulnerables) de infectarse?
+- Quienes son los que tienen [riesgo](vulnerables) de infectarse?
+- Quienes son mas [propensos](vulnerables) a contraer el virus?
+- Quienes tienen mas [riesgo](vulnerables) de contraer el virus?
+- Quienes tienen mas [riesgo](vulnerables) de infectarse con el virus?

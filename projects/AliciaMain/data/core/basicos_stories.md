@@ -15,3 +15,7 @@
   - actions_verificarCanal
 * negar
   - utter_negarPregunta
+
+## Agradecer y despedir
+* agradecer+despedidas
+  - utter_agradecer_despedidas

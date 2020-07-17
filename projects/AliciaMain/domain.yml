@@ -14,6 +14,8 @@ intents:
 - QuieroCompartir
 - mostrarCasos
 - mostrarCasos_solicitar
+- saludos+pedirAsistencia
+- agradecer+despedidas
 - activarMenu:
     triggers: utter_desplegarMenu
 - tengoPreguntas:
@@ -608,6 +610,20 @@ responses:
   - text: "¿Quieres saber los casos de otro *departamento* o tienes otra *pregunta*?"
   - text: "¿Deseas ver los datos de otro *departamento* o deseas *preguntar* algo mas?"
   - text: "Te puedo mostrar los datos de otros *departementos* o tienes una *pregunta* diferente?"
+
+  utter_agradecer_despedidas:
+  - text: "De nada, un gusto ayudarte! \nHasta luego 👋🏼"
+  - text: "De nada, me alegro haberte sido de ayuda \nHasta pronto! cuidate mucho 👋🏼"
+
+  utter_saludos_pedirAsistencia:
+  - text: "Hola que tal! \nClaro con gusto, por donde lo quieres pedir? 🤗 \nLas consultas sobre el COVID-19 son gratuitas"
+    channel: "facebook"
+    quick_replies:
+      - payload: "/pedirDoctor_medibook"
+        title: "Agendar por Medibook"
+      - payload: "/pedirDoctor_whatsapp"
+        title: "Agendar por Whatsapp"
+  - text: "Hola que tal! \nClaro con gusto, por donde lo quieres pedir? 🤗 \n- Agendar consulta por *Medibook* \n- Agendar consulta por *Whatsapp* \n_Las consultas sobre el COVID-19 son gratuitas_"
 
 actions:
 - actions_saludar
