@@ -18,7 +18,7 @@
 - Por que yo tengo los sintomas pero mi familia esta sana?
 
 ## intent:porque_variosdias_sintomas_nocurar
-- Por que no me curo por mas que sigo la medicacion?
+- Por que no me curo por mas que sigo la [medicacion](medicinas)?
 - Por que no puedo curarme por mas que segui el tratamiento?
 - Llevo varios con los dias y aun no me curo
 - Por que llevo tantos dias sin curarme?
@@ -26,35 +26,36 @@
 - Por que tardo en curarme?
 - Por que aun no me he curado?
 - Llevo muchos dias con remedios y aun no me he curado
-- Llevo mucho tiempo con los medicamentos y aun no me curo
-- Llevo mucho tiempo con los remedios y aun no me curo
+- Llevo mucho tiempo con los [medicamentos](medicinas) y aun no me curo
+- Llevo mucho tiempo con los [remedios](medicinas) y aun no me curo
 - Ya han pasado muchos dias y sigo enfermo
 - Han pasado muchas semanas y sigo enfermo
 - Ya casi un mes y sigo enfermo
-- Por que sigo enfermo si estoy tomando las medicinas
-- Por que sigo enfermo si estoy tomando los remedios
+- Por que sigo enfermo si estoy tomando las [medicinas](medicinas)
+- Por que sigo enfermo si estoy tomando los [remedios](medicinas)
 - Por que tardo tanto en curarme si estoy siguiendo el tratamiento
 - Por que tardo tanto en curarme
 
 ## intent:dioxidocloro_ayuda
-- El dioxido de cloro funciona?
-- El dioxido de cloro en verdad funciona?
-- El dioxido de cloro me cura?
-- El dioxido de cloro me cura del coronavirus?
-- El dioxido de cloro ayuda a combatir el coronavirus?
-- El dioxido de cloro ayuda a combatir la enfermedad?
-- El dioxido de cloro combate el covid?
-- Lo que dicne del dioxido de cloro es real?
-- Es cierto que el dioxido de cloro sirve contra la enfermedad?
-- Es cierto que el dioxido de cloro sirve contra el coronavirus?
-- De verdad funciona el dioxido de cloro?
-- Puedo tomar el dioxido de cloro?
-- El dioxido de cloro hace daño?
-- El dioxido de cloro es dañino?
-- Me puedo morir por tomar dioxido de cloro?
-- El dioxido de cloro es toxico?
-- Se puede tomar dioxido de cloro?
-- Puedo tomar dioxido de cloro?
+- El [dioxido de cloro] funciona?
+- El [dioxido de cloro] en verdad funciona?
+- El [dioxido de cloro] me cura?
+- El [dioxido de cloro] me cura del coronavirus?
+- El [dioxido de cloro] ayuda a combatir el coronavirus?
+- El [dioxido de cloro] ayuda a combatir la enfermedad?
+- El [dioxido de cloro] combate el covid?
+- Lo que dicen del [dioxido de cloro] es real?
+- Es cierto que el [dioxido de cloro] sirve contra la enfermedad?
+- Es cierto que el [dioxido de cloro] sirve contra el coronavirus?
+- De verdad funciona el [dioxido de cloro]?
+- Puedo tomar el [dioxido de cloro]?
+- El [dioxido de cloro] hace daño?
+- El [dioxido de cloro] es dañino?
+- Me puedo morir por tomar [dioxido de cloro]?
+- El [dioxido de cloro] es toxico?
+- Se puede tomar [dioxido de cloro]?
+- Puedo tomar [dioxido de cloro]?
+- [dioxido de cloro]
 
 ## intent:nosaber_covid
 - Como sabre si tenia covid?
@@ -188,26 +189,26 @@
 - Quiero saber cuantas pruebas existen
 
 ## intent:ivermectina_sirve
-- La ivermectina sirve?
-- Funciona la ivermectina?
-- Como funciona la ivermectina?
-- Sabes algo de la ivermectina?
-- La ivermectina funciona?
-- La ivermectina ayuda?
-- La ivermectina funciona contra el covid?
-- La ivermectina es util?
-- Es cierto que la ivermectina mata al virus?
-- Es cierto que la ivermectina te cura del virus?
-- Es verdad que la ivermectina mata al coronavirus?
-- Es verdad que la ivermectina mata al covid?
-- La ivermectina es dañina?
-- La ivermectina me puede hacer daño?
-- Es la ivermectina dañina?
-- La ivermectina en verdad funciona?
-- La ivermectina en verdad sirve?
-- Sirve la ivermectina?
-- De verdad sirve la ivermectina
-- Que tan cierto es que la ivermectina mata al coronavirus
+- La [ivermectina](ivermectina) sirve?
+- Funciona la [ivermectina](ivermectina)?
+- Como funciona la [ivermectina](ivermectina)?
+- Sabes algo de la [ivermectina](ivermectina)?
+- La [ivermectina](ivermectina) funciona?
+- La [ivermectina](ivermectina) ayuda?
+- La [ivermectina](ivermectina) funciona contra el covid?
+- La [ivermectina](ivermectina) es util?
+- Es cierto que la [ivermectina](ivermectina) mata al virus?
+- Es cierto que la [ivermectina](ivermectina) te cura del virus?
+- Es verdad que la [ivermectina](ivermectina) mata al coronavirus?
+- Es verdad que la [ivermectina](ivermectina) mata al covid?
+- La [ivermectina](ivermectina) es dañina?
+- La [ivermectina](ivermectina) me puede hacer daño?
+- Es la [ivermectina](ivermectina) dañina?
+- La [ivermectina](ivermectina) en verdad funciona?
+- La [ivermectina](ivermectina) en verdad sirve?
+- Sirve la [ivermectina](ivermectina)?
+- De verdad sirve la [ivermectina](ivermectina)
+- Que tan cierto es que la [ivermectina](ivermectina) mata al coronavirus
 
 ## intent:calor_mata_virus
 - El calor mata al virus?
@@ -234,11 +235,11 @@
 - El virus puede morir por el sol?
 
 ## intent:contraerdenuevo_despues_de_enfermarse
-- Puedo contraer la enfermedad otra vez si ya me cure?
-- Si ya me dio coronavirus quedo inmune?
-- Puedo enfermarme de nuevo si ya me cure?
-- Quedo inmune si ya me dio covid?
-- Quedo inmune si ya me dio coronavirus?
+- Puedo contraer la enfermedad [otra vez](inmunidad) si ya me cure?
+- Si ya me dio coronavirus quedo [inmune](inmunidad)?
+- Puedo enfermarme de [nuevo] si ya me cure?
+- Quedo [inmune](inmunidad) si ya me dio covid?
+- Quedo [inmune](inmunidad) si ya me dio coronavirus?
 - Puedo contraer coronavirus si ya me sane?
 - Puedo contraer la enfermedad si ya me cure?
 - Si ya me cure puedo volver a enfermarme?
@@ -246,15 +247,16 @@
 - Es cierto que una vez curado no puedo volver a enfermarme?
 - Si ya me dio coronvirus puedo volver a enfermarme
 - Si ya me dio covid puedo volver a enfermar?
-- Si ya me cure del virus me quedo inmune?
-- Inmunidad
+- Si ya me cure del virus me quedo [inmune](inmunidad)?
+- [Inmunidad](inmunidad)
 - Si ya sane me puedo volver a enfermerar?
 - Si ya sane del covid puedo volver a enfermarme?
 - Si ya me dio covid me puedo volver a enfermar?
 - Es cierto que si te enfermas una vez ya no te vuelve a dar?
-- Es cierto que si me enfermo una vez me quedo inmune?
+- Es cierto que si me enfermo una vez me quedo [inmune](inmunidad)?
 - La persona que ya dio positivo, puede volver a infectarse?
 - Se puede volver a infectar?
+- Si tuviste el virus puedes recaer?
 
 ## intent:mosquitos_infectar
 - Los mosquitos pueden infectarte?
@@ -298,45 +300,45 @@
 - Ya falta poco la vacuna?
 
 ## intent:tomar_medicinas
-- Puedo tomar medicina contra la enfermedad?
-- Se puede tomar antibioticos contra el covid?
-- Se puede tomar antiflamatorios?
+- Puedo tomar [medicina](medicinas) contra la enfermedad?
+- Se puede tomar [antibioticos](medicinas) contra el covid?
+- Se puede tomar [antiflamatorios](medicinas)?
 - Me puedo automedicar?
 - Puedo tomar ivermectina para combatir el covid?
-- Se puede tomar medicamentos para tratar el covid?
+- Se puede tomar [medicamentos](medicinas) para tratar el covid?
 - Me automedico?
 - Es bueno que me automedique con ivermectina?
 - Me puedo automedicar con ivermectina?
-- Me puedo automedicar con nitazoxanida?
-- Se puede tomar hidroxiclina?
-- Puedo tomar ibuprofeno?
-- Puedo tomar zinc?
-- Que medicamentos puedo tomar?
-- Que remedios puedo tomar?
-- Que remedios debo comprar
-- Que medicamentos me recomiendas
-- Que remedios me recomiendas
-- Que remedios deberia comprar
-- Que medicamentos deberia comprar
-- Que medicinas debo comprar
+- Me puedo automedicar con [nitazoxanida](medicinas)?
+- Se puede tomar [hidroxiclina](medicinas)?
+- Puedo tomar [ibuprofeno](medicinas)?
+- Puedo tomar [zinc](medicinas)?
+- Que [medicamentos](medicinas) puedo tomar?
+- Que [remedios](medicinas) puedo tomar?
+- Que [remedios](medicinas) debo comprar
+- Que [medicamentos](medicinas) me recomiendas
+- Que [remedios](medicinas) me recomiendas
+- Que [remedios](medicinas) deberia comprar
+- Que [medicamentos](medicinas) deberia comprar
+- Que [medicinas](medicinas) debo comprar
 
 ## intent:tiempo_sobrevive_virus
-- Cuanto tiempo sobrevive el virus en una superficie?
+- Cuanto tiempo sobrevive el virus en una [superficie](tiempo_sobrevive_material)?
 - Cuanto tiempo vive el coronavirus?
 - Tiempo de vida del coronavirus
 - Cuanto tiemo puede sobrevivir el virus afuera?
 - Cuanto tiempo vive el virus afuera?
-- Cuanto tiempo vive el virus en los productos
-- Cuanto tiempo vive el virus en un metal
+- Cuanto tiempo vive el virus en los [productos](tiempo_sobrevive_material)
+- Cuanto tiempo vive el virus en un [metal](tiempo_sobrevive_material)
 - Cuanto tiempo sobrevive el virus en el aire
-- Cuanto tiempo dura el virus en el carton
-- Cuanto tiempo dura el virus en la ropa
-- Cuanto sobrevive el virus en la ropa?
+- Cuanto tiempo dura el virus en el [carton](tiempo_sobrevive_material)
+- Cuanto tiempo dura el virus en la [ropa](tiempo_sobrevive_material)
+- Cuanto sobrevive el virus en la [ropa](tiempo_sobrevive_material)?
 - Cuanto sobrevive el virus?
 - Cuanto tiempo sobrevive el virus
 - Cuanto tiempo vive el virus en el aire?
-- Cuanto tiempo vive el virus en mi ropa?
-- Cuanto tiempo vive el virus en mi zapato
+- Cuanto tiempo vive el virus en mi [ropa](tiempo_sobrevive_material)?
+- Cuanto tiempo vive el virus en mi [zapato](tiempo_sobrevive_material)
 
 ## intent:algunos_sintomas
 - Que puedo hacer si tengo algunos sintomas
@@ -458,26 +460,26 @@
 - Como se que no tengo el virus
 
 ## intent:asintomatico
-- Como se si soy asintomatico
-- Como saber si soy asintomatico
-- Como reconocer a un asintomatico?
-- asintomatico
-- Que significa asintomatico?
-- Que implica ser asintomatico?
-- Como identificar a un asintomatico?
-- A que se refiere con asintomatico?
-- Quiero saber si soy asintomatico?
-- Podria ser asintomatico?
-- Quienes son asintomatico?
-- Soy asintomatico?
-- Quienes pueden ser asintomatico?
-- Cualquiera puede ser asintomatico?
-- Cuando se si soy asintomatico?
-- como se si alguien es asintomatico?
-- Test de asintomatico?
-- Es malo ser asintomatico?
-- Cuando se es asintomatico?
-- Como puedo ser asintomatico?
+- Como se si soy [asintomatico](asintomatico)
+- Como saber si soy [asintomatico](asintomatico)
+- Como reconocer a un [asintomatico](asintomatico)?
+- [asintomatico](asintomatico)
+- Que significa [asintomatico](asintomatico)?
+- Que implica ser [asintomatico](asintomatico)?
+- Como identificar a un [asintomatico](asintomatico)?
+- A que se refiere con [asintomatico](asintomatico)?
+- Quiero saber si soy [asintomatico](asintomatico)?
+- Podria ser [asintomatico](asintomatico)?
+- Quienes son [asintomatico](asintomatico)?
+- Soy [asintomatico](asintomatico)?
+- Quienes pueden ser [asintomatico](asintomatico)?
+- Cualquiera puede ser [asintomatico](asintomatico)?
+- Cuando se si soy [asintomatico](asintomatico)?
+- como se si alguien es [asintomatico](asintomatico)?
+- Test de [asintomatico](asintomatico)?
+- Es malo ser [asintomatico](asintomatico)?
+- Cuando se es [asintomatico](asintomatico)?
+- Como puedo ser [asintomatico](asintomatico)?
 
 ## intent:post_tratamiento
 - Tratamiento
@@ -517,90 +519,90 @@
 - Hay sintomas que debo detectar primero?
 
 ## intent:tiempo_prueba_negativo
-- Cuanto tiempo debo esperar para hacerme la prueba negativo?
-- Que es la prueba negativo?
+- Cuanto tiempo debo esperar para hacerme la prueba [negativo](prueba_negativo)?
+- Que es la prueba [negativo](prueba_negativo)?
 - Cuanto tiempo debo esperar entre pruebas?
 - En cuanto tiempo me curo del covid?
-- La prueba de negativo cuando debe hacerse?
-- Cuando me debo hacer la prueba del negativo?
+- La prueba de [negativo](prueba_negativo) cuando debe hacerse?
+- Cuando me debo hacer la prueba del [negativo](prueba_negativo)?
 - Como se que ya me cure del covid?
-- Que es la prueba negativo?
-- Que periodo debo esperar para hacerme la prueba del negativo?
+- Que es la prueba [negativo](prueba_negativo)?
+- Que periodo debo esperar para hacerme la prueba del [negativo](prueba_negativo)?
 - En cuanto tiempo se cura el virus?
 - Cuanto tiempo tardo en sanarme por completo?
 - Cuanto tiempo tardo en curarme?
 - Tiempo prudente para curarse
 - Tiempo prudenta para hacerse una segunda prueba
-- Tiempo para hacerse la prueba del negativo
+- Tiempo para hacerse la prueba del [negativo](prueba_negativo)
 - Cuanto toma el virus en curarse?
 
 ## intent:lactancia
-- Se puede contagiar el covid por leche materna?
-- La leche materna transmite el covid?
-- la lactancia es peligrosa para mi bebe?
-- La leche materna contagia el covid?
-- Un bebe se puede contagiar por leche materna?
-- Mi bebe se puede contagiar por lactancia?
-- Es peligroso dar lactancia a un bebe en la pandemia?
-- La leche materna tiene el virus?
-- el virus se transmite por la leche materna?
-- la leche materna es un método de contagio?
-- Se ha encontrado el virus en la leche materna?
-- que pasa si estoy enferma y estoy dando lactancia?
-- La leche materna es peligrosa si yo estoy enferma?
+- Se puede contagiar el covid por [leche](lactancia) materna?
+- La [leche](lactancia) materna transmite el covid?
+- la [lactancia](lactancia) es peligrosa para mi bebe?
+- La [leche](lactancia) materna contagia el covid?
+- Un bebe se puede contagiar por [leche](lactancia) materna?
+- Mi bebe se puede contagiar por [lactancia](lactancia)?
+- Es peligroso dar [lactancia](lactancia) a un bebe en la pandemia?
+- La [leche](lactancia) materna tiene el virus?
+- el virus se transmite por la [leche](lactancia) materna?
+- la [leche](lactancia) materna es un método de contagio?
+- Se ha encontrado el virus en la [leche](lactancia) materna?
+- Que pasa si estoy enferma y estoy dando [lactancia](lactancia)?
+- La [leche](lactancia) materna es peligrosa si yo estoy enferma?
 
 ## intent:prevencion
-- Como puedo prevenir el covid
-- Como puedo prevenir el coronavirus
-- Cuales son la medidas de prevención
-- Que medidas de prevencion puedo tomar
-- Que medidas de precaucion puedo tomar
+- Como puedo [prevenir](prevencion) el covid
+- Como puedo [prevenir](prevencion) el coronavirus
+- Cuales son la medidas de [prevención](prevencion)
+- Que medidas de [prevencion](prevencion) puedo tomar
+- Que medidas de [precaucion](prevencion) puedo tomar
 - Que cuidados debo tener
 - Que cuidados debo tener para no enfermarme
-- Cuales son las medidas de seguridad que debo tener
-- Cuales son las medidas de seguridad que debo tomar
-- Prevención
-- Metodos de prevencion
-- Metodos de precaucion
-- Medidas de prevencion
-- Medidas de precaucion
+- Cuales son las [medidas de seguridad](prevencion) que debo tener
+- Cuales son las [medidas de seguridad](prevencion) que debo tomar
+- [Prevencion](prevencion)
+- Metodos de [prevencion](prevencion)
+- Metodos de [precaucion](prevencion)
+- Medidas de [prevencion](prevencion)
+- Medidas de [precaucion](prevencion)
 - Cuidados que debo tomar
 - Cuidados que debo tener
-- Cuales son las medidas de precaucion
-- Cuales son las medidas de prevencion
-- Meddas de prevención
+- Cuales son las medidas de [precaucion](prevencion)
+- Cuales son las medidas de [prevencion](prevencion)
+- Meddas de [prevención](prevencion)
 - Medidas de bioseguridad
 - como evito contagiarme
 - Que debo hacer para evitar enfermarme
-- Prevencion del covid
+- [Prevencion](prevencion) del covid
 - Medidas de bioseguridad
 - Cuales son las medidas de bioseguridad
 - Bioseguridad
 - Como nos cuidamos
 - Como cuidarse
 - Recomendaciones
-- Como prevenir el covid
-- Como me puedo proteger
-- Como me protejo
-- Proteccion
-- Proteccion contra la enfermedad
-- Metodos de proteccion
+- Como [prevenir](prevencion) el covid
+- Como me puedo [proteger](prevencion)
+- Como me [protejo](prevencion)
+- [Proteccion](prevencion)
+- [Proteccion](prevencion) contra la enfermedad
+- Metodos de [proteccion](prevencion)
 
 ## intent:como_se_transmite_covid
-- Como se transmite el virus
-- Cual es el medio de transmision del virus
-- Como se transmite el coronavirus
-- Como se transmite el covid
-- Transmision del coronavirus
-- Transmision del covid
-- Metodos de trasmision del coronavirus
-- Metodos de trasmision del covid
+- Como se [transmite](transmision) el virus
+- Cual es el medio de [transmision](transmision) del virus
+- Como se [transmite](transmision) el coronavirus
+- Como se [transmite](transmision) el covid
+- [Transmision](transmision) del coronavirus
+- [Transmision](transmision) del covid
+- Metodos de [trasmision](transmision) del coronavirus
+- Metodos de [trasmision](transmision) del covid
 - Como se contagia el coronavirus
 - Como se contagia el covid
 - Como funciona el contagio?
 - Como se contagian las personas de coronavirus?
-- Como se propaga el coronavirus?
-- Propagacion del Virus
+- Como se [propaga] el coronavirus?
+- [Propagacion](transmision) del Virus
 - Como me contagio de covid
 - Como me contagio de coronavirus
 - Metodo de contagio?
@@ -611,45 +613,45 @@
 - Como puedo contagiar a la gente?
 - Como se contagia la gente
 - Cómo se contagia una persona?
-- el coronavirus como se transmite?
+- el coronavirus como se [transmite](transmision)?
 - como me contagio?
 
 ## intent:virus_en_el_aire
-- El virus esta en el aire
-- El covid esta en el aire
-- El coronavirus esta en el aire
-- Esta en el aire el covid
-- Esta en el aire el virus
-- Esta en el aire le coronavirus
-- El covid puede estar en el aire
-- El coronavirus puede estar en el aire
-- El virus puede estar en el aire
-- En el aire esta el virus
-- En el aire esta el covid
-- En el aire esta el coronavirus
-- Sabes algo del virus en el aire
-- Sabes algo del covid en el aire
-- Sabes algo del coronavirus en el aire
-- Por el aire se transmite el virus
-- Por el aire se transmite el coronavirus
-- Por el aire se transmite el covid
-- Por el aire se transmite el virus
+- El virus esta en el [aire](transmision_aire)
+- El covid esta en el [aire](transmision_aire)
+- El coronavirus esta en el [aire](transmision_aire)
+- Esta en el [aire](transmision_aire) el covid
+- Esta en el [aire](transmision_aire) el virus
+- Esta en el [aire](transmision_aire) le coronavirus
+- El covid puede estar en el [aire](transmision_aire)
+- El coronavirus puede estar en el [aire](transmision_aire)
+- El virus puede estar en el [aire](transmision_aire)
+- En el [aire](transmision_aire) esta el virus
+- En el [aire](transmision_aire) esta el covid
+- En el [aire](transmision_aire) esta el coronavirus
+- Sabes algo del virus en el [aire](transmision_aire)
+- Sabes algo del covid en el [aire](transmision_aire)
+- Sabes algo del coronavirus en el [aire](transmision_aire)
+- Por el [aire](transmision_aire) se transmite el virus
+- Por el [aire](transmision_aire) se transmite el coronavirus
+- Por el [aire](transmision_aire) se transmite el covid
+- Por el [aire](transmision_aire) se transmite el virus
 
 ## intent:alimentos_contagio
-- Por alimentos puede transmitirse
-- Se puede transmitir el virus por los alimentos
-- Los alimentos pueden portar el virus
-- Los alimentos pueden tener el virus
-- Es necesario lavar los alimentos
-- Hay que lavar los alimentos
-- Los alimentos pueden portar el virus
-- El virus esta en los alimentos
-- El virus queda en los alimentos
-- Los alimentos pueden transmitir el virus
-- Se puede trasmitir el virus mediante los alimentos
-- El virus se puede encontrar en los alimentos
-- Que me dices del virus en los alimentos
-- Sabes algo sobre el virus y los alimentos
+- Por [alimentos](alimentos) puede transmitirse
+- Se puede transmitir el virus por los [alimentos](alimentos)
+- Los [alimentos](alimentos) pueden portar el virus
+- Los [alimentos](alimentos) pueden tener el virus
+- Es necesario lavar los [alimentos](alimentos)
+- Hay que lavar los [alimentos](alimentos)
+- Los [alimentos](alimentos) pueden portar el virus
+- El virus esta en los [alimentos](alimentos)
+- El virus queda en los [alimentos](alimentos)
+- Los [alimentos](alimentos) pueden transmitir el virus
+- Se puede trasmitir el virus mediante los [alimentos](alimentos)
+- El virus se puede encontrar en los [alimentos](alimentos)
+- Que me dices del virus en los [alimentos](alimentos)
+- Sabes algo sobre el virus y los [alimentos](alimentos)
 
 ## intent:que_es_el_covid
 - Que es el covid
@@ -672,22 +674,37 @@
 - Dime algo sobre el coronavirus
 
 ## intent:consultas_menores_de_edad
-- Las consultas son para menores de edad?
-- Los menores de edad pueden recibir la consulta?
-- Si soy menor de edad puedo tener una consulta?
-- Estas consultas son para menores de edad?
-- Estas consultas son solo para menores de edad?
-- Son tambien para menores de edad las consultas
-- Hay tambien para menores de edad las consultas
-- Las consultas son para menores?
-- Las consultas son para menores tambien?
-- Los menores pueden ser atendidos?
-- Los niños pueden ser atendidos?
-- Estas consultas son para niños?
-- Estas consultas son para niños tambien?
-- Estan disponibles las consultas para lo menores de edad?
-- Estan disponibles las consultas para los niños?
-- Las consultas son para los niños tambien?
-- Las consultas son para menores de edad tambien?
-- Los niños tambien tienen acceso?
-- Los menores tambien tienen acceso?
+- Las consultas son para [menores](menores) de edad?
+- Los [menores](menores) de edad pueden recibir la consulta?
+- Si soy [menor](menores) de edad puedo tener una consulta?
+- Estas consultas son para [menores](menores) de edad?
+- Estas consultas son solo para [menores](menores) de edad?
+- Son tambien para [menores](menores) de edad las consultas
+- Hay tambien para [menores](menores) de edad las consultas
+- Las consultas son para [menores](menores)?
+- Las consultas son para [menores](menores) tambien?
+- Los [menores](menores) pueden ser atendidos?
+- Los [niños](menores) pueden ser atendidos?
+- Estas consultas son para [niños](menores)?
+- Estas consultas son para [niños](menores) tambien?
+- Estan disponibles las consultas para lo [menores](menores) de edad?
+- Estan disponibles las consultas para los [niños](menores)?
+- Las consultas son para los [niños](menores) tambien?
+- Las consultas son para [menores](menores) de edad tambien?
+- Los [niños](menores) tambien tienen acceso?
+- Los [menores](menores) tambien tienen acceso?
+
+## intent:consultas_costo
+- Las consultas tienen [costo](gratuito_consulta)?
+- Las consultas son [gratuitas](gratuito_consulta)
+- Tienen algun costo las [consultas](gratuito_consulta)?
+- Las consultas son [gratis](gratuito_consulta)?
+- Las citas medicas son [gratis](gratuito_consulta)?
+- Las consultas tienen algun [precio](gratuito_consulta)?
+- Las consultas cuestan [plata](gratuito_consulta)?
+- Tienen algun [costo](gratuito_consulta) las citas medicas
+- Puedo pedir mi consulta [gratis](gratuito_consulta)?
+- Sus consultas cuestan [dinero](gratuito_consulta)?
+- Las citas medicas cuestan [plata](gratuito_consulta)?
+- Cuanto [cuestan](gratuito_consulta) las consultas?
+- [Cuestan](gratuito_consulta) mucho las consultas?

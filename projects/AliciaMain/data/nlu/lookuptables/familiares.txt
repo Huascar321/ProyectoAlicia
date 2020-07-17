@@ -1,0 +1,15 @@
+papa
+padre
+mama
+madre
+hermano
+hermana
+tio
+esposo
+marido
+abuelo
+primo
+esposa
+hija
+hijo
+abuela

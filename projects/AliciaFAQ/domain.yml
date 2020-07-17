@@ -65,6 +65,25 @@ intents:
     triggers: actions_faq
 - consultas_menores_de_edad:
     triggers: actions_faq
+- consultas_costo:
+    triggers: actions_faq
+entities:
+- gratuito_consulta
+- menores
+- alimentos
+- transmision_aire
+- transmision
+- prevencion
+- lactancia
+- prueba_negativo
+- asintomatico
+- tiempo_sobrevive_material
+- medicinas
+- inmunidad
+- ivermectina
+- dioxido_de_cloro
+- medibook
+- whatsapp
 responses:
   utter_porque_sintomas_yosolo_familia:
   - text: "Puede que tu familia se haya contagiado pero que no presenten sintomas (asintomatico) o que los muestren luego de unos dias (presintomatico) \nDime tu siguiente pregunta!"
@@ -170,6 +189,11 @@ responses:
 
   utter_consultas_menores_de_edad:
   - text: "Por supuesto, las consultas solidarias estan para ayudar a todos sin importar la edad. Escribe 'Agendar consulta' para mostrarte las opciones. \nDime tu siguiente pregunta!"
+
+  utter_consultas_costo:
+  - text: "Las consultas acerca del COVID-19 son gratuitas, si quieres pedir una consulta solo dimelo \nDime tu siguiente pregunta!"
+    channel: "facebook"
+  - text: "Las consultas acerca del COVID-19 son gratuitas, si quieres pedir una *consulta* solo dimelo \nDime tu siguiente pregunta!"
 
 actions:
 - actions_faq

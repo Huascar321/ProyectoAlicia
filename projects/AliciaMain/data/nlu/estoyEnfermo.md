@@ -1,3 +1,12 @@
+## lookup:sintomas
+/home/huascar321/Documents/Alicia/projects/AliciaMain/data/nlu/lookuptables/sintomas.txt
+
+## lookup:familiares
+/home/huascar321/Documents/Alicia/projects/AliciaMain/data/nlu/lookuptables/familiares.txt
+
+## lookup:no_sintomas
+/home/huascar321/Documents/Alicia/projects/AliciaMain/data/nlu/lookuptables/no_sintomas
+
 ## intent:estoyEnfermo
 - Me siento enfermo
 - Estoy enfermo
@@ -44,13 +53,13 @@
 - No puedo [oler]{"entity": "sintomas", "value": "perdida del olfato"}
 - No [oler]{"entity": "sintomas", "value": "perdida del olfato"} nada
 - No estoy [oliendo]{"entity": "sintomas", "value": "perdida del olfato"}
-- Sufro de [molestias](sintomas)
-- Me duele mucho el [torax]{"entity": "sintomas", "value": "molestias"}
-- Me duele el [cuerpo]{"entity": "sintomas", "value": "molestias"}
-- Tengo mucha [migraña]{"entity": "sintomas", "value": "molestias"}
-- Me duele fuerte el [pecho]{"entity": "sintomas", "value": "molestias"}
-- Siento dolor en el [pecho]{"entity": "sintomas", "value": "molestias"}
-- Me duele la [cabeza]{"entity": "sintomas", "value": "molestias"}
+- Sufro de [dolores](sintomas)
+- Me duele mucho el [torax]{"entity": "sintomas", "value": "dolores"}
+- Me duele el [cuerpo]{"entity": "sintomas", "value": "dolores"}
+- Tengo mucha [migraña]{"entity": "sintomas", "value": "dolores"}
+- Me duele fuerte el [pecho]{"entity": "sintomas", "value": "dolores"}
+- Siento dolor en el [pecho]{"entity": "sintomas", "value": "dolores"}
+- Me duele la [cabeza]{"entity": "sintomas", "value": "dolores"}
 - Creo que tengo [diarrea](sintomas)
 - Tengo [disenteria]{"entity": "sintomas", "value": "diarrea"}
 - Me dio [conjuntivitis](sintomas)
@@ -66,13 +75,13 @@
 - Ayudenos por favor
 - Ayuda mi [papa](familiares) tiene [tos](sintomas)
 - Mi [padre]{"entity": "familiares", "value": "papa"} no puede [respirar]{"entity": "sintomas", "value": "dificultades respiratorias"}
-- A mi [mama](familiares) le [molestias](sintomas) la cabeza
+- A mi [mama](familiares) le [dolores](sintomas) la cabeza
 - Mi [madre]{"entity": "familiares", "value": "mama"} perdio el sentido del [gusto]{"entity": "sintomas", "value": "perdida del gusto"}
 - Mi [hermano](familiares) esta [tos](sintomas)
 - Mi [hermana](familiares) esta enferma
 - A mi [tio](familiares) le duele mucho la [cabeza](sintomas)
 - Mi [esposo](familiares) le cuesta mucho [respirar](sintomas)
-- Ayuda mi [marido]{"entity": "familiares", "value": "esposo"} le duele mucho el [pecho]{"entity": "sintomas", "value": "molestias"}
+- Ayuda mi [marido]{"entity": "familiares", "value": "esposo"} le duele mucho el [pecho]{"entity": "sintomas", "value": "dolores"}
 - Mi [abuelo](familiares) tiene [respirar](sintomas)
 - Mi [primo](familiares) no para de [tos](sintomas)
 - Que hago si mi [prima](familiares) tiene [fiebre](sintomas)?
@@ -80,7 +89,7 @@
 - Que hago si a mi [mujer]{"entity": "familiares", "value": "esposa"} se le sube la [temperatura]{"entity": "sintomas", "value": "fiebre"}
 - Mi [hija](familiares) no puede [oler]{"entity": "sintomas", "value": "perdida del olfato"}
 - Mi [abuela](sintomas) se siente muy [cansada]{"entity": "sintomas", "value": "cansancio"}
-- Mi [hijo](familiares) esta con [molestias](sintomas) de cabeza desde ayer
+- Mi [hijo](familiares) esta con [dolores](sintomas) de cabeza desde ayer
 - Creo que mi [hermano](familiares) tiene coronavirus
 - Creo que mi [hermano](familiares) esta enfermo
 - Creo que mi [abuelo](familiares) tiene [fiebre](sintomas)
@@ -106,12 +115,12 @@
 - Me duele el [estomago]{"entity": "no_sintomas", "value": "dolor de estomago"}
 - Me duele mucho el [estomago]{"entity": "no_sintomas", "value": "dolor de estomago"} desde ayer
 - Debo preocuparme del covid si me duele es [estomago]{"entity": "no_sintomas", "value": "dolor de estomago"}
-- Tengo [escalosfrios](no_sintomas)
-- Los [escalosfrios](no_sintomas) son sintomas de covid?
-- Mi [abuelo](familiares) tiene [escalosfrios](no_sintomas)
-- Los [escalosfrios](no_sintomas) son sintomas de covid?
-- Sufro de [escalosfrios](no_sintomas)
-- A veces padezco [escalosfrios](no_sintomas)
+- Tengo [escalofrios](no_sintomas)
+- Los [escalofrios](no_sintomas) son sintomas de covid?
+- Mi [abuelo](familiares) tiene [escalofrios](no_sintomas)
+- Los [escalofrios](no_sintomas) son sintomas de covid?
+- Sufro de [escalofrios](no_sintomas)
+- A veces padezco [escalofrios](no_sintomas)
 - Tengo [comezon](no_sintomas)
 - Me [pica]{"entity": "no_sintomas", "value": "comezon"} todo el cuerpo
 - No puedo dejar de [rascarme]{"entity": "no_sintomas", "value": "comezon"} todo el cuerpo
@@ -153,3 +162,6 @@
 - El [mareo](no_sintomas) es un sintoma del covid?
 - Tengo [vomito](no_sintomas)
 - El [vomito](no_sintomas) es un sintoma del covid
+- Me duelen las [articulaciones]{"entity": "sintomas", "value": "dolores"}
+- [derecho]{"entity": "sintomas", "value": "dolores"}
+- [izquierdo]{"entity": "sintomas", "value": "dolores"}

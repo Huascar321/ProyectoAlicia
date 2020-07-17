@@ -33,55 +33,55 @@
 - Quiero una consulta
 
 ## intent:pedirDoctor_medibook
-- Quiero agendar una cita con medibook
-- Prefiero una cita medica con medibook
-- Mejor una cita con medibook
-- Como es la cita con medibook?
-- Necesito un doctor de medibook
-- Cita medibook
-- Cita con un doctor online en medibook
-- Medibook
-- Quisiera tener la cita con medibook
-- Quisiera que me agendaras con medibook
-- Con medibook
-- La quiero con medibook
-- Me puedes agendar con medibook
-- Me interesa mas medibook
-- Me interesa medibook
-- Preferiria con medibook
-- Agendame con medibook
-- Quisiera agendarme con medibook
-- La cita la quiero con medibook
-- Con medibook porfavor
-- Prefiero con medibook
-- Podrias agendarme con medibook
-- Medibook pls
+- Quiero agendar una cita con [medibook](medibook)
+- Prefiero una cita medica con [medibook](medibook)
+- Mejor una cita con [medibook](medibook)
+- Como es la cita con [medibook](medibook)?
+- Necesito un doctor de [medibook](medibook)
+- Cita [medibook](medibook)
+- Cita con un doctor online en [medibook](medibook)
+- [Medibook](medibook)
+- Quisiera tener la cita con [medibook](medibook)
+- Quisiera que me agendaras con [medibook](medibook)
+- Con [medibook](medibook)
+- La quiero con [medibook](medibook)
+- Me puedes agendar con [medibook](medibook)
+- Me interesa mas [medibook](medibook)
+- Me interesa [medibook](medibook)
+- Preferiria con [medibook](medibook)
+- Agendame con [medibook](medibook)
+- Quisiera agendarme con [medibook](medibook)
+- La cita la quiero con [medibook](medibook)
+- Con [medibook](medibook) porfavor
+- Prefiero con [medibook](medibook)
+- Podrias agendarme con [medibook](medibook)
+- [Medibook](medibook) pls
 
 ## intent:pedirDoctor_whatsapp
-- WhatsApp
-- Una consulta por WhatsApp
-- Prefiero WhatsApp
-- WhatsApp nomas
-- Wasap
-- Wpp
-- Wasap esta bien
-- WhatsApp esta bien
-- Wpp esta bien
-- Una consulta por wasap
-- Una consulta por wpp
-- WA
-- Una consulta por WA
-- Mejor hablar por WhatsApp
-- Solo puedo hablar por WhatsApp
-- Prefiero mensaje de WhatsApp nomas
+- [WhatsApp](whatsapp)
+- Una consulta por [WhatsApp](whatsapp)
+- Prefiero [WhatsApp](whatsapp)
+- [WhatsApp](whatsapp) nomas
+- [Wasap](whatsapp)
+- [Wpp](whatsapp)
+- [Wasap](whatsapp) esta bien
+- [WhatsApp](whatsapp) esta bien
+- [Wpp](whatsapp) esta bien
+- Una consulta por [wasap](whatsapp)
+- Una consulta por [wpp](whatsapp)
+- [WA](whatsapp)
+- Una consulta por [WA](whatsapp)
+- Mejor hablar por [WhatsApp](whatsapp)
+- Solo puedo hablar por [WhatsApp](whatsapp)
+- Prefiero mensaje de [WhatsApp](whatsapp) nomas
 - Prefiero solo mensajes
-- Como es la opcion de WhatsApp
-- Un doctor por wasap
-- Quiero un doctor por WhatsApp
-- Consulta por WA
-- La quiero por whatsapp
-- Preferiria por whatsapp
-- Prefiero con whatsapp
-- Me puedes agendar por whatsapp?
-- La quiero por whatsapp
-- Quisiera agendarme por whatsapp
+- Como es la opcion de [WhatsApp](whatsapp)
+- Un doctor por [wasap](whatsapp)
+- Quiero un doctor por [WhatsApp](whatsapp)
+- Consulta por [WA](whatsapp)
+- La quiero por [whatsapp](whatsapp)
+- Preferiria por [whatsapp](whatsapp)
+- Prefiero con [whatsapp](whatsapp)
+- Me puedes agendar por [whatsapp](whatsapp)?
+- La quiero por [whatsapp](whatsapp)
+- Quisiera agendarme por [whatsapp](whatsapp)

@@ -37,7 +37,7 @@ slots:
   nombre_alicia:
     type: unfeaturized
   sintomas:
-    type: unfeaturized
+    type: list
   no_sintomas:
     type: unfeaturized
   familiares:

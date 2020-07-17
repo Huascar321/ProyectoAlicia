@@ -49,6 +49,7 @@
 - Esta bien
 - Esta muy bien
 - Esta perfecto
+- Si por favor
 
 ## intent:negar
 - No
