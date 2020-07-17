@@ -62,7 +62,6 @@
 - [potosí]{"entity": "departamento", "value": "Potosi"}
 - [cocha]{"entity": "departamento", "value": "Cochabamba"}
 - [tarixa]{"entity": "departamento", "value": "Tarija"}
-- [El alto]{"entity": "departamento", "value": "la paz"}
 - [scz]{"entity": "departamento", "value": "Santa Cruz"} ?
 - [Veni]{"entity": "departamento", "value": "Beni"}
 - [Cocha]{"entity": "departamento", "value": "Cochabamba"}
@@ -79,8 +78,6 @@
 - [Zudañez](municipios)
 - [Presto](municipios)
 - [Mojocoya](municipios)
-- [Villa Ricardo Mugia - Icla](municipios) <!--- -->
-- [Villa Ricardo]{"entity": "municipios", "value": "Villa Ricardo Mugia - Icla"}
 - [Padilla](municipios)
 - [Sopachui](municipios)
 - [Alcalá](municipios) <!--- -->
@@ -97,8 +94,6 @@
 - [Villa Serrano](municipios)
 - [Culpina](municipios)
 - [Las Carreras](municipios)
-- [Villa Vaca Guzmán](municipios)
-- [Nuestra Señora de La Paz](municipios)
 - [Mecapaca](municipios)
 - [Achocalla](municipios)
 - [El Alto](municipios)
@@ -134,7 +129,6 @@
 - [Copacabana](municipios)
 - [Caranavi](municipios)
 - [Alto Beni](municipios)
-- [Cochabamba](municipios)
 - [Pasorapa](municipios)
 - [Omereque](municipios)
 - [Ayopaya](municipios)
@@ -168,7 +162,6 @@
 - [Bolivar](municipios)
 - [Tiraque](municipios)
 - [Shinahota](municipios)
-- [Oruro](municipios)
 - [Caracollo](municipios)
 - [Paria](municipios)
 - [Challapata](municipios)
@@ -186,8 +179,6 @@
 - [Eucaliptus](municipios)
 - [Santiago de Huari](municipios)
 - [Huayllamarca](municipios)
-- [Potosí](municipios) <!--- -->
-- [Potosi]{"entity": "municipios", "value": "Potosí"}
 - [Uncía](municipios)
 - [Uncia]{"entity": "municipios", "value": "Uncía"}
 - [Llallagua](municipios)
@@ -204,7 +195,6 @@
 - [Uyuni](municipios)
 - [Villazón](municipios) <!--- -->
 - [Villazon]{"entity": "municipios", "value": "Villazón"}
-- [Tarija](municipios)
 - [Padcaya](municipios)
 - [Bermejo](municipios)
 - [Yacuiba](municipios)
