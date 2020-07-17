@@ -440,7 +440,7 @@ responses:
   - text: "Comparte mi numero con el siguiente link: \nhttps://wa.link/bd8pke \n¿Necesitas algo mas?"
 
   utter_casos:
-  - text: "¿De que departamento quieres saber? 👐🏼🇧🇴"
+  - text: "¿De que departamento o municipio quieres saber? 👐🏼🇧🇴"
     channel: "facebook"
     quick_replies:
       - payload: '/mostrarCasos{"departamento": "santa cruz"}'
@@ -463,7 +463,7 @@ responses:
         title: 'Pando'
       - payload: '/mostrarCasos{"departamento": "bolivia"}'
         title: 'Bolivia en general'
-  - text: "¿Cual departamento de Bolvia deseas saber?🤔"
+  - text: "¿Cual departamento o municipio de Bolvia deseas saber?🤔"
     channel: "facebook"
     quick_replies:
       - payload: '/mostrarCasos{"departamento": "santa cruz"}'
@@ -486,7 +486,7 @@ responses:
         title: 'Pando'
       - payload: '/mostrarCasos{"departamento": "bolivia"}'
         title: 'Bolivia en general'
-  - text: "¿Que departamento te gustaria saber?📍🇧🇴"
+  - text: "¿Que departamento o municipio te gustaria saber?📍🇧🇴"
     channel: "facebook"
     quick_replies:
       - payload: '/mostrarCasos{"departamento": "santa cruz"}'
@@ -509,7 +509,7 @@ responses:
         title: 'Pando'
       - payload: '/mostrarCasos{"departamento": "bolivia"}'
         title: 'Bolivia en general'
-  - text: "Dime el departamento del cual te interesaria saber 👐🏼"
+  - text: "Dime el departamento o municipio del cual te interesaria saber 👐🏼"
     channel: "facebook"
     quick_replies:
       - payload: '/mostrarCasos{"departamento": "santa cruz"}'
@@ -532,10 +532,10 @@ responses:
         title: 'Pando'
       - payload: '/mostrarCasos{"departamento": "bolivia"}'
         title: 'Bolivia en general'
-  - text: "¿De que departamento deseas saber? 🤔"
-  - text: "Dime el departamento del cual te interesaria saber 👐🏼"
-  - text: "¿De que departamento quieres saber? 👐"
-  - text: "¿Que departamento te gustaria saber?📍🇧🇴"
+  - text: "¿De que departamento o municipio deseas saber? 📍🇧🇴"
+  - text: "Dime el departamento o municipio del cual te interesaria saber 👐🏼"
+  - text: "¿De que departamento o municipio quieres saber? 👐"
+  - text: "¿Que departamento o municipio te gustaria saber?📍🇧🇴"
 
   utter_quieroAyudar:
   - text: "Es increíble que quieras aportar! \n🔍 En este momento estamos buscando doctores o personal de salud 🏥 \n¿Eres alguno de ellos?😌"
@@ -580,7 +580,7 @@ responses:
   - text: "¿Podrias ser mas claro con tu pregunta? 🙏🏽 \nEs posible que no haya sido entrenada para esa pregunta"
 
   utter_preguntarOtrosCasos:
-  - text: "¿Quieres saber los casos de otro departamento o tienes otra pregunta?👀"
+  - text: "¿Quieres saber los casos de otro departamento/municipio o tienes otra pregunta?👀"
     channel: "facebook"
     quick_replies:
       - payload: '/mostrarCasos_solicitar'
@@ -589,7 +589,7 @@ responses:
         title: 'Tengo otra pregunta'
       - payload: '/negar'
         title: 'Eso es todo'
-  - text: "¿Deseas ver los datos de otro departamento o deseas consultar algo mas? 😌"
+  - text: "¿Deseas ver los datos de otro departamento/municipio o deseas consultar algo mas? 😌"
     channel: "facebook"
     quick_replies:
       - payload: '/mostrarCasos_solicitar'
@@ -598,7 +598,7 @@ responses:
         title: 'Tengo otra pregunta'
       - payload: '/negar'
         title: 'Eso es todo'
-  - text: "Te puedo mostrar los datos de otros departementos o tienes una pregunta diferente? ☺️"
+  - text: "Te puedo mostrar los datos de otros departementos/municipio o tienes una pregunta diferente? ☺️"
     channel: "facebook"
     quick_replies:
       - payload: '/mostrarCasos_solicitar'
@@ -607,9 +607,8 @@ responses:
         title: 'Tengo otra pregunta'
       - payload: '/negar'
         title: 'Eso es todo'
-  - text: "¿Quieres saber los casos de otro *departamento* o tienes otra *pregunta*?"
-  - text: "¿Deseas ver los datos de otro *departamento* o deseas *preguntar* algo mas?"
-  - text: "Te puedo mostrar los datos de otros *departementos* o tienes una *pregunta* diferente?"
+  - text: "¿Quieres saber los *casos* de otro departamento/municipio o quieres volver al *menu*? 👀"
+  - text: "¿Deseas ver los casos de otro departamento/municipio o quieres volver al *menu*? 👀"
 
   utter_agradecer_despedidas:
   - text: "De nada, un gusto ayudarte! \nHasta luego 👋🏼"
