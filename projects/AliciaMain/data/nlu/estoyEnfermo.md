@@ -88,7 +88,7 @@
 - Mi [esposa](familiares) perdio el sentido del [olfato](sintomas)
 - Que hago si a mi [mujer]{"entity": "familiares", "value": "esposa"} se le sube la [temperatura]{"entity": "sintomas", "value": "fiebre"}
 - Mi [hija](familiares) no puede [oler]{"entity": "sintomas", "value": "perdida del olfato"}
-- Mi [abuela](sintomas) se siente muy [cansada]{"entity": "sintomas", "value": "cansancio"}
+- Mi [abuela](familiares) se siente muy [cansada]{"entity": "sintomas", "value": "cansancio"}
 - Mi [hijo](familiares) esta con [dolores](sintomas) de cabeza desde ayer
 - Creo que mi [hermano](familiares) tiene coronavirus
 - Creo que mi [hermano](familiares) esta enfermo

@@ -39,9 +39,9 @@ slots:
   sintomas:
     type: list
   no_sintomas:
-    type: unfeaturized
+    type: list
   familiares:
-    type: unfeaturized
+    type: list
   departamento:
     type: unfeaturized
   paises:

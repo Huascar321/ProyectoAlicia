@@ -132,43 +132,186 @@ class estoyEnfermo(Action):
         #Función que retorna un saludo diferente según la hora del día
         if tracker.get_latest_input_channel() == 'facebook':
             if (tracker.get_slot("sintomas") != None) and (tracker.get_slot("familiares") == None):
-                sintoma = tracker.get_slot("sintomas")
-                dispatcher.utter_message(text="Efectivamente, "+ sintoma +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
-                return[SlotSet("sintomas", None)]
-            elif (tracker.get_slot("no_sintomas") != None):
-                sintoma_aparte = tracker.get_slot("no_sintomas")
-                dispatcher.utter_message(text="Heem, "+ sintoma_aparte+" no esta directamente relacionada con el COVID-19, pero si tienes sospechas de que podrias estar enfermo te puedo comunicar con un medico para que revise tu caso 👩🏽‍⚕️ \n¿Deseas agendar una consulta?")
-                return[SlotSet("no_sintomas", None)]
-            elif (tracker.get_slot("sintomas") == None) and (tracker.get_slot("familiares") != None):
-                familiar = tracker.get_slot("familiares")
-                dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar +" 😕 \nLastimosamente, no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
-                return[SlotSet("familiares", None)]
+                if len(tracker.get_slot("sintomas")) == 1:
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    dispatcher.utter_message(text="Efectivamente, "+ sintoma_1 +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 1")
+                    return[SlotSet("sintomas", None)]
+                elif len(tracker.get_slot("sintomas")) == 2:
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    dispatcher.utter_message(text="Si, "+ sintoma_1 +" y "+ sintoma_2 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 2")
+                    return[SlotSet("sintomas", None)]
+                elif len(tracker.get_slot("sintomas")) == 3:
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    sintoma_3 = tracker.get_slot("sintomas")[2]
+                    dispatcher.utter_message(text="Para aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +" y "+ sintoma_3 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 3")
+                    return[SlotSet("sintomas", None)]
+                elif len(tracker.get_slot("sintomas")) > 3:
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    sintoma_3 = tracker.get_slot("sintomas")[2]
+                    dispatcher.utter_message(text="Para aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +", "+ sintoma_3 +" y otros que nombraste, son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 4")
+                    return[SlotSet("sintomas", None)]
+
             elif (tracker.get_slot("sintomas") != None) and (tracker.get_slot("familiares") != None):
-                sintoma = tracker.get_slot("sintomas")
-                familiar = tracker.get_slot("familiares")
-                dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar +" 😕 \nEfectivamente, "+ sintoma +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
-                return[SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+                len_sintomas = len(tracker.get_slot("sintomas"))
+                len_familiares = len(tracker.get_slot("familiares"))
+                if (len_sintomas == 1) and (len_familiares == 1):
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    familiar_1 = tracker.get_slot("familiares")[0]
+                    dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar_1 +" 😕 \nEfectivamente, "+ sintoma_1 +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 5")
+                    return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+                elif (len(tracker.get_slot("sintomas")) == 2) and (len(tracker.get_slot("familiares")) == 1):
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    familiar_1 = tracker.get_slot("familiares")[0]
+                    dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar_1 +" 😕 \nSi, "+ sintoma_1 +" y "+ sintoma_2 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 6")
+                    return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+                elif (len(tracker.get_slot("sintomas")) == 3) and (len(tracker.get_slot("familiares")) == 1):
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    sintoma_3 = tracker.get_slot("sintomas")[2]
+                    familiar_1 = tracker.get_slot("familiares")[0]
+                    dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar_1 +" 😕 \nPara aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +" y "+ sintoma_3 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 7")
+                    return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+                elif (len(tracker.get_slot("sintomas")) == 2) and (len(tracker.get_slot("familiares")) > 1):
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    dispatcher.utter_message(text="Lo siento mucho por tus familiares 😕 \nSi, "+ sintoma_1 +" y "+ sintoma_2 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 8")
+                    return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+                elif (len(tracker.get_slot("sintomas")) == 3) and (len(tracker.get_slot("familiares")) > 1):
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    sintoma_3 = tracker.get_slot("sintomas")[2]
+                    dispatcher.utter_message(text="Lo lamento mucho por tus familiares 😕 \nPara aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +" y "+ sintoma_3 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 9")
+                    return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+                elif (len(tracker.get_slot("sintomas")) > 3) and (len(tracker.get_slot("familiares")) > 1):
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    sintoma_3 = tracker.get_slot("sintomas")[2]
+                    dispatcher.utter_message(text="Lo lamento mucho por tus familiares 😕 \nPara aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +", "+ sintoma_3 +" y otros que nombraste, son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 10")
+                    return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+            elif (tracker.get_slot("sintomas") == None) and (tracker.get_slot("familiares") == None) and (tracker.get_slot("no_sintomas") != None):
+                if len(tracker.get_slot("no_sintomas")) == 1:
+                    sintoma_aparte = tracker.get_slot("no_sintomas")[0]
+                    dispatcher.utter_message(text="Heem, "+ sintoma_aparte+" no esta directamente relacionada con el COVID-19, pero si tienes sospechas de que podrias estar enfermo te puedo comunicar con un medico para que revise tu caso 👩🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 11")
+                    if tracker.get_slot("familiares") != None:
+                        return [SlotSet("no_sintomas", None)] + [SlotSet("familiares", None)]
+                    else:
+                        return [SlotSet("no_sintomas", None)]
+                elif len(tracker.get_slot("no_sintomas")) > 1:
+                    sintoma_aparte = tracker.get_slot("no_sintomas")[0]
+                    dispatcher.utter_message(text="Heem, "+ sintoma_aparte+" y otros que nombraste no estan directamente relacionados con el COVID-19, pero si tienes sospechas de que podrias estar enfermo te puedo comunicar con un medico para que revise tu caso 👩🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 12")
+                    if tracker.get_slot("familiares") != None:
+                        return [SlotSet("no_sintomas", None)] + [SlotSet("familiares", None)]
+                    else:
+                        return [SlotSet("no_sintomas", None)]
             else:
                 dispatcher.utter_message(text="Que mal oir eso 😕 \nSi crees que podrias estar enfermo, puedo facilitarte una consulta gratuita con un medico en linea para que revise tu caso \n¿Deseas agendar una consulta?")
                 return[SlotSet("familiares", None)]
         else:
+
             if (tracker.get_slot("sintomas") != None) and (tracker.get_slot("familiares") == None):
-                sintoma = tracker.get_slot("sintomas")
-                dispatcher.utter_message(text="Efectivamente, "+ sintoma +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
-                return[SlotSet("sintomas", None)]
-            elif (tracker.get_slot("no_sintomas") != None):
-                sintoma_aparte = tracker.get_slot("no_sintomas")
-                dispatcher.utter_message(text="Heem, "+ sintoma_aparte+" no esta directamente relacionada con el COVID-19, pero si tienes sospechas de que podrias estar enfermo te puedo comunicar con un medico para que revise tu caso 👩🏽‍⚕️ \n¿Deseas agendar una consulta?")
-                return[SlotSet("no_sintomas", None)]
-            elif (tracker.get_slot("sintomas") == None) and (tracker.get_slot("familiares") != None):
-                familiar = tracker.get_slot("familiares")
-                dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar +" 😕 \nLastimosamente, no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
-                return[SlotSet("familiares", None)]
+                if len(tracker.get_slot("sintomas")) == 1:
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    dispatcher.utter_message(text="Efectivamente, "+ sintoma_1 +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 1")
+                    return[SlotSet("sintomas", None)]
+                elif len(tracker.get_slot("sintomas")) == 2:
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    dispatcher.utter_message(text="Si, "+ sintoma_1 +" y "+ sintoma_2 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 2")
+                    return[SlotSet("sintomas", None)]
+                elif len(tracker.get_slot("sintomas")) == 3:
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    sintoma_3 = tracker.get_slot("sintomas")[2]
+                    dispatcher.utter_message(text="Para aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +" y "+ sintoma_3 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 3")
+                    return[SlotSet("sintomas", None)]
+                elif len(tracker.get_slot("sintomas")) > 3:
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    sintoma_3 = tracker.get_slot("sintomas")[2]
+                    dispatcher.utter_message(text="Para aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +", "+ sintoma_3 +" y otros que nombraste, son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 4")
+                    return[SlotSet("sintomas", None)]
+
             elif (tracker.get_slot("sintomas") != None) and (tracker.get_slot("familiares") != None):
-                sintoma = tracker.get_slot("sintomas")
-                familiar = tracker.get_slot("familiares")
-                dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar +" 😕 \nEfectivamente, "+ sintoma +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
-                return[SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+                len_sintomas = len(tracker.get_slot("sintomas"))
+                len_familiares = len(tracker.get_slot("familiares"))
+                if (len_sintomas == 1) and (len_familiares == 1):
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    familiar_1 = tracker.get_slot("familiares")[0]
+                    dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar_1 +" 😕 \nEfectivamente, "+ sintoma_1 +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 5")
+                    return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+                elif (len(tracker.get_slot("sintomas")) == 2) and (len(tracker.get_slot("familiares")) == 1):
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    familiar_1 = tracker.get_slot("familiares")[0]
+                    dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar_1 +" 😕 \nSi, "+ sintoma_1 +" y "+ sintoma_2 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 6")
+                    return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+                elif (len(tracker.get_slot("sintomas")) == 3) and (len(tracker.get_slot("familiares")) == 1):
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    sintoma_3 = tracker.get_slot("sintomas")[2]
+                    familiar_1 = tracker.get_slot("familiares")[0]
+                    dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar_1 +" 😕 \nPara aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +" y "+ sintoma_3 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 7")
+                    return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+                elif (len(tracker.get_slot("sintomas")) == 2) and (len(tracker.get_slot("familiares")) > 1):
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    dispatcher.utter_message(text="Lo siento mucho por tus familiares 😕 \nSi, "+ sintoma_1 +" y "+ sintoma_2 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 8")
+                    return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+                elif (len(tracker.get_slot("sintomas")) == 3) and (len(tracker.get_slot("familiares")) > 1):
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    sintoma_3 = tracker.get_slot("sintomas")[2]
+                    dispatcher.utter_message(text="Lo lamento mucho por tus familiares 😕 \nPara aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +" y "+ sintoma_3 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 9")
+                    return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+                elif (len(tracker.get_slot("sintomas")) > 3) and (len(tracker.get_slot("familiares")) > 1):
+                    sintoma_1 = tracker.get_slot("sintomas")[0]
+                    sintoma_2 = tracker.get_slot("sintomas")[1]
+                    sintoma_3 = tracker.get_slot("sintomas")[2]
+                    dispatcher.utter_message(text="Lo lamento mucho por tus familiares 😕 \nPara aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +", "+ sintoma_3 +" y otros que nombraste, son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 10")
+                    return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
+            elif (tracker.get_slot("sintomas") == None) and (tracker.get_slot("familiares") == None) and (tracker.get_slot("no_sintomas") != None):
+                if len(tracker.get_slot("no_sintomas")) == 1:
+                    sintoma_aparte = tracker.get_slot("no_sintomas")[0]
+                    dispatcher.utter_message(text="Heem, "+ sintoma_aparte+" no esta directamente relacionada con el COVID-19, pero si tienes sospechas de que podrias estar enfermo te puedo comunicar con un medico para que revise tu caso 👩🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 11")
+                    if tracker.get_slot("familiares") != None:
+                        return [SlotSet("no_sintomas", None)] + [SlotSet("familiares", None)]
+                    else:
+                        return [SlotSet("no_sintomas", None)]
+                elif len(tracker.get_slot("no_sintomas")) > 1:
+                    sintoma_aparte = tracker.get_slot("no_sintomas")[0]
+                    dispatcher.utter_message(text="Heem, "+ sintoma_aparte+" y otros que nombraste no estan directamente relacionados con el COVID-19, pero si tienes sospechas de que podrias estar enfermo te puedo comunicar con un medico para que revise tu caso 👩🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    #print ("PRUEBA 12")
+                    if tracker.get_slot("familiares") != None:
+                        return [SlotSet("no_sintomas", None)] + [SlotSet("familiares", None)]
+                    else:
+                        return [SlotSet("no_sintomas", None)]
             else:
                 dispatcher.utter_message(text="Que mal oir eso 😕 \nSi crees que podrias estar enfermo, puedo facilitarte una consulta gratuita con un medico en linea para que revise tu caso \n¿Deseas agendar una consulta?")
                 return[SlotSet("familiares", None)]
