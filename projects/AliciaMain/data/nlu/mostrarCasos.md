@@ -1,3 +1,6 @@
+## lookup:sintomas
+/home/huascar321/Documents/Alicia/projects/AliciaMain/data/nlu/lookuptables/municipios.txt
+
 ## intent:mostrarCasos
 - Casos en [Santa Cruz](departamento)
 - Casos en [Beni](departamento)
@@ -51,7 +54,6 @@
 - [capital]{"entity": "departamento", "value": "Chuquisaca"}
 - [lapaz]{"entity": "departamento", "value": "La Paz"}
 - [Riveralta]{"entity": "departamento", "value": "Beni"}
-- [sucre]{"entity": "departamento", "value": "Chuquisaca"}?
 - [sc]{"entity": "departamento", "value": "Santa Cruz"}
 - [pando]{"entity": "departamento", "value": "Pando"}
 - [volivia]{"entity": "departamento", "value": "bolivia"}
@@ -67,11 +69,238 @@
 - [lapz]{"entity": "departamento", "value": "La Paz"}
 - [horuro]{"entity": "departamento", "value": "Oruro"}
 - [pamdo]{"entity": "departamento", "value": "Pando"}
-- [sucre]{"entity": "departamento", "value": "Chuquisaca"}
 - [scz]{"entity": "departamento", "value": "Santa Cruz"}
 - [lp]{"entity": "departamento", "value": "La Paz"}
 - [cocha]{"entity": "departamento", "value": "Cochabamba"}
 - [chuquisaca]{"entity": "departamento", "value": "Chuquisaca"}
+- [Sucre](municipios)
+- [Yotala](municipios)
+- [Tarvita](municipios)
+- [Zudañez](municipios)
+- [Presto](municipios)
+- [Mojocoya](municipios)
+- [Villa Ricardo Mugia - Icla](municipios) <!--- -->
+- [Villa Ricardo]{"entity": "municipios", "value": "Villa Ricardo Mugia - Icla"}
+- [Padilla](municipios)
+- [Sopachui](municipios)
+- [Alcalá](municipios) <!--- -->
+- [Alcala]{"entity": "municipios", "value": "Alcalá"}
+- [El Villar](municipios)
+- [Tomina](municipios)
+- [Monteagudo](municipios)
+- [Tarabuco](municipios)
+- [Yamparáez](municipios) <!--- -->
+- [Yamparaez]{"entity": "municipios", "value": "Yamparáez"}
+- [Camargo](municipios)
+- [Incahuasi](municipios)
+- [Villa Charcas](municipios)
+- [Villa Serrano](municipios)
+- [Culpina](municipios)
+- [Las Carreras](municipios)
+- [Villa Vaca Guzmán](municipios)
+- [Nuestra Señora de La Paz](municipios)
+- [Mecapaca](municipios)
+- [Achocalla](municipios)
+- [El Alto](municipios)
+- [Achacachi](municipios)
+- [Corocoro](municipios)
+- [Escoma](municipios)
+- [Ayata](municipios)
+- [Sorata](municipios)
+- [Guanay](municipios)
+- [Mapiri](municipios)
+- [Teoponte](municipios)
+- [Pelechuco](municipios)
+- [Viacha](municipios)
+- [Sapahaqui](municipios)
+- [Malla](municipios)
+- [Cairoma](municipios)
+- [Cajuata](municipios)
+- [Colquiri](municipios)
+- [Ichoca](municipios)
+- [Chulumani](municipios)
+- [Yanacachi](municipios)
+- [Palos Blancos](municipios)
+- [La Asunta](municipios)
+- [Pucarani](municipios)
+- [Laja](municipios)
+- [Batallas](municipios)
+- [Sicasica](municipios)
+- [Umala](municipios)
+- [Patacamaya](municipios)
+- [Coroico](municipios)
+- [Coripata](municipios)
+- [San Buenaventura](municipios)
+- [Copacabana](municipios)
+- [Caranavi](municipios)
+- [Alto Beni](municipios)
+- [Cochabamba](municipios)
+- [Pasorapa](municipios)
+- [Omereque](municipios)
+- [Ayopaya](municipios)
+- [Tarata](municipios)
+- [Arbieto](municipios)
+- [Arani](municipios)
+- [Vacas](municipios)
+- [Arque](municipios)
+- [Capinota](municipios)
+- [Santivañez](municipios)
+- [Sicaya](municipios)
+- [Cliza](municipios)
+- [Toco](municipios)
+- [Tolata](municipios)
+- [Quillacollo](municipios)
+- [Sipesipe](municipios)
+- [Tiquipaya](municipios)
+- [Vinto](municipios)
+- [Colcapirhua](municipios)
+- [Sacaba](municipios)
+- [Colomi](municipios)
+- [Villa Tunari](municipios)
+- [Pojo](municipios)
+- [Chimoré](municipios)
+- [Puerto Villarroel](municipios)
+- [Entre Ríos](municipios) <!--- -->
+- [Entre Rios]{"entity": "municipios", "value": "Entre Ríos"}
+- [Mizque](municipios)
+- [Punata](municipios)
+- [San Benito](municipios)
+- [Bolivar](municipios)
+- [Tiraque](municipios)
+- [Shinahota](municipios)
+- [Oruro](municipios)
+- [Caracollo](municipios)
+- [Paria](municipios)
+- [Challapata](municipios)
+- [Santuario de Quillacas](municipios)
+- [Turco](municipios)
+- [Huachacalla](municipios)
+- [Poopó](municipios) <!--- -->
+- [Poopo]{"entity": "municipios", "value": "Poopó"}
+- [Antequera](municipios)
+- [Huanuni](municipios)
+- [Machacamarca](municipios)
+- [Salinas de Garcí Mendoza](municipios)
+- [Sabaya](municipios)
+- [Coipasa](municipios)
+- [Eucaliptus](municipios)
+- [Santiago de Huari](municipios)
+- [Huayllamarca](municipios)
+- [Potosí](municipios) <!--- -->
+- [Potosi]{"entity": "municipios", "value": "Potosí"}
+- [Uncía](municipios)
+- [Uncia]{"entity": "municipios", "value": "Uncía"}
+- [Llallagua](municipios)
+- [Chuquihuta Ayllu Jucumani](municipios)
+- [Betanzos](municipios)
+- [Colquechaca](municipios)
+- [Pocoata](municipios)
+- [Ocurí](municipios) <!--- -->
+- [Ocuri]{"entity": "municipios", "value": "Ocurí"}
+- [Toro Toro](municipios)
+- [Cotagaita](municipios)
+- [Sacaca](municipios)
+- [Atocha](municipios)
+- [Uyuni](municipios)
+- [Villazón](municipios) <!--- -->
+- [Villazon]{"entity": "municipios", "value": "Villazón"}
+- [Tarija](municipios)
+- [Padcaya](municipios)
+- [Bermejo](municipios)
+- [Yacuiba](municipios)
+- [Caraparí](municipios) <!--- -->
+- [Carapari]{"entity": "municipios", "value": "Caraparí"}
+- [Villa Montes](municipios)
+- [Uriondo](municipios)
+- [San Lorenzo](municipios)
+- [El Puente](municipios)
+- [Entre Ríos](municipios)
+- [Santa Cruz de la Sierra](municipios)
+- [Cotoca](municipios)
+- [Porongo](municipios)
+- [La Guardia](municipios)
+- [El Torno](municipios)
+- [Warnes](municipios)
+- [Okinawa Uno](municipios)
+- [San Ignacio](municipios)
+- [San Miguel](municipios)
+- [San Rafael](municipios)
+- [Buena Vista](municipios)
+- [San Carlos](municipios)
+- [Yapacaní](municipios) <!--- -->
+- [Yapacani]{"entity": "municipios", "value": "Yapacaní"}
+- [San Juan](municipios)
+- [San José](municipios)
+- [Pailón](municipios) <!--- -->
+- [Pailon]{"entity": "municipios", "value": "Pailón"}
+- [Roboré](municipios) <!--- -->
+- [Robore]{"entity": "municipios", "value": "Roboré"}
+- [Portachuelo](municipios)
+- [Santa Rosa](municipios)
+- [Colpa Bélgica](municipios) <!--- -->
+- [Colpa Belgica]{"entity": "municipios", "value": "Colpa Bélgica"}
+- [Lagunillas](municipios)
+- [Charagua](municipios)
+- [Cabezas](municipios)
+- [Camiri](municipios)
+- [Vallegrande](municipios)
+- [Trigal](municipios)
+- [Moromoro](municipios)
+- [Samaipata](municipios)
+- [Pampa Grande](municipios)
+- [Mairana](municipios)
+- [Quirusillas](municipios)
+- [Montero](municipios)
+- [General Saavedra](municipios)
+- [Mineros](municipios)
+- [Fernández Alonso](municipios) <!--- -->
+- [Fernandez Alonso]{"entity": "municipios", "value": "Fernández Alonso"}
+- [San Pedro](municipios)
+- [Concepción](municipios) <!--- -->
+- [Concepcion]{"entity": "municipios", "value": "Concepción"}
+- [San Javier](municipios)
+- [San Julián](municipios) <!--- -->
+- [San Julian]{"entity": "municipios", "value": "San Julián"}
+- [San Antonio de Lomerio](municipios)
+- [San Ramón](municipios) <!--- -->
+- [Cuatro Cañadas](municipios)
+- [San Matías](municipios) <!--- -->
+- [Comarapa](municipios)
+- [Puerto Suarez](municipios)
+- [Puerto Quijarro](municipios)
+- [El Carmen Rivero Tórrez](municipios)
+- [Ascención de Guarayos](municipios) <!--- -->
+- [Ascencion de Guarayos]{"entity": "municipios", "value": "Ascención de Guarayos"}
+- [Urubicha](municipios)
+- [El Puente](municipios)
+- [Trinidad](municipios)
+- [San Javier](municipios)
+- [Riberalta](municipios)
+- [Guayaramerín](municipios) <!--- -->
+- [Guayaramerin]{"entity": "municipios", "value": "Guayaramerín"}
+- [San Borja](municipios)
+- [Santa Rosa](municipios)
+- [Puerto Menor de Rurrenabaque](municipios)
+- [Santa Ana](municipios)
+- [Exaltación](municipios) <!--- -->
+- [Exaltacion]{"entity": "municipios", "value": "Exaltación"}
+- [San Ignacio](municipios)
+- [Loreto](municipios)
+- [San Andrés](municipios) <!--- -->
+- [San Andres]{"entity": "municipios", "value": "San Andrés"}
+- [San Joaquín](municipios) <!--- -->
+- [San Joaquin]{"entity": "municipios", "value": "San Joaquín"}
+- [San Ramón](municipios) <!--- -->
+- [San Ramon]{"entity": "municipios", "value": "San Ramón"}
+- [Cobija](municipios)
+- [Porvenir](municipios)
+- [Bolpebra](municipios)
+- [Puerto Rico](municipios)
+- [Filadelfia](municipios)
+- [Puerto Gonzalo Moreno](municipios)
+- [San Lorenzo](municipios)
+- [Sena](municipios)
+- [Santa Rosa](municipios)
 
 ## intent:mostrarCasos_solicitar
 - Quisiera ver los casos en el pais

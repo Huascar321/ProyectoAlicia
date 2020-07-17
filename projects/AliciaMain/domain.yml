@@ -33,6 +33,7 @@ entities:
 - familiares
 - departamento
 - paises
+- municipios
 slots:
   nombre_alicia:
     type: unfeaturized
@@ -43,6 +44,8 @@ slots:
   familiares:
     type: list
   departamento:
+    type: unfeaturized
+  municipios:
     type: unfeaturized
   paises:
     type: unfeaturized
