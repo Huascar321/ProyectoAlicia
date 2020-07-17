@@ -70,7 +70,7 @@ class responderFAQ(Action):
         #Función para responder preguntas frecuentes
         pregunta = tracker.latest_message['intent'].get('name')
         lista_preguntas = ['porque_sintomas_yosolo_familia', 'porque_variosdias_sintomas_nocurar', 'dioxidocloro_ayuda',
-        'nosaber_covid', 'nomejora_hospital', 'medico_atendio_seguimiento', 'sintomas_covid', 'numero_ambulancia',
+        'nosaber_covid', 'nomejora_hospital', 'sintomas_covid', 'numero_ambulancia',
         'prueba_covid', 'cuanto_tipo_prueba', 'ivermectina_sirve', 'calor_mata_virus', 'contraerdenuevo_despues_de_enfermarse',
         'mosquitos_infectar', 'cuanto_falta_para_vacuna_medicamento', 'cuanto_falta_para_vacuna_medicamento', 'tomar_medicinas',
         'tiempo_sobrevive_virus', 'algunos_sintomas', 'periodo_incubacion_virus', 'dias_para_presentar_sintomas', 'duracion_enfermedad',
@@ -374,7 +374,7 @@ class mostrarCasos(Action):
                     dispatcher.utter_message(template='utter_preguntarOtrosCasos')
 
                 else:
-                    dispatcher.utter_message(text="En "+dict_departamento[v_dp]+" hay: \n*"+ str(casosConfirmados) +"* confirmados* 🧪 \n*"+ str(cantFallecidos)+"* decesos 📉 \n*"+str(cantRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?")
+                    dispatcher.utter_message(text="En "+dict_departamento[v_dp]+" hay: \n*"+ str(casosConfirmados) +"* confirmados* 🧪 \n*"+ str(cantFallecidos)+"* decesos 📉 \n*"+str(cantRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento/municipio o quieres volver al *menu*?")
 
             elif v_dp == 'bolivia':
                 nroConfirmados = 0
@@ -389,7 +389,7 @@ class mostrarCasos(Action):
                     dispatcher.utter_message(template='utter_preguntarOtrosCasos')
 
                 else:
-                    dispatcher.utter_message(text="En Bolivia hay: \n \n*"+ str(nroConfirmados) +"* confirmados* 🧪 \n*"+ str(nroFallecidos)+"* decesos 📉 \n*"+str(nroRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?")
+                    dispatcher.utter_message(text="En Bolivia hay: \n \n*"+ str(nroConfirmados) +"* confirmados* 🧪 \n*"+ str(nroFallecidos)+"* decesos 📉 \n*"+str(nroRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento/municipio o quieres volver al *menu*?")
 
             else:
                 dispatcher.utter_message(template='utter_departamento_incorrecto')
@@ -417,7 +417,7 @@ class mostrarCasos(Action):
                     dispatcher.utter_message(text=f'En {municipios} hay: \n{casos_confirmados} confirmados 🧪 \n{cant_fallecidos} decesos 📉 \n{casos_recuperados} recuperados 💊')
                     dispatcher.utter_message(template='utter_preguntarOtrosCasos')
                 else:
-                    dispatcher.utter_message(text=f'En {municipios} hay: \n{casos_confirmados} confirmados 🧪 \n{cant_fallecidos} decesos 📉 \n{casos_recuperados} recuperados 💊\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?')
+                    dispatcher.utter_message(text=f'En {municipios} hay: \n{casos_confirmados} confirmados 🧪 \n{cant_fallecidos} decesos 📉 \n{casos_recuperados} recuperados 💊\n¿Quieres saber los *casos* de otro departamento/municipio o quieres volver al *menu*?')
                 return[SlotSet("municipios", None)]
                 lista_municipios.clear()
             else:

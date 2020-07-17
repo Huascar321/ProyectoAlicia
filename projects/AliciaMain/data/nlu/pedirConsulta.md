@@ -31,6 +31,8 @@
 - Agendar
 - Consulta
 - Quiero una consulta
+- Consulta referente al COVID
+- COVID-19
 
 ## intent:saludos+pedirAsistencia
 - Buenos dias necesito un medico

@@ -37,25 +37,25 @@
 - Por que tardo tanto en curarme
 
 ## intent:dioxidocloro_ayuda
-- El [dioxido de cloro] funciona?
-- El [dioxido de cloro] en verdad funciona?
-- El [dioxido de cloro] me cura?
-- El [dioxido de cloro] me cura del coronavirus?
-- El [dioxido de cloro] ayuda a combatir el coronavirus?
-- El [dioxido de cloro] ayuda a combatir la enfermedad?
-- El [dioxido de cloro] combate el covid?
-- Lo que dicen del [dioxido de cloro] es real?
-- Es cierto que el [dioxido de cloro] sirve contra la enfermedad?
-- Es cierto que el [dioxido de cloro] sirve contra el coronavirus?
-- De verdad funciona el [dioxido de cloro]?
-- Puedo tomar el [dioxido de cloro]?
-- El [dioxido de cloro] hace daño?
-- El [dioxido de cloro] es dañino?
-- Me puedo morir por tomar [dioxido de cloro]?
-- El [dioxido de cloro] es toxico?
-- Se puede tomar [dioxido de cloro]?
-- Puedo tomar [dioxido de cloro]?
-- [dioxido de cloro]
+- El [dioxido de cloro](dioxido_de_cloro) funciona?
+- El [dioxido de cloro](dioxido_de_cloro) en verdad funciona?
+- El [dioxido de cloro](dioxido_de_cloro) me cura?
+- El [dioxido de cloro](dioxido_de_cloro) me cura del coronavirus?
+- El [dioxido de cloro](dioxido_de_cloro) ayuda a combatir el coronavirus?
+- El [dioxido de cloro](dioxido_de_cloro) ayuda a combatir la enfermedad?
+- El [dioxido de cloro](dioxido_de_cloro) combate el covid?
+- Lo que dicen del [dioxido de cloro](dioxido_de_cloro) es real?
+- Es cierto que el [dioxido de cloro](dioxido_de_cloro) sirve contra la enfermedad?
+- Es cierto que el [dioxido de cloro](dioxido_de_cloro) sirve contra el coronavirus?
+- De verdad funciona el [dioxido de cloro](dioxido_de_cloro)?
+- Puedo tomar el [dioxido de cloro](dioxido_de_cloro)?
+- El [dioxido de cloro](dioxido_de_cloro) hace daño?
+- El [dioxido de cloro](dioxido_de_cloro) es dañino?
+- Me puedo morir por tomar [dioxido de cloro](dioxido_de_cloro)?
+- El [dioxido de cloro](dioxido_de_cloro) es toxico?
+- Se puede tomar [dioxido de cloro](dioxido_de_cloro)?
+- Puedo tomar [dioxido de cloro](dioxido_de_cloro)?
+- [dioxido de cloro](dioxido_de_cloro)
 
 ## intent:nosaber_covid
 - Como sabre si tenia covid?
@@ -102,24 +102,6 @@
 - Cuando se que tengo que ir al hospital?
 - Cuando se que me tienen que intubar?
 
-## intent:medico_atendio_seguimiento
-- El medico que me atendio hara seguimiento de mi caso?
-- Haran seguimiento de mi caso?
-- El doctor que me atendio hara algun seguimiento de mi caso?
-- Haran algun seguimiento de mi caso?
-- El doctor que me atendio va a seguir mi caso?
-- Van a seguir mi caso?
-- El doctor que me atendio hara algun seguimiento de mi caso?
-- Me atendio un doctor hara seguimiento de mi caso?
-- El doctor que me estuvo atendiendo hara seguimiento de mi caso?
-- El doctor que me vio hara seguimiento de mi caso?
-- El doctor que me trato hara seguimiento de mi caso?
-- El medico que me trato hara seguimiento de mi caso?
-- El medico que me estuvo atendiendo hara algun seguimiento de mi caso?
-- Haran algun seguimiento de mi caso?
-- Van a seguir mi caso despues de que me atiendan?
-- Van a seguir mi caso despues de ser atendido?
-
 ## intent:sintomas_covid
 - Cuales son los sintomas de la enfermedad?
 - Cuales son los sintomas del covid?
@@ -145,6 +127,7 @@
 - Contagiar
 - Metodos de contagio
 - Como puede contagiarse una persona
+- Cuales son los sintomas mas frecuentes?
 
 ## intent:prueba_covid
 - Pueden ayudarme a hacerme una prueba?
@@ -482,37 +465,36 @@
 - Como puedo ser [asintomatico](asintomatico)?
 
 ## intent:post_tratamiento
-- Tratamiento
+- [Tratamiento](tratamiento)
 - Medicamento
 - Medicina
-- Cual es el tratamiento?
-- Existe tratamiento?
-- En que consiste el tratamiento?
-- Tratamiento contra el covid?
-- Tratamiento contra el coronavirus?
-- Cual es el tratamiento contra el covid?
+- Cual es el [tratamiento](tratamiento)?
+- Existe [tratamiento](tratamiento)?
+- En que consiste el [tratamiento](tratamiento)?
+- [Tratamiento](tratamiento) contra el covid?
+- [Tratamiento](tratamiento) contra el coronavirus?
+- Cual es el [tratamiento](tratamiento) contra el covid?
 - Que hay que hacer en caso de covid?
-- Cual es el protocolo del tratamiento?
+- Cual es el protocolo del [tratamiento](tratamiento)?
 - Que debo hacer si me enfermo?
-- Cual es el tratamiento si me enfermo?
+- Cual es el [tratamiento](tratamiento) si me enfermo?
 - Hay medicamentos para el covid?
 - Hay medicinas para el covid?
-- Tratamiento y medicinas
-- Que tan largo es el tratamiento?
-- Que tan complejo es el tratamiento?
+- [Tratamiento](tratamiento) y medicinas
+- Que tan largo es el [tratamiento](tratamiento)?
+- Que tan complejo es el [tratamiento](tratamiento)?
 
 ## intent:primeros_sintomas
-- Cuales son los primeros sintomas?
-- Son peligrosos los primeros sintomas?
-- Cuales son los primeros sintomas en aparecer
+- Cuales son los [primeros sintomas](primeros_sintomas)?
+- Son peligrosos los [primeros sintomas](primeros_sintomas)?
+- Cuales son los [primeros sintomas](primeros_sintomas) en aparecer
 - Como se distingue por primera vez la enfermedad
-- Primeros sintomas
-- Que sintomas aparecen primeros
+- [Primeros sintomas](primeros_sintomas)
+- Que sintomas aparecen [primeros](primeros_sintomas)
 - Que sintomas estan antes que los otros
 - Como se manifiesta por primera vez?
-- Que es lo pirmero que aparece?
-- Sintomas antes que otros sintomas
-- Cuales son los sinotmas que se manifiestan antes que los otros
+- Que es lo primero que aparece?
+- Cuales son los sintomas que se manifiestan antes que los otros
 - Hay sintomas que aparecen antes?
 - Hay sintomas que se manifiestan primero?
 - Hay algun sintoma de deteccion temprana?

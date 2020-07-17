@@ -67,7 +67,7 @@ intents:
     triggers: actions_faq
 - consultas_costo:
     triggers: actions_faq
-- vulerables:
+- vulnerables:
     triggers: actions_faq
 entities:
 - gratuito_consulta
@@ -87,6 +87,8 @@ entities:
 - medibook
 - whatsapp
 - vulnerables
+- tratamiento
+- primeros_sintomas
 responses:
   utter_porque_sintomas_yosolo_familia:
   - text: "Puede que tu familia se haya contagiado pero que no presenten sintomas (asintomatico) o que los muestren luego de unos dias (presintomatico) \nDime tu siguiente pregunta!"
@@ -198,7 +200,7 @@ responses:
     channel: "facebook"
   - text: "Las consultas acerca del COVID-19 son gratuitas, si quieres pedir una *consulta* solo dimelo \nDime tu siguiente pregunta!"
 
-  utter_vulerables:
+  utter_vulnerables:
   - text: "Las personas mas vulnerables son aquellas con problemas como hipertensión arterial, obesidad, diabetes, o patología cardiovascular y cerebrovascular. \nEn los niños la mayoría de casos parecen cursar de manera leve o asintomática. \nDime tu siguiente pregunta!"
 
 actions:
