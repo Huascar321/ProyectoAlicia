@@ -393,8 +393,35 @@ class mostrarCasos(Action):
 
             else:
                 dispatcher.utter_message(template='utter_departamento_incorrecto')
+            return[SlotSet("departamento", None)]
 
-        return[SlotSet("departamento", None)]
+        elif tracker.get_slot("municipios") != None:
+            url = 'https://raw.githubusercontent.com/mauforonda/casos-municipios/master/clean_data/2020-07-04.csv'
+            webpage = urlopen(url)
+            municipios = tracker.get_slot("municipios").lower()
+            df = pd.read_csv(webpage)
+            ddf = pd.DataFrame(df)
+            lista = ddf['municipio'][::]
+            lista_municipios = []
+
+            i = 0
+            for municipio in lista:
+                lista_municipios.append(municipio)
+
+            if v_mun in lista_municipios:
+                casos_confirmados = ddf[ddf['municipio']==v_mun]['confirmados'].item()
+                casos_recuperados = ddf[ddf['municipio']==v_mun]['recuperados'].item()
+                cant_fallecidos = ddf[ddf['municipio']==v_mun]['decesos'].item()
+
+                if tracker.get_latest_input_channel() == 'facebook':
+                    dispatcher.utter_message(text=f'En {v_mun} hay: \n{casos_confirmados} confirmados 🧪 \n{cant_fallecidos} decesos 📉 \n{casos_recuperados} recuperados 💊')
+                    dispatcher.utter_message(template='utter_preguntarOtrosCasos')
+                else:
+                    dispatcher.utter_message(text=f'En {v_mun} hay: \n{casos_confirmados} confirmados 🧪 \n{cant_fallecidos} decesos 📉 \n{casos_recuperados} recuperados 💊\n¿Quieres saber los *casos* de otro departamento o tienes otra *pregunta*?')
+                return[SlotSet("municipios", None)]
+                lista_municipios.clear()
+            else:
+                dispatcher.utter_message(template='utter_municipio_incorrecto')
 
 class fallback(Action):
 
