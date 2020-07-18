@@ -35,6 +35,7 @@
 - Por que sigo enfermo si estoy tomando los [remedios](medicinas)
 - Por que tardo tanto en curarme si estoy siguiendo el tratamiento
 - Por que tardo tanto en curarme
+- Cuando me curare?
 
 ## intent:dioxidocloro_ayuda
 - El [dioxido de cloro](dioxido_de_cloro) funciona?
@@ -123,11 +124,6 @@
 - Puedes decirme los sintomas del covid
 - Puedes decirme los sintomas del coronavirus
 - Quiero saber cuales son los sintomas
-- Como se contagia una persona
-- Contagiar
-- Metodos de contagio
-- Como puede contagiarse una persona
-- Cuales son los sintomas mas frecuentes?
 
 ## intent:prueba_covid
 - Pueden ayudarme a hacerme una prueba?
@@ -559,6 +555,9 @@
 - [Prevencion](prevencion) del covid
 - Medidas de bioseguridad
 - Cuales son las medidas de bioseguridad
+- Cual es el protocolo de bioseguridad?
+- Protocolo de seguridad
+- protocolo de bioseguridad
 - Bioseguridad
 - Como nos cuidamos
 - Como cuidarse
@@ -597,6 +596,11 @@
 - Cómo se contagia una persona?
 - el coronavirus como se [transmite](transmision)?
 - como me contagio?
+- Como se contagia una persona
+- Contagiar
+- Metodos de contagio
+- Como puede contagiarse una persona
+- Cuales son los sintomas mas frecuentes?
 
 ## intent:virus_en_el_aire
 - El virus esta en el [aire](transmision_aire)
