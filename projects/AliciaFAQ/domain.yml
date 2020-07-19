@@ -69,6 +69,8 @@ intents:
     triggers: actions_faq
 - vulnerables:
     triggers: actions_faq
+- info_plasma:
+    triggers: actions_faq
 entities:
 - gratuito_consulta
 - menores
@@ -89,6 +91,7 @@ entities:
 - vulnerables
 - tratamiento
 - primeros_sintomas
+- plasma
 responses:
   utter_porque_sintomas_yosolo_familia:
   - text: "Puede que tu familia se haya contagiado pero que no presenten sintomas (asintomatico) o que los muestren luego de unos dias (presintomatico) \nDime tu siguiente pregunta!"
@@ -202,6 +205,9 @@ responses:
 
   utter_vulnerables:
   - text: "Las personas mas vulnerables son aquellas con problemas como hipertensión arterial, obesidad, diabetes, o patología cardiovascular y cerebrovascular. \nEn los niños la mayoría de casos parecen cursar de manera leve o asintomática. \nDime tu siguiente pregunta!"
+
+  utter_info_plasma:
+  - text: "Las personas que deseen donar plasma hiperinmune deben cumplir al menos seis requisitos: tener más de 18 años, pesar más de 50 kilos, compatibilidad sanguínea, no tener enfermedades de base, haber superado el COVID-19 y contar con las tres pruebas que lo certifiquen(1 positiva y 2 negativas). Tambien preferiblemente si es una dama se requiere que no hay tenido ningun hijo.\nDime tu siguiente pregunta!"
 
 actions:
 - actions_faq

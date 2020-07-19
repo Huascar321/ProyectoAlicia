@@ -707,3 +707,27 @@
 - Quienes son mas [propensos](vulnerables) a contraer el virus?
 - Quienes tienen mas [riesgo](vulnerables) de contraer el virus?
 - Quienes tienen mas [riesgo](vulnerables) de infectarse con el virus?
+
+## intent:info_plasma
+- Como puedo donar [plasma](plasma)
+- Como dono [plasma](plasma)
+- Como puedo donar [plasma](plasma)
+- Cuales son los pasos para donar [plasma](plasma)
+- Cuales son los requisitos para donar [plasma](plasma)?
+- Que requisitos necesito para donar [plasma](plasma)?
+- Cual es el procedimientos para donar [plasma](plasma)?
+- Que debo hacer para donar [plasma](plasma)?
+- Como se dona [plasma](plasma)?
+- Quiero donar [plasma](plasma)
+- Puedo donar [plasma](plasma)
+- Informacion sobre el [plasma](plasma)
+- Informacion sobre como donar [plasma](plasma)
+- Informacion donacion de [plasma](plasma)
+- Sabes algo del [plasma](plasma)
+- Que me puedes contar del [plasma](plasma)
+- Que me puedes decir del [plasma](plasma)
+- Requisitos para donar [plasma](plasma)
+- Como se que puedo donar [plasma](plasma)
+- Puedo donar [plasma](plasma)
+- Info [plasma](plasma)
+- Cuentame sobre como donar [plasma](plasma)

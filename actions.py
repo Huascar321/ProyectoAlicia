@@ -76,7 +76,7 @@ class responderFAQ(Action):
         'tiempo_sobrevive_virus', 'algunos_sintomas', 'periodo_incubacion_virus', 'dias_para_presentar_sintomas', 'duracion_enfermedad',
         'como_saber_si_tengo_covid', 'asintomatico', 'post_tratamiento', 'primeros_sintomas', 'tiempo_prueba_negativo', 'lactancia',
         'prevencion', 'como_se_transmite_covid', 'virus_en_el_aire', 'alimentos_contagio', 'que_es_el_covid' , 'consultas_menores_de_edad',
-        'consultas_costo', 'vulnerables'
+        'consultas_costo', 'vulnerables','info_plasma'
         ]
 
         if pregunta in lista_preguntas:
