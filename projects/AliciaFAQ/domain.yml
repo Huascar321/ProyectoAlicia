@@ -71,6 +71,8 @@ intents:
     triggers: actions_faq
 - info_plasma:
     triggers: actions_faq
+- centros_de_salud:
+    triggers: actions_faq
 entities:
 - gratuito_consulta
 - menores
@@ -208,6 +210,9 @@ responses:
 
   utter_info_plasma:
   - text: "Las personas que deseen donar plasma hiperinmune deben cumplir al menos seis requisitos: tener más de 18 años, pesar más de 50 kilos, compatibilidad sanguínea, no tener enfermedades de base, haber superado el COVID-19 y contar con las tres pruebas que lo certifiquen(1 positiva y 2 negativas). Tambien preferiblemente si es una dama se requiere que no hay tenido ningun hijo.\nDime tu siguiente pregunta!"
+
+  utter_centros_de_salud:
+  - text: "Visita la pagina oficial del gobierno municipal: http://gmsantacruz.gob.bo/covid-19/atencion-del-covid-19.php en donde estan listados todos los centros de salud con su respectivos contactos. \n Tambien te dejo los números telefonicos oficiales. SISME(Sistema integrado de servicios médicos) marca al 160. Linea abierta vecinal: 800 12 5700\nDime tu siguiente pregunta!"
 
 actions:
 - actions_faq

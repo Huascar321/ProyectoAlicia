@@ -731,3 +731,32 @@
 - Puedo donar [plasma](plasma)
 - Info [plasma](plasma)
 - Cuentame sobre como donar [plasma](plasma)
+
+## intent:centros_de_salud
+- Muestrame los hospitales que atienden el covid
+- Hospitales que curan el covid
+- Hospitales que atienden el covid
+- Centro de salud de atienden el covid
+- Clinica que atienden el covid
+- Postas que atiendan el covid
+- Que hospitales estan atendiendo
+- Que clinica estan atendiendo
+- Que centros de salud estan atendiendo
+- Que postas estan atendiendo
+- A que hospital puedo ir si me siento mal
+- A que hospital puedo ir si estoy mal
+- A que hospital puedo ir si tengo sintomas
+- A que hospital puedo ir si tengo covid
+- A que clinica puedo ir si me siento mal
+- A que clinica puedo ir si estoy mal
+- A que clinica puedo ir si tengo sintomas
+- A que clinica puedo ir si tengo covid
+- A que centros de salud puedo ir si me siento mal
+- A que centros de salud puedo ir si estoy mal
+- A que centros de salud puedo ir si tengo sintomas
+- A que centros de salud puedo ir si tengo covid
+- A que postas puedo ir si me siento mal
+- A que postas puedo ir si estoy mal
+- A que postas puedo ir si tengo sintomas
+- A que postas puedo ir si tengo covid
+- Donde puedo hacerme las pruebas
