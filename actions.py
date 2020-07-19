@@ -396,7 +396,7 @@ class mostrarCasos(Action):
             return[SlotSet("departamento", None)]
 
         elif tracker.get_slot("municipios") != None:
-            url = 'https://raw.githubusercontent.com/mauforonda/casos-municipios/master/clean_data/2020-07-04.csv'
+            url = 'https://raw.githubusercontent.com/mauforonda/casos-municipios/master/clean_data/2020-07-11.csv'
             webpage = urlopen(url)
             municipios = tracker.get_slot("municipios")
             df = pd.read_csv(webpage)
