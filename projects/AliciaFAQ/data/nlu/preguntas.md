@@ -300,6 +300,7 @@
 - Que [remedios](medicinas) deberia comprar
 - Que [medicamentos](medicinas) deberia comprar
 - Que [medicinas](medicinas) debo comprar
+- Que [tableta](medicinas) y [remedio](medicinas) hay  que tomar si tenes corona virus
 
 ## intent:tiempo_sobrevive_virus
 - Cuanto tiempo sobrevive el virus en una [superficie](tiempo_sobrevive_material)?
@@ -395,6 +396,8 @@
 - Cuanto dura el covid?
 - Que tiempo dura el covid?
 - Que tiempo tengo que esperar para no contagiar
+- Hasta cuantos dias esta el covid en el cuerpo ?
+- Despues de cuantos dias un infectado deja de contagiar
 
 ## intent:numero_ambulancia
 - Quiero una ambulancia

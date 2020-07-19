@@ -40,6 +40,13 @@ C:/Users/marco/Desktop/Alicia/ProyectoAlicia/projects/AliciaMain/data/nlu/lookup
 - Tengo dolor de [garganta]{"entity": "sintomas", "value": "dolor de garganta"}
 - Tengo dolor en la [garganta]{"entity": "sintomas", "value": "dolor de garganta"}
 - Me duele bastante la [garganta]{"entity": "sintomas", "value": "dolor de garganta"}
+- Tengo [dolor de cabeza](sintomas)
+- Me duele mucho la [cabeza]{"entity": "sintomas", "value": "dolor de cabeza]"}
+- Me duele demasiado la [cabeza]{"entity": "sintomas", "value": "dolor de cabeza]"}
+- Me duele la [cabeza]{"entity": "sintomas", "value": "dolor de cabeza]"}
+- Tengo dolor de [cabeza]{"entity": "sintomas", "value": "dolor de cabeza]"}
+- Tengo dolor en la [cabeza]{"entity": "sintomas", "value": "dolor de cabeza]"}
+- Me duele bastante la [cabeza]{"entity": "sintomas", "value": "dolor de cabeza]"}
 - Tengo [cansancio](sintomas)
 - Me siento [cansado]{"entity": "sintomas", "value": "cansancio"}
 - Me siento muy [cansado]{"entity": "sintomas", "value": "cansancio"}
