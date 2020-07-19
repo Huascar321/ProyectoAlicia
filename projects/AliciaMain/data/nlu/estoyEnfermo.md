@@ -73,6 +73,7 @@
 - Tengo gripe
 - Ayuda
 - Ayudenos por favor
+- Me [falta el aire]{"entity": "sintomas", "value": "dificultades respiratorias"}
 - Ayuda mi [papa](familiares) tiene [tos](sintomas)
 - Mi [padre]{"entity": "familiares", "value": "papa"} no puede [respirar]{"entity": "sintomas", "value": "dificultades respiratorias"}
 - A mi [mama](familiares) le [dolores](sintomas) la cabeza

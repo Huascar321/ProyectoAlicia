@@ -137,50 +137,52 @@
 - Te lo agradezco, hasta luego
 
 ## intent:QuieroCompartir
-- Quiero compartir su numero
-- Quiero compartir
-- Compartir
-- Compartir su contacto
-- Deseo compartir tu numero
-- Puedo compartir tu numero?
-- Quiero compartirte con mis amigos
-- Quiero compartirte con mis familiares
-- Necesito compartir tu numero
-- Como puedo compartir tu numero?
-- Enseñame como compartir tu contacto
-- Necesito compartir tu contacto
+- Quiero [compartir](compartir) su numero
+- Quiero [compartir](compartir)
+- [Compartir](compartir)
+- [Compartir](compartir) su contacto
+- Deseo [compartir](compartir) tu numero
+- Puedo [compartir](compartir) tu numero?
+- Quiero [compartirte](compartir) con mis amigos
+- Quiero [compartirte](compartir) con mis familiares
+- Necesito [compartir](compartir) tu numero
+- Como puedo [compartir](compartir) tu numero?
+- Enseñame como [compartir](compartir) tu contacto
+- Necesito [compartir](compartir) tu contacto
 - Me puedes pasar tu contacto
 - Me puedes pasar tu numero
 - Como puedo mandarle tu numero a mis amigos
 - Como puedo mandarle tu numero a mis contactos
 
 ## intent:tengoPreguntas
-- Tengo una pregunta
-- Preguntas
-- Pregunta
-- Duda
-- Tengo una duda
-- Resolver mis preguntas
-- Quiero preguntar
+- Tengo una [pregunta](preguntas)
+- [Preguntas](preguntas)
+- [Pregunta](preguntas)
+- [Duda](preguntas)
+- Tengo una [duda](preguntas)
+- Resolver mis [preguntas](preguntas)
+- Quiero [preguntar](preguntas)
 - Quiero saber
-- Tengo preguntas
-- Quiero hacer una pregunta
-- Quiero que me respondan una duda
-- Hacer una pregunta
-- Resuelvanme una duda
-- Respondanme una pregunta
-- Quiero que me respondan una pregunta
-- Pregunto
-- Una duda
-- Quiero hacerte una pregunta
-- Tengo unas dudas para ti
-- Tengo una duda para vos
-- Tengo una pregunta para vos
-- Tengo una pregunta para ti
-- Quiero hacerte otra pregunta
-- Necesito hacerte otra pregunta
-- Me puedes responder una pregunta?
-- Me puedes responder una duda?
+- Tengo [preguntas](preguntas)
+- Quiero hacer una [pregunta](preguntas)
+- Quiero que me [respondan](preguntas) una duda
+- Hacer una [pregunta](preguntas)
+- Resuelvanme una [duda](preguntas)
+- Respondanme una [pregunta](preguntas)
+- Quiero que me respondan una [pregunta](preguntas)
+- [Pregunto](preguntas)
+- Una [duda](preguntas)
+- Quiero hacerte una [pregunta](preguntas)
+- Tengo unas [dudas](preguntas) para ti
+- Tengo una [duda](preguntas) para vos
+- Tengo una [pregunta](preguntas) para vos
+- Tengo una [pregunta](preguntas) para ti
+- Quiero hacerte otra [pregunta](preguntas)
+- Necesito hacerte otra [pregunta](preguntas)
+- Me puedes responder una [pregunta](preguntas)?
+- Me puedes responder una [duda](preguntas)?
+- Resolver [preguntas](preguntas) sobre el covid
+- Resolver [preguntas](preguntas) sobre el covid
 
 ## intent:insultos
 - Mierda

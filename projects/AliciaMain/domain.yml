@@ -36,6 +36,8 @@ entities:
 - departamento
 - paises
 - municipios
+- preguntas
+- compartir
 slots:
   nombre_alicia:
     type: unfeaturized
