@@ -7,8 +7,6 @@ intents:
     triggers: actions_faq
 - nosaber_covid:
     triggers: actions_faq
-- nomejora_hospital:
-    triggers: actions_faq
 - medico_atendio_seguimiento:
     triggers: actions_faq
 - sintomas_covid:
@@ -87,6 +85,8 @@ intents:
     triggers: actions_chitchat
 - embarazo_covid:
     triggers: actions_faq
+- aislamiento:
+    triggers: actions_faq
 entities:
 - gratuito_consulta
 - menores
@@ -125,9 +125,6 @@ responses:
   utter_nosaber_covid:
   - text: "El COVID-19 no se puede distinguir al 100% sin una prueba, sin embargo tiene sintomas distintivos como fiebre, tos, falta de aire o dificuldad para respirar \nDime tu siguiente pregunta!"
 
-  utter_nomejora_hospital:
-  - text: "Si respira con dificultad, siente dolor u opresion en el pecho o se le dificulta el hablar, debe solictar atencion medica inmediatamente \nDime tu siguiente pregunta!"
-
   utter_medico_atendio_seguimiento:
   - text: "Eso depende de cada medico, no podemos decirle con certeza si el doctor que lo atendio hara seguimiento de su caso o no \nDime tu siguiente pregunta!"
 
@@ -135,7 +132,7 @@ responses:
   - text: "Los sintomas mas habituales son: fiebre, tos seca y cansancio \nOtros menos comunes son: Dolor de garganta, diarrea, conjuntivitis, dolor de cabeza y perdida del olfato o del gusto \nLos sintomas mas graves son: Dificultad para respirar o sensacion de falta de aire, dolor o presion en el pecho y incapacidad para hablar o moverse \nDime tu siguiente pregunta!"
 
   utter_prueba_covid:
-  - text: "Nosotros no podemos proporcionarte pruebas de deteccion, lo siento \nDime tu siguiente pregunta!"
+  - text: "Nosotros no podemos proporcionarte pruebas de deteccion, lo siento. Tampoco podemos brindar ese tipo de respuesta especializada, solo el personal capacitado.\nDime tu siguiente pregunta!"
 
   utter_cuanto_tipo_prueba:
   - text: "Estan los test de ARN, Test inmunologicos o Test rapidos de diagnostico, el tipo de prueba varia en costo y certeza de no sacar un falso positivo \nDime tu siguiente pregunta!"
@@ -229,7 +226,7 @@ responses:
   - text: "Las personas que deseen donar plasma hiperinmune deben cumplir al menos seis requisitos: tener más de 18 años, pesar más de 50 kilos, compatibilidad sanguínea, no tener enfermedades de base, haber superado el COVID-19 y contar con las tres pruebas que lo certifiquen(1 positiva y 2 negativas). En caso de ser mujer, se requiere que no haya tenido ningun hijo.\nTe adjunto esta pagina en donde se registran donantes y personas que necesitan las donaciones: https://plasmaenbolivia.com/?fbclid=IwAR0ttejty47zJiwuZK6_87mOyiUnuiics3Xn-w6pmN0L21743VrIufg9ZaE, tu donacion será de mucha ayuda.\nDime tu siguiente pregunta!"
 
   utter_centros_de_salud:
-  - text: "Visita la pagina oficial del gobierno municipal: http://gmsantacruz.gob.bo/covid-19/atencion-del-covid-19.php en donde estan listados todos los centros de salud con su respectivos contactos. \n Tambien te dejo los números telefonicos oficiales. SISME(Sistema integrado de servicios médicos) marca al 160. Linea abierta vecinal: 800 12 5700\nDime tu siguiente pregunta!"
+  - text: "Si respira con dificultad, siente dolor u opresion en el pecho o se le dificulta el hablar, debe solictar atencion medica inmediatamente.\nVisita la pagina oficial del gobierno municipal: http://gmsantacruz.gob.bo/covid-19/atencion-del-covid-19.php en donde estan listados todos los centros de salud con su respectivos contactos. \n Tambien te dejo los números telefonicos oficiales. SISME(Sistema integrado de servicios médicos) marca al 160. Linea abierta vecinal: 800 12 5700\nDime tu siguiente pregunta!"
 
   utter_menores_enfermedad:
   - text: "La mayoría de los niños afectados generalmente no se enferman con tanta gravedad como los adultos, y algunos quizás no presenten ningún síntoma, sin embargo, los bebes menores de 1 año estan a mayor riesgo de enfermarse gravemente \nDime tu siguiente pregunta!"
@@ -253,6 +250,8 @@ responses:
   utter_embarazo_covid:
   - text: "Querida, el tema del embarazo es algo complicado \nLos expertos no saben si las mujeres embarazadas tienen mas probabilidades de tener coronavirus que otras personas y todavia es muy pronto para saber de que forma el COVID puede afectar a su bebé \nEntiendo su preocupación, si necesita información mas detallada acerca de este tema, visite el siguiente enlace: https://bit.ly/3hisBMW \nDime tu siguiente pregunta!"
 
+  utter_aislamiento:
+  - text: "Pregunta por los sintomas del covid y corrobore. Si presentas algunos pide una consulta medica gratuita por este medio. De todas maneras te recomendamos tomar medidas preventivas, primeramente lo mejor es que tenga un espacio solo para usted, tener sus propios utensilios, mantener los ambientes compartido ventilados, portar barbijos cuando se esté cerca de los demas, desinfectar las áreas comunes constantemente y lo mas importantes es que no salga de casa.\nDime tu siguiente pregunta!"
 actions:
 - actions_faq
 - actions_chitchat

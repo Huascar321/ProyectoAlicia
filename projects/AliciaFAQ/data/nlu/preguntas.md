@@ -80,28 +80,6 @@
 - Estuve enfermo pero no se si era covid
 - Estuve enfermo pero no se si era coronavirus
 
-## intent:nomejora_hospital
-- Cuando debo ir al hospital?
-- Cuando deberia ir al hospital?
-- Como se si tengo que ir al hospital?
-- Cuando tengo que ir al hospital?
-- Como se yo si tengo que ir al hospital?
-- Deberia ir al hospital?
-- Cuando es recomendable ir al hospital
-- Como se que necesito intubacion?
-- Como se si me tienen que intubar?
-- Como puedo saber si tengo que ir al hospital?
-- Como puedo saber si me tienen que intubar?
-- Como saber si tienen que intubarme?
-- Cuando tendria que ir al hospital?
-- En que ocasion es recomendable ir al hospital?
-- En que ocasion es recomendable que vaya al hospital?
-- Cuando es bueno que vaya al hospital?
-- Cuando deberia ir al hospital?
-- En que casos deberia ir al hospital?
-- Cuando se que tengo que ir al hospital?
-- Cuando se que me tienen que intubar?
-
 ## intent:sintomas_covid
 - Cuales son los sintomas de la enfermedad?
 - Cuales son los sintomas del covid?
@@ -145,6 +123,8 @@
 - A quien le tengo que hablar para hacerme la prueba
 - Donde puedo hacerme las pruebas?
 - Donde puedo hacer la prueba?
+- Me hice una prueba rapida
+- Me realice un Test covid
 
 ## intent:cuanto_tipo_prueba
 - Cuantas pruebas existen?
@@ -302,6 +282,9 @@
 - Que [medicamentos](medicinas) deberia comprar
 - Que [medicinas](medicinas) debo comprar
 - Que [tableta](medicinas) y [remedio](medicinas) hay  que tomar si tenes corona virus
+- Como se puede  tratar la enfermedad
+- Que se puede tomar en caso de
+- Que [medicamentos](medicinas) usar
 
 ## intent:tiempo_sobrevive_virus
 - Cuanto tiempo sobrevive el virus en una [superficie](tiempo_sobrevive_material)?
@@ -771,6 +754,27 @@
 - A que postas puedo ir si tengo sintomas
 - A que postas puedo ir si tengo covid
 - Donde puedo hacerme las pruebas
+- Hospitales hay
+- Cuando debo ir al hospital?
+- Cuando deberia ir al hospital?
+- Como se si tengo que ir al hospital?
+- Cuando tengo que ir al hospital?
+- Como se yo si tengo que ir al hospital?
+- Deberia ir al hospital?
+- Cuando es recomendable ir al hospital
+- Como se que necesito intubacion?
+- Como se si me tienen que intubar?
+- Como puedo saber si tengo que ir al hospital?
+- Como puedo saber si me tienen que intubar?
+- Como saber si tienen que intubarme?
+- Cuando tendria que ir al hospital?
+- En que ocasion es recomendable ir al hospital?
+- En que ocasion es recomendable que vaya al hospital?
+- Cuando es bueno que vaya al hospital?
+- Cuando deberia ir al hospital?
+- En que casos deberia ir al hospital?
+- Cuando se que tengo que ir al hospital?
+- Cuando se que me tienen que intubar?
 
 ## intent:menores_enfermedad
 - A los [niños](menores) le da fuerte eso del covid?
@@ -844,3 +848,18 @@
 - Como afecta la enfermedad a mi [embarazo](embarazo)?
 - Que hago si me contagio y estoy [embarazada](embarazo)?
 - Estoy [embarazada](embarazo) y tengo covid
+
+## intent:aislamiento
+- Tuve contacto con
+- Tuve contacto con alguien que tenia covid
+- Soy sospechoso de covid
+- Creo que tengo covid
+- Tengo covid
+- Tengo coronavirus
+- Estuve con una persona que fallecio
+- Estuve con una persona que tiene covid
+- Estuve con una persona que tenia covid
+- Estaba con una persona que tenia covid
+- Creo que tenia covid
+- Que hacer si sospecho que tengo covid 19
+- Sospecho que tengo covid
