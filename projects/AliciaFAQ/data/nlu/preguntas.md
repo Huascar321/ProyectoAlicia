@@ -764,3 +764,15 @@
 - A que postas puedo ir si tengo sintomas
 - A que postas puedo ir si tengo covid
 - Donde puedo hacerme las pruebas
+
+## intent:menores_enfermedad
+- A los [niños](menores) le da fuerte eso del covid?
+- Como le da esta enfermedad a los [niños](menores)?
+- Que tan grave les da el covid a los [niños](menores)?
+- Que tan grave les da esta enfermedad a los [niños](menores)?
+- Que tan grave les afecta la enfermedad a los [niños](menores)?
+- Esto le da fuerte a los [niños](menores)?
+- Como les afecta la enfermedad a los [niños](menores)?
+- Como les afecta el covid a los [niños](menores)?
+- Les da muy fuerte esta enfermedad a los [niños](menores)?
+- Que tan fuerte les da esta enfermedad a los [menores](menores)?

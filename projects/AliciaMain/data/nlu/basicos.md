@@ -29,6 +29,7 @@
 
 ## intent:afirmar
 - Si
+- Si gracias
 - Creo que si
 - Claro
 - Correcto
@@ -101,7 +102,6 @@
 - Te lo agradezco
 - Se le agradece
 - Muchisimas gracias
-- Si gracias
 - Graciaas
 - Enserio te lo agradezco
 - Te lo agradezco bastante

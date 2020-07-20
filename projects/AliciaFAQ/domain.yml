@@ -73,6 +73,8 @@ intents:
     triggers: actions_faq
 - centros_de_salud:
     triggers: actions_faq
+- menores_enfermedad:
+    triggers: actions_faq
 entities:
 - gratuito_consulta
 - menores
@@ -213,6 +215,9 @@ responses:
 
   utter_centros_de_salud:
   - text: "Visita la pagina oficial del gobierno municipal: http://gmsantacruz.gob.bo/covid-19/atencion-del-covid-19.php en donde estan listados todos los centros de salud con su respectivos contactos. \n Tambien te dejo los números telefonicos oficiales. SISME(Sistema integrado de servicios médicos) marca al 160. Linea abierta vecinal: 800 12 5700\nDime tu siguiente pregunta!"
+
+  utter_menores_enfermedad:
+  - text: "La mayoría de los niños afectados generalmente no se enferman con tanta gravedad como los adultos, y algunos quizás no presenten ningún síntoma, sin embargo, los bebes menores de 1 año estan a mayor riesgo de enfermarse gravemente \nDime tu siguiente pregunta!"
 
 actions:
 - actions_faq
