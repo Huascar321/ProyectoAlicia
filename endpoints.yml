@@ -17,12 +17,12 @@ action_endpoint:
 # By default the conversations are stored in memory.
 # https://rasa.com/docs/rasa/api/tracker-stores/
 
-tracker_store:
-  type: mongod
-  url: mongodb+srv://user:Passw0rd@aliciaproject-fn9lx.mongodb.net/test?retryWrites=true&w=majority
-  db: aliciaDB
-  username: user
-  password: Passw0rd
+# tracker_store:
+#   type: mongod
+#   url: mongodb+srv://user:Passw0rd@aliciaproject-fn9lx.mongodb.net/test?retryWrites=true&w=majority
+#   db: aliciaDB
+#   username: user
+#   password: Passw0rd
 
 #tracker_store:
 #    type: mongod

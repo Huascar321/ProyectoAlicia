@@ -1,11 +1,11 @@
 ## lookup:sintomas
-C:/Users/marco/Desktop/Alicia/ProyectoAlicia/projects/AliciaMain/data/nlu/lookuptables/sintomas.txt
+/home/jessica/Documents/Rasa/Alicia/ProyectoAlicia/projects/AliciaMain/data/nlu/lookuptables/sintomas.txt
 
 ## lookup:familiares
-C:/Users/marco/Desktop/Alicia/ProyectoAlicia/projects/AliciaMain/data/nlu/lookuptables/familiares.txt
+/home/jessica/Documents/Rasa/Alicia/ProyectoAlicia/projects/AliciaMain/data/nlu/lookuptables/familiares.txt
 
 ## lookup:no_sintomas
-C:/Users/marco/Desktop/Alicia/ProyectoAlicia/projects/AliciaMain/data/nlu/lookuptables/no_sintomas
+/home/jessica/Documents/Rasa/Alicia/ProyectoAlicia/projects/AliciaMain/data/nlu/lookuptables/no_sintomas.txt
 
 ## intent:estoyEnfermo
 - Me siento enfermo
