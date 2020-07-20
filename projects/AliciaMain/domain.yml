@@ -28,8 +28,6 @@ intents:
     use_entities: []
 - insultos:
     triggers: utter_insultos
-- numeros:
-    triggers: utter_numeros
 entities:
 - nombre_alicia
 - sintomas
@@ -627,10 +625,7 @@ responses:
       - payload: "/pedirDoctor_whatsapp"
         title: "Agendar por Whatsapp"
   - text: "Hola que tal! \nClaro con gusto, por donde lo quieres pedir? 🤗 \n- Agendar consulta por *Medibook* \n- Agendar consulta por *Whatsapp* \n_Las consultas sobre el COVID-19 son gratuitas_"
-
-  utter_numeros:
-  - text: "¿Intentas usarme con números? 🤨 \nNo funciono de esa manera, solo escribime lo que quieres!"
-
+  
 actions:
 - actions_saludar
 - action_default_ask_affirmation

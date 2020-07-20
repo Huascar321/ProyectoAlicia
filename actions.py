@@ -419,7 +419,7 @@ class mostrarCasos(Action):
         elif tracker.get_slot("municipios") != None:
             url = 'https://raw.githubusercontent.com/mauforonda/casos-municipios/master/clean_data/2020-07-11.csv'
             webpage = urlopen(url)
-            municipios = tracker.get_slot("municipios")
+            municipios = tracker.get_slot("municipios").capitalize()
             df = pd.read_csv(webpage)
             ddf = pd.DataFrame(df)
             lista = ddf['municipio'][::]

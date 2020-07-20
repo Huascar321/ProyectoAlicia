@@ -15,7 +15,6 @@ pipeline:
   - name: DIETClassifier
     epochs: 100
   - name: EntitySynonymMapper
-  - name: CRFEntityExtractor
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
