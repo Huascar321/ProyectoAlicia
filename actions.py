@@ -364,7 +364,7 @@ class mostrarCasos(Action):
         #Función que retorna los casos de COVID-19 según el departamento
 
         if tracker.get_slot("paises") != None:
-            dispatcher.utter_message(text="Lo siento, solo puedo mostrar casos en departamentos 😕")
+            dispatcher.utter_message(text="Lo siento, solo puedo mostrar casos a nivel nacional 😕")
             return [UserUtteranceReverted()] + [SlotSet("paises", None)]
 
         elif tracker.get_slot("departamento") != None:

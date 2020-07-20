@@ -751,6 +751,7 @@
 - Postas que atiendan el covid
 - Que hospitales estan atendiendo
 - Que clinica estan atendiendo
+- A que hospital puedo ir
 - Que centros de salud estan atendiendo
 - Que postas estan atendiendo
 - A que hospital puedo ir si me siento mal
