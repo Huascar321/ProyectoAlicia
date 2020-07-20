@@ -20,6 +20,7 @@
 - Como me brindas asistencia medica?
 - Medica
 - Medico
+- Médicos
 - Asistencia medica por favor
 - Quiero agendar una cita
 - Cita medica online

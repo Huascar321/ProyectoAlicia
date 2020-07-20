@@ -25,7 +25,7 @@
 - Por que aun no me he curado?
 - Por que tardo en curarme?
 - Por que aun no me he curado?
-- Llevo muchos dias con remedios y aun no me he curado
+- Llevo muchos dias con [remedios](medicinas) y aun no me he curado
 - Llevo mucho tiempo con los [medicamentos](medicinas) y aun no me curo
 - Llevo mucho tiempo con los [remedios](medicinas) y aun no me curo
 - Ya han pasado muchos dias y sigo enfermo
@@ -35,7 +35,6 @@
 - Por que sigo enfermo si estoy tomando los [remedios](medicinas)
 - Por que tardo tanto en curarme si estoy siguiendo el tratamiento
 - Por que tardo tanto en curarme
-- Cuando me curare?
 
 ## intent:dioxidocloro_ayuda
 - El [dioxido de cloro](dioxido_de_cloro) funciona?
@@ -127,6 +126,7 @@
 
 ## intent:prueba_covid
 - Pueden ayudarme a hacerme una prueba?
+- Que prueba se realiza para detectar covid
 - Quiero hacerme una prueba
 - Necesito hacerme una prueba
 - Que tipo de prueba debo hacerme?
@@ -175,6 +175,7 @@
 - La [ivermectina](ivermectina) funciona?
 - La [ivermectina](ivermectina) ayuda?
 - La [ivermectina](ivermectina) funciona contra el covid?
+- Uso de [ivermectina](ivermectina) en el Covid-19
 - La [ivermectina](ivermectina) es util?
 - Es cierto que la [ivermectina](ivermectina) mata al virus?
 - Es cierto que la [ivermectina](ivermectina) te cura del virus?
@@ -378,6 +379,8 @@
 - Duracion de la enfermedad
 - Dura le enfermedad
 - En cuanto se recupera
+- Cuantos dias esta el covid en el cuerpo?
+- Cuantos dias dura la enfermedad en el cuerpo?
 - Cuando se recuperara
 - Cuanto tiempo toma recuperarse
 - En cuanto tiempo voy a recuperarme
@@ -467,6 +470,8 @@
 - [Tratamiento](tratamiento)
 - Medicamento
 - Medicina
+- Como [medicarme](tratamiento)
+- Que [tableta](tratamiento) es buena para el covid?
 - Cual es el [tratamiento](tratamiento)?
 - Existe [tratamiento](tratamiento)?
 - En que consiste el [tratamiento](tratamiento)?
@@ -733,6 +738,7 @@
 - Como se que puedo donar [plasma](plasma)
 - Puedo donar [plasma](plasma)
 - Info [plasma](plasma)
+- Quiero donar [plasma](plasma)
 - Cuentame sobre como donar [plasma](plasma)
 - Necesito [plasma](plasma)
 
@@ -776,3 +782,64 @@
 - Como les afecta el covid a los [niños](menores)?
 - Les da muy fuerte esta enfermedad a los [niños](menores)?
 - Que tan fuerte les da esta enfermedad a los [menores](menores)?
+
+## intent:cuanto_tiempo_aislado
+- Cuanto tiempo tiene que estar [aislados](aislamiento)?
+- Cuanto tiempo debo estar [aislado](aislamiento)?
+- Cuanto tiempo debo [aislarme](aislamiento)?
+- Cuanto tiempo deberia [aislarme](aislamiento)?
+- Cuanto tiempo uno tiene que estar [aislado](aislamiento)?
+- Cuanto tiempo deberia estar [aislado](aislamiento)?
+- Cuanto tiempo debo estar en [aislamiento](aislamiento)?
+
+## intent:que_alimentos_consumir
+- Que [alimentos](alimentos) debo [consumir](consumir)?
+- Que [alimentos](alimentos) puedo [consumir](consumir)?
+- Que [alimentos](alimentos) debo [comer](consumir)?
+- Que [alimentos](alimentos) no tengo que [comer](consumir)?
+- Que [comidas](alimentos) puedo [comer](consumir)?
+- Que debo [comer](consumir)?
+- Que tengo que [comer](consumir)?
+- Que [alimentos](alimentos) deberia [consumir](consumir)?
+- Que [alimentos](alimentos) no deberia [consumir](consumir)?
+- Que no debo [comer](consumir)?
+- Que [alimentos](alimentos) me recomiendas [comer](consumir)?
+
+## intent:ir_al_consultorio
+- Hay que ir al consultorio?
+- Por donde queda el consultorio?
+- Hay que ir fisicamente al consultorio?
+- Cual es la direccion del consultorio?
+- Donde queda el consultorio?
+- Tenemos que ir al consultorio?
+- Tenemos que estar fisicamente en el consultorio?
+- Tengo que ir al consultorio?
+- Tengo que ir fisicamente al consultorio?
+- Debo ir al consultorio?
+- Por donde esta el consultorio?
+
+## intent:diferenciar_resfriado
+- Como [diferencio](diferenciar) el covid con un resfriado?
+- Que [diferencia](diferenciar) hay entre el covid y un resfriado?
+- Como [diferencio](diferenciar) el covid de un resfriado?
+- Como se que es covid y no un resfriado?
+- Como puedo saber si es covid o es un resfriado?
+- Es resfriado o es covid?
+- En que se [diferencia](diferenciar) el covid con un resfriado
+- Como puedo saber si es covid y no es un resfriado?
+- Como se si es covid o un resfriado
+- Como saber si es covid o una gripe comun
+- Como [diferencia](diferenciar) covid de una gripe comun
+
+## intent:embarazo_covid
+- Si estoy [embarazada](embarazo) corre riesgo mi bebe?
+- Que pasa si estoy [embarazada](embarazo) y tengo covid?
+- Como afecta a mi [embarazo](embarazo) el tener covid?
+- Mi [embarazo](embarazo) se puede ver afectado por el covid?
+- Corre riesgo mi bebe si estoy [embarazada](embarazo)?
+- Como afecta el covid a mi [embarazo](embarazo)?
+- Que hago si me infecto y estoy [embarazada](embarazo)?
+- Como me cuido si me infecto estando [embarazada](embarazo)
+- Como afecta la enfermedad a mi [embarazo](embarazo)?
+- Que hago si me contagio y estoy [embarazada](embarazo)?
+- Estoy [embarazada](embarazo) y tengo covid

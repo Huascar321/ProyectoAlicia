@@ -54,6 +54,7 @@
 
 ## intent:negar
 - No
+- No gracias
 - Nunca
 - No se
 - No estoy seguro
@@ -98,6 +99,8 @@
 
 ## intent:agradecer
 - Gracias
+- Grasias
+- Gracias Alicia
 - Muchas gracias
 - Te lo agradezco
 - Se le agradece
@@ -228,6 +231,8 @@
 ## intent:activarMenu
 - Quiero volver al menu
 - Menu
+- Menú
+- Volver
 - Quiero abrir el menu de nuevo
 - Quiero volver a abrir el menu
 - Me gustaria abrir de nuevo el menu
@@ -255,3 +260,15 @@
 - Quiero ver los botones otra vez
 - Que sabes hacer
 - Que puedes hacer?
+
+## intent:numeros
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+
+## regex:numeros
+- [0-9]{1}

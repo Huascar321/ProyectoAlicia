@@ -75,6 +75,18 @@ intents:
     triggers: actions_faq
 - menores_enfermedad:
     triggers: actions_faq
+- cuanto_tiempo_aislado:
+    triggers: actions_faq
+- que_alimentos_consumir:
+    triggers: actions_faq
+- ir_al_consultorio:
+    triggers: actions_faq
+- diferenciar_resfriado:
+    triggers: actions_faq
+- chitchat_quien_tecreo:
+    triggers: actions_chitchat
+- embarazo_covid:
+    triggers: actions_faq
 entities:
 - gratuito_consulta
 - menores
@@ -96,6 +108,10 @@ entities:
 - tratamiento
 - primeros_sintomas
 - plasma
+- aislamiento
+- consumir
+- embarazo
+- diferenciar
 responses:
   utter_porque_sintomas_yosolo_familia:
   - text: "Puede que tu familia se haya contagiado pero que no presenten sintomas (asintomatico) o que los muestren luego de unos dias (presintomatico) \nDime tu siguiente pregunta!"
@@ -140,7 +156,7 @@ responses:
   - text: "Si bien todas las potencias del mundo esta desarrollando distintas vacunas con distintos metodos, no se espera que ninguna se distribuya hasta inicios de 2021 \nDime tu siguiente pregunta!"
 
   utter_tomar_medicinas:
-  - text: "Lo siento, no puedo decirte que medicina puedes tomar \nPor favor, no te automediques, consultalo con un medico \nDime tu siguiente pregunta!"
+  - text: "Lo siento, no puedo decirte que medicina puedes tomar \nPor favor, no te automediques, consultalo con un medico, si deseas agendar una consulta solo dimelo \nDime tu siguiente pregunta!"
 
   utter_tiempo_sobrevive_virus:
   - text: "En superficies como el plastico y acero inoxidable el virus puede sobrevivir hasta 72 horas \nEn el carton dura 24 horas y en la ropa entre uno y dos dias \nDime tu siguiente pregunta!"
@@ -219,8 +235,28 @@ responses:
   utter_menores_enfermedad:
   - text: "La mayoría de los niños afectados generalmente no se enferman con tanta gravedad como los adultos, y algunos quizás no presenten ningún síntoma, sin embargo, los bebes menores de 1 año estan a mayor riesgo de enfermarse gravemente \nDime tu siguiente pregunta!"
 
+  utter_cuanto_tiempo_aislado:
+  - text: "Debes esperar 14 días desde que notas los primeros sintomas, una vez termina este periodo debes esperar otros 14 días extras (incluso si ya te sientes bien) \nRecuerda que aunque sientas que te recuperaste, el virus permanece en tu sistema durante un tiempo \nDime tu siguiente pregunta!"
+
+  utter_que_alimentos_consumir:
+  - text: "Es recomendable disminuir la ingesta harinas refinadas, el azúcar, los cereales refinados, los dulces y la bollería en general \nSe recomienda el consumo de frutos secos, aceite de oliva virgen extra, aguacate, lácteos de calidad, pescados azules, carnes, huevos y proteinas vegetales \nEvitar el consumo de grasas no saludables y alimentos ultraprocesados \nDime tu siguiente pregunta!"
+
+  utter_ir_al_consultorio:
+  - text: "No tienes que ir fisicamente al consultorio, las consultas son por internet, te atendera un doctor por videollamada \nSi quieres agendar una *consulta* solo dimelo \nDime tu siguiente pregunta!"
+
+  utter_diferenciar_resfriado:
+  - text: "La recomendación es que aquel que presente fiebre alta sobre todo asociada a tos seca (sin flema), debe necesariamente consultar por un posible coronavirus"
+    image: https://i.imgur.com/2yyL8CB.png
+
+  utter_chitchat_quien_tecreo:
+  - text: "Fui creada por un grupo de estudiantes de la UPSA 👨🏻‍💻 \nMas información aquí: https://bit.ly/2Cto2Rh"
+
+  utter_embarazo_covid:
+  - text: "Querida, el tema del embarazo es algo complicado \nLos expertos no saben si las mujeres embarazadas tienen mas probabilidades de tener coronavirus que otras personas y todavia es muy pronto para saber de que forma el COVID puede afectar a su bebé \nEntiendo su preocupación, si necesita información mas detallada acerca de este tema, visite el siguiente enlace: https://bit.ly/3hisBMW \nDime tu siguiente pregunta!"
+
 actions:
 - actions_faq
+- actions_chitchat
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

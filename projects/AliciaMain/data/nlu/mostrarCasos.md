@@ -1,5 +1,5 @@
-## lookup:sintomas
-C:/Users/marco/Desktop/Alicia/ProyectoAlicia/projects/AliciaMain/data/nlu/lookuptables/municipios.txt
+## lookup:municipios
+/home/huascar321/Documents/Alicia/projects/AliciaMain/data/nlu/lookuptables/municipios.txt
 
 ## intent:mostrarCasos
 - Casos en [Santa Cruz](departamento)

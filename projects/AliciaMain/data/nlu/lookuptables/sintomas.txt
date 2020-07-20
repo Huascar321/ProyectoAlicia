@@ -11,6 +11,7 @@ fiebre
 temperatura
 perdida del olfato
 perdida del gusto
+flujo nasal
 olfato
 gusto
 oler

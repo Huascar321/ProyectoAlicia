@@ -1,0 +1,11 @@
+## intent:chitchat_quien_tecreo
+- Creadores
+- Quien te creo?
+- Quien fue quien te creo?
+- Quienes son tus creadores?
+- Quienes te crearon?
+- Quienes te hicieron?
+- Quienes te programaron?
+- Quien te programo?
+- Quienes te crearon?
+- Quien es tu creador

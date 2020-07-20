@@ -76,11 +76,32 @@ class responderFAQ(Action):
         'tiempo_sobrevive_virus', 'algunos_sintomas', 'periodo_incubacion_virus', 'dias_para_presentar_sintomas', 'duracion_enfermedad',
         'como_saber_si_tengo_covid', 'asintomatico', 'post_tratamiento', 'primeros_sintomas', 'tiempo_prueba_negativo', 'lactancia',
         'prevencion', 'como_se_transmite_covid', 'virus_en_el_aire', 'alimentos_contagio', 'que_es_el_covid' , 'consultas_menores_de_edad',
-        'consultas_costo', 'vulnerables','info_plasma','centros_de_salud', 'menores_enfermedad'
+        'consultas_costo', 'vulnerables','info_plasma','centros_de_salud', 'menores_enfermedad', 'cuanto_tiempo_aislado', 'que_alimentos_consumir',
+        'ir_al_consultorio', 'diferenciar_resfriado', 'embarazo_covid'
         ]
 
         if pregunta in lista_preguntas:
             dispatcher.utter_message(template=f'utter_{pregunta}')
+            return [UserUtteranceReverted()]
+
+        return []
+
+class responderCHITCHAT(Action):
+
+    def name(self) -> Text:
+        return "actions_chitchat"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        #Función para responder preguntas frecuentes
+        chitchat = tracker.latest_message['intent'].get('name')
+        lista_chitchats = ['chitchat_quien_tecreo'
+        ]
+
+        if chitchat in lista_chitchats:
+            dispatcher.utter_message(template=f'utter_{chitchat}')
             return [UserUtteranceReverted()]
 
         return []

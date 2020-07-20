@@ -1,11 +1,9 @@
 ## lookup:sintomas
-C:/Users/marco/Desktop/Alicia/ProyectoAlicia/projects/AliciaMain/data/nlu/lookuptables/sintomas.txt
-
+/home/huascar321/Documents/Alicia/projects/AliciaMain/data/nlu/lookuptables/sintomas.txt
 ## lookup:familiares
-C:/Users/marco/Desktop/Alicia/ProyectoAlicia/projects/AliciaMain/data/nlu/lookuptables/familiares.txt
-
+/home/huascar321/Documents/Alicia/projects/AliciaMain/data/nlu/lookuptables/familiares.txt
 ## lookup:no_sintomas
-C:/Users/marco/Desktop/Alicia/ProyectoAlicia/projects/AliciaMain/data/nlu/lookuptables/no_sintomas
+/home/huascar321/Documents/Alicia/projects/AliciaMain/data/nlu/lookuptables/no_sintomas.txt
 
 ## intent:estoyEnfermo
 - Me siento enfermo
@@ -24,6 +22,7 @@ C:/Users/marco/Desktop/Alicia/ProyectoAlicia/projects/AliciaMain/data/nlu/lookup
 - Tengo mucha [temperatura]{"entity": "sintomas", "value": "fiebre"}
 - Tengo [perdida del olfato](sintomas)
 - Tengo [perdida del gusto](sintomas)
+- [flujo nasal](sintomas) es un sintoma del covid?
 - Perdi el sentido del [olfato]{"entity": "sintomas", "value": "perdida del olfato"}
 - Creo que perdi el sentido del [gusto]{"entity": "sintomas", "value": "perdida del gusto"}
 - No puedo [oler]{"entity": "sintomas", "value": "perdida del olfato"}
