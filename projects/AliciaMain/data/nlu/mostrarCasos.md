@@ -76,6 +76,8 @@
 - [sucre]{"entity": "municipios", "value": "Sucre"}
 - Me gustaria ver los casos en [Yotala](municipios)
 - [yotala]{"entity": "municipios", "value": "Yotala"}
+- Me gustaría ver los casos en [Poroma](municipios)
+- [poroma]{"entity": "municipios", "value": "Poroma"}
 - Me gustaria ver los casos en [Tarvita](municipios)
 - [tarvita]{"entity": "municipios", "value": "Tarvita"}
 - Quiero ver los casos en [Zudañez](municipios)
@@ -84,17 +86,20 @@
 - [presto]{"entity": "municipios", "value": "Presto"}
 - Quiero ver los casos en [Mojocoya](municipios)
 - [mojocoya]{"entity": "municipios", "value": "Mojocoya"}
+- Quiero ver los casos en [Villa Ricardo Mugia - Icla](municipios)
+- [villa ricardo mugia - icla]{"entity": "municipios", "value": "Villa Ricardo Mugia - Icla"}
 - Me puedes motrar los casos en [Padilla](municipios)
 - [padilla]{"entity": "municipios", "value": "Padilla"}
+- Me puedes motrar los casos en [Tomina](municipios)
+- [tomina]{"entity": "municipios", "value": "Tomina"}
 - Me puedes mostrar los casos en [Sopachui](municipios)
 - [sopachui]{"entity": "municipios", "value": "Sopachui"}
 - Me puedes mostrar los casos en [Alcalá](municipios) <!--- -->
 - [Alcala]{"entity": "municipios", "value": "Alcalá"}
 - [alcala]{"entity": "municipios", "value": "Alcalá"}
+- [alcalá]{"entity": "municipios", "value": "Alcalá"}
 - Me puedes mostrar los casos en [El Villar](municipios)
 - [el villar]{"entity": "municipios", "value": "El Villar"}
-- [Tomina](municipios)
-- [tomina]{"entity": "municipios", "value": "Tomina"}
 - [Monteagudo](municipios)
 - [monteagudo]{"entity": "municipios", "value": "Monteagudo"}
 - [Tarabuco](municipios)
@@ -104,16 +109,30 @@
 - [yamparaez]{"entity": "municipios", "value": "Yamparáez"}
 - [Camargo](municipios)
 - [camargo]{"entity": "municipios", "value": "Camargo"}
+- [San Lucas](municipios)
+- [san lucas]{"entity": "municipios", "value": "San Lucas"}
 - [Incahuasi](municipios)
 - [incahuasi]{"entity": "municipios", "value": "Incahuasi"}
 - [Villa Charcas](municipios)
 - [villa charcas]{"entity": "municipios", "value": "Villa Charcas"}
 - [Villa Serrano](municipios)
 - [villa serrano]{"entity": "municipios", "value": "Villa Serrano"}
+- [Villa Abecia](municipios)
+- [villa abecia]{"entity": "municipios", "value": "Villa Abecia"}
 - [Culpina](municipios)
 - [culpina]{"entity": "municipios", "value": "culpina"}
 - [Las Carreras](municipios)
 - [las carreras]{"entity": "municipios", "value": "Las Carreras"}
+- [Villa Vaca Guzmán](municipios)
+- [villa vaca guzman]{"entity": "municipios", "value": "Villa Vaca Guzmán"}
+- [villa vaca guzmán]{"entity": "municipios", "value": "Villa Vaca Guzmán"}
+- [Villa Vaca Guzman]{"entity": "municipios", "value": "Villa Vaca Guzmán"}
+- [Macharetí](municipios)
+- [macharetí]{"entity": "municipios", "value": "Macharetí"}
+- [machareti]{"entity": "municipios", "value": "Macharetí"}
+- [Machareti]{"entity": "municipios", "value": "Macharetí"}
+- [Nuestra Señora de La Paz](municipios)
+- [nuestra señora de la paz]{"entity": "municipios", "value": "Nuestra Señora de La Paz"}
 - [Mecapaca](municipios)
 - [mecapaca]{"entity": "municipios", "value": "Mecapaca"}
 - [Achocalla](municipios)
@@ -122,10 +141,14 @@
 - [el alto]{"entity": "municipios", "value": "El Alto"}
 - [Achacachi](municipios)
 - [achacachi]{"entity": "municipios", "value": "Achacachi"}
+- [Villa Ancoraimes](municipios)
+- [villa ancoraimes]{"entity": "municipios", "value": "Villa Ancoraimes"}
 - [Corocoro](municipios)
 - [corocoro]{"entity": "municipios", "value": "Corocoro"}
 - [Escoma](municipios)
 - [escoma]{"entity": "municipios", "value": "Escoma"}
+- [Chuma](municipios)
+- [chuma]{"entity": "municipios", "value": "Chuma"}
 - [Ayata](municipios)
 - [ayata]{"entity": "municipios", "value": "Ayata"}
 - [Sorata](municipios)
@@ -140,6 +163,8 @@
 - [pelechuco]{"entity": "municipios", "value": "Pelechuco"}
 - [Viacha](municipios)
 - [viacha]{"entity": "municipios", "value": "Viacha"}
+- [Puerto Mayor de Guaqui](municipios)
+- [puerto mayor de guaqui]{"entity": "municipios", "value": "Puerto Mayor de Guaqui"}
 - [Sapahaqui](municipios)
 - [sapahaqui]{"entity": "municipios", "value": "Sapahaqui"}
 - [Malla](municipios)
@@ -154,6 +179,8 @@
 - [ichoca]{"entity": "municipios", "value": "Ichoca"}
 - [Chulumani](municipios)
 - [chulumani]{"entity": "municipios", "value": "Chulumani"}
+- [Irupana](municipios)
+- [irupana]{"entity": "municipios", "value": "Irupana"}
 - [Yanacachi](municipios)
 - [yanacachi]{"entity": "municipios", "value": "Yanacachi"}
 - [Palos Blancos](municipios)
@@ -170,6 +197,8 @@
 - [sicasica]{"entity": "municipios", "value": "Sicasica"}
 - [Umala](municipios)
 - [umala]{"entity": "municipios", "value": "Umala"}
+- [Calamarca](municipios)
+- [calamarca]{"entity": "municipios", "value": "Calamarca"}
 - [Patacamaya](municipios)
 - [patacamaya]{"entity": "municipios", "value": "Patacamaya"}
 - [Coroico](municipios)
@@ -184,8 +213,8 @@
 - [caranavi]{"entity": "municipios", "value": "Caranavi"}
 - [Alto Beni](municipios)
 - [alto beni]{"entity": "municipios", "value": "Alto Beni"}
-- [Pasorapa](municipios)
-- [pasorapa]{"entity": "municipios", "value": "Pasorapa"}
+- [Aiquile](municipios)
+- [aiquile]{"entity": "municipios", "value": "Aiquile"}
 - [Omereque](municipios)
 - [omereque]{"entity": "municipios", "value": "Omereque"}
 - [Ayopaya](municipios)
@@ -228,6 +257,10 @@
 - [colomi]{"entity": "municipios", "value": "Colomi"}
 - [Villa Tunari](municipios)
 - [villa tunari]{"entity": "municipios", "value": "Villa Tunari"}
+- [Tapacarí](municipios)
+- [tapacarí]{"entity": "municipios", "value": "Tapacarí"}
+- [tapacari]{"entity": "municipios", "value": "Tapacarí"}
+- [Tapacari]{"entity": "municipios", "value": "Tapacarí"}
 - [Pojo](municipios)
 - [pojo]{"entity": "municipios", "value": "Pojo"}
 - [Chimoré](municipios)
@@ -262,6 +295,9 @@
 - [Turco](municipios)
 - [turco]{"entity": "municipios", "value": "Turco"}
 - [Huachacalla](municipios)
+- [huachacalla]{"entity": "municipios", "value": "Huachacalla"}
+- [Esmeralda](municipios)
+- [esmeralda]{"entity": "municipios", "value": "Esmeralda"}
 - [Poopó](municipios) <!--- -->
 - [Poopo]{"entity": "municipios", "value": "Poopó"}
 - [poopo]{"entity": "municipios", "value": "Poopó"}
@@ -283,10 +319,14 @@
 - [santiago de huari]{"entity": "municipios", "value": "Santiago de Huari"}
 - [Huayllamarca](municipios)
 - [huayllamarca]{"entity": "municipios", "value": "Huayllamarca"}
+- [Tinguipaya](municipios)
+- [tinguipaya]{"entity": "municipios", "value": "Tinguipaya"}
 - [Uncía](municipios)
 - [Uncia]{"entity": "municipios", "value": "Uncía"}
 - [uncia]{"entity": "municipios", "value": "Uncía"}
 - [uncía]{"entity": "municipios", "value": "Uncía"}
+- [Chayanta](municipios)
+- [chayanta]{"entity": "municipios", "value": "Chayanta"}
 - [Llallagua](municipios)
 - [llallagua]{"entity": "municipios", "value": "llallagua"}
 - [Chuquihuta Ayllu Jucumani](municipios)
@@ -308,8 +348,12 @@
 - [sacaca]{"entity": "municipios", "value": "Sacaca"}
 - [Atocha](municipios)
 - [atocha]{"entity": "municipios", "value": "Atocha"}
+- [Puna](municipios)
+- [puna]{"entity": "municipios", "value": "Puna"}
 - [Uyuni](municipios)
 - [uyuni]{"entity": "municipios", "value": "Uyuni"}
+- [Tomave](municipios)
+- [tomave]{"entity": "municipios", "value": "Tomave"}
 - [Villazón](municipios) <!--- -->
 - [Villazon]{"entity": "municipios", "value": "Villazón"}
 - [villazon]{"entity": "municipios", "value": "Villazón"}
@@ -385,6 +429,10 @@
 - [charagua]{"entity": "municipios", "value": "Charagua"}
 - [Cabezas](municipios)
 - [cabezas]{"entity": "municipios", "value": "Cabezas"}
+- [Gutiérrez](municipios)
+- [gutiérrez]{"entity": "municipios", "value": "Gutiérrez"}
+- [gutierrez]{"entity": "municipios", "value": "Gutiérrez"}
+- [Gutierrez]{"entity": "municipios", "value": "Gutiérrez"}
 - [Camiri](municipios)
 - [camiri]{"entity": "municipios", "value": "Camiri"}
 - [Vallegrande](municipios)
@@ -441,6 +489,10 @@
 - [puerto suarez]{"entity": "municipios", "value": "Puerto Suarez"}
 - [Puerto Quijarro](municipios)
 - [puerto quijarro]{"entity": "municipios", "value": "Puerto Quijarro"}
+- [El Carmen Rivero Tórrez](municipios)
+- [el carmen rivero tórrez]{"entity": "municipios", "value": "El Carmen Rivero Tórrez"}
+- [el carmen rivero torrez]{"entity": "municipios", "value": "El Carmen Rivero Tórrez"}
+- [El Carmen Rivero Torrez]{"entity": "municipios", "value": "El Carmen Rivero Tórrez"}
 - [Ascención de Guarayos](municipios) <!--- -->
 - [Ascencion de Guarayos]{"entity": "municipios", "value": "Ascención de Guarayos"}
 - [ascencion de guarayos]{"entity": "municipios", "value": "Ascención de Guarayos"}
@@ -493,6 +545,8 @@
 - [porvenir]{"entity": "municipios", "value": "Porvenir"}
 - [Bolpebra](municipios)
 - [bolpebra]{"entity": "municipios", "value": "Bolpebra"}
+- [Bella Flor](municipios)
+- [bella flor]{"entity": "municipios", "value": "Bella Flor"}
 - [Puerto Rico](municipios)
 - [puerto rico]{"entity": "municipios", "value": "Puerto Rico"}
 - [Filadelfia](municipios)
