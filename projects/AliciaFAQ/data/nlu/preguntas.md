@@ -734,6 +734,7 @@
 - Puedo donar [plasma](plasma)
 - Info [plasma](plasma)
 - Cuentame sobre como donar [plasma](plasma)
+- Necesito [plasma](plasma)
 
 ## intent:centros_de_salud
 - Muestrame los hospitales que atienden el covid
