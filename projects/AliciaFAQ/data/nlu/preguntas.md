@@ -285,6 +285,7 @@
 - Como se puede  tratar la enfermedad
 - Que se puede tomar en caso de
 - Que [medicamentos](medicinas) usar
+- Que puedo tomar para curar el covid19
 
 ## intent:tiempo_sobrevive_virus
 - Cuanto tiempo sobrevive el virus en una [superficie](tiempo_sobrevive_material)?
