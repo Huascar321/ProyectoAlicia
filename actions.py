@@ -114,11 +114,16 @@ class ActionDefaultAskAffirmation(Action):
 
    def __init__(self):
        self.intent_mappings = {}
+       self.intent_mappings_whatsapp = {}
        # read the mapping from a csv and store it in a dictionary
        with open('intent_mapping.csv', newline='', encoding='utf-8') as file:
-           csv_reader = csv.reader(file)
-           for row in csv_reader:
-               self.intent_mappings[row[0]] = row[1]
+            csv_reader = csv.reader(file)
+            for row in csv_reader:
+                self.intent_mappings[row[0]] = row[1]
+       with open('intent_mapping_whatsapp.csv', newline='', encoding='utf-8') as file:
+            csv_reader_2 = csv.reader(file)
+            for row in csv_reader_2:
+                self.intent_mappings_whatsapp[row[0]] = row[1]
 
    def run(self, dispatcher, tracker, domain):
        # get the most likely intent
@@ -138,7 +143,17 @@ class ActionDefaultAskAffirmation(Action):
                        'payload': '/reformular'}]
            dispatcher.utter_message(text=message, buttons=buttons)
        else:
-           dispatcher.utter_message(template='utter_reformular')
+           last_intent_name = tracker.latest_message['intent']['name']
+
+           # get the prompt for the intent
+           intent_prompt = self.intent_mappings[last_intent_name]
+           intent_prompt_whatsapp = self.intent_mappings_whatsapp[last_intent_name]
+
+           # Create the affirmation message and add two buttons to it.
+           # Use '/<intent_name>' as payload to directly trigger '<intent_name>'
+           # when the button is clicked.
+           message = "Si tu pregunta fue '{}' escribe {}\nSi esa no era tu duda, por favor reformula tu pregunta con mas claridad 🙌🏻".format(intent_prompt), format(intent_prompt_whatsapp)
+           dispatcher.utter_message(text=message)
        return []
 
 class estoyEnfermo(Action):

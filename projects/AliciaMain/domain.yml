@@ -318,7 +318,7 @@ responses:
   - text: "No entiendo lo que intentaste decir"
 
   utter_tengoPreguntas:
-  - text: "¿Cual es tu pregunta? 😁"
+  - text: "Escríbeme tu duda 😁 \nPD: Me gustan las preguntas cortas"
   - text: "¿Cual es tu duda? 😊"
   - text: "¿Que deseas preguntarme? 😊"
   - text: "Todo oidos ¿cual es tu pregunta? 😁"

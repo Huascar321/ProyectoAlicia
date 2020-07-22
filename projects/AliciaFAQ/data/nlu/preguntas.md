@@ -1,22 +1,3 @@
-## intent:porque_sintomas_yosolo_familia
-- Por que yo tengo sintomas y mi familia no?
-- Por que solo yo tengo sintomas pero no mi familia?
-- Por que mi familia esta sana pero yo enfermo?
-- Por que solo yo estoy enfermo pero no mi familia?
-- Tengo sintomas pero mi familia no
-- Tengo los sintomas pero mi familia no
-- Mi familia no se ha enfermado pero yo si
-- Estoy enfermo pero no mi familia
-- Estoy enfermo pero mi familia no
-- Por que mi familia esta sana pero yo no
-- Estoy enfermo aunque mi familia no
-- Estoy enfermo pero mi familia no lo estan
-- Estoy con sintomas pero mi familia no lo estan
-- Tengo los sintomas pero mi familia esta bien
-- Estoy enfermo pero mi familia esta bien
-- Estoy enfermo pero mi familia esta sana
-- Por que yo tengo los sintomas pero mi familia esta sana?
-
 ## intent:porque_variosdias_sintomas_nocurar
 - Por que no me curo por mas que sigo la [medicacion](medicinas)?
 - Por que no puedo curarme por mas que segui el tratamiento?
@@ -291,6 +272,7 @@
 - Cuanto tiempo sobrevive el virus en una [superficie](tiempo_sobrevive_material)?
 - Cuanto tiempo vive el coronavirus?
 - Tiempo de vida del coronavirus
+- Tiempo de vida del covid
 - Cuanto tiemo puede sobrevivir el virus afuera?
 - Cuanto tiempo vive el virus afuera?
 - Cuanto tiempo vive el virus en los [productos](tiempo_sobrevive_material)
@@ -745,12 +727,7 @@
 - A que clinica puedo ir si me siento mal
 - A que clinica puedo ir si estoy mal
 - A que clinica puedo ir si tengo sintomas
-- A que clinica puedo ir si tengo covid
-- A que centros de salud puedo ir si me siento mal
-- A que centros de salud puedo ir si estoy mal
-- A que centros de salud puedo ir si tengo sintomas
-- A que centros de salud puedo ir si tengo covid
-- A que postas puedo ir si me siento mal
+- A que clinica puedo ir si tengo covid@jes
 - A que postas puedo ir si estoy mal
 - A que postas puedo ir si tengo sintomas
 - A que postas puedo ir si tengo covid
@@ -836,6 +813,7 @@
 - Como se si es covid o un resfriado
 - Como saber si es covid o una gripe comun
 - Como [diferencia](diferenciar) covid de una gripe comun
+- Como se [diferencia] de una bronquitis
 
 ## intent:embarazo_covid
 - Si estoy [embarazada](embarazo) corre riesgo mi bebe?
