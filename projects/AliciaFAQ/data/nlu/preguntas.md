@@ -198,6 +198,8 @@
 - La persona que ya dio positivo, puede volver a infectarse?
 - Se puede volver a infectar?
 - Si tuviste el virus puedes recaer?
+- Recaida
+- Puedo volver a recaer?
 
 ## intent:mosquitos_infectar
 - Los mosquitos pueden infectarte?
@@ -367,6 +369,8 @@
 - Que tiempo tengo que esperar para no contagiar
 - Hasta cuantos dias esta el covid en el cuerpo ?
 - Despues de cuantos dias un infectado deja de contagiar
+- Cuanto tiempo dura los sintomas
+- Periodo de enfermedad covid
 
 ## intent:numero_ambulancia
 - Quiero una ambulancia
@@ -658,6 +662,7 @@
 - Las consultas tienen [costo](gratuito_consulta)?
 - Las consultas son [gratuitas](gratuito_consulta)
 - Tienen algun costo las [consultas](gratuito_consulta)?
+- Tiene algun [costo](gratuito_consulta)?
 - Las consultas son [gratis](gratuito_consulta)?
 - Las citas medicas son [gratis](gratuito_consulta)?
 - Las consultas tienen algun [precio](gratuito_consulta)?
