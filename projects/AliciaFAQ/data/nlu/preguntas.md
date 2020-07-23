@@ -18,11 +18,13 @@
 - Por que tardo tanto en curarme
 
 ## intent:dioxidocloro_ayuda
+- Puedo tomar [dioxido de cloro](dioxido_de_cloro) como preventivo
 - El [dioxido de cloro](dioxido_de_cloro) funciona?
 - El [dioxido de cloro](dioxido_de_cloro) en verdad funciona?
 - El [dioxido de cloro](dioxido_de_cloro) me cura?
 - El [dioxido de cloro](dioxido_de_cloro) me cura del coronavirus?
 - El [dioxido de cloro](dioxido_de_cloro) ayuda a combatir el coronavirus?
+- Riesgos del [dióxido de cloro](dioxido_de_cloro)
 - El [dioxido de cloro](dioxido_de_cloro) ayuda a combatir la enfermedad?
 - El [dioxido de cloro](dioxido_de_cloro) combate el covid?
 - Lo que dicen del [dioxido de cloro](dioxido_de_cloro) es real?
@@ -62,6 +64,7 @@
 - Estuve enfermo pero no se si era coronavirus
 
 ## intent:sintomas_covid
+- Que [sintomas](sintomas_pregunta) presenta un infectado con covid
 - Cuales son los [sintomas](sintomas_pregunta) de la enfermedad?
 - Cuales son los [sintomas](sintomas_pregunta) del covid?
 - [Sintomas](sintomas_pregunta)
@@ -198,7 +201,7 @@
 - La persona que ya dio positivo, puede volver a infectarse?
 - Se puede volver a infectar?
 - Si tuviste el virus puedes [recaer](inmunidad)?
-- Recaida
+- [Recaida](inmunidad)
 - Puedo volver a [recaer](inmunidad)?
 
 ## intent:cuanto_falta_para_vacuna_medicamento
@@ -227,6 +230,7 @@
 - Se puede tomar [antibioticos](medicinas) contra el covid?
 - Se puede tomar [antiflamatorios](medicinas)?
 - Me puedo automedicar?
+- Existen [medicamentos](medicinas) para [niños](menores)
 - Se puede tomar [medicamentos](medicinas) para tratar el covid?
 - Me automedico?
 - Me puedo automedicar con [nitazoxanida](medicinas)?
@@ -318,6 +322,8 @@
 
 ## intent:duracion_enfermedad
 - Cuanto tiempo dura la enfermedad
+- Cuanto tiempo estara en mi cuerpo
+- Que tiempo puedes decir que ya venciste el covid
 - Duracion de la enfermedad
 - Dura le enfermedad
 - En cuanto se recupera
@@ -349,6 +355,7 @@
 ## intent:numero_ambulancia
 - Quiero una ambulancia
 - Necesito una ambulancia
+- En caso de que sea covid a que numero debo llamar
 - Preciso una ambulancia
 - Numero de ambulancias
 - Pedir ambulancia
@@ -366,6 +373,7 @@
 ## intent:como_saber_si_tengo_covid
 - Como se que tengo covid
 - Como se que tengo coronavirus
+- Como se que estuve con el virus
 - Señales de que tengo coronavirus
 - Como me doy cuenta de que tengo coronavirus
 - Como me doy cuenta de que tengo covid
@@ -411,6 +419,7 @@
 - [Tratamiento](tratamiento)
 - [Receta](tratamiento)
 - Como [medicarme](tratamiento)
+- Que hacer si sospecho que tengo covid 19
 - Cual es el [tratamiento](tratamiento)?
 - Existe [tratamiento](tratamiento)?
 - En que consiste el [tratamiento](tratamiento)?
@@ -624,6 +633,7 @@
 - Quienes son los mas [vulnerables](vulnerables)?
 - Los niños son [propensos](vulnerables) al contagio?
 - Quienes son las personas mas [vulnerables](vulnerables)?
+- Los [niños](menores) son [vulnerables](vulnerables)?
 - Los ancianos son mas propensos?
 - Quienes son los mas [propensos](vulnerables) a infectarse?
 - Quienes son los que estan mas en [riesgo](vulnerables)?
@@ -714,11 +724,6 @@
 - Como les afecta el covid a los [niños](menores)?
 - Les da muy fuerte esta enfermedad a los [niños](menores)?
 - Que tan fuerte les da esta enfermedad a los [menores](menores)?
-- Los [niños](menores) se contagian?
-- Los [niños](menores) pueden contagiarse
-- Los [menores](menores) se contagian?
-- Los [menores](menores) pueden contagiarse
-- Los [niños](menores) pueden contraer el covid?
 
 ## intent:cuanto_tiempo_aislado
 - Cuanto tiempo tiene que estar [aislados](aislamiento)?
@@ -794,34 +799,3 @@
 - Creo que tenia covid
 - Que hacer si sospecho que tengo covid
 - Sospecho que tengo covid
-
-## intent:secuelas
-- Secuelas del virus
-- Secuelas del coronavirus
-- Secuelas del covid
-- Consecuencias del coronavirus
-- Consecuencias del covid
-- Que secuelas deja el virus
-- Que daños ocasiona el virus en el cuerpo
-- Que daños hace el covid
-- Que daños hace el virus
-- Que daños hace el covid en el cuerpo
-- Los pulmones funcionan bien despues del virus?
-- Que pasa con los pulmones despues del virus
-- El covid que daña en el cuerpo
-- Que consecuencias trae el covid
-- Los pulmones vuelven a funcionar igual despues del virus
-- Cuales son las secuelas del virus
-- Cuales son las secuelas del covid
-- Cuales son las secuelas del coronavirus
-- Cuales son los daños ocasionados por el virus
-- Cuales son los daños ocasionados por el covid
-- Cuales son los daños ocasionados por el coronavirus
-- Que secuelas trae consigo el covid
-- Que secuelas trae consigo el coronavirus
-- Que consecuencias ocasiona el covid
-- El cuerpo vuelve a ser igual despues del covid
-- Que partes del cuerpo daña el virus
-- Que partes del cuerpo daña el covid
-- Cuales son las partes del cuerpo afectadas por el covid
-- A que zonas de cuerpo afecta el covid
