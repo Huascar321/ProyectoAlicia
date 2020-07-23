@@ -77,7 +77,7 @@ class responderFAQ(Action):
         'como_saber_si_tengo_covid', 'asintomatico', 'post_tratamiento', 'primeros_sintomas', 'tiempo_prueba_negativo', 'lactancia',
         'prevencion', 'como_se_transmite_covid', 'virus_en_el_aire', 'alimentos_contagio', 'que_es_el_covid' , 'consultas_menores_de_edad',
         'consultas_costo', 'vulnerables','info_plasma','centros_de_salud', 'menores_enfermedad', 'cuanto_tiempo_aislado', 'que_alimentos_consumir',
-        'ir_al_consultorio', 'diferenciar_resfriado', 'embarazo_covid' , 'aislamiento'
+        'ir_al_consultorio', 'diferenciar_resfriado', 'embarazo_covid' , 'aislamiento' , 'secuelas'
         ]
 
         if pregunta in lista_preguntas:
