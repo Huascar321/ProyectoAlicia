@@ -87,6 +87,8 @@ intents:
     triggers: actions_faq
 - aislamiento:
     triggers: actions_faq
+- secuelas:
+    triggers: actions_faq
 entities:
 - gratuito_consulta
 - menores
@@ -253,6 +255,10 @@ responses:
 
   utter_aislamiento:
   - text: "Pregunta por los sintomas del covid y corrobore. Si presentas algunos pide una consulta medica gratuita por este medio. De todas maneras te recomendamos tomar medidas preventivas, primeramente lo mejor es que tenga un espacio solo para usted, tener sus propios utensilios, mantener los ambientes compartido ventilados, portar barbijos cuando se esté cerca de los demas, desinfectar las áreas comunes constantemente y lo mas importantes es que no salga de casa.\nDime tu siguiente pregunta!"
+
+  utter_secuelas:
+  - text: "Lo mayoría de los recuperados pueden presentar disminución del volumen pulmonar, disnea de esfuerzo, atrofia muscular o alteraciones en la circulación son algunas de las principales secuelas de los pacientes con Covid-19.\nDime tu siguiente pregunta!"
+  
 actions:
 - actions_faq
 - actions_chitchat

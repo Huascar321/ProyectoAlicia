@@ -714,6 +714,11 @@
 - Como les afecta el covid a los [niños](menores)?
 - Les da muy fuerte esta enfermedad a los [niños](menores)?
 - Que tan fuerte les da esta enfermedad a los [menores](menores)?
+- Los [niños](menores) se contagian?
+- Los [niños](menores) pueden contagiarse
+- Los [menores](menores) se contagian?
+- Los [menores](menores) pueden contagiarse
+- Los [niños](menores) pueden contraer el covid?
 
 ## intent:cuanto_tiempo_aislado
 - Cuanto tiempo tiene que estar [aislados](aislamiento)?
@@ -789,3 +794,34 @@
 - Creo que tenia covid
 - Que hacer si sospecho que tengo covid
 - Sospecho que tengo covid
+
+## intent:secuelas
+- Secuelas del virus
+- Secuelas del coronavirus
+- Secuelas del covid
+- Consecuencias del coronavirus
+- Consecuencias del covid
+- Que secuelas deja el virus
+- Que daños ocasiona el virus en el cuerpo
+- Que daños hace el covid
+- Que daños hace el virus
+- Que daños hace el covid en el cuerpo
+- Los pulmones funcionan bien despues del virus?
+- Que pasa con los pulmones despues del virus
+- El covid que daña en el cuerpo
+- Que consecuencias trae el covid
+- Los pulmones vuelven a funcionar igual despues del virus
+- Cuales son las secuelas del virus
+- Cuales son las secuelas del covid
+- Cuales son las secuelas del coronavirus
+- Cuales son los daños ocasionados por el virus
+- Cuales son los daños ocasionados por el covid
+- Cuales son los daños ocasionados por el coronavirus
+- Que secuelas trae consigo el covid
+- Que secuelas trae consigo el coronavirus
+- Que consecuencias ocasiona el covid
+- El cuerpo vuelve a ser igual despues del covid
+- Que partes del cuerpo daña el virus
+- Que partes del cuerpo daña el covid
+- Cuales son las partes del cuerpo afectadas por el covid
+- A que zonas de cuerpo afecta el covid
