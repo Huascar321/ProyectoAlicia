@@ -1,254 +1,237 @@
 ## intent:chitchat_quien_tecreo
-- Quien es tu creador
-- Quienes te programaron?
+- Creadores
+- Quien te creo?
 
 ## intent:porque_variosdias_sintomas_nocurar
-- Por que no me curo por mas que sigo la [medicacion](medicinas)?
-- Llevo mucho tiempo con los [medicamentos](medicinas) y aun no me curo
-- Han pasado muchas semanas y sigo enfermo
-- Ya casi un mes y sigo enfermo
+- Por que tardo en curarme?
+- Por que tardo tanto en curarme si estoy siguiendo el [tratamiento](tratamiento)
+- Por que llevo tantos dias sin curarme?
+- Llevo mucho tiempo con los [remedios](medicinas) y aun no me curo
 
 ## intent:dioxidocloro_ayuda
-- El [dioxido de cloro](dioxido_de_cloro) en verdad funciona?
-- Es cierto que el [dioxido de cloro](dioxido_de_cloro) sirve contra la enfermedad?
+- El [dioxido de cloro](dioxido_de_cloro) hace daño?
 - El [dioxido de cloro](dioxido_de_cloro) es toxico?
-- El [dioxido de cloro](dioxido_de_cloro) ayuda a combatir el coronavirus?
+- Puedo tomar [dioxido de cloro](dioxido_de_cloro)?
+- Es cierto que el [dioxido de cloro](dioxido_de_cloro) sirve contra la enfermedad?
 
 ## intent:nosaber_covid
-- Como puedo saber si tuve coronavirus?
-- Como puedo saber si estaba infectado
-- Como puedo saber si estuve enfermo
-- Como se si tenia coronavirus
+- Como puedo saber si estuve con covid
+- Me cure pero nunca supe si estuve enfermo
+- Como se si estaba infectado
+- Me cure pero no se si estuve enfermo
 
 ## intent:sintomas_covid
-- Quiero saber los sintomas
-- Quiero saber los sintomas de la enfermedad
-- Me puedes decir cuales son los sintomas del coronavirus?
-- Me puedes decir los sintomas?
+- Me puedes decir cuales son los [sintomas](sintomas_pregunta) del coronavirus?
+- [Sintomas](sintomas_pregunta)
+- Me puedes decir cuales son los [sintomas](sintomas_pregunta) del covid?
+- [Sintomas](sintomas_pregunta) de la enfermedad
 
 ## intent:prueba_covid
-- Necesito una prueba rapida
-- Donde puedo hacer la prueba?
 - Deberia hacerme una prueba?
-- Con quien me tengo que comunicar para hacerme la prueba
-- Me puedes comunicar con alguien quien me haga la prueba?
+- Pueden ayudarme a hacerme una prueba?
+- Me puedes ayudar a hacerme una prueba
+- Que prueba se realiza para detectar covid
+- Donde puedo hacer la prueba?
 
 ## intent:cuanto_tipo_prueba
-- Quiero saber cuantas pruebas hay en total
+- Cuantos tipos de pruebas hay?
+- Cuantas pruebas hay?
 - Me puedes decir cuantas pruebas existen?
-- Cuantas pruebas hay en total?
 - Dime cuantas pruebas existen
 
 ## intent:ivermectina_sirve
-- De verdad sirve la [ivermectina](ivermectina)
-- La [ivermectina](ivermectina) en verdad funciona?
-- La [ivermectina](ivermectina) funciona contra el covid?
-- La [ivermectina](ivermectina) es util?
+- Que tan cierto es que la [ivermectina](ivermectina) mata al coronavirus
+- Sirve la [ivermectina](ivermectina)?
+- Es verdad que la [ivermectina](ivermectina) mata al coronavirus?
 - Uso de [ivermectina](ivermectina) en el Covid-19
+- La [ivermectina](ivermectina) es util?
 
 ## intent:calor_mata_virus
-- El sol mata el virus?
+- Es cierto que el calor mata al coronavirus
+- Las altas temperaturas matan el virus?
 - Puede el virus morir por el calor?
-- Es cierto que el calor mata al virus?
-- El covid puede morir por el calor?
-- El virus puede morir por el sol?
+- El calor mata el coronavirus?
+- Que tan cierto esque el coronavirus muere por el sol?
 
 ## intent:contraerdenuevo_despues_de_enfermarse
+- Quedo [inmune](inmunidad) si ya me dio covid?
 - Es cierto que una vez curado no puedo volver a enfermarme?
-- Si ya me dio coronvirus puedo volver a enfermarme
+- Si ya me dio coronavirus quedo [inmune](inmunidad)?
+- [Inmunidad](inmunidad)
 - Si ya me dio covid me puedo volver a enfermar?
-- Quedo [inmune](inmunidad) si ya me dio coronavirus?
-- Si ya sane me puedo volver a enfermerar?
-
-## intent:mosquitos_infectar
-- La picada del mosquito puede transmitir la enfermdad?
-- Los moquitos pueden infectar a otros con el virus?
-- El sancudo me puedo enfermar de covid?
-- Me puedo infectar por un mosquito?
 
 ## intent:cuanto_falta_para_vacuna_medicamento
-- Falta mucho para que la vacuna este lista?
 - Cuando estara lista la vacuna contra el virus
-- Sabes cuando estara lista la vacuna?
-- Cuanto tiempo tomara hacer la vacuna?
+- Sabes cuando estara lista la vacuna para el virus?
+- Falta mucho para la vacuna?
+- Falta demasiado para la vacuna?
 
 ## intent:tomar_medicinas
-- Se puede tomar [antiflamatorios](medicinas)?
-- Que [remedios](medicinas) puedo tomar?
-- Que puedo tomar para curar el covid19
-- Que se puede tomar en caso de
+- Que puedo tomar para curar el covid
+- Me puedo automedicar?
+- Me automedico?
+- Puedo tomar [medicina](medicinas) contra la enfermedad?
 - Que [remedios](medicinas) deberia comprar
-- Puedo tomar [zinc](medicinas)?
+- [Medicina](medicinas)
 
 ## intent:tiempo_sobrevive_virus
-- Cuanto tiempo sobrevive el virus
 - Cuanto tiempo vive el virus en el aire?
-- Cuanto tiemo puede sobrevivir el virus afuera?
+- Cuanto tiempo vive el virus en los [productos](tiempo_sobrevive_material)
 - Tiempo de vida del covid
+- Cuanto tiempo vive el virus en un [metal](tiempo_sobrevive_material)
 
 ## intent:algunos_sintomas
-- Estoy con algunos sintomas
-- Que pasa si tengo algunos sintomas
-- Presento estos sintomas
+- Tengo algunos [sintomas](sintomas_pregunta)
+- Al parecer tengo algunos [sintomas](sintomas_pregunta)
 
 ## intent:periodo_incubacion_virus
-- Periodo de incubacion
-- Cuanto tiempo toma el periodo de incubacion
-- cual es el periodo de incubacion?
+- Que significa incubacion?
+- De cuanto es el periodo de incubacion
+- Que es la dichosa incubacion?
 
 ## intent:dias_para_presentar_sintomas
-- Cuanto tiempo tardan en aparecer los sintomas
-- En cuantos dias tendré sintomas
-- Cuanto tiempo pasa entre el contagio y la aparicion de los sintomas
-- Tendra los primeros sintomas
+- En cuanto tiempo aparecen los [sintomas](sintomas_pregunta)
+- En cuanto aparecen los [sintomas](sintomas_pregunta)
+- Aparecen los primeros [sintomas](sintomas_pregunta)
 
 ## intent:duracion_enfermedad
-- Cuanto tiempo toma recuperarse
-- En cuanto tiempo se cura del virus
-- En cuanto uno se cura
-- Cuanto dura normalmente el virus?
+- Cuantos dias durara la enfermedad
 - Duracion de la enfermedad
-- Durara la enfermedad
+- Periodo de enfermedad covid
+- Que tan larga es la enfermedad
+- Que tiempo tengo que esperar para no contagiar
+- Dura le enfermedad
 
 ## intent:numero_ambulancia
 - Quiero una ambulancia
-- Pedir ambulancia
-- Como consigo una ambulancia
+- Conseguir una ambulancia
+- Una ambulancia con urgencia
 
 ## intent:como_saber_si_tengo_covid
-- Tendra coronavirus
+- Como puedo yo saber que tengo covid
 - Como me doy cuenta de que tengo coronavirus
-- Tendre coronavirus
-- Como reviso que tengo covid
-- Tendre covid
+- Como puedo yo saber si tengo coronavirus
+- Como puedo yo saber si tengo covid
 
 ## intent:asintomatico
+- Quienes son [asintomatico](asintomatico)?
+- Cuando se es [asintomatico](asintomatico)?
 - Como puedo ser [asintomatico](asintomatico)?
-- Podria ser [asintomatico](asintomatico)?
-- Es malo ser [asintomatico](asintomatico)?
-- Como identificar a un [asintomatico](asintomatico)?
+- Soy [asintomatico](asintomatico)?
 
 ## intent:post_tratamiento
 - Cual es el [tratamiento](tratamiento) si me enfermo?
-- Que [tableta](tratamiento) es buena para el covid?
-- Cual es el [tratamiento](tratamiento) contra el covid?
-- [Tratamiento](tratamiento) y medicinas
+- Cual es el protocolo del [tratamiento](tratamiento)?
+- Como se puede  [tratar](tratamiento) la enfermedad
 
 ## intent:primeros_sintomas
-- Hay sintomas que debo detectar primero?
+- Hay algun sintoma de deteccion temprana?
 - Cuales son los [primeros sintomas](primeros_sintomas) en aparecer
-- Como se distingue por primera vez la enfermedad
-
-## intent:tiempo_prueba_negativo
-- Tiempo para hacerse la prueba del [negativo](prueba_negativo)
-- Cuanto tiempo debo esperar entre pruebas?
-- Tiempo prudente para curarse
+- Cuales son los [sintomas](sintomas_pregunta) que se manifiestan antes que los otros
 
 ## intent:lactancia
+- Mi bebe se puede contagiar por [lactancia](lactancia)?
 - Que pasa si estoy enferma y estoy dando [lactancia](lactancia)?
 - Un bebe se puede contagiar por [leche](lactancia) materna?
-- Es peligroso dar [lactancia](lactancia) a un bebe en la pandemia?
 
 ## intent:prevencion
-- Meddas de [prevención](prevencion)
+- Metodos de [proteccion](prevencion)
+- Protocolo de seguridad
+- Cuales son las medidas de bioseguridad
+- [Prevencion](prevencion) del covid
+- Cuidados que debo tomar
 - Cuales son las medidas de [precaucion](prevencion)
-- Metodos de [prevencion](prevencion)
-- Cuales son la medidas de [prevención](prevencion)
-- Medidas de [precaucion](prevencion)
-- Bioseguridad
-- como evito contagiarme
-- Como puedo [prevenir](prevencion) el coronavirus
+- Medidas de bioseguridad
+- Medidas de [prevencion](prevencion)
 
 ## intent:como_se_transmite_covid
-- [Transmision](transmision) del covid
 - Como se contagia la gente
-- Como funciona el contagio?
-- Como es que el virus es tan contagioso?
-- Como se contagia el coronavirus
-- [Transmision](transmision) del coronavirus
-- Contagiar
+- Como se contagian las personas de coronavirus?
+- Como se [propaga](transmision) el coronavirus?
+- Metodos de [trasmision](transmision) del coronavirus
+- Como se contagia una persona
+- [Transmision](transmision) del covid
 
 ## intent:virus_en_el_aire
+- Por el [aire](transmision_aire) se transmite el covid
 - En el [aire](transmision_aire) esta el covid
-- Esta en el [aire](transmision_aire) le coronavirus
-- Esta en el [aire](transmision_aire) el virus
 - Sabes algo del covid en el [aire](transmision_aire)
+- Esta en el [aire](transmision_aire) le coronavirus
 
 ## intent:alimentos_contagio
-- Sabes algo sobre el virus y los [alimentos](alimentos)
+- Por [alimentos](alimentos) puede transmitirse
 - Hay que lavar los [alimentos](alimentos)
-- Se puede transmitir el virus por los [alimentos](alimentos)
+- El virus se puede encontrar en los [alimentos](alimentos)
 
 ## intent:que_es_el_covid
-- Concepto coronavirus
-- Que mas sabes del virus
-- Que sabes del virus
 - Que es el covid
+- Dime algo sobre el coronavirus
+- Dime que es el coronavirus
+- Cuentame sobre el coronavirus
 
 ## intent:consultas_menores_de_edad
+- Estan disponibles las consultas para los [niños](menores)?
+- Los [menores](menores) de edad pueden recibir la consulta?
 - Estas consultas son solo para [menores](menores) de edad?
-- Si soy [menor](menores) de edad puedo tener una consulta?
-- Las consultas son para [menores](menores) de edad tambien?
-- Las consultas son para [menores](menores)?
+- Los [niños](menores) pueden ser atendidos?
 
 ## intent:consultas_costo
-- Las consultas son [gratuitas](gratuito_consulta)
-- Tienen algun costo las [consultas](gratuito_consulta)?
-- Puedo pedir mi consulta [gratis](gratuito_consulta)?
+- Tiene algun [costo](gratuito_consulta)?
+- Cuanto [cuestan](gratuito_consulta) las consultas?
+- Las consultas tienen algun [precio](gratuito_consulta)?
 
 ## intent:vulnerables
-- Quienes son las personas mas [vulnerables](vulnerables)?
+- Quienes tienen mas [riesgo](vulnerables) de infectarse con el virus?
+- Los niños son [propensos](vulnerables) al contagio?
 - Los ancianos son mas propensos?
-- Quienes son mas [propensos](vulnerables) a contraer el virus?
 
 ## intent:info_plasma
-- Informacion donacion de [plasma](plasma)
 - Cuales son los requisitos para donar [plasma](plasma)?
-- Cual es el procedimientos para donar [plasma](plasma)?
-- Como se que puedo donar [plasma](plasma)
 - Informacion sobre el [plasma](plasma)
+- Cuentame sobre como donar [plasma](plasma)
+- Quiero donar [plasma](plasma)
+- Sabes algo del [plasma](plasma)
 
 ## intent:centros_de_salud
-- Que clinica estan atendiendo
-- Cuando tengo que ir al hospital?
-- A que hospital puedo ir si estoy mal
 - En que casos deberia ir al hospital?
-- Como puedo saber si me tienen que intubar?
-- A que hospital puedo ir
 - Que hospitales estan atendiendo
-- Como se que necesito intubacion?
-- A que centros de salud puedo ir si tengo sintomas
-- Como saber si tienen que intubarme?
+- A que hospital puedo ir si tengo [sintomas](sintomas_pregunta)
+- Que clinica estan atendiendo
+- Cuando se que tengo que ir al hospital?
+- Cuando es bueno que vaya al hospital?
+- Deberia ir al hospital?
+- Hospitales que atienden el covid
+- Que centros de salud estan atendiendo
 
 ## intent:menores_enfermedad
-- Esto le da fuerte a los [niños](menores)?
 - Que tan grave les afecta la enfermedad a los [niños](menores)?
+- Como le da esta enfermedad a los [niños](menores)?
 
 ## intent:cuanto_tiempo_aislado
-- Cuanto tiempo debo estar [aislado](aislamiento)?
 - Cuanto tiempo uno tiene que estar [aislado](aislamiento)?
+- Cuanto tiempo deberia estar [aislado](aislamiento)?
 
 ## intent:que_alimentos_consumir
-- Que debo [comer](consumir)?
-- Que [alimentos](alimentos) no deberia [consumir](consumir)?
-- Que [comidas](alimentos) puedo [comer](consumir)?
+- Que [alimentos](alimentos) debo [consumir](consumir)?
+- Que tengo que [comer](consumir)?
+- Que [alimentos](alimentos) puedo [consumir](consumir)?
 
 ## intent:ir_al_consultorio
-- Por donde queda el consultorio?
+- Hay que ir al consultorio?
+- Donde queda el consultorio?
 - Tenemos que estar fisicamente en el consultorio?
-- Tengo que ir al consultorio?
 
 ## intent:diferenciar_resfriado
-- Como [diferencia](diferenciar) covid de una gripe comun
-- Como se si es covid o un resfriado
-- Como saber si es covid o una gripe comun
+- Como puedo saber si es covid y no es un resfriado?
+- Como puedo saber si es covid o es un resfriado?
+- Como se [diferencia] de una bronquitis
 
 ## intent:embarazo_covid
 - Como afecta a mi [embarazo](embarazo) el tener covid?
+- Si estoy [embarazada](embarazo) corre riesgo mi bebe?
 - Que hago si me infecto y estoy [embarazada](embarazo)?
-- Estoy [embarazada](embarazo) y tengo covid
 
 ## intent:aislamiento
+- Creo que tengo covid
+- Creo que tenia covid
 - Estuve con una persona que tiene covid
-- Tuve contacto con alguien que tenia covid
-- Estaba con una persona que tenia covid

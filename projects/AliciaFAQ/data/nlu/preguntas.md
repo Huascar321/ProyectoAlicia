@@ -14,7 +14,7 @@
 - Ya casi un mes y sigo enfermo
 - Por que sigo enfermo si estoy tomando las [medicinas](medicinas)
 - Por que sigo enfermo si estoy tomando los [remedios](medicinas)
-- Por que tardo tanto en curarme si estoy siguiendo el tratamiento
+- Por que tardo tanto en curarme si estoy siguiendo el [tratamiento](tratamiento)
 - Por que tardo tanto en curarme
 
 ## intent:dioxidocloro_ayuda
@@ -62,26 +62,26 @@
 - Estuve enfermo pero no se si era coronavirus
 
 ## intent:sintomas_covid
-- Cuales son los sintomas de la enfermedad?
-- Cuales son los sintomas del covid?
-- Sintomas
-- Sintomas del coronavirus
-- Sintomas de la enfermedad
-- Es un sintoma del coronavirus?
-- Quisiera saber los sintomas del covid
-- Quisiera saber los sintomas de la enfermedad
-- Me puedes decir cuales son los sintomas del coronavirus?
-- Me puedes decir cuales son los sintomas del covid?
-- Puedes decirme cuales son los sintomas del virus?
-- Puedes decirme cuales son los sintomas del coronavirus?
-- Me puedes decir los sintomas?
-- Quisiera saber los sintomas
-- Quiero saber los sintomas del coronavirus
-- Quiero saber los sintomas de la enfermedad
-- Quiero saber los sintomas
-- Puedes decirme los sintomas del covid
-- Puedes decirme los sintomas del coronavirus
-- Quiero saber cuales son los sintomas
+- Cuales son los [sintomas](sintomas_pregunta) de la enfermedad?
+- Cuales son los [sintomas](sintomas_pregunta) del covid?
+- [Sintomas](sintomas_pregunta)
+- [Sintomas](sintomas_pregunta) del coronavirus
+- [Sintomas](sintomas_pregunta) de la enfermedad
+- Es un [sintoma](sintomas_pregunta) del coronavirus?
+- Quisiera saber los [sintomas](sintomas_pregunta) del covid
+- Quisiera saber los [sintomas](sintomas_pregunta) de la enfermedad
+- Me puedes decir cuales son los [sintomas](sintomas_pregunta) del coronavirus?
+- Me puedes decir cuales son los [sintomas](sintomas_pregunta) del covid?
+- Puedes decirme cuales son los [sintomas](sintomas_pregunta) del virus?
+- Puedes decirme cuales son los [sintomas](sintomas_pregunta) del coronavirus?
+- Me puedes decir los [sintomas](sintomas_pregunta)?
+- Quisiera saber los [sintomas](sintomas_pregunta)
+- Quiero saber los [sintomas](sintomas_pregunta) del coronavirus
+- Quiero saber los [sintomas](sintomas_pregunta) de la enfermedad
+- Quiero saber los [sintomas](sintomas_pregunta)
+- Puedes decirme los [sintomas](sintomas_pregunta) del covid
+- Puedes decirme los [sintomas](sintomas_pregunta) del coronavirus
+- Quiero saber cuales son los [sintomas](sintomas_pregunta)
 
 ## intent:prueba_covid
 - Pueden ayudarme a hacerme una prueba?
@@ -197,29 +197,9 @@
 - Es cierto que si me enfermo una vez me quedo [inmune](inmunidad)?
 - La persona que ya dio positivo, puede volver a infectarse?
 - Se puede volver a infectar?
-- Si tuviste el virus puedes recaer?
+- Si tuviste el virus puedes [recaer](inmunidad)?
 - Recaida
-- Puedo volver a recaer?
-
-## intent:mosquitos_infectar
-- Los mosquitos pueden infectarte?
-- Los sancudos pueden infectarme?
-- Los mosquitos me pueden pasar el coronavirus?
-- Los mosquitos pueden transmitir el virus?
-- Los sancudos pueden pasar el virus?
-- El sancudo me puedo enfermar de covid?
-- La picada del mosquito puede infectarme?
-- Los moquitos pueden infectar a otros con el virus?
-- Los mosquitos pueden infectar a otros con el coronavirus?
-- Puede un mosquito transmitir la enfermedad?
-- Puede un mosquito transmitir el coronavirus?
-- Los mosquitos pueden transmitir el covid?
-- Los mosquitos pueden transmitir el virus?
-- Me puedo infectar por un mosquito?
-- Me puede dar coronavirus por un mosquito?
-- Me puede dar covid por un mosquito?
-- Me puedo infectar por la picada de un mosquito?
-- La picada del mosquito puede transmitir la enfermdad?
+- Puedo volver a [recaer](inmunidad)?
 
 ## intent:cuanto_falta_para_vacuna_medicamento
 - Cuanto falta para la vacuna?
@@ -247,11 +227,8 @@
 - Se puede tomar [antibioticos](medicinas) contra el covid?
 - Se puede tomar [antiflamatorios](medicinas)?
 - Me puedo automedicar?
-- Puedo tomar ivermectina para combatir el covid?
 - Se puede tomar [medicamentos](medicinas) para tratar el covid?
 - Me automedico?
-- Es bueno que me automedique con ivermectina?
-- Me puedo automedicar con ivermectina?
 - Me puedo automedicar con [nitazoxanida](medicinas)?
 - Se puede tomar [hidroxiclina](medicinas)?
 - Puedo tomar [ibuprofeno](medicinas)?
@@ -263,12 +240,15 @@
 - Que [remedios](medicinas) me recomiendas
 - Que [remedios](medicinas) deberia comprar
 - Que [medicamentos](medicinas) deberia comprar
-- Que [medicinas](medicinas) debo comprar
-- Que [tableta](medicinas) y [remedio](medicinas) hay  que tomar si tenes corona virus
-- Como se puede  tratar la enfermedad
-- Que se puede tomar en caso de
+- Que [medicinas](medicinas) debo comprar virus
+- Que se puede tomar en caso de estar enfermo
 - Que [medicamentos](medicinas) usar
-- Que puedo tomar para curar el covid19
+- Que puedo tomar para curar el covid
+- [Medicamento](medicinas)
+- [Medicina](medicinas)
+- Hay [medicamentos](medicinas) para el covid?
+- Hay [medicinas](medicinas) para el covid?
+- Que [tableta](medicinas) es buena para el covid?
 
 ## intent:tiempo_sobrevive_virus
 - Cuanto tiempo sobrevive el virus en una [superficie](tiempo_sobrevive_material)?
@@ -290,21 +270,17 @@
 - Cuanto tiempo vive el virus en mi [zapato](tiempo_sobrevive_material)
 
 ## intent:algunos_sintomas
-- Que puedo hacer si tengo algunos sintomas
-- Que pasa si tengo algunos sintomas
-- Creo que tengo algunos sintomas
-- Pienso que tengo algunos sintomas
-- Tengo algunos sintomas
-- Al parecer tengo algunos sintomas
-- Estoy con estos sintomas
-- Creo tener algunos sintomas
-- Presento estos sintomas
-- Esta con estos sintomas
-- Tiene los sintomas
-- Tiene algunos sintomas
-- Estoy con algunos sintomas
-- Creo que tengo algunos sintomas
-- Creo que tiene algunos sintomas
+- Que puedo hacer si tengo algunos [sintomas](sintomas_pregunta)
+- Que pasa si tengo algunos [sintomas](sintomas_pregunta)
+- Creo que tengo algunos [sintomas](sintomas_pregunta)
+- Pienso que tengo algunos [sintomas](sintomas_pregunta)
+- Tengo algunos [sintomas](sintomas_pregunta)
+- Al parecer tengo algunos [sintomas](sintomas_pregunta)
+- Estoy con estos [sintomas](sintomas_pregunta)
+- Creo tener algunos [sintomas](sintomas_pregunta)
+- Estoy con algunos [sintomas](sintomas_pregunta)
+- Creo que tengo algunos [sintomas](sintomas_pregunta)
+- Creo que tiene algunos [sintomas](sintomas_pregunta)
 
 ## intent:periodo_incubacion_virus
 - De cuanto es el periodo de incubacion
@@ -324,23 +300,21 @@
 - Incubacion
 
 ## intent:dias_para_presentar_sintomas
-- Cuanto tiempo tomara para presentar sintomas
-- Cuanto tiempo tengo hasta para tener sintomas
-- En cuantos dias aparareceran los sintomas
-- En cuantos dias tendré sintomas
-- Cuanto dias faltan para que me de los sintomas
-- En cuanto aparecen los sintomas
-- En cuanto tiempo aparecen los sintomas
-- Aparecen los primeros sintomas
-- Aparecen los sintomas
-- Tendre los primeros sintomas
-- Tendra los primeros sintomas
-- En cuanto tiempo tendre los sintomas
-- Presentan los primeros sintomas
-- En cuanto tiempo aparecen los sintomas
-- Cuanto tiempo tardan en aparecer los sintomas
-- En que periodo aparecen los sintomas
-- Cuanto tiempo pasa entre el contagio y la aparicion de los sintomas
+- Cuanto tiempo tomara para presentar [sintomas](sintomas_pregunta)
+- En cuantos dias aparareceran los [sintomas](sintomas_pregunta)
+- En cuantos dias tendré [sintomas](sintomas_pregunta)
+- Cuanto dias faltan para que me de los [sintomas](sintomas_pregunta)
+- En cuanto aparecen los [sintomas](sintomas_pregunta)
+- En cuanto tiempo aparecen los [sintomas](sintomas_pregunta)
+- Aparecen los primeros [sintomas](sintomas_pregunta)
+- Aparecen los [sintomas](sintomas_pregunta)
+- Tendre los primeros [sintomas](sintomas_pregunta)
+- Tendra los primeros [sintomas](sintomas_pregunta)
+- En cuanto tiempo tendre los [sintomas](sintomas_pregunta)
+- En cuanto tiempo aparecen los [sintomas](sintomas_pregunta)
+- Cuanto tiempo tardan en aparecer los [sintomas](sintomas_pregunta)
+- En que periodo aparecen los [sintomas](sintomas_pregunta)
+- Cuanto tiempo pasa entre el contagio y la aparicion de los [sintomas](sintomas_pregunta)
 
 ## intent:duracion_enfermedad
 - Cuanto tiempo dura la enfermedad
@@ -369,7 +343,7 @@
 - Que tiempo tengo que esperar para no contagiar
 - Hasta cuantos dias esta el covid en el cuerpo ?
 - Despues de cuantos dias un infectado deja de contagiar
-- Cuanto tiempo dura los sintomas
+- Cuanto tiempo dura los [sintomas](sintomas_pregunta)
 - Periodo de enfermedad covid
 
 ## intent:numero_ambulancia
@@ -393,10 +367,6 @@
 - Como se que tengo covid
 - Como se que tengo coronavirus
 - Señales de que tengo coronavirus
-- Tendre coronavirus
-- Tendre covid
-- Tendra coronavirus
-- Tendra covid
 - Como me doy cuenta de que tengo coronavirus
 - Como me doy cuenta de que tengo covid
 - Como saber si tengo covid
@@ -413,6 +383,7 @@
 - Como reviso que no tengo coronavirus
 - Como se que tengo el virus
 - Como se que no tengo el virus
+- Que hay que hacer en caso de covid
 
 ## intent:asintomatico
 - Como se si soy [asintomatico](asintomatico)
@@ -438,25 +409,20 @@
 
 ## intent:post_tratamiento
 - [Tratamiento](tratamiento)
-- Medicamento
-- Medicina
+- [Receta](tratamiento)
 - Como [medicarme](tratamiento)
-- Que [tableta](tratamiento) es buena para el covid?
 - Cual es el [tratamiento](tratamiento)?
 - Existe [tratamiento](tratamiento)?
 - En que consiste el [tratamiento](tratamiento)?
 - [Tratamiento](tratamiento) contra el covid?
 - [Tratamiento](tratamiento) contra el coronavirus?
 - Cual es el [tratamiento](tratamiento) contra el covid?
-- Que hay que hacer en caso de covid?
 - Cual es el protocolo del [tratamiento](tratamiento)?
-- Que debo hacer si me enfermo?
 - Cual es el [tratamiento](tratamiento) si me enfermo?
-- Hay medicamentos para el covid?
-- Hay medicinas para el covid?
 - [Tratamiento](tratamiento) y medicinas
 - Que tan largo es el [tratamiento](tratamiento)?
 - Que tan complejo es el [tratamiento](tratamiento)?
+- Como se puede  [tratar](tratamiento) la enfermedad
 
 ## intent:primeros_sintomas
 - Cuales son los [primeros sintomas](primeros_sintomas)?
@@ -464,33 +430,14 @@
 - Cuales son los [primeros sintomas](primeros_sintomas) en aparecer
 - Como se distingue por primera vez la enfermedad
 - [Primeros sintomas](primeros_sintomas)
-- Que sintomas aparecen [primeros](primeros_sintomas)
-- Que sintomas estan antes que los otros
+- Que [sintomas](sintomas_pregunta) aparecen [primeros](primeros_sintomas)
+- Que [sintomas](sintomas_pregunta) estan antes que los otros
 - Como se manifiesta por primera vez?
 - Que es lo primero que aparece?
-- Cuales son los sintomas que se manifiestan antes que los otros
-- Hay sintomas que aparecen antes?
-- Hay sintomas que se manifiestan primero?
+- Cuales son los [sintomas](sintomas_pregunta) que se manifiestan antes que los otros
+- Hay [sintomas](sintomas_pregunta) que se manifiestan primero?
 - Hay algun sintoma de deteccion temprana?
-- Hay sintomas que debo detectar primero?
-
-## intent:tiempo_prueba_negativo
-- Cuanto tiempo debo esperar para hacerme la prueba [negativo](prueba_negativo)?
-- Que es la prueba [negativo](prueba_negativo)?
-- Cuanto tiempo debo esperar entre pruebas?
-- En cuanto tiempo me curo del covid?
-- La prueba de [negativo](prueba_negativo) cuando debe hacerse?
-- Cuando me debo hacer la prueba del [negativo](prueba_negativo)?
-- Como se que ya me cure del covid?
-- Que es la prueba [negativo](prueba_negativo)?
-- Que periodo debo esperar para hacerme la prueba del [negativo](prueba_negativo)?
-- En cuanto tiempo se cura el virus?
-- Cuanto tiempo tardo en sanarme por completo?
-- Cuanto tiempo tardo en curarme?
-- Tiempo prudente para curarse
-- Tiempo prudenta para hacerse una segunda prueba
-- Tiempo para hacerse la prueba del [negativo](prueba_negativo)
-- Cuanto toma el virus en curarse?
+- Hay [sintomas](sintomas_pregunta) que debo detectar primero?
 
 ## intent:lactancia
 - Se puede contagiar el covid por [leche](lactancia) materna?
@@ -528,7 +475,7 @@
 - Cuales son las medidas de [prevencion](prevencion)
 - Meddas de [prevención](prevencion)
 - Medidas de bioseguridad
-- como evito contagiarme
+- como [evito](prevencion) contagiarme
 - Que debo hacer para evitar enfermarme
 - [Prevencion](prevencion) del covid
 - Medidas de bioseguridad
@@ -560,7 +507,7 @@
 - Como se contagia el covid
 - Como funciona el contagio?
 - Como se contagian las personas de coronavirus?
-- Como se [propaga] el coronavirus?
+- Como se [propaga](transmision) el coronavirus?
 - [Propagacion](transmision) del Virus
 - Como me contagio de covid
 - Como me contagio de coronavirus
@@ -578,7 +525,6 @@
 - Contagiar
 - Metodos de contagio
 - Como puede contagiarse una persona
-- Cuales son los sintomas mas frecuentes?
 
 ## intent:virus_en_el_aire
 - El virus esta en el [aire](transmision_aire)
@@ -727,16 +673,15 @@
 - Que postas estan atendiendo
 - A que hospital puedo ir si me siento mal
 - A que hospital puedo ir si estoy mal
-- A que hospital puedo ir si tengo sintomas
+- A que hospital puedo ir si tengo [sintomas](sintomas_pregunta)
 - A que hospital puedo ir si tengo covid
 - A que clinica puedo ir si me siento mal
 - A que clinica puedo ir si estoy mal
-- A que clinica puedo ir si tengo sintomas
-- A que clinica puedo ir si tengo covid@jes
+- A que clinica puedo ir si tengo [sintomas](sintomas_pregunta)
+- A que clinica puedo ir si tengo covid
 - A que postas puedo ir si estoy mal
-- A que postas puedo ir si tengo sintomas
+- A que postas puedo ir si tengo [sintomas](sintomas_pregunta)
 - A que postas puedo ir si tengo covid
-- Donde puedo hacerme las pruebas
 - Hospitales hay
 - Cuando debo ir al hospital?
 - Cuando deberia ir al hospital?
@@ -745,7 +690,6 @@
 - Como se yo si tengo que ir al hospital?
 - Deberia ir al hospital?
 - Cuando es recomendable ir al hospital
-- Como se que necesito intubacion?
 - Como se si me tienen que intubar?
 - Como puedo saber si tengo que ir al hospital?
 - Como puedo saber si me tienen que intubar?
@@ -834,16 +778,14 @@
 - Estoy [embarazada](embarazo) y tengo covid
 
 ## intent:aislamiento
-- Tuve contacto con
+- Tuve contacto con un enfermo
 - Tuve contacto con alguien que tenia covid
 - Soy sospechoso de covid
 - Creo que tengo covid
-- Tengo covid
-- Tengo coronavirus
 - Estuve con una persona que fallecio
 - Estuve con una persona que tiene covid
 - Estuve con una persona que tenia covid
 - Estaba con una persona que tenia covid
 - Creo que tenia covid
-- Que hacer si sospecho que tengo covid 19
+- Que hacer si sospecho que tengo covid
 - Sospecho que tengo covid

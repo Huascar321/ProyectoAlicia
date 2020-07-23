@@ -1,108 +1,12 @@
 {
-  "ir_al_consultorio": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 11,
-    "confused_with": {}
-  },
-  "tomar_medicinas": {
-    "precision": 0.8695652173913043,
-    "recall": 0.7692307692307693,
-    "f1-score": 0.8163265306122449,
-    "support": 26,
-    "confused_with": {
-      "ivermectina_sirve": 3,
-      "post_tratamiento": 1
-    }
-  },
-  "tiempo_prueba_negativo": {
-    "precision": 0.7777777777777778,
-    "recall": 0.4666666666666667,
-    "f1-score": 0.5833333333333334,
-    "support": 15,
-    "confused_with": {
-      "duracion_enfermedad": 4,
-      "dias_para_presentar_sintomas": 1
-    }
-  },
-  "virus_en_el_aire": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 18,
-    "confused_with": {}
-  },
-  "consultas_menores_de_edad": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 19,
-    "confused_with": {}
-  },
-  "como_saber_si_tengo_covid": {
-    "precision": 0.84,
-    "recall": 1.0,
-    "f1-score": 0.9130434782608696,
-    "support": 21,
-    "confused_with": {}
-  },
   "contraerdenuevo_despues_de_enfermarse": {
-    "precision": 0.9523809523809523,
-    "recall": 0.9090909090909091,
-    "f1-score": 0.9302325581395349,
-    "support": 22,
+    "precision": 0.9565217391304348,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9361702127659574,
+    "support": 24,
     "confused_with": {
       "nosaber_covid": 1,
-      "prueba_covid": 1
-    }
-  },
-  "post_tratamiento": {
-    "precision": 0.8421052631578947,
-    "recall": 0.8,
-    "f1-score": 0.8205128205128205,
-    "support": 20,
-    "confused_with": {
-      "tomar_medicinas": 2,
-      "prueba_covid": 1
-    }
-  },
-  "alimentos_contagio": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 13,
-    "confused_with": {}
-  },
-  "vulnerables": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 11,
-    "confused_with": {}
-  },
-  "cuanto_tiempo_aislado": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 7,
-    "confused_with": {}
-  },
-  "dioxidocloro_ayuda": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 19,
-    "confused_with": {}
-  },
-  "prevencion": {
-    "precision": 1.0,
-    "recall": 0.918918918918919,
-    "f1-score": 0.9577464788732395,
-    "support": 37,
-    "confused_with": {
-      "post_tratamiento": 1,
-      "chitchat_quien_tecreo": 1
+      "prevencion": 1
     }
   },
   "asintomatico": {
@@ -112,64 +16,57 @@
     "support": 20,
     "confused_with": {}
   },
-  "duracion_enfermedad": {
-    "precision": 0.7857142857142857,
-    "recall": 0.8461538461538461,
-    "f1-score": 0.8148148148148148,
-    "support": 26,
-    "confused_with": {
-      "tiempo_prueba_negativo": 2,
-      "tiempo_sobrevive_virus": 1
-    }
-  },
-  "como_se_transmite_covid": {
-    "precision": 0.967741935483871,
-    "recall": 0.967741935483871,
-    "f1-score": 0.967741935483871,
-    "support": 31,
+  "algunos_sintomas": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
     "confused_with": {
       "sintomas_covid": 1
     }
   },
-  "chitchat_quien_tecreo": {
-    "precision": 0.9,
-    "recall": 1.0,
-    "f1-score": 0.9473684210526316,
-    "support": 9,
-    "confused_with": {}
-  },
-  "ivermectina_sirve": {
-    "precision": 0.875,
-    "recall": 1.0,
-    "f1-score": 0.9333333333333333,
-    "support": 21,
-    "confused_with": {}
-  },
-  "centros_de_salud": {
-    "precision": 0.9787234042553191,
-    "recall": 0.9583333333333334,
-    "f1-score": 0.968421052631579,
-    "support": 48,
-    "confused_with": {
-      "prueba_covid": 1,
-      "periodo_incubacion_virus": 1
-    }
-  },
   "que_es_el_covid": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1-score": 0.875,
     "support": 16,
-    "confused_with": {}
-  },
-  "sintomas_covid": {
-    "precision": 0.9047619047619048,
-    "recall": 0.95,
-    "f1-score": 0.9268292682926829,
-    "support": 20,
     "confused_with": {
+      "nosaber_covid": 1,
       "duracion_enfermedad": 1
     }
+  },
+  "sintomas_covid": {
+    "precision": 0.9523809523809523,
+    "recall": 1.0,
+    "f1-score": 0.975609756097561,
+    "support": 20,
+    "confused_with": {}
+  },
+  "post_tratamiento": {
+    "precision": 0.9230769230769231,
+    "recall": 0.8,
+    "f1-score": 0.8571428571428571,
+    "support": 15,
+    "confused_with": {
+      "tomar_medicinas": 1,
+      "duracion_enfermedad": 1
+    }
+  },
+  "aislamiento": {
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9523809523809523,
+    "support": 11,
+    "confused_with": {
+      "como_saber_si_tengo_covid": 1
+    }
+  },
+  "vulnerables": {
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
+    "confused_with": {}
   },
   "nosaber_covid": {
     "precision": 0.9090909090909091,
@@ -178,67 +75,81 @@
     "support": 20,
     "confused_with": {}
   },
-  "algunos_sintomas": {
-    "precision": 1.0,
-    "recall": 0.9285714285714286,
-    "f1-score": 0.962962962962963,
-    "support": 14,
+  "como_saber_si_tengo_covid": {
+    "precision": 0.8947368421052632,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.918918918918919,
+    "support": 18,
     "confused_with": {
-      "sintomas_covid": 1
+      "tomar_medicinas": 1
     }
   },
-  "menores_enfermedad": {
-    "precision": 0.9090909090909091,
-    "recall": 1.0,
-    "f1-score": 0.9523809523809523,
-    "support": 10,
-    "confused_with": {}
-  },
-  "embarazo_covid": {
+  "cuanto_tipo_prueba": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 11,
-    "confused_with": {}
-  },
-  "tiempo_sobrevive_virus": {
-    "precision": 0.9444444444444444,
-    "recall": 1.0,
-    "f1-score": 0.9714285714285714,
     "support": 17,
     "confused_with": {}
   },
-  "periodo_incubacion_virus": {
-    "precision": 0.9333333333333333,
+  "como_se_transmite_covid": {
+    "precision": 0.9090909090909091,
     "recall": 1.0,
-    "f1-score": 0.9655172413793104,
-    "support": 14,
+    "f1-score": 0.9523809523809523,
+    "support": 30,
     "confused_with": {}
   },
-  "aislamiento": {
+  "ivermectina_sirve": {
     "precision": 1.0,
-    "recall": 0.7692307692307693,
-    "f1-score": 0.8695652173913044,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 21,
+    "confused_with": {}
+  },
+  "chitchat_quien_tecreo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "lactancia": {
+    "precision": 0.9230769230769231,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.9230769230769231,
     "support": 13,
     "confused_with": {
-      "como_saber_si_tengo_covid": 3
+      "ir_al_consultorio": 1
     }
   },
-  "cuanto_falta_para_vacuna_medicamento": {
-    "precision": 0.9444444444444444,
+  "consultas_menores_de_edad": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9714285714285714,
-    "support": 17,
+    "f1-score": 1.0,
+    "support": 19,
     "confused_with": {}
   },
-  "dias_para_presentar_sintomas": {
-    "precision": 0.9285714285714286,
-    "recall": 0.8125,
-    "f1-score": 0.8666666666666666,
-    "support": 16,
+  "dioxidocloro_ayuda": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 19,
+    "confused_with": {}
+  },
+  "cuanto_tiempo_aislado": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "tomar_medicinas": {
+    "precision": 0.9230769230769231,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.9230769230769231,
+    "support": 26,
     "confused_with": {
-      "primeros_sintomas": 2,
-      "duracion_enfermedad": 1
+      "como_saber_si_tengo_covid": 1,
+      "que_es_el_covid": 1
     }
   },
   "diferenciar_resfriado": {
@@ -248,25 +159,18 @@
     "support": 12,
     "confused_with": {}
   },
-  "calor_mata_virus": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 21,
-    "confused_with": {}
-  },
-  "lactancia": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 13,
-    "confused_with": {}
-  },
-  "que_alimentos_consumir": {
+  "embarazo_covid": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 11,
+    "confused_with": {}
+  },
+  "virus_en_el_aire": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
     "confused_with": {}
   },
   "info_plasma": {
@@ -276,6 +180,38 @@
     "support": 21,
     "confused_with": {}
   },
+  "periodo_incubacion_virus": {
+    "precision": 0.9333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.9655172413793104,
+    "support": 14,
+    "confused_with": {}
+  },
+  "menores_enfermedad": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "dias_para_presentar_sintomas": {
+    "precision": 0.8666666666666667,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.896551724137931,
+    "support": 14,
+    "confused_with": {
+      "primeros_sintomas": 1
+    }
+  },
+  "tiempo_sobrevive_virus": {
+    "precision": 1.0,
+    "recall": 0.8823529411764706,
+    "f1-score": 0.9375,
+    "support": 17,
+    "confused_with": {
+      "duracion_enfermedad": 2
+    }
+  },
   "numero_ambulancia": {
     "precision": 1.0,
     "recall": 1.0,
@@ -283,67 +219,116 @@
     "support": 15,
     "confused_with": {}
   },
-  "cuanto_tipo_prueba": {
+  "prevencion": {
+    "precision": 0.9714285714285714,
+    "recall": 0.918918918918919,
+    "f1-score": 0.9444444444444445,
+    "support": 37,
+    "confused_with": {
+      "como_se_transmite_covid": 2,
+      "centros_de_salud": 1
+    }
+  },
+  "porque_variosdias_sintomas_nocurar": {
     "precision": 1.0,
+    "recall": 0.9375,
+    "f1-score": 0.967741935483871,
+    "support": 16,
+    "confused_with": {
+      "post_tratamiento": 1
+    }
+  },
+  "ir_al_consultorio": {
+    "precision": 0.9166666666666666,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 17,
+    "f1-score": 0.9565217391304348,
+    "support": 11,
     "confused_with": {}
   },
-  "consultas_costo": {
+  "prueba_covid": {
+    "precision": 1.0,
+    "recall": 0.9523809523809523,
+    "f1-score": 0.975609756097561,
+    "support": 21,
+    "confused_with": {
+      "vulnerables": 1
+    }
+  },
+  "alimentos_contagio": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 13,
     "confused_with": {}
   },
-  "prueba_covid": {
-    "precision": 0.8333333333333334,
-    "recall": 0.9523809523809523,
-    "f1-score": 0.888888888888889,
+  "primeros_sintomas": {
+    "precision": 0.9090909090909091,
+    "recall": 0.7692307692307693,
+    "f1-score": 0.8333333333333333,
+    "support": 13,
+    "confused_with": {
+      "algunos_sintomas": 1,
+      "dias_para_presentar_sintomas": 1
+    }
+  },
+  "consultas_costo": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1-score": 0.9333333333333333,
+    "support": 14,
+    "confused_with": {}
+  },
+  "duracion_enfermedad": {
+    "precision": 0.8214285714285714,
+    "recall": 0.8214285714285714,
+    "f1-score": 0.8214285714285714,
+    "support": 28,
+    "confused_with": {
+      "periodo_incubacion_virus": 1,
+      "dias_para_presentar_sintomas": 1
+    }
+  },
+  "cuanto_falta_para_vacuna_medicamento": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 17,
+    "confused_with": {}
+  },
+  "que_alimentos_consumir": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "calor_mata_virus": {
+    "precision": 1.0,
+    "recall": 0.9047619047619048,
+    "f1-score": 0.9500000000000001,
     "support": 21,
     "confused_with": {
-      "centros_de_salud": 1
+      "consultas_costo": 2
     }
   },
-  "mosquitos_infectar": {
-    "precision": 1.0,
-    "recall": 0.9411764705882353,
-    "f1-score": 0.9696969696969697,
-    "support": 17,
-    "confused_with": {
-      "tomar_medicinas": 1
-    }
+  "centros_de_salud": {
+    "precision": 0.9761904761904762,
+    "recall": 1.0,
+    "f1-score": 0.9879518072289156,
+    "support": 41,
+    "confused_with": {}
   },
-  "porque_variosdias_sintomas_nocurar": {
-    "precision": 0.8823529411764706,
-    "recall": 0.9375,
-    "f1-score": 0.9090909090909091,
-    "support": 16,
-    "confused_with": {
-      "post_tratamiento": 1
-    }
-  },
-  "primeros_sintomas": {
-    "precision": 0.8666666666666667,
-    "recall": 0.9285714285714286,
-    "f1-score": 0.896551724137931,
-    "support": 14,
-    "confused_with": {
-      "cuanto_falta_para_vacuna_medicamento": 1
-    }
-  },
-  "accuracy": 0.9442231075697212,
+  "accuracy": 0.9558404558404558,
   "macro avg": {
-    "precision": 0.9486928369303632,
-    "recall": 0.9489539863862175,
-    "f1-score": 0.946577706027975,
-    "support": 753
+    "precision": 0.9588130995625275,
+    "recall": 0.957662533820622,
+    "f1-score": 0.9573148518337534,
+    "support": 702
   },
   "weighted avg": {
-    "precision": 0.9452138243854569,
-    "recall": 0.9442231075697212,
-    "f1-score": 0.9426442540535287,
-    "support": 753
+    "precision": 0.9569966074029326,
+    "recall": 0.9558404558404558,
+    "f1-score": 0.9555488459914349,
+    "support": 702
   }
 }

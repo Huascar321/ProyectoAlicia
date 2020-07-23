@@ -625,6 +625,7 @@ responses:
       - payload: "/pedirDoctor_whatsapp"
         title: "Agendar por Whatsapp"
   - text: "Hola que tal! \nClaro con gusto, por donde lo quieres pedir? 🤗 \n- Agendar consulta por *Medibook* \n- Agendar consulta por *Whatsapp* \n_Las consultas sobre el COVID-19 son gratuitas_"
+
   
 actions:
 - actions_saludar
