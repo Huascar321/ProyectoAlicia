@@ -1,99 +1,15 @@
 {
-  "tiempo_sobrevive_material": {
-    "precision": 1.0,
-    "recall": 0.375,
-    "f1-score": 0.5454545454545454,
-    "support": 8
-  },
-  "plasma": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 21
-  },
-  "consumir": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 11
-  },
-  "menores": {
-    "precision": 0.9655172413793104,
-    "recall": 0.9655172413793104,
-    "f1-score": 0.9655172413793104,
-    "support": 29
-  },
-  "transmision": {
-    "precision": 0.9,
-    "recall": 0.9,
-    "f1-score": 0.9,
-    "support": 10
-  },
-  "tratamiento": {
-    "precision": 0.7058823529411765,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.7741935483870968,
-    "support": 14
-  },
-  "embarazo": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 11
-  },
-  "inmunidad": {
-    "precision": 1.0,
-    "recall": 0.75,
-    "f1-score": 0.8571428571428571,
-    "support": 8
-  },
-  "vulnerables": {
-    "precision": 0.7692307692307693,
-    "recall": 1.0,
-    "f1-score": 0.8695652173913044,
-    "support": 10
-  },
-  "dioxido_de_cloro": {
-    "precision": 0.890625,
-    "recall": 1.0,
-    "f1-score": 0.9421487603305785,
-    "support": 57
-  },
-  "prevencion": {
-    "precision": 0.896551724137931,
-    "recall": 1.0,
-    "f1-score": 0.9454545454545454,
-    "support": 26
-  },
-  "transmision_aire": {
-    "precision": 0.9,
-    "recall": 1.0,
-    "f1-score": 0.9473684210526316,
-    "support": 18
-  },
   "asintomatico": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 20
   },
-  "gratuito_consulta": {
-    "precision": 0.6,
-    "recall": 0.46153846153846156,
-    "f1-score": 0.5217391304347826,
-    "support": 13
-  },
-  "medicinas": {
-    "precision": 0.7727272727272727,
-    "recall": 0.68,
-    "f1-score": 0.7234042553191491,
-    "support": 25
-  },
-  "prueba_negativo": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6
+  "tratamiento": {
+    "precision": 0.8125,
+    "recall": 0.8125,
+    "f1-score": 0.8125,
+    "support": 16
   },
   "aislamiento": {
     "precision": 1.0,
@@ -101,11 +17,11 @@
     "f1-score": 1.0,
     "support": 7
   },
-  "diferenciar": {
+  "vulnerables": {
     "precision": 0.8333333333333334,
     "recall": 1.0,
     "f1-score": 0.9090909090909091,
-    "support": 5
+    "support": 10
   },
   "lactancia": {
     "precision": 1.0,
@@ -113,40 +29,124 @@
     "f1-score": 1.0,
     "support": 13
   },
+  "sintomas_pregunta": {
+    "precision": 0.9122807017543859,
+    "recall": 0.9811320754716981,
+    "f1-score": 0.9454545454545454,
+    "support": 53
+  },
+  "inmunidad": {
+    "precision": 0.8571428571428571,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.75,
+    "support": 9
+  },
+  "diferenciar": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 5
+  },
+  "medicinas": {
+    "precision": 0.9,
+    "recall": 0.6428571428571429,
+    "f1-score": 0.75,
+    "support": 28
+  },
+  "embarazo": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11
+  },
   "alimentos": {
     "precision": 1.0,
     "recall": 0.9523809523809523,
     "f1-score": 0.975609756097561,
     "support": 21
   },
-  "ivermectina": {
-    "precision": 0.875,
+  "menores": {
+    "precision": 0.9666666666666667,
     "recall": 1.0,
-    "f1-score": 0.9333333333333333,
+    "f1-score": 0.983050847457627,
+    "support": 29
+  },
+  "prevencion": {
+    "precision": 0.9523809523809523,
+    "recall": 0.7407407407407407,
+    "f1-score": 0.8333333333333334,
+    "support": 27
+  },
+  "consumir": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11
+  },
+  "gratuito_consulta": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.6153846153846153,
+    "support": 14
+  },
+  "plasma": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
     "support": 21
   },
   "primeros_sintomas": {
-    "precision": 0.625,
-    "recall": 0.5555555555555556,
-    "f1-score": 0.5882352941176471,
+    "precision": 0.5,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4,
     "support": 9
   },
+  "transmision": {
+    "precision": 0.9090909090909091,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9090909090909091,
+    "support": 11
+  },
+  "dioxido_de_cloro": {
+    "precision": 0.9827586206896551,
+    "recall": 1.0,
+    "f1-score": 0.9913043478260869,
+    "support": 57
+  },
+  "tiempo_sobrevive_material": {
+    "precision": 1.0,
+    "recall": 0.375,
+    "f1-score": 0.5454545454545454,
+    "support": 8
+  },
+  "transmision_aire": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 18
+  },
+  "ivermectina": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 21
+  },
   "micro avg": {
-    "precision": 0.8972972972972973,
-    "recall": 0.9146005509641874,
-    "f1-score": 0.9058663028649387,
-    "support": 363
+    "precision": 0.9330024813895782,
+    "recall": 0.8973747016706444,
+    "f1-score": 0.9148418491484186,
+    "support": 419
   },
   "macro avg": {
-    "precision": 0.8969939860795361,
-    "recall": 0.8862334121816882,
-    "f1-score": 0.8817389915902841,
-    "support": 363
+    "precision": 0.9102797291390344,
+    "recall": 0.8629604723622734,
+    "f1-score": 0.8762151426969851,
+    "support": 419
   },
   "weighted avg": {
-    "precision": 0.8984448455810436,
-    "recall": 0.9146005509641874,
-    "f1-score": 0.9005155986802018,
-    "support": 363
+    "precision": 0.9297454813067562,
+    "recall": 0.8973747016706444,
+    "f1-score": 0.9072260963814556,
+    "support": 419
   }
 }

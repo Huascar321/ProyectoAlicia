@@ -152,7 +152,7 @@ class ActionDefaultAskAffirmation(Action):
            # Create the affirmation message and add two buttons to it.
            # Use '/<intent_name>' as payload to directly trigger '<intent_name>'
            # when the button is clicked.
-           message = "Si tu pregunta fue '{}' escribe {}\nSi esa no era tu duda, por favor reformula tu pregunta con mas claridad 🙌🏻".format(intent_prompt), format(intent_prompt_whatsapp)
+           message = "Si tu pregunta fue '{}' escribe {}\nSi esa no era tu duda, por favor reformula tu pregunta con mas claridad 🙌🏻".format(intent_prompt, intent_prompt_whatsapp)
            dispatcher.utter_message(text=message)
        return []
 

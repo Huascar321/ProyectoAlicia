@@ -318,11 +318,8 @@ responses:
   - text: "No entiendo lo que intentaste decir"
 
   utter_tengoPreguntas:
-  - text: "Escríbeme tu duda 😁 \nPD: Me gustan las preguntas cortas"
-  - text: "¿Cual es tu duda? 😊"
-  - text: "¿Que deseas preguntarme? 😊"
-  - text: "Todo oidos ¿cual es tu pregunta? 😁"
-  - text: "Cuentame ¿Cual es tu duda? 😊"
+  - text: "Antes de preguntarme algo, por favor lee estas recomendaciones 🙌🏻"
+    image: https://i.imgur.com/2yyL8CB.png
 
   utter_negarPregunta:
   - text: "Muy bien, cualquier otra duda hazmela saber 🤗"
@@ -625,6 +622,7 @@ responses:
       - payload: "/pedirDoctor_whatsapp"
         title: "Agendar por Whatsapp"
   - text: "Hola que tal! \nClaro con gusto, por donde lo quieres pedir? 🤗 \n- Agendar consulta por *Medibook* \n- Agendar consulta por *Whatsapp* \n_Las consultas sobre el COVID-19 son gratuitas_"
+
   
 actions:
 - actions_saludar

@@ -1,290 +1,74 @@
 [
   {
-    "text": "Donde puedo hacerme las pruebas?",
-    "intent": "prueba_covid",
-    "intent_prediction": {
-      "name": "centros_de_salud",
-      "confidence": 0.9995918273925781
-    }
-  },
-  {
-    "text": "En cuanto tiempo se cura del virus",
-    "intent": "duracion_enfermedad",
-    "intent_prediction": {
-      "name": "tiempo_prueba_negativo",
-      "confidence": 0.9914106726646423
-    }
-  },
-  {
-    "text": "Que tiempo tengo que esperar para no contagiar",
-    "intent": "duracion_enfermedad",
-    "intent_prediction": {
-      "name": "tiempo_prueba_negativo",
-      "confidence": 0.4503273665904999
-    }
-  },
-  {
-    "text": "Que debo hacer si me enfermo?",
-    "intent": "post_tratamiento",
-    "intent_prediction": {
-      "name": "prueba_covid",
-      "confidence": 0.4711328446865082
-    }
-  },
-  {
-    "text": "Cuales son los primeros sintomas?",
-    "intent": "primeros_sintomas",
-    "intent_prediction": {
-      "name": "cuanto_falta_para_vacuna_medicamento",
-      "confidence": 0.4077017903327942
-    }
-  },
-  {
-    "text": "Como se que ya me cure del covid?",
-    "intent": "tiempo_prueba_negativo",
-    "intent_prediction": {
-      "name": "contraerdenuevo_despues_de_enfermarse",
-      "confidence": 0.6562365889549255
-    }
-  },
-  {
-    "text": "Como medicarme",
-    "intent": "post_tratamiento",
-    "intent_prediction": {
-      "name": "tomar_medicinas",
-      "confidence": 0.6631465554237366
-    }
-  },
-  {
-    "text": "Que hay que hacer en caso de covid?",
-    "intent": "post_tratamiento",
-    "intent_prediction": {
-      "name": "como_saber_si_tengo_covid",
-      "confidence": 0.7293527722358704
-    }
-  },
-  {
-    "text": "En cuanto tiempo me curo del covid?",
-    "intent": "tiempo_prueba_negativo",
-    "intent_prediction": {
-      "name": "duracion_enfermedad",
-      "confidence": 0.723975658416748
-    }
-  },
-  {
-    "text": "Creo que tengo covid",
-    "intent": "aislamiento",
-    "intent_prediction": {
-      "name": "como_saber_si_tengo_covid",
-      "confidence": 0.5598894357681274
-    }
-  },
-  {
-    "text": "Puedo tomar ivermectina para combatir el covid?",
-    "intent": "tomar_medicinas",
-    "intent_prediction": {
-      "name": "ivermectina_sirve",
-      "confidence": 0.7480185627937317
-    }
-  },
-  {
-    "text": "Que puedo tomar para curar el covid19",
-    "intent": "tomar_medicinas",
-    "intent_prediction": {
-      "name": "nosaber_covid",
-      "confidence": 0.37127020955085754
-    }
-  },
-  {
-    "text": "Tiene los sintomas",
-    "intent": "algunos_sintomas",
-    "intent_prediction": {
-      "name": "sintomas_covid",
-      "confidence": 0.6329250931739807
-    }
-  },
-  {
-    "text": "Aparecen los primeros sintomas",
-    "intent": "dias_para_presentar_sintomas",
-    "intent_prediction": {
-      "name": "primeros_sintomas",
-      "confidence": 0.8885248899459839
-    }
-  },
-  {
-    "text": "Cuanto tardare en curarme?",
-    "intent": "duracion_enfermedad",
-    "intent_prediction": {
-      "name": "porque_variosdias_sintomas_nocurar",
-      "confidence": 0.5642582178115845
-    }
-  },
-  {
-    "text": "Que tableta es buena para el covid?",
-    "intent": "post_tratamiento",
-    "intent_prediction": {
-      "name": "tomar_medicinas",
-      "confidence": 0.8982025384902954
-    }
-  },
-  {
-    "text": "Cuanto tiempo debo esperar entre pruebas?",
-    "intent": "tiempo_prueba_negativo",
-    "intent_prediction": {
-      "name": "duracion_enfermedad",
-      "confidence": 0.702681839466095
-    }
-  },
-  {
-    "text": "Cuanto tiempo tardo en curarme?",
-    "intent": "tiempo_prueba_negativo",
-    "intent_prediction": {
-      "name": "porque_variosdias_sintomas_nocurar",
-      "confidence": 0.9882261753082275
-    }
-  },
-  {
-    "text": "Por que no puedo curarme por mas que segui el tratamiento?",
-    "intent": "porque_variosdias_sintomas_nocurar",
-    "intent_prediction": {
-      "name": "post_tratamiento",
-      "confidence": 0.7388883233070374
-    }
-  },
-  {
-    "text": "Sintomas de la enfermedad",
-    "intent": "sintomas_covid",
-    "intent_prediction": {
-      "name": "duracion_enfermedad",
-      "confidence": 0.7502011060714722
-    }
-  },
-  {
-    "text": "Inmunidad",
-    "intent": "contraerdenuevo_despues_de_enfermarse",
-    "intent_prediction": {
-      "name": "prueba_covid",
-      "confidence": 0.8089755177497864
-    }
-  },
-  {
-    "text": "Como se puede  tratar la enfermedad",
-    "intent": "tomar_medicinas",
-    "intent_prediction": {
-      "name": "menores_enfermedad",
-      "confidence": 0.513546347618103
-    }
-  },
-  {
-    "text": "Cuanto tiempo tengo hasta para tener sintomas",
-    "intent": "dias_para_presentar_sintomas",
-    "intent_prediction": {
-      "name": "duracion_enfermedad",
-      "confidence": 0.6440310478210449
-    }
-  },
-  {
-    "text": "Presentan los primeros sintomas",
-    "intent": "dias_para_presentar_sintomas",
-    "intent_prediction": {
-      "name": "primeros_sintomas",
-      "confidence": 0.4963691532611847
-    }
-  },
-  {
-    "text": "En cuanto tiempo se cura el virus?",
-    "intent": "tiempo_prueba_negativo",
-    "intent_prediction": {
-      "name": "duracion_enfermedad",
-      "confidence": 0.9910327792167664
-    }
-  },
-  {
-    "text": "Cuanto tiempo tardo en sanarme por completo?",
-    "intent": "tiempo_prueba_negativo",
-    "intent_prediction": {
-      "name": "dias_para_presentar_sintomas",
-      "confidence": 0.34204816818237305
-    }
-  },
-  {
-    "text": "Tiempo prudenta para hacerse una segunda prueba",
-    "intent": "tiempo_prueba_negativo",
-    "intent_prediction": {
-      "name": "prueba_covid",
-      "confidence": 0.747730016708374
-    }
-  },
-  {
-    "text": "Tengo covid",
-    "intent": "aislamiento",
-    "intent_prediction": {
-      "name": "como_saber_si_tengo_covid",
-      "confidence": 0.9854984879493713
-    }
-  },
-  {
-    "text": "Tengo coronavirus",
-    "intent": "aislamiento",
-    "intent_prediction": {
-      "name": "como_saber_si_tengo_covid",
-      "confidence": 0.9978654384613037
-    }
-  },
-  {
     "text": "Si tuviste el virus puedes recaer?",
     "intent": "contraerdenuevo_despues_de_enfermarse",
     "intent_prediction": {
       "name": "nosaber_covid",
-      "confidence": 0.9517902731895447
+      "confidence": 0.9102882742881775
     }
   },
   {
-    "text": "El sancudo me puedo enfermar de covid?",
-    "intent": "mosquitos_infectar",
+    "text": "Recaida",
+    "intent": "contraerdenuevo_despues_de_enfermarse",
     "intent_prediction": {
-      "name": "tomar_medicinas",
-      "confidence": 0.6202923059463501
+      "name": "prevencion",
+      "confidence": 0.4481309652328491
     }
   },
   {
-    "text": "Es bueno que me automedique con ivermectina?",
+    "text": "Que se puede tomar en caso de estar enfermo",
     "intent": "tomar_medicinas",
     "intent_prediction": {
-      "name": "ivermectina_sirve",
-      "confidence": 0.971495509147644
-    }
-  },
-  {
-    "text": "Me puedo automedicar con ivermectina?",
-    "intent": "tomar_medicinas",
-    "intent_prediction": {
-      "name": "ivermectina_sirve",
-      "confidence": 0.7642431855201721
-    }
-  },
-  {
-    "text": "Que tableta y remedio hay  que tomar si tenes corona virus",
-    "intent": "tomar_medicinas",
-    "intent_prediction": {
-      "name": "post_tratamiento",
-      "confidence": 0.8374987840652466
+      "name": "como_saber_si_tengo_covid",
+      "confidence": 0.9792332053184509
     }
   },
   {
     "text": "Despues de cuantos dias un infectado deja de contagiar",
     "intent": "duracion_enfermedad",
     "intent_prediction": {
-      "name": "tiempo_sobrevive_virus",
-      "confidence": 0.3640839755535126
+      "name": "periodo_incubacion_virus",
+      "confidence": 0.20058774948120117
     }
   },
   {
-    "text": "Cuanto toma el virus en curarse?",
-    "intent": "tiempo_prueba_negativo",
+    "text": "Receta",
+    "intent": "post_tratamiento",
+    "intent_prediction": {
+      "name": "como_se_transmite_covid",
+      "confidence": 0.5353380441665649
+    }
+  },
+  {
+    "text": "Como cuidarse",
+    "intent": "prevencion",
+    "intent_prediction": {
+      "name": "como_se_transmite_covid",
+      "confidence": 0.7270025610923767
+    }
+  },
+  {
+    "text": "Que tableta es buena para el covid?",
+    "intent": "tomar_medicinas",
+    "intent_prediction": {
+      "name": "que_es_el_covid",
+      "confidence": 0.8839535117149353
+    }
+  },
+  {
+    "text": "Cuanto tiempo dura el virus en la ropa",
+    "intent": "tiempo_sobrevive_virus",
     "intent_prediction": {
       "name": "duracion_enfermedad",
-      "confidence": 0.6269840002059937
+      "confidence": 0.961150050163269
+    }
+  },
+  {
+    "text": "Que hay que hacer en caso de covid",
+    "intent": "como_saber_si_tengo_covid",
+    "intent_prediction": {
+      "name": "tomar_medicinas",
+      "confidence": 0.5568537712097168
     }
   },
   {
@@ -292,47 +76,175 @@
     "intent": "prevencion",
     "intent_prediction": {
       "name": "como_se_transmite_covid",
-      "confidence": 0.9998432397842407
+      "confidence": 0.9936901330947876
     }
   },
   {
-    "text": "Que debo hacer para evitar enfermarme",
-    "intent": "prevencion",
+    "text": "Creo que tengo covid",
+    "intent": "aislamiento",
+    "intent_prediction": {
+      "name": "como_saber_si_tengo_covid",
+      "confidence": 0.9039846658706665
+    }
+  },
+  {
+    "text": "Por que no puedo curarme por mas que segui el tratamiento?",
+    "intent": "porque_variosdias_sintomas_nocurar",
     "intent_prediction": {
       "name": "post_tratamiento",
-      "confidence": 0.9509445428848267
+      "confidence": 0.5387721061706543
+    }
+  },
+  {
+    "text": "Las altas temperaturas matan el virus?",
+    "intent": "calor_mata_virus",
+    "intent_prediction": {
+      "name": "consultas_costo",
+      "confidence": 0.514409065246582
+    }
+  },
+  {
+    "text": "Las altas temperaturas pueden matar al virus?",
+    "intent": "calor_mata_virus",
+    "intent_prediction": {
+      "name": "consultas_costo",
+      "confidence": 0.35094013810157776
     }
   },
   {
     "text": "Recomendaciones",
     "intent": "prevencion",
     "intent_prediction": {
-      "name": "chitchat_quien_tecreo",
-      "confidence": 0.20724892616271973
+      "name": "centros_de_salud",
+      "confidence": 0.6635323166847229
     }
   },
   {
-    "text": "Cuales son los sintomas mas frecuentes?",
-    "intent": "como_se_transmite_covid",
+    "text": "Definicion del covid",
+    "intent": "que_es_el_covid",
+    "intent_prediction": {
+      "name": "duracion_enfermedad",
+      "confidence": 0.3766598701477051
+    }
+  },
+  {
+    "text": "Definicion del coronavirus",
+    "intent": "que_es_el_covid",
+    "intent_prediction": {
+      "name": "nosaber_covid",
+      "confidence": 0.2882739007472992
+    }
+  },
+  {
+    "text": "Me realice un Test covid",
+    "intent": "prueba_covid",
+    "intent_prediction": {
+      "name": "vulnerables",
+      "confidence": 0.32857728004455566
+    }
+  },
+  {
+    "text": "Cuanto tiempo dura el virus en el carton",
+    "intent": "tiempo_sobrevive_virus",
+    "intent_prediction": {
+      "name": "duracion_enfermedad",
+      "confidence": 0.957285463809967
+    }
+  },
+  {
+    "text": "Estoy con estos sintomas",
+    "intent": "algunos_sintomas",
     "intent_prediction": {
       "name": "sintomas_covid",
-      "confidence": 0.8864569067955017
+      "confidence": 0.8699417114257812
     }
   },
   {
-    "text": "Donde puedo hacerme las pruebas",
-    "intent": "centros_de_salud",
+    "text": "Tendre los primeros sintomas",
+    "intent": "dias_para_presentar_sintomas",
     "intent_prediction": {
-      "name": "prueba_covid",
-      "confidence": 0.9993482828140259
+      "name": "primeros_sintomas",
+      "confidence": 0.5983171463012695
     }
   },
   {
-    "text": "Como se que necesito intubacion?",
-    "intent": "centros_de_salud",
+    "text": "Que tiempo tengo que esperar para no contagiar",
+    "intent": "duracion_enfermedad",
     "intent_prediction": {
-      "name": "periodo_incubacion_virus",
-      "confidence": 0.7594858407974243
+      "name": "lactancia",
+      "confidence": 0.35317152738571167
+    }
+  },
+  {
+    "text": "Periodo de enfermedad covid",
+    "intent": "duracion_enfermedad",
+    "intent_prediction": {
+      "name": "que_es_el_covid",
+      "confidence": 0.485868901014328
+    }
+  },
+  {
+    "text": "Como se puede  tratar la enfermedad",
+    "intent": "post_tratamiento",
+    "intent_prediction": {
+      "name": "duracion_enfermedad",
+      "confidence": 0.7317880988121033
+    }
+  },
+  {
+    "text": "Hay algun sintoma de deteccion temprana?",
+    "intent": "primeros_sintomas",
+    "intent_prediction": {
+      "name": "algunos_sintomas",
+      "confidence": 0.46781638264656067
+    }
+  },
+  {
+    "text": "Que pasa si estoy enferma y estoy dando lactancia?",
+    "intent": "lactancia",
+    "intent_prediction": {
+      "name": "ir_al_consultorio",
+      "confidence": 0.2921973466873169
+    }
+  },
+  {
+    "text": "Cuanto tardare en curarme?",
+    "intent": "duracion_enfermedad",
+    "intent_prediction": {
+      "name": "contraerdenuevo_despues_de_enfermarse",
+      "confidence": 0.5454355478286743
+    }
+  },
+  {
+    "text": "Cuanto tiempo dura los sintomas",
+    "intent": "duracion_enfermedad",
+    "intent_prediction": {
+      "name": "dias_para_presentar_sintomas",
+      "confidence": 0.704587996006012
+    }
+  },
+  {
+    "text": "Como medicarme",
+    "intent": "post_tratamiento",
+    "intent_prediction": {
+      "name": "tomar_medicinas",
+      "confidence": 0.9852685928344727
+    }
+  },
+  {
+    "text": "Que sintomas aparecen primeros",
+    "intent": "primeros_sintomas",
+    "intent_prediction": {
+      "name": "dias_para_presentar_sintomas",
+      "confidence": 0.9260593056678772
+    }
+  },
+  {
+    "text": "Que es lo primero que aparece?",
+    "intent": "primeros_sintomas",
+    "intent_prediction": {
+      "name": "duracion_enfermedad",
+      "confidence": 0.3233295679092407
     }
   }
 ]

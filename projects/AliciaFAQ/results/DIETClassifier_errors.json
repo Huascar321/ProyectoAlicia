@@ -1,379 +1,12 @@
 [
   {
-    "text": "El dioxido de cloro me cura?",
+    "text": "Si tuviste el virus puedes recaer?",
     "entities": [
       {
-        "start": 3,
-        "end": 19,
-        "value": "dioxido de cloro",
-        "entity": "dioxido_de_cloro"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "dioxido_de_cloro",
-        "start": 3,
-        "end": 22,
-        "value": "dioxido de cloro me",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "El dioxido de cloro me cura del coronavirus?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 19,
-        "value": "dioxido de cloro",
-        "entity": "dioxido_de_cloro"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "dioxido_de_cloro",
-        "start": 3,
-        "end": 22,
-        "value": "dioxido de cloro me",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Se puede tomar antiflamatorios?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 30,
-        "value": "antiflamatorios",
-        "entity": "medicinas"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Me puedo automedicar con nitazoxanida?",
-    "entities": [
-      {
-        "start": 25,
-        "end": 37,
-        "value": "nitazoxanida",
-        "entity": "medicinas"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Puedo tomar zinc?",
-    "entities": [
-      {
-        "start": 12,
-        "end": 16,
-        "value": "zinc",
-        "entity": "medicinas"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cuanto tiempo dura el virus en el carton",
-    "entities": [
-      {
-        "start": 34,
-        "end": 40,
-        "value": "carton",
-        "entity": "tiempo_sobrevive_material"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cuales son los primeros sintomas?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 32,
-        "value": "primeros sintomas",
-        "entity": "primeros_sintomas"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Primeros sintomas",
-    "entities": [
-      {
-        "start": 0,
-        "end": 17,
-        "value": "Primeros sintomas",
-        "entity": "primeros_sintomas"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Protocolo de seguridad",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "prevencion",
-        "start": 10,
-        "end": 22,
-        "value": "de seguridad",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Las consultas cuestan plata?",
-    "entities": [
-      {
-        "start": 22,
-        "end": 27,
-        "value": "plata",
-        "entity": "gratuito_consulta"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "gratuito_consulta",
-        "start": 14,
-        "end": 27,
-        "value": "cuestan plata",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Tienen algun costo las citas medicas",
-    "entities": [
-      {
-        "start": 13,
-        "end": 18,
-        "value": "costo",
-        "entity": "gratuito_consulta"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cual es la direccion del consultorio?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "prevencion",
-        "start": 11,
-        "end": 20,
-        "value": "direccion",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Por que no me curo por mas que sigo la medicacion?",
-    "entities": [
-      {
-        "start": 39,
-        "end": 49,
-        "value": "medicacion",
-        "entity": "medicinas"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Puedo tomar ibuprofeno?",
-    "entities": [
-      {
-        "start": 12,
-        "end": 22,
-        "value": "ibuprofeno",
-        "entity": "medicinas"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cuanto tiempo vive el virus en los productos",
-    "entities": [
-      {
-        "start": 35,
-        "end": 44,
-        "value": "productos",
-        "entity": "tiempo_sobrevive_material"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Como medicarme",
-    "entities": [
-      {
-        "start": 5,
-        "end": 14,
-        "value": "medicarme",
-        "entity": "tratamiento"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Propagacion del Virus",
-    "entities": [
-      {
-        "start": 0,
-        "end": 11,
-        "value": "Propagacion",
-        "entity": "transmision"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Tienen algun costo las consultas?",
-    "entities": [
-      {
-        "start": 23,
-        "end": 32,
-        "value": "consultas",
-        "entity": "gratuito_consulta"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "gratuito_consulta",
-        "start": 13,
-        "end": 18,
-        "value": "costo",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Cuanto cuestan las consultas?",
-    "entities": [
-      {
-        "start": 7,
-        "end": 14,
-        "value": "cuestan",
-        "entity": "gratuito_consulta"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Los ancianos son mas propensos?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "vulnerables",
-        "start": 21,
-        "end": 30,
-        "value": "propensos",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "El dioxido de cloro hace daño?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 19,
-        "value": "dioxido de cloro",
-        "entity": "dioxido_de_cloro"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "dioxido_de_cloro",
-        "start": 3,
-        "end": 19,
-        "value": "dioxido de cloro",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "dioxido_de_cloro",
-        "start": 25,
-        "end": 29,
-        "value": "daño",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "El dioxido de cloro es dañino?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 19,
-        "value": "dioxido de cloro",
-        "entity": "dioxido_de_cloro"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "dioxido_de_cloro",
-        "start": 3,
-        "end": 22,
-        "value": "dioxido de cloro es",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "El dioxido de cloro es toxico?",
-    "entities": [
-      {
-        "start": 3,
-        "end": 19,
-        "value": "dioxido de cloro",
-        "entity": "dioxido_de_cloro"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "dioxido_de_cloro",
-        "start": 3,
-        "end": 29,
-        "value": "dioxido de cloro es toxico",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Se puede tomar antibioticos contra el covid?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 27,
-        "value": "antibioticos",
-        "entity": "medicinas"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Puedo tomar ivermectina para combatir el covid?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "ivermectina",
-        "start": 12,
-        "end": 23,
-        "value": "ivermectina",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Se puede tomar hidroxiclina?",
-    "entities": [
-      {
-        "start": 15,
-        "end": 27,
-        "value": "hidroxiclina",
-        "entity": "medicinas"
+        "start": 27,
+        "end": 33,
+        "value": "recaer",
+        "entity": "inmunidad"
       }
     ],
     "predicted_entities": []
@@ -391,29 +24,131 @@
     "predicted_entities": []
   },
   {
-    "text": "Cuanto tiempo vive el virus en mi zapato",
+    "text": "Receta",
     "entities": [
       {
-        "start": 34,
-        "end": 40,
-        "value": "zapato",
-        "entity": "tiempo_sobrevive_material"
+        "start": 0,
+        "end": 6,
+        "value": "Receta",
+        "entity": "tratamiento"
       }
     ],
     "predicted_entities": []
   },
   {
-    "text": "Aparecen los primeros sintomas",
-    "entities": [],
+    "text": "Son peligrosos los primeros sintomas?",
+    "entities": [
+      {
+        "start": 19,
+        "end": 36,
+        "value": "primeros sintomas",
+        "entity": "primeros_sintomas"
+      }
+    ],
     "predicted_entities": [
       {
-        "entity": "primeros_sintomas",
-        "start": 13,
-        "end": 30,
-        "value": "primeros sintomas",
+        "entity": "sintomas_pregunta",
+        "start": 28,
+        "end": 36,
+        "value": "sintomas",
         "extractor": "DIETClassifier"
       }
     ]
+  },
+  {
+    "text": "Cuales son los primeros sintomas en aparecer",
+    "entities": [
+      {
+        "start": 15,
+        "end": 32,
+        "value": "primeros sintomas",
+        "entity": "primeros_sintomas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sintomas_pregunta",
+        "start": 24,
+        "end": 32,
+        "value": "sintomas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cuestan mucho las consultas?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Cuestan",
+        "entity": "gratuito_consulta"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Que comidas puedo comer?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "comidas",
+        "entity": "alimentos"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "value": "comer",
+        "entity": "consumir"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "consumir",
+        "start": 18,
+        "end": 23,
+        "value": "comer",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Es un sintoma del coronavirus?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 13,
+        "value": "sintoma",
+        "entity": "sintomas_pregunta"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Puedo volver a recaer?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "inmunidad",
+        "start": 15,
+        "end": 21,
+        "value": "recaer",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Me puedo automedicar con nitazoxanida?",
+    "entities": [
+      {
+        "start": 25,
+        "end": 37,
+        "value": "nitazoxanida",
+        "entity": "medicinas"
+      }
+    ],
+    "predicted_entities": []
   },
   {
     "text": "Que tableta es buena para el covid?",
@@ -422,31 +157,10 @@
         "start": 4,
         "end": 11,
         "value": "tableta",
-        "entity": "tratamiento"
+        "entity": "medicinas"
       }
     ],
-    "predicted_entities": [
-      {
-        "entity": "medicinas",
-        "start": 4,
-        "end": 11,
-        "value": "tableta",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Hay medicinas para el covid?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "medicinas",
-        "start": 4,
-        "end": 13,
-        "value": "medicinas",
-        "extractor": "DIETClassifier"
-      }
-    ]
+    "predicted_entities": []
   },
   {
     "text": "Tratamiento y medicinas",
@@ -476,43 +190,665 @@
     ]
   },
   {
-    "text": "Cual es el medio de transmision del virus",
+    "text": "La leche materna transmite el covid?",
     "entities": [
       {
-        "start": 20,
-        "end": 31,
-        "value": "transmision",
-        "entity": "transmision"
+        "start": 3,
+        "end": 8,
+        "value": "leche",
+        "entity": "lactancia"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "medicinas",
-        "start": 11,
-        "end": 16,
-        "value": "medio",
+        "entity": "lactancia",
+        "start": 3,
+        "end": 8,
+        "value": "leche",
         "extractor": "DIETClassifier"
       },
       {
         "entity": "transmision",
-        "start": 20,
-        "end": 31,
-        "value": "transmision",
+        "start": 17,
+        "end": 26,
+        "value": "transmite",
         "extractor": "DIETClassifier"
       }
     ]
   },
   {
-    "text": "Si soy menor de edad puedo tener una consulta?",
+    "text": "como evito contagiarme",
     "entities": [
       {
-        "start": 7,
-        "end": 12,
-        "value": "menor",
-        "entity": "menores"
+        "start": 5,
+        "end": 10,
+        "value": "evito",
+        "entity": "prevencion"
       }
     ],
     "predicted_entities": []
+  },
+  {
+    "text": "Las consultas cuestan plata?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 27,
+        "value": "plata",
+        "entity": "gratuito_consulta"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gratuito_consulta",
+        "start": 14,
+        "end": 27,
+        "value": "cuestan plata",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Si estoy embarazada corre riesgo mi bebe?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 19,
+        "value": "embarazada",
+        "entity": "embarazo"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "embarazo",
+        "start": 9,
+        "end": 19,
+        "value": "embarazada",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "vulnerables",
+        "start": 26,
+        "end": 32,
+        "value": "riesgo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Por que no puedo curarme por mas que segui el tratamiento?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "tratamiento",
+        "start": 46,
+        "end": 57,
+        "value": "tratamiento",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Puedo contraer la enfermedad otra vez si ya me cure?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 37,
+        "value": "otra vez",
+        "entity": "inmunidad"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Se puede tomar hidroxiclina?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 27,
+        "value": "hidroxiclina",
+        "entity": "medicinas"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Que medicinas debo comprar virus",
+    "entities": [
+      {
+        "start": 4,
+        "end": 13,
+        "value": "medicinas",
+        "entity": "medicinas"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hay medicinas para el covid?",
+    "entities": [
+      {
+        "start": 4,
+        "end": 13,
+        "value": "medicinas",
+        "entity": "medicinas"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuanto tiempo vive el virus en los productos",
+    "entities": [
+      {
+        "start": 35,
+        "end": 44,
+        "value": "productos",
+        "entity": "tiempo_sobrevive_material"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tendra los primeros sintomas",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "sintomas",
+        "entity": "sintomas_pregunta"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "primeros_sintomas",
+        "start": 11,
+        "end": 19,
+        "value": "primeros",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sintomas_pregunta",
+        "start": 20,
+        "end": 28,
+        "value": "sintomas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cuales son los primeros sintomas?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 32,
+        "value": "primeros sintomas",
+        "entity": "primeros_sintomas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "primeros_sintomas",
+        "start": 15,
+        "end": 23,
+        "value": "primeros",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sintomas_pregunta",
+        "start": 24,
+        "end": 32,
+        "value": "sintomas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Que debo hacer para evitar enfermarme",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "prevencion",
+        "start": 20,
+        "end": 26,
+        "value": "evitar",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Como se transmite el virus",
+    "entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "value": "transmite",
+        "entity": "transmision"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Las consultas son gratuitas",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "gratuitas",
+        "entity": "gratuito_consulta"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tienen algun costo las consultas?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 32,
+        "value": "consultas",
+        "entity": "gratuito_consulta"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gratuito_consulta",
+        "start": 13,
+        "end": 18,
+        "value": "costo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Los ancianos son mas propensos?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "vulnerables",
+        "start": 21,
+        "end": 30,
+        "value": "propensos",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cual es el procedimientos para donar plasma?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 43,
+        "value": "plasma",
+        "entity": "plasma"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tratamiento",
+        "start": 11,
+        "end": 25,
+        "value": "procedimientos",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "plasma",
+        "start": 37,
+        "end": 43,
+        "value": "plasma",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Se puede tomar antibioticos contra el covid?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 27,
+        "value": "antibioticos",
+        "entity": "medicinas"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuanto tiempo dura el virus en el carton",
+    "entities": [
+      {
+        "start": 34,
+        "end": 40,
+        "value": "carton",
+        "entity": "tiempo_sobrevive_material"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuanto tiempo vive el virus en el aire?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "transmision_aire",
+        "start": 34,
+        "end": 38,
+        "value": "aire",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cuanto tiempo vive el virus en mi zapato",
+    "entities": [
+      {
+        "start": 34,
+        "end": 40,
+        "value": "zapato",
+        "entity": "tiempo_sobrevive_material"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tendre los primeros sintomas",
+    "entities": [
+      {
+        "start": 20,
+        "end": 28,
+        "value": "sintomas",
+        "entity": "sintomas_pregunta"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "primeros_sintomas",
+        "start": 11,
+        "end": 19,
+        "value": "primeros",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sintomas_pregunta",
+        "start": 20,
+        "end": 28,
+        "value": "sintomas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Como se puede  tratar la enfermedad",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "tratar",
+        "entity": "tratamiento"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hay algun sintoma de deteccion temprana?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "sintomas_pregunta",
+        "start": 10,
+        "end": 17,
+        "value": "sintoma",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cuales son las medidas de seguridad que debo tener",
+    "entities": [
+      {
+        "start": 15,
+        "end": 35,
+        "value": "medidas de seguridad",
+        "entity": "prevencion"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuales son las medidas de seguridad que debo tomar",
+    "entities": [
+      {
+        "start": 15,
+        "end": 35,
+        "value": "medidas de seguridad",
+        "entity": "prevencion"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuanto cuestan las consultas?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "value": "cuestan",
+        "entity": "gratuito_consulta"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Como se [diferencia] de una bronquitis",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "diferenciar",
+        "start": 9,
+        "end": 19,
+        "value": "diferencia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Por que no me curo por mas que sigo la medicacion?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 49,
+        "value": "medicacion",
+        "entity": "medicinas"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "De verdad funciona el dioxido de cloro?",
+    "entities": [
+      {
+        "start": 22,
+        "end": 38,
+        "value": "dioxido de cloro",
+        "entity": "dioxido_de_cloro"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "dioxido_de_cloro",
+        "start": 0,
+        "end": 2,
+        "value": "De",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "dioxido_de_cloro",
+        "start": 22,
+        "end": 38,
+        "value": "dioxido de cloro",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Se puede tomar antiflamatorios?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 30,
+        "value": "antiflamatorios",
+        "entity": "medicinas"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Se puede tomar medicamentos para tratar el covid?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 27,
+        "value": "medicamentos",
+        "entity": "medicinas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "medicinas",
+        "start": 15,
+        "end": 27,
+        "value": "medicamentos",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "tratamiento",
+        "start": 33,
+        "end": 39,
+        "value": "tratar",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Puedo tomar ibuprofeno?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 22,
+        "value": "ibuprofeno",
+        "entity": "medicinas"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Puedo tomar zinc?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 16,
+        "value": "zinc",
+        "entity": "medicinas"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuanto tiempo vive el virus en un metal",
+    "entities": [
+      {
+        "start": 34,
+        "end": 39,
+        "value": "metal",
+        "entity": "tiempo_sobrevive_material"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cuanto tiempo sobrevive el virus en el aire",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "transmision_aire",
+        "start": 39,
+        "end": 43,
+        "value": "aire",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Aparecen los primeros sintomas",
+    "entities": [
+      {
+        "start": 22,
+        "end": 30,
+        "value": "sintomas",
+        "entity": "sintomas_pregunta"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "primeros_sintomas",
+        "start": 13,
+        "end": 21,
+        "value": "primeros",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sintomas_pregunta",
+        "start": 22,
+        "end": 30,
+        "value": "sintomas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Como medicarme",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "medicarme",
+        "entity": "tratamiento"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "medicinas",
+        "start": 5,
+        "end": 14,
+        "value": "medicarme",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Primeros sintomas",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "Primeros sintomas",
+        "entity": "primeros_sintomas"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "primeros_sintomas",
+        "start": 0,
+        "end": 8,
+        "value": "Primeros",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "sintomas_pregunta",
+        "start": 9,
+        "end": 17,
+        "value": "sintomas",
+        "extractor": "DIETClassifier"
+      }
+    ]
   },
   {
     "text": "Las consultas tienen algun precio?",
@@ -567,121 +903,6 @@
     ]
   },
   {
-    "text": "Como se [diferencia] de una bronquitis",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "diferenciar",
-        "start": 9,
-        "end": 19,
-        "value": "diferencia",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Por que no puedo curarme por mas que segui el tratamiento?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "tratamiento",
-        "start": 46,
-        "end": 57,
-        "value": "tratamiento",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Por que tardo tanto en curarme si estoy siguiendo el tratamiento",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "tratamiento",
-        "start": 53,
-        "end": 64,
-        "value": "tratamiento",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Como se puede  tratar la enfermedad",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "tratamiento",
-        "start": 15,
-        "end": 21,
-        "value": "tratar",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Cuanto tiempo vive el virus en un metal",
-    "entities": [
-      {
-        "start": 34,
-        "end": 39,
-        "value": "metal",
-        "entity": "tiempo_sobrevive_material"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cuanto tiempo vive el virus en el aire?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "transmision_aire",
-        "start": 34,
-        "end": 38,
-        "value": "aire",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Presentan los primeros sintomas",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "primeros_sintomas",
-        "start": 23,
-        "end": 31,
-        "value": "sintomas",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Como se [propaga] el coronavirus?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "transmision",
-        "start": 9,
-        "end": 16,
-        "value": "propaga",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Las consultas son gratuitas",
-    "entities": [
-      {
-        "start": 18,
-        "end": 27,
-        "value": "gratuitas",
-        "entity": "gratuito_consulta"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
     "text": "Los niños son propensos al contagio?",
     "entities": [
       {
@@ -704,249 +925,6 @@
         "start": 14,
         "end": 23,
         "value": "propensos",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Corre riesgo mi bebe si estoy embarazada?",
-    "entities": [
-      {
-        "start": 30,
-        "end": 40,
-        "value": "embarazada",
-        "entity": "embarazo"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "vulnerables",
-        "start": 6,
-        "end": 12,
-        "value": "riesgo",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "embarazo",
-        "start": 30,
-        "end": 40,
-        "value": "embarazada",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "De verdad funciona el dioxido de cloro?",
-    "entities": [
-      {
-        "start": 22,
-        "end": 38,
-        "value": "dioxido de cloro",
-        "entity": "dioxido_de_cloro"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "dioxido_de_cloro",
-        "start": 0,
-        "end": 2,
-        "value": "De",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "dioxido_de_cloro",
-        "start": 22,
-        "end": 38,
-        "value": "dioxido de cloro",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Puedo contraer la enfermedad otra vez si ya me cure?",
-    "entities": [
-      {
-        "start": 29,
-        "end": 37,
-        "value": "otra vez",
-        "entity": "inmunidad"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Es bueno que me automedique con ivermectina?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "ivermectina",
-        "start": 32,
-        "end": 43,
-        "value": "ivermectina",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Me puedo automedicar con ivermectina?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "ivermectina",
-        "start": 25,
-        "end": 36,
-        "value": "ivermectina",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Que tableta y remedio hay  que tomar si tenes corona virus",
-    "entities": [
-      {
-        "start": 4,
-        "end": 11,
-        "value": "tableta",
-        "entity": "medicinas"
-      },
-      {
-        "start": 14,
-        "end": 21,
-        "value": "remedio",
-        "entity": "medicinas"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "tratamiento",
-        "start": 4,
-        "end": 11,
-        "value": "tableta",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "medicinas",
-        "start": 14,
-        "end": 21,
-        "value": "remedio",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Cuanto tiempo sobrevive el virus en el aire",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "transmision_aire",
-        "start": 39,
-        "end": 43,
-        "value": "aire",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Hay medicamentos para el covid?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "medicinas",
-        "start": 4,
-        "end": 16,
-        "value": "medicamentos",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Cuestan mucho las consultas?",
-    "entities": [
-      {
-        "start": 0,
-        "end": 7,
-        "value": "Cuestan",
-        "entity": "gratuito_consulta"
-      }
-    ],
-    "predicted_entities": []
-  },
-  {
-    "text": "Cual es el procedimientos para donar plasma?",
-    "entities": [
-      {
-        "start": 37,
-        "end": 43,
-        "value": "plasma",
-        "entity": "plasma"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "tratamiento",
-        "start": 11,
-        "end": 25,
-        "value": "procedimientos",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "plasma",
-        "start": 37,
-        "end": 43,
-        "value": "plasma",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Que comidas puedo comer?",
-    "entities": [
-      {
-        "start": 4,
-        "end": 11,
-        "value": "comidas",
-        "entity": "alimentos"
-      },
-      {
-        "start": 18,
-        "end": 23,
-        "value": "comer",
-        "entity": "consumir"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "consumir",
-        "start": 18,
-        "end": 23,
-        "value": "comer",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Si estoy embarazada corre riesgo mi bebe?",
-    "entities": [
-      {
-        "start": 9,
-        "end": 19,
-        "value": "embarazada",
-        "entity": "embarazo"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "embarazo",
-        "start": 9,
-        "end": 19,
-        "value": "embarazada",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "vulnerables",
-        "start": 26,
-        "end": 32,
-        "value": "riesgo",
         "extractor": "DIETClassifier"
       }
     ]
