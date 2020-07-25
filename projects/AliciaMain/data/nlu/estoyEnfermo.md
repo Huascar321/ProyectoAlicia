@@ -28,6 +28,7 @@ projects/AliciaMain/data/nlu/lookuptables/no_sintomas.txt
 - No puedo [oler]{"entity": "sintomas", "value": "perdida del olfato"}
 - No [huelo]{"entity": "sintomas", "value": "perdida del olfato"} nada
 - No estoy [oliendo]{"entity": "sintomas", "value": "perdida del olfato"} nada
+- Tengo [falta de aire]{"entity": "sintomas", "value": "dificultades respiratorias"}
 - No siento el [olor]{"entity": "sintomas", "value": "perdida del olfato"}
 - No tengo [gusto]{"entity": "sintomas", "value": "perdida del gusto"}
 - No le siento el [sabor]{"entity": "sintomas", "value": "perdida del gusto"} a la comida

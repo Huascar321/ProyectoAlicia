@@ -96,6 +96,7 @@
 - Me voy
 - Me tengo que ir
 - Tengo que irme
+- Mañana le hablo
 
 ## intent:agradecer
 - Gracias
@@ -120,6 +121,7 @@
 - Gracias muy util
 - Me fuiste muy util, gracias
 - Gracias por ayudarme
+- Hasta otra oportunidad
 
 ## intent:agradecer+despedidas
 - Muchas gracias, adios
@@ -138,6 +140,7 @@
 - Fuiste muy util, chau
 - Adios gracias por la ayuda
 - Te lo agradezco, hasta luego
+- Hasta otra oportunidad, gracias
 
 ## intent:QuieroCompartir
 - Quiero [compartir](compartir) su numero
@@ -214,6 +217,8 @@
 - Pedo
 - Culo
 - Pis
+- Cojuda
+- Inutil
 
 ## intent:out_of_scope
 - pizza

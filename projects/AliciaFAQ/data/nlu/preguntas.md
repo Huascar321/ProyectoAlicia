@@ -90,6 +90,8 @@
 ## intent:prueba_covid
 - Pueden ayudarme a hacerme una prueba?
 - Que prueba se realiza para detectar covid
+- Desde cuando podria usar prueba rapida de covid
+- Son utiles las pruebas rapidas de Covid19
 - Quiero hacerme una prueba
 - Necesito hacerme una prueba
 - Que tipo de prueba debo hacerme?
@@ -100,6 +102,7 @@
 - Necesito una prueba
 - Necesito una prueba rapida
 - Necesito hacerme una prueba
+- “cuantos dias se debe esperar para hacerse la prueba”
 - Me puedes ayudar a hacerme una prueba?
 - Me puedes comunicar con alguien quien me haga la prueba?
 - Por favor podrias hacerme la prueba
@@ -187,6 +190,7 @@
 - Quedo [inmune](inmunidad) si ya me dio coronavirus?
 - Puedo contraer coronavirus si ya me sane?
 - Puedo contraer la enfermedad si ya me cure?
+- Se puede volver a contagiar uno de covid
 - Si ya me cure puedo volver a enfermarme?
 - Si ya me cure me puedo volver a enfermermar?
 - Es cierto que una vez curado no puedo volver a enfermarme?
@@ -228,9 +232,11 @@
 
 ## intent:tomar_medicinas
 - Puedo tomar [medicina](medicinas) contra la enfermedad?
+- Que puedo tomar si la [acitromizina](medicinas) no me ayuda
 - Se puede tomar [antibioticos](medicinas) contra el covid?
 - Se puede tomar [antiflamatorios](medicinas)?
 - Me puedo automedicar?
+- Puedo tomar [aspirinas](medicinas)?
 - Existen [medicamentos](medicinas) para [niños](menores)
 - Se puede tomar [medicamentos](medicinas) para tratar el covid?
 - Me automedico?
@@ -312,6 +318,8 @@
 - En cuanto aparecen los [sintomas](sintomas_pregunta)
 - En cuanto tiempo aparecen los [sintomas](sintomas_pregunta)
 - Aparecen los primeros [sintomas](sintomas_pregunta)
+- Pero en cuantos dias se manifiesta los [sintomas](sintomas_pregunta)
+- Desde que dia de la infeccion comienzan los [sintomas](sintomas_pregunta)?
 - Aparecen los [sintomas](sintomas_pregunta)
 - Tendre los primeros [sintomas](sintomas_pregunta)
 - Tendra los primeros [sintomas](sintomas_pregunta)
@@ -336,6 +344,7 @@
 - Cuanto tiempo toma la recuperacion
 - En cuanto tiempo voy a curarme
 - En cuanto uno se cura
+- Cuantos dias mas esperare para estar curado de la enfermedad??
 - Cuanto tarda la curacion?
 - Cuanto tiempo tomara la enfermedad
 - Cuantos dias durara la enfermedad
@@ -356,7 +365,10 @@
 ## intent:numero_ambulancia
 - Quiero una ambulancia
 - Necesito una ambulancia
+- Si no hay oxigeno como puedo hacer
+- Que hacer en caso de que falte oxigeno a una persona
 - En caso de que sea covid a que numero debo llamar
+- Que debe hacer una persona diabetica cuando le da el coronavirus
 - Preciso una ambulancia
 - Numero de ambulancias
 - Pedir ambulancia
@@ -374,6 +386,7 @@
 ## intent:como_saber_si_tengo_covid
 - Como se que tengo covid
 - Como se que tengo coronavirus
+- Como saber si tengo covid 19
 - Como se que estuve con el virus
 - Señales de que tengo coronavirus
 - Como me doy cuenta de que tengo coronavirus
@@ -618,6 +631,8 @@
 - Las consultas tienen [costo](gratuito_consulta)?
 - Las consultas son [gratuitas](gratuito_consulta)
 - Tienen algun costo las [consultas](gratuito_consulta)?
+- Cuanto cuesta la [consulta](gratuito_consulta)
+- Cuanto me sale?
 - Tiene algun [costo](gratuito_consulta)?
 - Las consultas son [gratis](gratuito_consulta)?
 - Las citas medicas son [gratis](gratuito_consulta)?
@@ -643,6 +658,7 @@
 - Quienes son mas [propensos](vulnerables) a contraer el virus?
 - Quienes tienen mas [riesgo](vulnerables) de contraer el virus?
 - Quienes tienen mas [riesgo](vulnerables) de infectarse con el virus?
+- [Posibilidad](vulnerables) de que los [niños](menores) se contagien
 
 ## intent:info_plasma
 - Como puedo donar [plasma](plasma)
@@ -716,11 +732,18 @@
 
 ## intent:menores_enfermedad
 - A los [niños](menores) le da fuerte eso del covid?
+- Los [niños](menores) se contagian
+- Los [niños](menores) pueden contagiarse?
 - Como le da esta enfermedad a los [niños](menores)?
 - Que tan grave les da el covid a los [niños](menores)?
 - Que tan grave les da esta enfermedad a los [niños](menores)?
 - Que tan grave les afecta la enfermedad a los [niños](menores)?
 - Esto le da fuerte a los [niños](menores)?
+- Como afecta el coronavirus a un [recien nacido](menores)
+- Como afecta el coronavirus a un [bebe](menores)
+- Los [bebes](menores) pueden contagiarse?
+- Mi [bebe](menores) puede tener covid?
+- Un [niño](menores) puede tener covid?
 - Como les afecta la enfermedad a los [niños](menores)?
 - Como les afecta el covid a los [niños](menores)?
 - Les da muy fuerte esta enfermedad a los [niños](menores)?
@@ -766,6 +789,7 @@
 - Que [diferencia](diferenciar) hay entre el covid y un resfriado?
 - Como [diferencio](diferenciar) el covid de un resfriado?
 - Como se que es covid y no un resfriado?
+- [Diferencias](diferenciar) con una gripe comun
 - Como puedo saber si es covid o es un resfriado?
 - Es resfriado o es covid?
 - En que se [diferencia](diferenciar) el covid con un resfriado
@@ -800,3 +824,44 @@
 - Creo que tenia covid
 - Que hacer si sospecho que tengo covid
 - Sospecho que tengo covid
+
+## intent:temperatura
+- Cual es la temperatura de una persona contagiada?
+- Cuanto es la temperatura de una persona con covid?
+- A que temperatura se considera covid?
+- A que temperatura se consideraria que tengo covid?
+- Cuanto es la temperatura de alguien con covid
+- 38 grados es temperatura de alguien con covid?
+- Si tengo 38 grados deberia preocuparme?
+- A los cuantos grados de fiebre se considera covid?
+
+## intent:secuelas
+- Que [secuelas](secuelas) te deja el virus?
+- Que [secuelas](secuelas) te deja la enfermedad?
+- Cuando me cure tendre algunas [secuelas](secuelas)?
+- El virus que [daña](secuelas)
+- [Secuelas](secuelas)
+- Los pulmones funcionan bien despues del virus
+- Covid que [consecuencias](secuelas)
+- El virus deja [secuelas](secuelas)?
+- El covid deja [secuelas](secuelas)?
+- Que [secuelas](secuelas) tendre una vez que me cure?
+- La enfermedad me va a dejar [secuelas](secuelas)?
+- Esto me dejara [secuelas](secuelas)?
+- Cuando me cure tendre alguna [secuela](secuelas)?
+- Una vez curado tendre [secuelas](secuelas)?
+- Esta enfermedad me dejara [secuelas](secuelas)?
+
+## intent:animales
+- Las [mascotas](mascotas) que [sintomas](sintomas_pregunta) tienen?
+- Los [animales](mascotas) pueden infectarse?
+- Mi [perro](mascotas) se puede contagiar?
+- Mi [gato](mascotas) se puede contagiar?
+- [Animales](mascotas)
+- Como son los [sintomas](sintomas_pregunta) en los [animales](mascotas)?
+- Como les da el covid a los [animales](mascotas)? 
+- La enfermedad afecta a los [animales](mascotas)?
+- Como afecta la enfermedad a los [animales](mascotas)?
+- Mis [mascotas](mascotas) se pueden enfermar?
+- Como les da la enfermedad a los [animales](mascotas)
+- Como se contagian los [animales](mascotas)?

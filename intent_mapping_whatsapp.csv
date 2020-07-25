@@ -50,3 +50,7 @@ que_alimentos_consumir,*Que debo comer*
 ir_al_consultorio,*Hay que ir al consultorio*
 diferenciar_resfriado,*Es resfriado o covid*
 embarazo_covid,*Estoy embarazada y tengo covid*
+aislamiento,*Sospecho que tengo covid*
+temperatura,*A que temperatura se considera covid*
+secuelas,*Secuelas*
+animales,*Animales*

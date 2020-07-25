@@ -47,8 +47,6 @@ intents:
     triggers: actions_faq
 - primeros_sintomas:
     triggers: actions_faq
-- tiempo_prueba_negativo:
-    triggers: actions_faq
 - lactancia:
     triggers: actions_faq
 - prevencion:
@@ -83,11 +81,19 @@ intents:
     triggers: actions_faq
 - chitchat_quien_tecreo:
     triggers: actions_chitchat
+- chitchat_eres_ia:
+    triggers: actions_chitchat
+- chitchat_te_puedo_llamar:
+    triggers: actions_chitchat
 - embarazo_covid:
     triggers: actions_faq
 - aislamiento:
     triggers: actions_faq
 - secuelas:
+    triggers: actions_faq
+- temperatura:
+    triggers: actions_faq
+- animales:
     triggers: actions_faq
 entities:
 - gratuito_consulta
@@ -115,6 +121,9 @@ entities:
 - consumir
 - embarazo
 - diferenciar
+- secuelas
+- ia
+- mascotas
 responses:
   utter_porque_sintomas_yosolo_familia:
   - text: "Puede que tu familia se haya contagiado pero que no presenten sintomas (asintomatico) o que los muestren luego de unos dias (presintomatico) \nDime tu siguiente pregunta!"
@@ -123,7 +132,7 @@ responses:
   - text: "El tiempo de curacion depende de cada persona, recuerde que los medicamentos solo sirven para calmar los sintomas mientras su cuerpo vence la enfermedad \nDime tu siguiente pregunta!"
 
   utter_dioxidocloro_ayuda:
-  - text: "El dioxido de cloro no esta reconocido como medicamento e incluso su consumo pone en grave riesgo la salud \nDime tu siguiente pregunta!"
+  - text: "El dioxido de cloro no esta reconocido como medicamento e incluso su consumo pone en grave riesgo la salud \nLas personas que promuevan su uso pueden acabar en la carcel, por favor piense dos veces antes de consumirlo \nDime tu siguiente pregunta!"
 
   utter_nosaber_covid:
   - text: "El COVID-19 no se puede distinguir al 100% sin una prueba, sin embargo tiene sintomas distintivos como fiebre, tos, falta de aire o dificuldad para respirar \nDime tu siguiente pregunta!"
@@ -135,7 +144,11 @@ responses:
   - text: "Los sintomas mas habituales son: fiebre, tos seca y cansancio \nOtros menos comunes son: Dolor de garganta, diarrea, conjuntivitis, dolor de cabeza y perdida del olfato o del gusto \nLos sintomas mas graves son: Dificultad para respirar o sensacion de falta de aire, dolor o presion en el pecho y incapacidad para hablar o moverse \nDime tu siguiente pregunta!"
 
   utter_prueba_covid:
+<<<<<<< HEAD
   - text: "Las pruebas de covid son un tema complicado y especial para cada persona, ya que hay distintas marcas de pruebas en el mercado. No tengo la autorización para responder preguntas referentes a las pruebas. Consultalo con algun personal de salud por favor.\nDime tu siguiente pregunta!"
+=======
+  - text: "Lamentablemente nosotros no podemos proporcionarte pruebas de deteccion, lo siento. Tampoco podemos brindar ese tipo de respuesta especializada, solo el personal capacitado \nDime tu siguiente pregunta!"
+>>>>>>> e2f5c6509ba0d081bfd82fcccf9ea3fa56b16653
 
   utter_cuanto_tipo_prueba:
   - text: "Estan los test de ARN, Test inmunologicos o Test rapidos de diagnostico, el tipo de prueba varia en costo y certeza de no sacar un falso positivo \nDime tu siguiente pregunta!"
@@ -176,9 +189,9 @@ responses:
   - text: "El tiempo dependera, en primer lugar, de que tan graves sean los sintomas. \nAlgunas personas pasaran la enfermedad rapidamente, pero a otras la COVID-19 podria dejarles problemas duraderos, no existe un tiempo fijo \nDime tu siguiente pregunta!"
 
   utter_numero_ambulancia:
-  - text: "Llama al 800-10-1104 o al 800-10-1106 para solicitar una ambulancia \nDime tu siguiente pregunta!"
+  - text: "Llama al 800-10-1104 o al 800-10-1106 para solicitar una ambulancia"
     channel: "facebook"
-  - text: "Llama al *800-10-1104* o al *800-10-1106* para solicitar una ambulancia \nDime tu siguiente pregunta!"
+  - text: "Llama al *800-10-1104* o al *800-10-1106* para solicitar una ambulancia"
 
   utter_como_saber_si_tengo_covid:
   - text: "Podrias guiarte con los sintomas que estas presentando, sin embargo, esto no es del todo acertado \nLa unica manera de saber si tienes o no la enfermedad es haciendote una prueba \nDime tu siguiente pregunta!"
@@ -193,9 +206,6 @@ responses:
 
   utter_primeros_sintomas:
   - text: "No hay un orden exacto de cuales serian los primeros sintomas, pero un buen indicador seria la fiebre y la tos seca \nDime tu siguiente pregunta!"
-
-  utter_tiempo_prueba_negativo:
-  - text: "En pacientes con un resultado positivo inicial, se aconseja esperar al menos 15 dias antes de realizar una prueba repetida \nDime tu siguiente pregunta!"
 
   utter_lactancia:
   - text: "Hasta el momento no se ha podido detectar el coronavirus en la leche materna. Pero si tiene COVID-19, puede transmitirle el virus a su bebé a través de pequeñas gotas que se propagan cuando habla, tose o estornuda por lo cercano que está usted de su bebe. \nDime tu siguiente pregunta!"
@@ -224,7 +234,8 @@ responses:
   - text: "Las consultas acerca del COVID-19 son gratuitas, si quieres pedir una *consulta* solo dimelo \nDime tu siguiente pregunta!"
 
   utter_vulnerables:
-  - text: "Las personas mas vulnerables son las personas de la tercera edad deibdo a que tienden a tener un sistema inmunologico mas debil, tambien aquellas personas con problemas como hipertensión arterial, obesidad, diabetes, o patología cardiovascular y cerebrovascular. \nEn los niños la mayoría de casos parecen cursar de manera leve o asintomática. \nDime tu siguiente pregunta!"
+  - text: "Las personas mas vulnerables son las personas de la tercera edad debido a que tienden a tener un sistema inmunologico mas debil, tambien aquellas personas con problemas como hipertensión arterial, obesidad, diabetes, o patología cardiovascular y cerebrovascular \nEn los niños la mayoría de casos parecen cursar de manera leve o asintomática. \nDime tu siguiente pregunta!"
+
   utter_info_plasma:
   - text: "Las personas que deseen donar plasma hiperinmune deben cumplir al menos seis requisitos: tener más de 18 años, pesar más de 50 kilos, compatibilidad sanguínea, no tener enfermedades de base, haber superado el COVID-19 y contar con las tres pruebas que lo certifiquen(1 positiva y 2 negativas). En caso de ser mujer, se requiere que no haya tenido ningun hijo.\nTe adjunto esta pagina en donde se registran donantes y personas que necesitan las donaciones: https://plasmaenbolivia.com/?fbclid=IwAR0ttejty47zJiwuZK6_87mOyiUnuiics3Xn-w6pmN0L21743VrIufg9ZaE, tu donacion será de mucha ayuda.\nDime tu siguiente pregunta!"
 
@@ -258,6 +269,25 @@ responses:
 
   utter_secuelas:
   - text: "Lo mayoría de los recuperados pueden presentar disminución del volumen pulmonar, disnea de esfuerzo, atrofia muscular o alteraciones en la circulación son algunas de las principales secuelas de los pacientes con Covid-19.\nDime tu siguiente pregunta!"
+
+  utter_temperatura:
+  - text: "Una temperatura mayor a 38 grados es suficiente para preocuparse por un posible sintoma de COVID-19 \nDime tu siguiente pregunta!"
+
+  utter_chitchat_te_puedo_llamar:
+  - text: "No, lo siento, a mi no me puedes llamar 😅 \nNo soy un humano al que puedas contarle tu problema, solo soy un robot \nPero si necesitas hablar con alguien acerca de tu caso, puedo comunicarte con un medico voluntario de forma gratuita \n¿Quieres?"
+    channel: "facebook"
+    quick_replies:
+      - payload: "/afirmar"
+        title: "Si"
+      - payload: "/Negar"
+        title: "No"
+  - text: "No, lo siento, a mi no me puedes llamar 😅 \nNo soy un humano al que puedas contarle tu problema, solo soy un robot \nPero si necesitas hablar con alguien acerca de tu caso, puedo comunicarte con un medico voluntario de forma gratuita \n¿Quieres?"
+
+  utter_chitchat_eres_ia:
+  - text: "Efectivamente, soy un robot creado con inteligencia artificial \nMi proposito es responder tus dudas y comunicarte con doctores 😁"
+
+  utter_animales:
+  - text: "Se han dado pocos casos de animales que han llegado a infectarse por COVID \nAunque por el momento no existe evidencia de que los animales tengan un papel importante en la propagación del virus \nSi tu animal resulta enfermo, no te preocupes, este virus no les da fuerte a los animales (No existe animal que haya muerto por COVID) \nDime tu siguiente pregunta!"
 
 actions:
 - actions_faq

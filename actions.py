@@ -77,7 +77,7 @@ class responderFAQ(Action):
         'como_saber_si_tengo_covid', 'asintomatico', 'post_tratamiento', 'primeros_sintomas', 'tiempo_prueba_negativo', 'lactancia',
         'prevencion', 'como_se_transmite_covid', 'virus_en_el_aire', 'alimentos_contagio', 'que_es_el_covid' , 'consultas_menores_de_edad',
         'consultas_costo', 'vulnerables','info_plasma','centros_de_salud', 'menores_enfermedad', 'cuanto_tiempo_aislado', 'que_alimentos_consumir',
-        'ir_al_consultorio', 'diferenciar_resfriado', 'embarazo_covid' , 'aislamiento' , 'secuelas'
+        'ir_al_consultorio', 'diferenciar_resfriado', 'embarazo_covid' , 'aislamiento' , 'secuelas', 'temperatura', 'animales'
         ]
 
         if pregunta in lista_preguntas:
@@ -97,7 +97,7 @@ class responderCHITCHAT(Action):
 
         #Función para responder preguntas frecuentes
         chitchat = tracker.latest_message['intent'].get('name')
-        lista_chitchats = ['chitchat_quien_tecreo'
+        lista_chitchats = ['chitchat_quien_tecreo', 'chitchat_eres_ia'
         ]
 
         if chitchat in lista_chitchats:
@@ -170,27 +170,47 @@ class estoyEnfermo(Action):
             if (tracker.get_slot("sintomas") != None) and (tracker.get_slot("familiares") == None):
                 if len(tracker.get_slot("sintomas")) == 1:
                     sintoma_1 = tracker.get_slot("sintomas")[0]
-                    dispatcher.utter_message(text="Efectivamente, "+ sintoma_1 +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    message = "Efectivamente, "+ sintoma_1 +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?"
+                    buttons = [{'title': 'Si',
+                                'payload': '/afirmar'},
+                               {'title': 'No',
+                                'payload': '/negar'}]
+                    dispatcher.utter_message(text=message, buttons=buttons)
                     #print ("PRUEBA 1")
                     return[SlotSet("sintomas", None)]
                 elif len(tracker.get_slot("sintomas")) == 2:
                     sintoma_1 = tracker.get_slot("sintomas")[0]
                     sintoma_2 = tracker.get_slot("sintomas")[1]
-                    dispatcher.utter_message(text="Si, "+ sintoma_1 +" y "+ sintoma_2 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    message = "Si, "+ sintoma_1 +" y "+ sintoma_2 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?"
+                    buttons = [{'title': 'Si',
+                                'payload': '/afirmar'},
+                               {'title': 'No',
+                                'payload': '/negar'}]
+                    dispatcher.utter_message(text=message, buttons=buttons)
                     #print ("PRUEBA 2")
                     return[SlotSet("sintomas", None)]
                 elif len(tracker.get_slot("sintomas")) == 3:
                     sintoma_1 = tracker.get_slot("sintomas")[0]
                     sintoma_2 = tracker.get_slot("sintomas")[1]
                     sintoma_3 = tracker.get_slot("sintomas")[2]
-                    dispatcher.utter_message(text="Para aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +" y "+ sintoma_3 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    message = "Para aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +" y "+ sintoma_3 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?"
+                    buttons = [{'title': 'Si',
+                                'payload': '/afirmar'},
+                               {'title': 'No',
+                                'payload': '/negar'}]
+                    dispatcher.utter_message(text=message, buttons=buttons)
                     #print ("PRUEBA 3")
                     return[SlotSet("sintomas", None)]
                 elif len(tracker.get_slot("sintomas")) > 3:
                     sintoma_1 = tracker.get_slot("sintomas")[0]
                     sintoma_2 = tracker.get_slot("sintomas")[1]
                     sintoma_3 = tracker.get_slot("sintomas")[2]
-                    dispatcher.utter_message(text="Para aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +", "+ sintoma_3 +" y otros que nombraste, son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    message = "Para aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +", "+ sintoma_3 +" y otros que nombraste, son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?"
+                    buttons = [{'title': 'Si',
+                                'payload': '/afirmar'},
+                               {'title': 'No',
+                                'payload': '/negar'}]
+                    dispatcher.utter_message(text=message, buttons=buttons)
                     #print ("PRUEBA 4")
                     return[SlotSet("sintomas", None)]
 
@@ -200,14 +220,24 @@ class estoyEnfermo(Action):
                 if (len_sintomas == 1) and (len_familiares == 1):
                     sintoma_1 = tracker.get_slot("sintomas")[0]
                     familiar_1 = tracker.get_slot("familiares")[0]
-                    dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar_1 +" 😕 \nEfectivamente, "+ sintoma_1 +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    message = "Lo siento mucho por tu "+ familiar_1 +" 😕 \nEfectivamente, "+ sintoma_1 +" es un posible sintoma del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?"
+                    buttons = [{'title': 'Si',
+                                'payload': '/afirmar'},
+                               {'title': 'No',
+                                'payload': '/negar'}]
+                    dispatcher.utter_message(text=message, buttons=buttons)
                     #print ("PRUEBA 5")
                     return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
                 elif (len(tracker.get_slot("sintomas")) == 2) and (len(tracker.get_slot("familiares")) == 1):
                     sintoma_1 = tracker.get_slot("sintomas")[0]
                     sintoma_2 = tracker.get_slot("sintomas")[1]
                     familiar_1 = tracker.get_slot("familiares")[0]
-                    dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar_1 +" 😕 \nSi, "+ sintoma_1 +" y "+ sintoma_2 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    message = "Lo siento mucho por tu "+ familiar_1 +" 😕 \nSi, "+ sintoma_1 +" y "+ sintoma_2 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?"
+                    buttons = [{'title': 'Si',
+                                'payload': '/afirmar'},
+                               {'title': 'No',
+                                'payload': '/negar'}]
+                    dispatcher.utter_message(text=message, buttons=buttons)
                     #print ("PRUEBA 6")
                     return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
                 elif (len(tracker.get_slot("sintomas")) == 3) and (len(tracker.get_slot("familiares")) == 1):
@@ -215,33 +245,58 @@ class estoyEnfermo(Action):
                     sintoma_2 = tracker.get_slot("sintomas")[1]
                     sintoma_3 = tracker.get_slot("sintomas")[2]
                     familiar_1 = tracker.get_slot("familiares")[0]
-                    dispatcher.utter_message(text="Lo siento mucho por tu "+ familiar_1 +" 😕 \nPara aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +" y "+ sintoma_3 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    message = "Lo siento mucho por tu "+ familiar_1 +" 😕 \nPara aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +" y "+ sintoma_3 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?"
+                    buttons = [{'title': 'Si',
+                                'payload': '/afirmar'},
+                               {'title': 'No',
+                                'payload': '/negar'}]
+                    dispatcher.utter_message(text=message, buttons=buttons)
                     #print ("PRUEBA 7")
                     return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
                 elif (len(tracker.get_slot("sintomas")) == 2) and (len(tracker.get_slot("familiares")) > 1):
                     sintoma_1 = tracker.get_slot("sintomas")[0]
                     sintoma_2 = tracker.get_slot("sintomas")[1]
-                    dispatcher.utter_message(text="Lo siento mucho por tus familiares 😕 \nSi, "+ sintoma_1 +" y "+ sintoma_2 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    message = "Lo siento mucho por tus familiares 😕 \nSi, "+ sintoma_1 +" y "+ sintoma_2 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?"
+                    buttons = [{'title': 'Si',
+                                'payload': '/afirmar'},
+                               {'title': 'No',
+                                'payload': '/negar'}]
+                    dispatcher.utter_message(text=message, buttons=buttons)
                     #print ("PRUEBA 8")
                     return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
                 elif (len(tracker.get_slot("sintomas")) == 3) and (len(tracker.get_slot("familiares")) > 1):
                     sintoma_1 = tracker.get_slot("sintomas")[0]
                     sintoma_2 = tracker.get_slot("sintomas")[1]
                     sintoma_3 = tracker.get_slot("sintomas")[2]
-                    dispatcher.utter_message(text="Lo lamento mucho por tus familiares 😕 \nPara aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +" y "+ sintoma_3 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    message = "Lo lamento mucho por tus familiares 😕 \nPara aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +" y "+ sintoma_3 +" son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?"
+                    buttons = [{'title': 'Si',
+                                'payload': '/afirmar'},
+                               {'title': 'No',
+                                'payload': '/negar'}]
+                    dispatcher.utter_message(text=message, buttons=buttons)
                     #print ("PRUEBA 9")
                     return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
                 elif (len(tracker.get_slot("sintomas")) > 3) and (len(tracker.get_slot("familiares")) > 1):
                     sintoma_1 = tracker.get_slot("sintomas")[0]
                     sintoma_2 = tracker.get_slot("sintomas")[1]
                     sintoma_3 = tracker.get_slot("sintomas")[2]
-                    dispatcher.utter_message(text="Lo lamento mucho por tus familiares 😕 \nPara aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +", "+ sintoma_3 +" y otros que nombraste, son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    message = "Lo lamento mucho por tus familiares 😕 \nPara aclararte la duda, "+ sintoma_1 +", "+ sintoma_2 +", "+ sintoma_3 +" y otros que nombraste, son posibles sintomas del COVID-19 \nPerdon pero no estoy autorizada para otorgarte un tratamiento o recomendarte medicamentos, sin embargo, te puedo facilitar una consulta gratuita con un medico en linea para que revise tu caso 👨🏽‍⚕️ \n¿Deseas agendar una consulta?"
+                    buttons = [{'title': 'Si',
+                                'payload': '/afirmar'},
+                               {'title': 'No',
+                                'payload': '/negar'}]
+                    dispatcher.utter_message(text=message, buttons=buttons)
                     #print ("PRUEBA 10")
                     return [SlotSet("sintomas", None)] + [SlotSet("familiares", None)]
             elif (tracker.get_slot("sintomas") == None) and (tracker.get_slot("familiares") == None) and (tracker.get_slot("no_sintomas") != None):
                 if len(tracker.get_slot("no_sintomas")) == 1:
                     sintoma_aparte = tracker.get_slot("no_sintomas")[0]
-                    dispatcher.utter_message(text="Heem, "+ sintoma_aparte+" no esta directamente relacionada con el COVID-19, pero si tienes sospechas de que podrias estar enfermo te puedo comunicar con un medico para que revise tu caso 👩🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    message = "Heem, "+ sintoma_aparte+" no esta directamente relacionada con el COVID-19, pero si tienes sospechas de que podrias estar enfermo te puedo comunicar con un medico para que revise tu caso 👩🏽‍⚕️ \n¿Deseas agendar una consulta?"
+                    buttons = [{'title': 'Si',
+                                'payload': '/afirmar'},
+                               {'title': 'No',
+                                'payload': '/negar'}]
+                    dispatcher.utter_message(text=message, buttons=buttons)
                     #print ("PRUEBA 11")
                     if tracker.get_slot("familiares") != None:
                         return [SlotSet("no_sintomas", None)] + [SlotSet("familiares", None)]
@@ -249,14 +304,24 @@ class estoyEnfermo(Action):
                         return [SlotSet("no_sintomas", None)]
                 elif len(tracker.get_slot("no_sintomas")) > 1:
                     sintoma_aparte = tracker.get_slot("no_sintomas")[0]
-                    dispatcher.utter_message(text="Heem, "+ sintoma_aparte+" y otros que nombraste no estan directamente relacionados con el COVID-19, pero si tienes sospechas de que podrias estar enfermo te puedo comunicar con un medico para que revise tu caso 👩🏽‍⚕️ \n¿Deseas agendar una consulta?")
+                    message = "Heem, "+ sintoma_aparte+" y otros que nombraste no estan directamente relacionados con el COVID-19, pero si tienes sospechas de que podrias estar enfermo te puedo comunicar con un medico para que revise tu caso 👩🏽‍⚕️ \n¿Deseas agendar una consulta?"
+                    buttons = [{'title': 'Si',
+                                'payload': '/afirmar'},
+                               {'title': 'No',
+                                'payload': '/negar'}]
+                    dispatcher.utter_message(text=message, buttons=buttons)
                     #print ("PRUEBA 12")
                     if tracker.get_slot("familiares") != None:
                         return [SlotSet("no_sintomas", None)] + [SlotSet("familiares", None)]
                     else:
                         return [SlotSet("no_sintomas", None)]
             else:
-                dispatcher.utter_message(text="Que mal oir eso 😕 \nSi crees que podrias estar enfermo, puedo facilitarte una consulta gratuita con un medico en linea para que revise tu caso \n¿Deseas agendar una consulta?")
+                message = "Que mal oir eso 😕 \nSi crees que podrias estar enfermo, puedo facilitarte una consulta gratuita con un medico en linea para que revise tu caso \n¿Deseas agendar una consulta?"
+                buttons = [{'title': 'Si',
+                            'payload': '/afirmar'},
+                            {'title': 'No',
+                            'payload': '/negar'}]
+                dispatcher.utter_message(text=message, buttons=buttons)
                 return[SlotSet("familiares", None)]
         else:
 
