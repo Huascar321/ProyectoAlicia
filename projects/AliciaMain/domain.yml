@@ -307,10 +307,10 @@ responses:
   - text: "Un gusto, hasta luego. Comparte con tus amigos para ayudar a mas personas ☺️"
 
   utter_insultos:
-  - text: "Hey, no seas grosero ☹️"
-  - text: "Ay que malo"
-  - text: "No hieras mis sentimientos 😞"
-  - text: "Hieres mis sentimientos 😢"
+  - text: "Hey, no seas grosero ☹️ \nLamento tu mala experiencia, la conversacion sera revisada por un humano en breve"
+  - text: "No seas rudo conmigo 😞 \nEnviare la conversacion a un humano para que revise, lo siento por tu mala experiencia conmigo"
+  - text: "No hieras mis sentimientos 😞 \nLa conversacion sera enviara a un humano para su revision, lamento la mala experiencia que tuvo"
+  - text: "Hieres mis sentimientos 😢 \nEnviare la conversacion a un humano para que la revise, lo siento por la mala experiencia que tuvo"
 
   utter_default:
   - text: "Creo que no te he entendido del todo bien"
@@ -319,7 +319,7 @@ responses:
 
   utter_tengoPreguntas:
   - text: "Antes de preguntarme algo, por favor lee estas recomendaciones 🙌🏻"
-    image: https://i.imgur.com/2yyL8CB.png
+    image: https://i.imgur.com/AYc2P8A.jpg
 
   utter_negarPregunta:
   - text: "Muy bien, cualquier otra duda hazmela saber 🤗"
@@ -329,14 +329,14 @@ responses:
   - text: "Perfecto, si te puedo ayudar en algo mas, cuentame"
 
   utter_pedirAsistencia:
-  - text: "Claro ¿Donde quieres pedir tu cita? ✏️ \nLas consultas sobre el COVID-19 son gratuitas"
+  - text: "Claro ¿Donde quieres pedir tu cita? ✏️ \nLas consultas sobre el COVID-19 son gratuitas, elige un boton"
     channel: "facebook"
     quick_replies:
       - payload: "/pedirDoctor_medibook"
         title: "Agendar por Medibook"
       - payload: "/pedirDoctor_whatsapp"
         title: "Agendar por Whatsapp"
-  - text: "De acuerdo ¿Por donde deseas pedir tu cita? ✏️\nLas consultas referentes al COVID-19 son totalmente gratuitas"
+  - text: "De acuerdo ¿Por donde deseas pedir tu cita? ✏️\nLas consultas referentes al COVID-19 son totalmente gratuitas, elige un boton"
     channel: "facebook"
     quick_replies:
       - payload: "/pedirDoctor_medibook"
