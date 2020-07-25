@@ -230,7 +230,8 @@ responses:
   - text: "Las consultas acerca del COVID-19 son gratuitas, si quieres pedir una *consulta* solo dimelo \nDime tu siguiente pregunta!"
 
   utter_vulnerables:
-  - text: "Las personas mas vulnerables tienen las mismas probabilidades de contagiarse, son aquellas con problemas como hipertensión arterial, obesidad, diabetes, o patología cardiovascular y cerebrovascular. \nEn los niños la mayoría de casos parecen cursar de manera leve o asintomática. \nDime tu siguiente pregunta!"
+  - text: "Las personas mas vulnerables son las personas de la tercera edad debido a que tienden a tener un sistema inmunologico mas debil, tambien aquellas personas con problemas como hipertensión arterial, obesidad, diabetes, o patología cardiovascular y cerebrovascular \nEn los niños la mayoría de casos parecen cursar de manera leve o asintomática. \nDime tu siguiente pregunta!"
+
   utter_info_plasma:
   - text: "Las personas que deseen donar plasma hiperinmune deben cumplir al menos seis requisitos: tener más de 18 años, pesar más de 50 kilos, compatibilidad sanguínea, no tener enfermedades de base, haber superado el COVID-19 y contar con las tres pruebas que lo certifiquen(1 positiva y 2 negativas). En caso de ser mujer, se requiere que no haya tenido ningun hijo.\nTe adjunto esta pagina en donde se registran donantes y personas que necesitan las donaciones: https://plasmaenbolivia.com/?fbclid=IwAR0ttejty47zJiwuZK6_87mOyiUnuiics3Xn-w6pmN0L21743VrIufg9ZaE, tu donacion será de mucha ayuda.\nDime tu siguiente pregunta!"
 
@@ -283,7 +284,7 @@ responses:
 
   utter_animales:
   - text: "Se han dado pocos casos de animales que han llegado a infectarse por COVID \nAunque por el momento no existe evidencia de que los animales tengan un papel importante en la propagación del virus \nSi tu animal resulta enfermo, no te preocupes, este virus no les da fuerte a los animales (No existe animal que haya muerto por COVID) \nDime tu siguiente pregunta!"
-  
+
 actions:
 - actions_faq
 - actions_chitchat
