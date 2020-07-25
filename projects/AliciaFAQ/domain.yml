@@ -135,7 +135,7 @@ responses:
   - text: "Los sintomas mas habituales son: fiebre, tos seca y cansancio \nOtros menos comunes son: Dolor de garganta, diarrea, conjuntivitis, dolor de cabeza y perdida del olfato o del gusto \nLos sintomas mas graves son: Dificultad para respirar o sensacion de falta de aire, dolor o presion en el pecho y incapacidad para hablar o moverse \nDime tu siguiente pregunta!"
 
   utter_prueba_covid:
-  - text: "Nosotros no podemos proporcionarte pruebas de deteccion, lo siento. Tampoco podemos brindar ese tipo de respuesta especializada, solo el personal capacitado.\nDime tu siguiente pregunta!"
+  - text: "Las pruebas de covid son un tema complicado y especial para cada persona, ya que hay distintas marcas de pruebas en el mercado. No tengo la autorización para responder preguntas referentes a las pruebas. Consultalo con algun personal de salud por favor.\nDime tu siguiente pregunta!"
 
   utter_cuanto_tipo_prueba:
   - text: "Estan los test de ARN, Test inmunologicos o Test rapidos de diagnostico, el tipo de prueba varia en costo y certeza de no sacar un falso positivo \nDime tu siguiente pregunta!"
@@ -187,7 +187,7 @@ responses:
   - text: "El caso de los asintomaticos es un tema complejo, la unica forma definitiva de saber si usted tiene COVID-19 es mediante una prueba. \nSi no puede hacerse la prueba, debe asumir que es portador si ha tenido contacto directo con un paciente COVID-19 \nDime tu siguiente pregunta!"
 
   utter_post_tratamiento:
-  - text: "Lo siento, no puedo brindarte un tratamiento o recomendarte medicinas, cada persona es diferente y el caso debe ser revisado con un profesional, si deseas agendar una consulta gratuita para que un doctor te revise via online, solo dimelo \nDime tu siguiente pregunta!"
+  - text: "El tratamiento o medicacion debe ser revisado por un profesional de la salud capacitado ya que cada persona es diferente y posee un caso unico, si deseas agendar una consulta gratuita para que un doctor te revise via online, solo dimelo \nDime tu siguiente pregunta!"
     channel: "facebook"
   - text: "Lo siento, no puedo brindarte un tratamiento o recomendarte medicinas, cada persona es diferente y el caso debe ser revisado con un profesional, si deseas *agendar* una consulta gratuita para que un doctor te revise via online, solo dimelo \nDime tu siguiente pregunta!"
 

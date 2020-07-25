@@ -85,6 +85,7 @@
 - Puedes decirme los [sintomas](sintomas_pregunta) del covid
 - Puedes decirme los [sintomas](sintomas_pregunta) del coronavirus
 - Quiero saber cuales son los [sintomas](sintomas_pregunta)
+- Cuales son los principales [sintomas](sintomas_pregunta) del covid
 
 ## intent:prueba_covid
 - Pueden ayudarme a hacerme una prueba?
