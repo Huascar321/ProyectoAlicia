@@ -73,6 +73,8 @@
 - Para nada
 - Claro que no
 - Obvio que no
+- No, muchas gracias
+- No, Gracias
 
 ## intent:despedidas
 - Adios
@@ -122,6 +124,7 @@
 - Me fuiste muy util, gracias
 - Gracias por ayudarme
 - Hasta otra oportunidad
+- Ok, gracias
 
 ## intent:agradecer+despedidas
 - Muchas gracias, adios

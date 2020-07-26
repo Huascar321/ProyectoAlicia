@@ -95,6 +95,8 @@ intents:
     triggers: actions_faq
 - animales:
     triggers: actions_faq
+- usuario_curioso:
+    triggers: actions_faq
 entities:
 - gratuito_consulta
 - menores
@@ -144,11 +146,7 @@ responses:
   - text: "Los sintomas mas habituales son: fiebre, tos seca y cansancio \nOtros menos comunes son: Dolor de garganta, diarrea, conjuntivitis, dolor de cabeza y perdida del olfato o del gusto \nLos sintomas mas graves son: Dificultad para respirar o sensacion de falta de aire, dolor o presion en el pecho y incapacidad para hablar o moverse \nDime tu siguiente pregunta!"
 
   utter_prueba_covid:
-<<<<<<< HEAD
   - text: "Las pruebas de covid son un tema complicado y especial para cada persona, ya que hay distintas marcas de pruebas en el mercado. No tengo la autorización para responder preguntas referentes a las pruebas. Consultalo con algun personal de salud por favor.\nDime tu siguiente pregunta!"
-=======
-  - text: "Lamentablemente nosotros no podemos proporcionarte pruebas de deteccion, lo siento. Tampoco podemos brindar ese tipo de respuesta especializada, solo el personal capacitado \nDime tu siguiente pregunta!"
->>>>>>> e2f5c6509ba0d081bfd82fcccf9ea3fa56b16653
 
   utter_cuanto_tipo_prueba:
   - text: "Estan los test de ARN, Test inmunologicos o Test rapidos de diagnostico, el tipo de prueba varia en costo y certeza de no sacar un falso positivo \nDime tu siguiente pregunta!"
@@ -249,7 +247,7 @@ responses:
   - text: "Debes esperar 14 días desde que notas los primeros sintomas, una vez termina este periodo debes esperar otros 14 días extras (incluso si ya te sientes bien) \nRecuerda que aunque sientas que te recuperaste, el virus permanece en tu sistema durante un tiempo \nDime tu siguiente pregunta!"
 
   utter_que_alimentos_consumir:
-  - text: "Es recomendable disminuir la ingesta harinas refinadas, el azúcar, los cereales refinados, los dulces y la bollería en general \nSe recomienda el consumo de frutos secos, aceite de oliva virgen extra, aguacate, lácteos de calidad, pescados azules, carnes, huevos y proteinas vegetales \nEvitar el consumo de grasas no saludables y alimentos ultraprocesados \nDime tu siguiente pregunta!"
+  - text: "Es recomendable disminuir la ingesta harinas refinadas, el azúcar, los cereales refinados, los dulces y la bollería en general \nSe recomienda el consumo de frutos secos, aceite de oliva virgen extra, aguacate, lácteos de calidad, pescados azules, carnes, huevos y proteinas vegetales \nEvitar el consumo de grasas no saludables y alimentos ultraprocesados\nAlgunas webs de nutricionismo concuerdan en 5 alimentos importantes que pueden ayudar como: cítricos, pimientos, cebolla y ajo, brócoli y jenjibre \nDime tu siguiente pregunta!"
 
   utter_ir_al_consultorio:
   - text: "No tienes que ir fisicamente al consultorio, las consultas son por internet, te atendera un doctor por videollamada \nSi quieres agendar una *consulta* solo dimelo \nDime tu siguiente pregunta!"
@@ -288,6 +286,9 @@ responses:
 
   utter_animales:
   - text: "Se han dado pocos casos de animales que han llegado a infectarse por COVID \nAunque por el momento no existe evidencia de que los animales tengan un papel importante en la propagación del virus \nSi tu animal resulta enfermo, no te preocupes, este virus no les da fuerte a los animales (No existe animal que haya muerto por COVID) \nDime tu siguiente pregunta!"
+
+  utter_usuario_curioso:
+  - text: "Buenísimo, estaré aqui cuando me necesites."
 
 actions:
 - actions_faq

@@ -86,6 +86,7 @@
 - Puedes decirme los [sintomas](sintomas_pregunta) del coronavirus
 - Quiero saber cuales son los [sintomas](sintomas_pregunta)
 - Cuales son los principales [sintomas](sintomas_pregunta) del covid
+- Cuales son los [síntomas](sintomas_pregunta) del covid
 
 ## intent:prueba_covid
 - Pueden ayudarme a hacerme una prueba?
@@ -260,6 +261,8 @@
 - Hay [medicamentos](medicinas) para el covid?
 - Hay [medicinas](medicinas) para el covid?
 - Que [tableta](medicinas) es buena para el covid?
+- Que [farmacos](medicinas) debo tomar
+- Que [farmaco](medicinas) puedo tomar?
 
 ## intent:tiempo_sobrevive_virus
 - Cuanto tiempo sobrevive el virus en una [superficie](tiempo_sobrevive_material)?
@@ -770,6 +773,7 @@
 - Que [alimentos](alimentos) no deberia [consumir](consumir)?
 - Que no debo [comer](consumir)?
 - Que [alimentos](alimentos) me recomiendas [comer](consumir)?
+- [alimentos](alimentos) para combatir el covid
 
 ## intent:ir_al_consultorio
 - Hay que ir al consultorio?
@@ -859,9 +863,22 @@
 - Mi [gato](mascotas) se puede contagiar?
 - [Animales](mascotas)
 - Como son los [sintomas](sintomas_pregunta) en los [animales](mascotas)?
-- Como les da el covid a los [animales](mascotas)? 
+- Como les da el covid a los [animales](mascotas)?
 - La enfermedad afecta a los [animales](mascotas)?
 - Como afecta la enfermedad a los [animales](mascotas)?
 - Mis [mascotas](mascotas) se pueden enfermar?
 - Como les da la enfermedad a los [animales](mascotas)
 - Como se contagian los [animales](mascotas)?
+
+## intent:usuario_curioso
+- Solo probaba
+- Por ahora nada
+- Por ahora nada solo saber que estas ahi
+- Solo andaba probando
+- Esta todo bien por ahora pero ya tengo tu numero
+- Que bien tener a alguien
+- Lo usare mas tarde
+- Guardare el contacto
+- Lo usare cuando lo necesite
+- Andaba probando nomas
+- Solo estaba probando gracias
