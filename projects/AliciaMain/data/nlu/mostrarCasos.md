@@ -78,6 +78,7 @@ projects/AliciaMain/data/nlu/lookuptables/municipios.txt
 - [yotala]{"entity": "municipios", "value": "Yotala"}
 - Me gustaría ver los casos en [Poroma](municipios)
 - [poroma]{"entity": "municipios", "value": "Poroma"}
+- Me gustaria ver los casos en [Azurduy](municipios)
 - Me gustaria ver los casos en [Tarvita](municipios)
 - [tarvita]{"entity": "municipios", "value": "Tarvita"}
 - Quiero ver los casos en [Zudañez](municipios)
@@ -201,6 +202,7 @@ projects/AliciaMain/data/nlu/lookuptables/municipios.txt
 - [calamarca]{"entity": "municipios", "value": "Calamarca"}
 - [Patacamaya](municipios)
 - [patacamaya]{"entity": "municipios", "value": "Patacamaya"}
+- [Collana](municipios)
 - [Coroico](municipios)
 - [coroico]{"entity": "municipios", "value": "Coroico"}
 - [Coripata](municipios)
@@ -221,6 +223,7 @@ projects/AliciaMain/data/nlu/lookuptables/municipios.txt
 - [ayopaya]{"entity": "municipios", "value": "Ayopaya"}
 - [Tarata](municipios)
 - [tarata]{"entity": "municipios", "value": "Tarata"}
+- [Anzaldo](municipios)
 - [Arbieto](municipios)
 - [arbieto]{"entity": "municipios", "value": "Arbieto"}
 - [Arani](municipios)
@@ -261,8 +264,10 @@ projects/AliciaMain/data/nlu/lookuptables/municipios.txt
 - [tapacarí]{"entity": "municipios", "value": "Tapacarí"}
 - [tapacari]{"entity": "municipios", "value": "Tapacarí"}
 - [Tapacari]{"entity": "municipios", "value": "Tapacarí"}
+- [Totora](municipios)
 - [Pojo](municipios)
 - [pojo]{"entity": "municipios", "value": "Pojo"}
+- [Pocona](municipios)
 - [Chimoré](municipios)
 - [Chimore]{"entity": "municipios", "value": "Chimoré"}
 - [chimoré]{"entity": "municipios", "value": "Chimoré"}
@@ -274,10 +279,12 @@ projects/AliciaMain/data/nlu/lookuptables/municipios.txt
 - [entre rios]{"entity": "municipios", "value": "Entre Ríos"}
 - [Mizque](municipios)
 - [mizque]{"entity": "municipios", "value": "Mizque"}
+- [Vila Vila](municipios)
 - [Punata](municipios)
 - [punata]{"entity": "municipios", "value": "Punata"}
 - [San Benito](municipios)
 - [san benito]{"entity": "municipios", "value": "San Benito"}
+- [Tacachi](municipios)
 - [Bolivar](municipios)
 - [bolivar]{"entity": "municipios", "value": "Bolivar"}
 - [Tiraque](municipios)
@@ -313,6 +320,7 @@ projects/AliciaMain/data/nlu/lookuptables/municipios.txt
 - [sabaya]{"entity": "municipios", "value": "Sabaya"}
 - [Coipasa](municipios)
 - [coipasa]{"entity": "municipios", "value": "Coipasa"}
+- [Toledo](municipios)
 - [Eucaliptus](municipios)
 - [eucaliptus]{"entity": "municipios", "value": "Eucaliptus"}
 - [Santiago de Huari](municipios)
@@ -344,8 +352,11 @@ projects/AliciaMain/data/nlu/lookuptables/municipios.txt
 - [toro toro]{"entity": "municipios", "value": "Toro Toro"}
 - [Cotagaita](municipios)
 - [cotagaita]{"entity": "municipios", "value": "cotagaita"}
+- [Vitiche](municipios)
 - [Sacaca](municipios)
 - [sacaca]{"entity": "municipios", "value": "Sacaca"}
+- [Caripuyo](municipios)
+- [Tupiza](municipios)
 - [Atocha](municipios)
 - [atocha]{"entity": "municipios", "value": "Atocha"}
 - [Puna](municipios)
@@ -354,10 +365,12 @@ projects/AliciaMain/data/nlu/lookuptables/municipios.txt
 - [uyuni]{"entity": "municipios", "value": "Uyuni"}
 - [Tomave](municipios)
 - [tomave]{"entity": "municipios", "value": "Tomave"}
+- [Acasio](municipios)
 - [Villazón](municipios) <!--- -->
 - [Villazon]{"entity": "municipios", "value": "Villazón"}
 - [villazon]{"entity": "municipios", "value": "Villazón"}
 - [villazón]{"entity": "municipios", "value": "Villazón"}
+- [San Agustín](municipios)
 - [Padcaya](municipios)
 - [padcaya]{"entity": "municipios", "value": "Padcaya"}
 - [Bermejo](municipios)
@@ -371,6 +384,7 @@ projects/AliciaMain/data/nlu/lookuptables/municipios.txt
 - [villa montes]{"entity": "municipios", "value": "Villa Montes"}
 - [Uriondo](municipios)
 - [uriondo]{"entity": "municipios", "value": "Uriondo"}
+- [Yunchará](municipios)
 - [San Lorenzo](municipios)
 - [san lorenzo]{"entity": "municipios", "value": "San Lorenzo"}
 - [El Puente](municipios)
@@ -485,6 +499,7 @@ projects/AliciaMain/data/nlu/lookuptables/municipios.txt
 - [San Matias]{"entity": "municipios", "value": "San Matías"}
 - [Comarapa](municipios)
 - [comarapa]{"entity": "municipios", "value": "Comarapa"}
+- [Saipina](municipios)
 - [Puerto Suarez](municipios)
 - [puerto suarez]{"entity": "municipios", "value": "Puerto Suarez"}
 - [Puerto Quijarro](municipios)

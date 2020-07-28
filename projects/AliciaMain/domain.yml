@@ -623,7 +623,12 @@ responses:
         title: "Agendar por Whatsapp"
   - text: "Hola que tal! \nClaro con gusto, por donde lo quieres pedir? 🤗 \n- Agendar consulta por *Medibook* \n- Agendar consulta por *Whatsapp* \n_Las consultas sobre el COVID-19 son gratuitas_"
 
-  
+  utter_departamento_incorrecto:
+  - text: "No entendí el departamento que escribiste 🙌, ¿Podrías escribirlo de otra manera?"
+
+  utter_municipio_incorrecto:
+  - text: "No entendí el municipio que escribiste 🙌, ¿Podrías escribirlo de otra manera?"
+
 actions:
 - actions_saludar
 - action_default_ask_affirmation
