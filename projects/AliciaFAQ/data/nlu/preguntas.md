@@ -209,6 +209,9 @@
 - Si tuviste el virus puedes [recaer](inmunidad)?
 - [Recaida](inmunidad)
 - Puedo volver a [recaer](inmunidad)?
+- Puedo volver a contraerlo
+- Puedo volver a contraer covid
+
 
 ## intent:cuanto_falta_para_vacuna_medicamento
 - Cuanto falta para la vacuna?
@@ -263,6 +266,7 @@
 - Que [tableta](medicinas) es buena para el covid?
 - Que [farmacos](medicinas) debo tomar
 - Que [farmaco](medicinas) puedo tomar?
+- Que [fármacos](medicinas) debo tomar?
 
 ## intent:tiempo_sobrevive_virus
 - Cuanto tiempo sobrevive el virus en una [superficie](tiempo_sobrevive_material)?
@@ -828,6 +832,7 @@
 - Creo que tenia covid
 - Que hacer si sospecho que tengo covid
 - Sospecho que tengo covid
+- Qué debo hacer si tengo covid19
 
 ## intent:temperatura
 - Cual es la temperatura de una persona contagiada?
