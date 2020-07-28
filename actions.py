@@ -16,6 +16,7 @@ from rasa_sdk.events import (
 )
 from fechaHora import *
 from mongodb import *
+from funciones_strings import *
 import csv
 import pandas as pd
 
@@ -475,7 +476,7 @@ class mostrarCasos(Action):
                     dispatcher.utter_message(template='utter_preguntarOtrosCasos')
 
                 else:
-                    dispatcher.utter_message(text="En "+dict_departamento[v_dp]+" hay: \n*"+ str(casosConfirmados) +"* confirmados* 🧪 \n*"+ str(cantFallecidos)+"* decesos 📉 \n*"+str(cantRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento/municipio o quieres volver al *menu*?")
+                    dispatcher.utter_message(text="En "+dict_departamento[v_dp]+" hay: \n*"+ str(casosConfirmados) +"* confirmados 🧪 \n*"+ str(cantFallecidos)+"* decesos 📉 \n*"+str(cantRecuperados)+"* recuperados 💊" + "\n¿Quieres saber los *casos* de otro departamento/municipio o quieres volver al *menu*?")
 
             elif v_dp == 'bolivia':
                 nroConfirmados = 0
@@ -497,32 +498,31 @@ class mostrarCasos(Action):
             return[SlotSet("departamento", None)]
 
         elif tracker.get_slot("municipios") != None:
-            url = 'https://raw.githubusercontent.com/mauforonda/casos-municipios/master/clean_data/2020-07-11.csv'
+            url = 'https://raw.githubusercontent.com/mauforonda/casos-municipios/master/clean_data/2020-07-18.csv'
             webpage = urlopen(url)
-            municipios = tracker.get_slot("municipios")
+            slot_municipios = tracker.get_slot("municipios").lower()
             df = pd.read_csv(webpage)
             ddf = pd.DataFrame(df)
-            lista = ddf['municipio'][::]
-            lista_municipios = []
 
-            i = 0
-            for municipio in lista:
-                lista_municipios.append(municipio)
+            tabla_val = None
 
-            if municipios in lista_municipios:
-                casos_confirmados = ddf[ddf['municipio']==municipios]['confirmados'].item()
-                casos_recuperados = ddf[ddf['municipio']==municipios]['recuperados'].item()
-                cant_fallecidos = ddf[ddf['municipio']==municipios]['decesos'].item()
+            for municipio in ddf['municipio']:
+                if quitar_acentos(slot_municipios)==quitar_acentos(municipio.lower()):
+                    tabla_val = municipio
+                    casos_confirmados = ddf[ddf['municipio']==tabla_val]['confirmados'].item()
+                    casos_recuperados = ddf[ddf['municipio']==tabla_val]['recuperados'].item()
+                    cant_fallecidos = ddf[ddf['municipio']==tabla_val]['decesos'].item()
 
-                if tracker.get_latest_input_channel() == 'facebook':
-                    dispatcher.utter_message(text=f'En {municipios} hay: \n{casos_confirmados} confirmados 🧪 \n{cant_fallecidos} decesos 📉 \n{casos_recuperados} recuperados 💊')
-                    dispatcher.utter_message(template='utter_preguntarOtrosCasos')
-                else:
-                    dispatcher.utter_message(text=f'En {municipios} hay: \n{casos_confirmados} confirmados 🧪 \n{cant_fallecidos} decesos 📉 \n{casos_recuperados} recuperados 💊\n¿Quieres saber los *casos* de otro departamento/municipio o quieres volver al *menu*?')
-                return[SlotSet("municipios", None)]
-                lista_municipios.clear()
-            else:
+                    if tracker.get_latest_input_channel() == 'facebook':
+                        dispatcher.utter_message(text=f'En {tabla_val} hay: \n{casos_confirmados} confirmados 🧪 \n{cant_fallecidos} decesos 📉 \n{casos_recuperados} recuperados 💊')
+                        dispatcher.utter_message(template='utter_preguntarOtrosCasos')
+                    else:
+                        dispatcher.utter_message(text=f'En {tabla_val} hay: \n*{casos_confirmados}* confirmados 🧪 \n*{cant_fallecidos}* decesos 📉 \n*{casos_recuperados}* recuperados 💊\n¿Quieres saber los *casos* de otro departamento/municipio o quieres volver al *menu*?')
+
+            if tabla_val == None:
                 dispatcher.utter_message(template='utter_municipio_incorrecto')
+
+            return[SlotSet("municipios", None)]
 
 class fallback(Action):
 
